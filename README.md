@@ -1,6 +1,6 @@
-~~~
-    <img src="https://github.com/technocrat/swingwatch.org/blob/main/_assets/logo.png" alt="Logo" width="80" height="80"></a>
-~~~
+
+![](https://github.com/technocrat/swingwatch.org/blob/main/_assets/logo.png)
+
 ---
 ## Text, illustrations and underlying code
 
