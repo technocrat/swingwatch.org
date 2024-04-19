@@ -1,8 +1,5 @@
 ~~~
-<div align="center">
-  <a href="https://github.com/technocrat/swingwatch.org.git/">
     <img src="https://github.com/technocrat/swingwatch.org.git/assets/logo.png" alt="Logo" width="80" height="80"></a>
-</div>
 ~~~
 ---
 ## Text, illustrations and underlying code
