@@ -1,0 +1,4 @@
+name = "outcomes"
+uuid = "f76a0929-b5a9-4580-b4b4-7e4ac31d259a"
+authors = ["technocrat <public@careaga.net>"]
+version = "0.1.0"

@@ -1,0 +1,128 @@
+combo,votes,biden,trump,result
+NV,6,218,320,Trump
+WI,10,222,316,Trump
+AZ,11,223,315,Trump
+NC,15,227,311,Trump
+NV and WI,16,228,310,Trump
+MI,16,228,310,Trump
+GA,16,228,310,Trump
+NV and AZ,17,229,309,Trump
+PA,20,232,306,Trump
+NV and NC,21,233,305,Trump
+WI and AZ,21,233,305,Trump
+NV and MI,22,234,304,Trump
+NV and GA,22,234,304,Trump
+WI and NC,25,237,301,Trump
+NV and PA,26,238,300,Trump
+MI and WI,26,238,300,Trump
+WI and GA,26,238,300,Trump
+NC and AZ,26,238,300,Trump
+MI and AZ,27,239,299,Trump
+AZ and GA,27,239,299,Trump
+"NV, WI and AZ",27,239,299,Trump
+WI and PA,30,242,296,Trump
+MI and NC,31,243,295,Trump
+NC and GA,31,243,295,Trump
+AZ and PA,31,243,295,Trump
+"NV, WI and NC",31,243,295,Trump
+MI and GA,32,244,294,Trump
+"NV, MI and WI",32,244,294,Trump
+"NV, WI and GA",32,244,294,Trump
+"NV, NC and AZ",32,244,294,Trump
+"NV, MI and AZ",33,245,293,Trump
+"NV, AZ and GA",33,245,293,Trump
+NC and PA,35,247,291,Trump
+MI and PA,36,248,290,Trump
+PA and GA,36,248,290,Trump
+"NV, WI and PA",36,248,290,Trump
+"WI, NC and AZ",36,248,290,Trump
+"NV, MI and NC",37,249,289,Trump
+"NV, NC and GA",37,249,289,Trump
+"NV, AZ and PA",37,249,289,Trump
+"MI, WI and AZ",37,249,289,Trump
+"WI, AZ and GA",37,249,289,Trump
+"NV, MI and GA",38,250,288,Trump
+"NV, NC and PA",41,253,285,Trump
+"MI, WI and NC",41,253,285,Trump
+"WI, NC and GA",41,253,285,Trump
+"WI, AZ and PA",41,253,285,Trump
+"NV, WI, NC and AZ",42,254,284,Trump
+"NV, MI and PA",42,254,284,Trump
+"NV, PA and GA",42,254,284,Trump
+"MI, WI and GA",42,254,284,Trump
+"MI, NC and AZ",42,254,284,Trump
+"NC, AZ and GA",42,254,284,Trump
+"NV, MI, WI and AZ",43,255,283,Trump
+"NV, WI, AZ and GA",43,255,283,Trump
+"MI, AZ and GA",43,255,283,Trump
+"WI, NC and PA",45,257,281,Trump
+"MI, WI and PA",46,258,280,Trump
+"WI, PA and GA",46,258,280,Trump
+"NC, AZ and PA",46,258,280,Trump
+"NV, MI, WI and NC",47,259,279,Trump
+"NV, WI, NC and GA",47,259,279,Trump
+"NV, WI, AZ and PA",47,259,279,Trump
+"MI, NC and GA",47,259,279,Trump
+"MI, AZ and PA",47,259,279,Trump
+"AZ, PA and GA",47,259,279,Trump
+"NV, MI, WI and GA",48,260,278,Trump
+"NV, MI, NC and AZ",48,260,278,Trump
+"NV, NC, AZ and GA",48,260,278,Trump
+"NV, MI, AZ and GA",49,261,277,Trump
+"NV, WI, NC and PA",51,263,275,Trump
+"MI, NC and PA",51,263,275,Trump
+"NC, PA and GA",51,263,275,Trump
+"NV, MI, WI and PA",52,264,274,Trump
+"NV, WI, PA and GA",52,264,274,Trump
+"NV, NC, AZ and PA",52,264,274,Trump
+"MI, WI, NC and AZ",52,264,274,Trump
+"WI, NC, AZ and GA",52,264,274,Trump
+"MI, PA and GA",52,264,274,Trump
+"NV, MI, NC and GA",53,265,273,Trump
+"NV, MI, AZ and PA",53,265,273,Trump
+"NV, AZ, PA and GA",53,265,273,Trump
+"MI, WI, AZ and GA",53,265,273,Trump
+"WI, NC, AZ and PA",56,268,270,Trump
+"NV, MI, NC and PA",57,269,269,Tie
+"NV, NC, PA and GA",57,269,269,Tie
+"MI, WI, NC and GA",57,269,269,Tie
+"MI, WI, AZ and PA",57,269,269,Tie
+"WI, AZ, PA and GA",57,269,269,Tie
+"NV, MI, WI, NC and AZ",58,270,268,Biden
+"NV, WI, NC, AZ and GA",58,270,268,Biden
+"NV, MI, PA and GA",58,270,268,Biden
+"MI, NC, AZ and GA",58,270,268,Biden
+"NV, MI, WI, AZ and GA",59,271,267,Biden
+"MI, WI, NC and PA",61,273,265,Biden
+"WI, NC, PA and GA",61,273,265,Biden
+"NV, WI, NC, AZ and PA",62,274,264,Biden
+"MI, WI, PA and GA",62,274,264,Biden
+"MI, NC, AZ and PA",62,274,264,Biden
+"NC, AZ, PA and GA",62,274,264,Biden
+"NV, MI, WI, NC and GA",63,275,263,Biden
+"NV, MI, WI, AZ and PA",63,275,263,Biden
+"NV, WI, AZ, PA and GA",63,275,263,Biden
+"MI, AZ, PA and GA",63,275,263,Biden
+"NV, MI, NC, AZ and GA",64,276,262,Biden
+"NV, MI, WI, NC and PA",67,279,259,Biden
+"NV, WI, NC, PA and GA",67,279,259,Biden
+"MI, NC, PA and GA",67,279,259,Biden
+"NV, MI, WI, PA and GA",68,280,258,Biden
+"NV, MI, NC, AZ and PA",68,280,258,Biden
+"NV, NC, AZ, PA and GA",68,280,258,Biden
+"MI, WI, NC, AZ and GA",68,280,258,Biden
+"NV, MI, AZ, PA and GA",69,281,257,Biden
+"MI, WI, NC, AZ and PA",72,284,254,Biden
+"WI, NC, AZ, PA and GA",72,284,254,Biden
+"NV, MI, NC, PA and GA",73,285,253,Biden
+"MI, WI, AZ, PA and GA",73,285,253,Biden
+"NV, MI, WI, NC, AZ and GA",74,286,252,Biden
+"MI, WI, NC, PA and GA",77,289,249,Biden
+"MI, NC, AZ, PA and GA",78,290,248,Biden
+"NV, MI, WI, NC, AZ and PA",78,290,248,Biden
+"NV, WI, NC, AZ, PA and GA",78,290,248,Biden
+"NV, MI, WI, AZ, PA and GA",79,291,247,Biden
+"NV, MI, WI, NC, PA and GA",83,295,243,Biden
+"NV, MI, NC, AZ, PA and GA",84,296,242,Biden
+"MI, WI, NC, AZ, PA and GA",88,300,238,Biden
+"NV, MI, WI, NC, AZ, PA and GA",94,306,232,Biden
