@@ -147,7 +147,7 @@ The article discusses the potential issues with using online opt-in surveys for 
 
 ## Code
 
-Code used in the preparation will be posted to github.com at a future date.
+[Julia code used in the preparation](https://github.com/technocrat/swingwatch.org:)
 
 ## Further Reading
 
