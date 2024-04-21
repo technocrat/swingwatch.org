@@ -17,7 +17,7 @@ function electoral_map(data, color)
         locationmode="USA-states",
         locations=STATES,
         text=data,
-        textfont=attr(size=12, color="black"),
+        textfont=attr(size=12, color="white"),
         mode="text",
         showlegend=false,
         hoverinfo="none"
@@ -25,7 +25,7 @@ function electoral_map(data, color)
 
     # Create the layout for the map
     layout = PlotlyJS.Layout(
-        title="The 94 Swing State Electoral Votes",
+        title="The 93 Swing State Electoral Votes",
         geo=attr(
             scope="usa",
             projection=attr(type="albers usa"),
@@ -38,22 +38,24 @@ function electoral_map(data, color)
     fig = PlotlyJS.plot([choropleth_trace, label_trace], layout)
 
     # Save the plot as an image file
-    PlotlyJS.savefig(fig, "electoral_map.png")
+    PlotlyJS.savefig(fig, "/Users/ro/projects/SwingWatch/_assets/img/maps/electoral_map.png")
 end
 
-const STATES = ["NV", "MI", "WI", "NC", "AZ", "PA", "GA"]
+const STATES       = ["NV", "MI", "WI", "NC", "AZ", "PA", "GA"]
 const LIGHT_PURPLE = "rgba(200, 150, 255, 0.7)"
 
 votes = Dict(
     "NV" => 6,
-    "MI" => 16,
+    "MI" => 15,
     "WI" => 10,
-    "NC" => 15,
+    "NC" => 16,
     "AZ" => 11,
-    "PA" => 20,
+    "PA" => 19,
     "GA" => 16
 )
 
 data = [votes[state] for state in STATES]
+const PURPLE   = "#772F51"
 
-electoral_map(data, LIGHT_PURPLE)
+electoral_map(data, PURPLE)
+

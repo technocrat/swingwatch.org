@@ -2,13 +2,14 @@
 title = "Latest"
 +++
 
-
 ## Overall assessment
+
+Base on the March polling results, the 2020 results and the application of the 2024 Electoral College changes
 
 | Outcome | Likelihood |
 |:---------|:-----------:|
-| Bidin win | 30% |
-| Trump win | 70% |
+| Bidin win | 56.1% |
+| Trump win | 46.8% |
 | Electoral tie | - |
 
 

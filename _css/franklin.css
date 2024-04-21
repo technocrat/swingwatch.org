@@ -196,12 +196,15 @@ td {
 }
 
 .franklin-content a {
-  color: #004de6;
-  text-decoration: none;
+  color: #2F774E;  /* Makes the link use the text color of its parent */
+  text-decoration-color: #2F774E;  /* Sets the underline color to green */
+  text-decoration-thickness: 3px;  /* Sets the thickness of the underline */    
+  font-weight: bold;  /* Makes the text bold */
 }
 
 .franklin-content a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #2F774E;
 }
 
 /* ==================================================================

@@ -3,7 +3,7 @@ title = "Michigan"
 +++
 
 
-## Latest polls
+## March polls
 
 ### [Big Data](https://www.bigdatapoll.com/blog/rust-belt-poll-wolverine-battleground-for-april-2024/)
 
@@ -645,9 +645,9 @@ The scenario tables below show the possible outcomes that involve Michigan. Not 
 ~~~
 
 
-## Quick rundown
+## Michigan facts
 
-* Electoral votes:              16 
+* Electoral votes:              15 
 * 2020:                         Biden
 * 2016:                         Trump
 * 2020 turnout:                 5,453,892

@@ -10,17 +10,19 @@ using HTTP
 using PlotlyJS
 
 # Include files
-include("/Users/ro/projects/outcomes/code/constants.jl")
-include("/Users/ro/projects/outcomes/code/utils.jl")
+include("constants.jl")
+include("utils.jl")
 
-# see intake.jl for production of 2020vote.csv
-base      = CSV.read("../objs/2020vote.csv", DataFrame)
-base.vote = base.biden_col .+ base.trump_col
-base.pop  = base.biden_pop .+ base.trump_pop
-base.pct  = base.biden_pop ./ base.pop
-base = base[:,[1,4,5,6,7,8,9]]
-new_names = ["st","biden","trump","margin","vote","pop","pct"]
-rename!(base, Symbol.(new_names))
+# see college_table.jl for production of 2024vote.csv
+base      = CSV.read("/Users/ro/projects/swingwatch/_assets/objs/2024vote.csv",DataFrame)
+# base.vote = base.biden_col .+ base.trump_col
+# base.pop  = base.biden_pop .+ base.trump_pop
+# base.pct  = base.biden_pop ./ base.pop
+# base = base[:,[1,4,5,6,7,8,9]]
+# new_names = ["st","biden","trump","margin","vote","pop","pct"]
+# rename!(base, Symbol.(new_names))
+
+base.vote = base.biden_col + base.trump_col
 
 # create an iterable 
 votes  = Dict(state => base[findfirst(isequal(state), base.st), :vote][1] for state in STATES)
@@ -40,9 +42,9 @@ for n in 1:7
 end
 
 # biden won 6 of the 7 swing states
-blues     = sum(base.biden) - sum(collect(values(votes)))
+blues     = sum(base.biden_col) - sum(collect(values(votes))) + votes["NC"]
 # trump won NC
-reds      = sum(base.trump) - votes["NC"]
+reds      = sum(base.trump_col) - votes["NC"]
 
 # expand to dataframe to show each combination with the total
 # vote count 
@@ -69,4 +71,4 @@ outcome.result[outcome[:,:biden] .< TIE]  .= "Trump"
 outcome.result[outcome[:,:biden] .== TIE] .= "Tie"
 outcome.result[outcome[:,:biden] .> TIE]  .= "Biden"
 
-# CSV.write("./objs/outcome.csv",outcome)
+# CSV.write(""/Users/ro/projects/swingwatch/_assets/objs/outcome.csv",outcome)

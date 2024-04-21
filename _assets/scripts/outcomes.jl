@@ -13,8 +13,10 @@ using PlotlyJS
 include("constants.jl")
 include("utils.jl")
 
-# see intake.jl for production of 2020vote.csv
+# see college_table.jl for production of 2024vote.csv
 base    = CSV.read("../objs/2020vote.csv", DataFrame)
+base =  CSV.read("/Users/ro/projects/swingwatch/_assets/objs/2024vote.csv", DataFrame)
+
 # see CreateOutcomes.jl for production of outcome.csv
 objs    = "../objs/"
 outcome = CSV.read(objs * "outcome.csv",DataFrame)

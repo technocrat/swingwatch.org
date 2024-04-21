@@ -16,11 +16,12 @@ using PlotlyJS
 # Define the state abbreviations and their corresponding electoral votes
 
 const STATES   = ["NV", "WI", "AZ", "GA", "MI", "PA", "NC"]
-const VOTES    = [6, 10, 11, 16, 16, 20, 16]
+const VOTES    = [6, 10, 11, 16, 15, 19, 16]
 const TIED     = 269
 const FLAGRED  = "#B22234"
 const FLAGBLUE = "#3C3B6E"
 const PURPLE   = "#772F51"
+const GREENBAR = "#2F774E"
 
 # Initialize an object to hold the collected combinations
 combos = Dict()
@@ -44,8 +45,8 @@ const TIE     = 269
 
 # biden won 6 of the 7 swing states
 # trump won NC
-const BLUE    = 212
-const RED     = 217
+const BLUE    = 225
+const RED     = 220
 
 # Create a color scale with discrete colors for each value
 

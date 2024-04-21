@@ -1,5 +1,5 @@
 using LinearAlgebra
-using Statsplot
+using StatsPlots
 using Turing
 
 const MON          = "mar"
@@ -27,7 +27,7 @@ end
 # Define the states and their electoral votes
 
 states          = ["PA", "MI", "GA", "NC", "AZ", "WI", "NV"]
-electoral_votes = [20, 16, 16, 15, 11, 10, 6]
+electoral_votes = [20, 15, 16, 16, 11, 10, 6]
 
 prior_probs = Dict(
   "AZ" => 1672143 / (1672143 + 1661686),
@@ -36,7 +36,7 @@ prior_probs = Dict(
   "NC" => 2684292 / (2684292 + 2758775),
   "PA" => 3458229 / (3458229 + 3377674),
   "WI" => 1630866 / (1630866 + 1610184),
-  "NV" =>  703486 / (703486  +  669890)
+  "NV" =>  703486 / ( 703486 +  669890)
 )
 
 # Define the state_polls dictionary
@@ -91,32 +91,31 @@ end
 # Run the inference
 
 model = election_model(normalized_state_polls, prior_probs)
-chain = sample(model, NUTS(), 1_000_000)
+chain = sample(model, NUTS(), 1_000)
 
 # Extract the posterior samples
 p_samples = Array(chain)
 
 # Calculate the posterior probabilities
-
-p_win  = 0.0
-p_lose = 0.0
+global post_win = 0.0
+global post_lose = 0.0
 
 for combination in Iterators.product(fill(0:1, length(states))...)
-  combination_vector = collect(combination)
-  if dot(combination_vector, electoral_votes) >= 58 # 270 - 212 BLUE
-    p_win += outcome_probability(combination_vector)
-  else
-    p_lose += outcome_probability(combination_vector)
-  end
+    combination_vector = collect(combination)
+    if dot(combination_vector, electoral_votes) >= 45 # 270 - 225 BLUE
+        global post_win += outcome_probability(combination_vector) 
+    else
+        global post_lose += outcome_probability(combination_vector) 
+    end
 end
 
-p_tie = 1 - p_win - p_lose
+post_tie = 1 - post_win - post_lose
 
 println("Posterior probabilities:")
-println("Win: ",  p_win)
-println("Lose: ", p_lose)
-println("Tie: ",  p_tie)
-println("Sum: ",  sum([p_win, p_lose, p_tie]))
+println("Win: ",  post_win)
+println("Lose: ", post_lose)
+println("Tie: ",  post_tie)
+println("Sum: ",  sum([post_win, post_lose, post_tie]))
 
 # diagnostics
 

@@ -1,7 +1,6 @@
 
-
 h1 = "Biden wins"
-h2 = "Ties"
+h2 = "Tie"
 h3 = "Trump wins"
 
 
@@ -11,13 +10,13 @@ const FULL   = ["Nevada","Michigan","Wisconsin","North Carolina","Arizona","Penn
 state_dict = Dict(zip(STATES, FULL)) 
 
 new_names = [
- "Scenario",
+ "States won by Biden ",
  "Electoral Votes",
  "Biden Votes",
  "Trump Votes",
  "Result"]
 
-ST = "WI"
+# ST = "WI"
 
 h1
 
