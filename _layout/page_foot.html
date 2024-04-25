@@ -1,4 +1,13 @@
 <div class="page-foot">
-    ©2024 {{ fill author }}. All rights reserved. {{isnotpage /tag/*}}Last modified: {{ fill fd_mtime }}.{{end}}
-    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+        <button onclick="goBack()" aria-label="Go back">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+    </button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+©2024 {{ fill author }}. All rights reserved. {{isnotpage /tag/*}}Last modified: {{ fill fd_mtime }}.{{end}}
 </div>
+
+

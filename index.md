@@ -6,18 +6,94 @@ title = "Latest"
 
 Base on the March polling results, the 2020 results and the application of the 2024 Electoral College changes
 
-| Outcome | Likelihood |
-|:---------|:-----------:|
-| Bidin win | 56.1% |
-| Trump win | 46.8% |
-| Electoral tie | - |
-
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">State</th>
+      <th style = "text-align: right;">Electoral Votes</th>
+      <th style = "text-align: right;">Lower CI</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Upper CI</th>
+      <th style = "text-align: right;">Expectation</th>
+      <th style = "text-align: right;">Call</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">PA</td>
+      <td style = "text-align: right;">19</td>
+      <td style = "text-align: right;">0.21</td>
+      <td style = "text-align: right;">0.51</td>
+      <td style = "text-align: right;">0.8</td>
+      <td style = "text-align: right;">9.64</td>
+      <td style = "text-align: right;">19</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">MI</td>
+      <td style = "text-align: right;">15</td>
+      <td style = "text-align: right;">0.23</td>
+      <td style = "text-align: right;">0.51</td>
+      <td style = "text-align: right;">0.8</td>
+      <td style = "text-align: right;">7.7</td>
+      <td style = "text-align: right;">15</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">GA</td>
+      <td style = "text-align: right;">16</td>
+      <td style = "text-align: right;">0.21</td>
+      <td style = "text-align: right;">0.5</td>
+      <td style = "text-align: right;">0.79</td>
+      <td style = "text-align: right;">8.01</td>
+      <td style = "text-align: right;">16</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">NC</td>
+      <td style = "text-align: right;">16</td>
+      <td style = "text-align: right;">0.2</td>
+      <td style = "text-align: right;">0.49</td>
+      <td style = "text-align: right;">0.78</td>
+      <td style = "text-align: right;">7.9</td>
+      <td style = "text-align: right;">0</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">AZ</td>
+      <td style = "text-align: right;">11</td>
+      <td style = "text-align: right;">0.22</td>
+      <td style = "text-align: right;">0.5</td>
+      <td style = "text-align: right;">0.78</td>
+      <td style = "text-align: right;">5.52</td>
+      <td style = "text-align: right;">11</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">WI</td>
+      <td style = "text-align: right;">10</td>
+      <td style = "text-align: right;">0.21</td>
+      <td style = "text-align: right;">0.5</td>
+      <td style = "text-align: right;">0.79</td>
+      <td style = "text-align: right;">5.04</td>
+      <td style = "text-align: right;">10</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">NV</td>
+      <td style = "text-align: right;">6</td>
+      <td style = "text-align: right;">0.23</td>
+      <td style = "text-align: right;">0.51</td>
+      <td style = "text-align: right;">0.8</td>
+      <td style = "text-align: right;">3.07</td>
+      <td style = "text-align: right;">6</td>
+    </tr>
+  </tbody>
+</table>
+~~~
 
 The poll results collected in the seven swing states show presidential preference evenly divided, favoring Biden in some states and Trump in others. Each of the poll results has a greater or smaller degree of uncertainty that depends primarily on how many answers were collected. 
 
-This model begins with the relative share of the popular vote won by Biden in each of the swing states in 2020 adjusted by the most recent polls in each swing, weighted by the number of respondents and taking into account the margins of error. See [methodology](/method).
+This model begins with the relative share of the popular vote won by Biden in each of the swing states in 2020 adjusted by the most recent polls in each swing, weighted by the number of respondents and taking into account the margins of error. See [methodology](/method). The confidence interval is very wide at the 95% level, even wider than the margin of error of the polls. The combination of the 2020 results and the polling data tell us nothing but that it is possible that either Biden or Trump could win based on the data examined. It is quite close. As new polls come in, the updated assessment will add the new information to the model and may (or may not) move the needle. The data suggest, with some uncertainty, that Biden will win, except in North Carolina, if we simply take 50.01% of the relative vote share. When we discount the expectation of victory by the expectation, President Biden will win 46-47 of the 93 electoral votes of the swing states, and 45 is a win, given his safe state edge of 225-220 over Trump.
 
 The model is **not** a prediction, but only a projection using a raft of assumptions. Is is only a mathematical representation of the combined information that is derivable from the actual results of millions of voters in those states and the survey responses of hundreds of voters from the same states. No weight should be given to the likelihoods so far in advance of the election. Beginning with the reports of August polls, expected in early September, political polls historically begin to approximate electoral results. 
+
+So, the following poll summaries, which do not take into account the last election, provide, individually, even less information than it first appears.
 
 ## Weighted average polls
 
@@ -71,32 +147,29 @@ The model is **not** a prediction, but only a projection using a raft of assumpt
 | Trump     | 48.4%  ± 3.59%  |
 
 
-## News
-
-
-### Pennsylvania
-
-**Pennsylvania’s** law requiring a handwritten date on mail-in ballots [**does not** violate](../mailin) Section 10101(a)(2)(B) of the Civil Rights Act of 1964, which prohibits denial of the right to vote because of an “error or omission” on paperwork “related to any application, registration, or other act requisite to voting,” if the mistake is “not material in determining whether [an] individual is *qualified*” to vote.
-
-### Georgia
-
-Governor Kemp of **Georgia** signed  [SB 189](https://www.legis.ga.gov/legislation/64471). Among other provisions affecting the 2024 election, a party may qualify a candidate for the ballot  who has obtained ballot access in 20 other states, in addition to ways previously permitted. The bill details procedures to challenge ballots on the basis of an elector’s residence, among other grounds. County election officials may now begin counting absentee ballots on election day after 7 a.m. [Summary](https://abcnews.go.com/Politics/kemp-sign-sweeping-elections-bill-passed-georgia-legislature/story?id=76677927).
+## Current news
 
 ### Michigan
 
 Robert F. Kennedy [qualified](https://www.freep.com/story/news/politics/elections/2024/04/18/robert-f-kennedy-jr-michigan-presidential-ballot-2024-election/73371452007/) for the Michigan ballot on April 18, 2024.
 
+Democrats [gained control](https://apnews.com/article/michigan-election-majority-democrats-house-deadlocked-77f6261041701e9839c9ce2069d7c24b) of the Michigan House in two special elections.
 
-### Arizona
+### General
 
-The **Arizona** Supreme Court [ruled](https://www.nytimes.com/interactive/2024/04/09/us/arizona-abortion-ruling.html?unlocked_article_code=1.jU0.wsWS.p-Et1TLRd3Pz&smid=nytcore-ios-share&referringSource=articleShare&ugrp=m&sgrp=c-cb) that a statute criminalizing abortions performed by physicians after 15 weeks except to save the life of the mother did not prevent prosecution under another statute of abortion prohibition. Reporting widely was of the view that there would be a large impact on general election turnout.
 
-### Non-swing states
+[RNC plans to turn out a staff of 100,000 workers and volunteers to contest  election processes and results.](https://gop.com/press-release/trump-campaign-and-rnc-unveil-historic-100000-person-strong-election-integrity-program/) [Initial activities](https://www.protectthevote.com) are directed to the seven swing states plus California, Texas, Florida, New York, Ohio and Montana. April 19, 2024
 
-**Florida** is widely considered to be a solid red state, in 2020 the margin was less 3.4%, not much different from the seven swing states that had margins at or below 3.2%. However the Florida Supreme Court issued an [advisory option](https://supremecourt.flcourts.gov/content/download/2285282/opinion/Opinion_SC2023-1392.pdf) that a proposed ballot initiative amending the Florida Constitution to create a right to abortion more expansive was permissible. In a separate opinion it [upheld](https://supremecourt.flcourts.gov/content/download/2285280/opinion/Opinion_SC2022-1050%20&%20SC2022-1127.pdf) a 16-week ban, but noted that a new **6-week ban** will go into effect within 30 days. . The political effect has not yet been polled to assess whether it is likely to draw more voters into the general election than would otherwise participate, and, if so, whether it draws more in support of the measure or more against. Further, it unassessed how that affects the presidential outcome and, in any event, latest polling does not show Trump's lead over Biden as beyond the margin of error.
+## Older news
 
-**Nebraska**, with Maine, is one of the two states with electoral districts. In 2020 the NE-2 district gave its vote to Biden. Under a [pending bill](https://nebraskaexaminer.com/2024/04/03/nebraska-winner-take-all-push-might-be-lost-for-2024-presidential-race/), Nebraska would eliminate districts in favor of the winner-take-all arrangement used by 48 other states. The bill’s sponsor [said yesterday](https://www.mediamatters.org/charlie-kirk/charlie-kirk-puts-pressure-nebraska-state-senator-who-are-your-colleagues-are-ones-are)
+* [Ballot access](/ballot)
+* [Reproductive rights on ballot](/repo)
+* [Voting engineering](/voting)
 
->  But right now, unfortunately, we have milked the cows and the cow’s dry, and we just simply have not enough votes to overcome a filibuster on this.
+## Focus
 
-If enacted before the scheduled end of session on April 18, 2024 or in a special session later, calculations made here will be adjusted accordingly.
+If Biden fails to win **both** Pennsylvania and North Carolina the number of winning combinations of victories drops from 70 to only [**five**](/focus).
+
+~~~
+<img src="/assets/img/maps/no_pa_nc.png" style="width: 100%; display: block;">
+~~~

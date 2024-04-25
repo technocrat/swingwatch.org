@@ -522,6 +522,11 @@ title = "North Carolina"
 </table>
 ~~~
 ### Biden wins without North Carolina
+
+~~~
+<img src="/assets/img/maps/no_nc.png" style="width: 100%; display: block;">
+~~~
+
 ~~~
 <table>
   <thead>

@@ -24,6 +24,10 @@ title = "Nevada"
 
 [See methodology](../method)
 
+## News
+
+A ballot initiative to amend the state constitution has been [cleared](https://nevadacurrent.com/briefs/abortion-rights-petition-okayed-by-nevada-supreme-court/) by the Nevada Supreme Court.
+
 ## Scenarios
 
 The scenario tables below show the possible outcomes that involve Nevada. Not included is the trivial case where one candidate takes all of the swing states. Nevada is represented in 64 of the 127 possible outcomes.  *The combinations shown are those representing swing states taken by Biden.*
@@ -509,6 +513,12 @@ The scenario tables below show the possible outcomes that involve Nevada. Not in
 </table>
 ~~~
 ### Biden wins without Nevada
+
+
+~~~
+<img src="/assets/img/maps/no_nv.png" style="width: 100%; display: block;">
+~~~
+
 ~~~
 <table>
   <thead>

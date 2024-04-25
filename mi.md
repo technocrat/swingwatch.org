@@ -61,6 +61,10 @@ title = "Michigan"
 
 ## Other news
 
+Democrats [gained control](https://apnews.com/article/michigan-election-majority-democrats-house-deadlocked-77f6261041701e9839c9ce2069d7c24b) of the Michigan House in two special elections.
+
+on April 16, 2024.
+
 Robert F. Kennedy [qualified](https://www.freep.com/story/news/politics/elections/2024/04/18/robert-f-kennedy-jr-michigan-presidential-ballot-2024-election/73371452007/) for the Michigan ballot on April 18, 2024.
 
 ## Scenarios
@@ -565,6 +569,12 @@ The scenario tables below show the possible outcomes that involve Michigan. Not 
 ~~~
 
 ### Biden wins without Michigan
+
+
+~~~
+<img src="/assets/img/maps/no_mi.png" style="width: 100%; display: block;">
+~~~
+
 ~~~
 <table>
   <thead>
@@ -657,7 +667,7 @@ The scenario tables below show the possible outcomes that involve Michigan. Not 
 * Senator up for election:      Debbie Stabenow (D)
 * Senate:                       D (2)
 * House:                        D (7) R (6)
-* State House:                  D (54) R (54) Vacant (2)
+* State House:                  D (56) R (54)
 * State House 2024 election:    All seats
 * State Senate:                 R (20) D (18)
 * State Senate 2024 election:   None

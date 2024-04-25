@@ -559,6 +559,12 @@ The scenario tables below show the possible outcomes that involve Pennsylvania. 
 </table>
 ~~~
 ### Biden wins without Pennsylvania
+
+
+~~~
+<img src="/assets/img/maps/no_pa.png" style="width: 100%; display: block;">
+~~~
+
 ~~~
 <table>
   <thead>

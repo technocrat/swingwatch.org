@@ -545,6 +545,11 @@ The scenario tables below show the possible outcomes that involve Georgia.  Geor
 ~~~
 
 ### Biden wins without Georgia
+
+~~~
+<img src="/assets/img/maps/no_ga.png" style="width: 100%; display: block;">
+~~~
+
 ~~~
 <table>
   <thead>

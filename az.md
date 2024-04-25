@@ -522,6 +522,12 @@ The scenario tables below show the possible outcomes that involve Arizona. Arizo
 ~~~
 
 ### Biden wins without Arizona
+
+
+~~~
+<img src="/assets/img/maps/no_az.png" style="width: 100%; display: block;">
+~~~
+
 ~~~
 <table>
   <thead>

@@ -40,6 +40,41 @@ xlabel!("Approval Rating")
 # Show the plot
 plot!(p)    
 
+"""
+   create_ribbon_chart(result, STATE, TYPE_POLL, POLLSTER; filename=nothing)
+
+Create a ribbon chart visualization to display the ranges and overlap of poll results for two candidates.
+
+# Arguments
+- `result`: A tuple containing two ranges (vectors) representing the poll result ranges for the two candidates.
+- `STATE::String`: The name of the state for which the poll results are being displayed.
+- `TYPE_POLL::String`: The type of poll being displayed (e.g., "General Election", "Primary", etc.).
+- `POLLSTER::String`: The name of the pollster or organization that conducted the poll.
+- `filename::Union{String, Nothing}=nothing`: An optional filename to save the plot as an image file.
+
+# Returns
+- `Plots.Plot`: The ribbon chart plot object.
+
+# Notes
+- The function calculates the overlap range and amount between the two candidates' poll result ranges.
+- It creates a ribbon chart plot using the Plots.jl package, with the candidates' ranges represented as horizontal bars and the overlap range represented as a third bar.
+- The candidate names, overlap amount, and poll details (state, type, and pollster) are annotated on the plot.
+- The x-axis ticks are set to the unique values in the combined ranges of the two candidates.
+- If a `filename` is provided, the plot is saved as an image file with the specified name.
+
+# Examples
+```julia
+# Assuming `result` is a tuple containing two ranges (vectors) for Biden and Trump
+biden_range = [46.0, 50.0]
+trump_range = [45.0, 49.0]
+result = (biden_range, trump_range)
+
+ribbon_chart = create_ribbon_chart(result, "Florida", "General Election", "ABC News/Washington Post")
+display(ribbon_chart)
+
+# To save the plot as an image file
+ribbon_chart = create_ribbon_chart(result, "Florida", "General Election", "ABC News/Washington Post", filename="fl_poll.png")
+"""
 function create_ribbon_chart(result, STATE, TYPE_POLL, POLLSTER; filename=nothing)
            biden_range = result[1]
            trump_range = result[2]

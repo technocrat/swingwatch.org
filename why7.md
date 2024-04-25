@@ -39,7 +39,53 @@ The seven swing states have **93 votes** among them. Depending on the outcomes o
 * President **Biden wins in 70** of the possible outcomes
 * There is **one possible tie** (if Biden wins only WI, MI and PA)
 
+Without Biden wins in both North Carolina and Pennsylvania there are only **four** winning outcomes and no tie would occur. 
 
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Scenario</th>
+      <th style = "text-align: right;">Electoral Votes</th>
+      <th style = "text-align: right;">Biden Total</th>
+      <th style = "text-align: right;">Trump Total</th>
+      <th style = "text-align: right;">Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">NV, WI, GA and MI</td>
+      <td style = "text-align: right;">47</td>
+      <td style = "text-align: right;">272</td>
+      <td style = "text-align: right;">266</td>
+      <td style = "text-align: right;">Biden</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">NV, AZ, GA and MI</td>
+      <td style = "text-align: right;">48</td>
+      <td style = "text-align: right;">273</td>
+      <td style = "text-align: right;">265</td>
+      <td style = "text-align: right;">Biden</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">WI, AZ, GA and MI</td>
+      <td style = "text-align: right;">52</td>
+      <td style = "text-align: right;">277</td>
+      <td style = "text-align: right;">261</td>
+      <td style = "text-align: right;">Biden</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">NV, WI, AZ, GA and MI</td>
+      <td style = "text-align: right;">58</td>
+      <td style = "text-align: right;">283</td>
+      <td style = "text-align: right;">255</td>
+      <td style = "text-align: right;">Biden</td>
+    </tr>
+  </tbody>
+</table>
+~~~
+
+All the possible comes (the scenario in which Biden wins none of the swing states is not shown.)
 ~~~
 <table>
   <thead>

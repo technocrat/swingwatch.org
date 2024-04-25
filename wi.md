@@ -545,6 +545,12 @@ The scenario tables below show the possible outcomes that involve Wisconsin.  Wi
 </table>
 ~~~
 ### Biden wins without Wisconsin
+
+
+~~~
+<img src="/assets/img/maps/no_wi.png" style="width: 100%; display: block;">
+~~~
+
 ~~~
 <table>
   <thead>
