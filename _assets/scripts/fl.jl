@@ -3,7 +3,7 @@ using CSV
 using DataFrames
 
 const STATES  = ["FL","NV", "WI", "AZ", "GA", "MI", "PA", "NC"]
-const VOTES   = [30, 6, 10, 11, 16, 16, 20, 16]
+const VOTES   = [30, 6, 10, 11, 16, 15, 20, 16]
 const COLLEGE = 538
 const VICTORY = 270
 const TIE     = 269
