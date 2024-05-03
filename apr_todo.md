@@ -1,5 +1,3 @@
-
-~~~
 * Georgia
   - [Fox News: in field April](https://static.foxnews.com/foxnews.com/content/uploads/2024/04/Fox_April-11-16-2024_GEORGIA_Topline_April-18-Release-1.pdf)
 ~~~

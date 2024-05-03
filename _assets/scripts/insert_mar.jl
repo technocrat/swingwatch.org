@@ -55,7 +55,7 @@ struct Poll
     sample_size::Int
 end
 
-const months = Dict(mar => Dict(), apr => Dict(), may => Dict(), jun => Dict(), jul => Dict(), aug => Dict(), sep => Dict(), oct => Dict(), nov => Dict())
+const current_mon = Dict(mar => Dict(), apr => Dict(), may => Dict(), jun => Dict(), jul => Dict(), aug => Dict(), sep => Dict(), oct => Dict(), nov => Dict())
 
 # Initialize the nested dictionaries for each state within each month
 for month in instances(Month)
@@ -100,4 +100,9 @@ months[mar][PA][ws2] = [Poll(44, 47,  600)]
 months[mar][WI][ws2] = [Poll(46, 46,  600)]
 months[mar][WI][bl2] = [Poll(46, 45,  697)]
 
-#bson.load("../objs/mar_polls.bson", months)
+
+using BSON: @save, @load
+
+#@save "../objs/mar_polls.bson" months
+
+#@load "../objs/mar_polls.bson" months

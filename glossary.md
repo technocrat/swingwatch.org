@@ -152,7 +152,7 @@ Despite these criticisms, economic rationality remains a useful model for unders
 
 - **Groupthink**: The tendency for members of a group to conform to the prevailing views and suppress dissenting opinions to maintain group harmony.
 
-- **heuristic**: A heuristic is a mental shortcut or a rule of thumb that allows people to make judgments and decisions quickly and efficiently. Heuristics are often used when faced with complex problems or incomplete information, as they can help simplify the decision-making process by reducing the amount of mental effort required. While heuristics can be useful in many situations, they can also lead to cognitive biases and systematic errors in judgment.
+- **Heuristic**: A heuristic is a mental shortcut or a *rule of thumb* that allows people to make judgments and decisions quickly and efficiently. Heuristics are often used when faced with complex problems or incomplete information, as they can help simplify the decision-making process by reducing the amount of mental effort required. While heuristics can be useful in many situations, they can also lead to cognitive biases and systematic errors in judgment.
 
 Key characteristics of heuristics:
 
@@ -223,6 +223,8 @@ Despite these limitations, IVR surveys remain a valuable tool for researchers, p
 - **Mail-in polls**: A type of opt-in survey.
 
 - **Opt-in survey**: A survey that requires explicit prior consent. They can lead to skewed results, such as overestimating fringe beliefs or the percentage of people holding certain qualifications, especially among younger respondents. The quality of data collected through these surveys is questionable, as participants may speed through surveys to earn money, leading to inaccurate responses. Researchers use online opt-in surveys because they are cheaper, faster, and more convenient than probability-based surveys, despite potential data quality issues. A study found that a significant portion of respondents in an opt-in survey may have misrepresented their background to qualify for the survey and earn money. Researchers can minimize bogus responses by using attention checks, internet protocol address tracking, anti-bot software, and monitoring survey completion time. However, some low-quality responses may still slip through. Alternative models, such as opt-in volunteer surveys, can create different incentives for participants that do not  rely on financial rewards.
+
+- **Tracking panel**: A group of respondents initially selected randomly who are re-polled over some interval. 
 
 - **Mirror imaging**: The assumption that others (such as political candidates) will act in a way consistent with one's own thought processes and values.
 

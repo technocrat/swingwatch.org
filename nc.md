@@ -2,42 +2,81 @@
 title = "North Carolina"
 +++
 
-## March polls
+## April assessment
 
-
-### [Bloomberg/Morning Consult] (https://pro-assets.morningconsult.com/wp-uploads/2024/03/Bloomberg_2024-Election-Tracking-Wave-6.pdf) 
-
-~~~
-<img src="/assets/img/trends/mar/nc_bl_2.png" style="width: 100%; display: block;">
-~~~
-
-
-
-### [High Point University](https://www.highpoint.edu/blog/2024/04/hpu-poll-n-c-registered-voters-say-inflation-and-national-security-are-top-issues-for-d-c/)
+The model results, which take into account the 2020 election results in North Carolina as prior probabilities and incorporate the April 2024 presidential preference polling data, suggest a slightly higher posterior probability for Trump winning North Carolina (0.5027) compared to Biden (0.4973) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Trump would win North Carolina's 16 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—indicates neither that Biden is drawing closer nor that Trump is widening his lead from 2020.
 
 ~~~
-<img src="/assets/img/trends/mar/nc_hi_2.png" style="width: 100%; display: block;">
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.4973</td>
+      <td style = "text-align: right;">0.3852</td>
+      <td style = "text-align: right;">0.4964</td>
+      <td style = "text-align: right;">0.0603</td>
+      <td style = "text-align: right;">0.9385</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.5027</td>
+      <td style = "text-align: right;">0.6148</td>
+      <td style = "text-align: right;">0.5036</td>
+      <td style = "text-align: right;">0.0615</td>
+      <td style = "text-align: right;">0.9397</td>
+    </tr>
+  </tbody>
+</table>
 ~~~
 
+## March assessment
 
-### [Marist](https://maristpoll.marist.edu/wp-content/uploads/2024/03/Marist-Poll_North-Carolina-NOS-and-Tables_202403181357.pdf)
-
-~~~
-<img src="/assets/img/trends/mar/nc_ma_2.png" style="width: 100%; display: block;">
-~~~
-
-
-
-### [Quinnipiac](https://poll.qu.edu/images/polling/nc/nc04102024_ncaa99.pdf)
+The model results, which take into account the 2020 election results in North Carolina as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Trump winning North Carolina (0.5036) compared to Biden (0.4964) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Trump would win North Carolina's 16 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—indicates neither that Biden is drawing closer nor that Trump is widening his lead from 2020.
 
 ~~~
-<img src="/assets/img/trends/mar/nc_qi_2.png" style="width: 100%; display: block;">
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.4976</td>
+      <td style = "text-align: right;">0.3774</td>
+      <td style = "text-align: right;">0.4964</td>
+      <td style = "text-align: right;">0.0598</td>
+      <td style = "text-align: right;">0.9390</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.5024</td>
+      <td style = "text-align: right;">0.6226</td>
+      <td style = "text-align: right;">0.5036</td>
+      <td style = "text-align: right;">0.0610</td>
+      <td style = "text-align: right;">0.9402</td>
+    </tr>
+  </tbody>
+</table>
 ~~~
 
-### [WSJ](https://s.wsj.net/public/resources/documents/WSJ_Swing_States_Partial_March_2024.pdf)
-~~~
-<img src="/assets/img/trends/mar/nc_ws_2.png" style="width: 100%; display: block;">
-~~~
+Please note that results are shown to four decimal places **solely** to prevent rounding to leave the misleading impression that the results are exactly tied.
 
 ## Biden wins
 
@@ -712,7 +751,6 @@ title = "North Carolina"
 ~~~
 
 
-## Other news
 
 ## North Carolina facts
 

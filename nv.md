@@ -2,27 +2,84 @@
 title = "Nevada"
 +++
 
-## March polls
+## April assessment
+The model results, which take into account the 2020 election results in Nevada as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Nevada (0.5047) compared to Trump (0.4953) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Nevada's 6 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in substitution of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.5047</td>
+      <td style = "text-align: right;">0.6412</td>
+      <td style = "text-align: right;">0.5053</td>
+      <td style = "text-align: right;">0.0631</td>
+      <td style = "text-align: right;">0.9408</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.4953</td>
+      <td style = "text-align: right;">0.3588</td>
+      <td style = "text-align: right;">0.4947</td>
+      <td style = "text-align: right;">0.0592</td>
+      <td style = "text-align: right;">0.9369</td>
+    </tr>
+  </tbody>
+</table>
+~~~
+## March assessment
+
+The model results, which take into account the 2020 election results in Nevada as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Nevada (0.5039) compared to Trump (0.4961) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Nevada's 6 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in substitution of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.5039</td>
+      <td style = "text-align: right;">0.4709</td>
+      <td style = "text-align: right;">0.5050</td>
+      <td style = "text-align: right;">0.0616</td>
+      <td style = "text-align: right;">0.9406</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.4961</td>
+      <td style = "text-align: right;">0.5291</td>
+      <td style = "text-align: right;">0.4950</td>
+      <td style = "text-align: right;">0.0594</td>
+      <td style = "text-align: right;">0.9384</td>
+    </tr>
+  </tbody>
+</table>
+~~~
+
+Please note that results are shown to four decimal places **solely** to prevent rounding to leave the misleading impression that the results are exactly tied.
 
 ### [Bloomberg/Morning Consult] (https://pro-assets.morningconsult.com/wp-uploads/2024/03/Bloomberg_2024-Election-Tracking-Wave-6.pdf) 
 
-~~~
-<img src="/assets/img/trends/mar/nv_bl_2.png" style="width: 100%; display: block;">
-~~~
-
 ### [Emerson College](https://docs.google.com/spreadsheets/d/1UHAF-0j9PCycKwiSO75dsrkbn8fFqnkQmGZpC7GzPHg/edit#gid=0)
 
-~~~
-<img src="/assets/img/trends/mar/nv_ec_2.png" style="width: 100%; display: block;">
-~~~
-
 ### [WSJ](https://s.wsj.net/public/resources/documents/WSJ_Swing_States_Partial_March_2024.pdf)
-
-~~~
-<img src="/assets/img/trends/mar/nv_ws_2.png" style="width: 100%; display: block;">
-~~~
-
-[See methodology](../method)
 
 ## News
 

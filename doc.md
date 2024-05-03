@@ -30,6 +30,11 @@ title = "Resources"
 
 ---
 
+## [Voter turnout](https://www.pewresearch.org/wp-content/uploads/sites/20/2023/07/PP_2023.07.12_validated-voters_REPORT.pdf)
+
+~~~
+<img src="/assets/img/turnout.png" style="width: 100%; display: block;">
+~~~
 
 ## Code
 

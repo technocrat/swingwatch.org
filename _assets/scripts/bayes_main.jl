@@ -34,15 +34,14 @@ current_samples = sample(current_model, NUTS(), 1_000_000)
 # Summary statistics
 summarystats(current_samples)
 
-# Trace plot
-plot(current_samples)
-
 # Autocorrelation
 autocor(current_samples)
 
 # Effective sample size
 ess(current_samples)
 
+# Trace plot
+plot(current_samples)
 
 # Or using HMC sampler with a specified step size and number of leapfrog steps
 # ETA 2.5 days, not run

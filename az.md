@@ -2,39 +2,79 @@
 title = "Arizona"
 +++
 
-## Latest polls
+## April assessment
 
-### [Bloomberg/Morning Consult] (https://pro-assets.morningconsult.com/wp-uploads/2024/03/Bloomberg_2024-Election-Tracking-Wave-6.pdf) 
-
-~~~
-<img src="/assets/img/trends/mar/az_bl_2.png" style="width: 100%;">
-~~~
-
-
-
-### [Emerson College](https://emersoncollegepolling.com/arizona-2024-poll-trump-48-biden-44/)
-
+The model results, which take into account the 2020 election results in 
+Arizona as prior probabilities and incorporate the April 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Arizona (0.5019) compared to Trump (0.4981) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Arizona's 11 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer. 
 
 ~~~
-<img src="/assets/img/trends/mar/az_ec_2.png" style="width: 100%;">
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.5019</td>
+      <td style = "text-align: right;">0.5267</td>
+      <td style = "text-align: right;">0.5026</td>
+      <td style = "text-align: right;">0.0615</td>
+      <td style = "text-align: right;">0.9396</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.4981</td>
+      <td style = "text-align: right;">0.4733</td>
+      <td style = "text-align: right;">0.4974</td>
+      <td style = "text-align: right;">0.0604</td>
+      <td style = "text-align: right;">0.9385</td>
+    </tr>
+  </tbody>
+</table>
 ~~~
+## March assessment
 
-
-### [WSJ](https://s.wsj.net/public/resources/documents/WSJ_Swing_States_Partial_March_2024.pdf)
-
+The model results, which take into account the 2020 election results in Arizona as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest an even posterior probability for Biden if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Arizona's 11 electoral votes based on the current polling data and the historical voting patterns. Moreover, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—provides some evidence that the contest is too close to reasonably assume a winner.
 ~~~
-<img src="/assets/img/trends/mar/az_ws_2.png" style="width: 100%;">
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.5005</td>
+      <td style = "text-align: right;">0.4717</td>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.0600</td>
+      <td style = "text-align: right;">0.9394</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.4995</td>
+      <td style = "text-align: right;">0.5283</td>
+      <td style = "text-align: right;">0.4988</td>
+      <td style = "text-align: right;">0.0606</td>
+      <td style = "text-align: right;">0.9400</td>
+    </tr>
+  </tbody>
+</table>
 ~~~
-
-
-
-[See methodology](../method)
-
-## Other news
-
-### 2024-04-09
-
-The **Arizona** Supreme Court [ruled](https://www.nytimes.com/interactive/2024/04/09/us/arizona-abortion-ruling.html?unlocked_article_code=1.jU0.wsWS.p-Et1TLRd3Pz&smid=nytcore-ios-share&referringSource=articleShare&ugrp=m&sgrp=c-cb) that a statute criminalizing abortions performed by physicians after 15 weeks except to save the life of the mother did not prevent prosecution under another statute of abortion prohibition. Reporting widely was of the view that there would be a large impact on the general election.
+Please note that results are shown to four decimal places **solely** to show how closely the results are tied. With the same total as 2020, Biden's margin would be fewer than 2,000 votes rather than the slightly over 10,000.
 
 ## Scenarios
 
@@ -739,6 +779,7 @@ The scenario tables below show the possible outcomes that involve Arizona. Arizo
   </tbody>
 </table>
 ~~~
+
 ## Arizona facts
 
 * Electoral votes:              11 

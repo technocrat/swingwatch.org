@@ -2,47 +2,79 @@
 title = "Wisconsin"
 +++
 
-## Latest polls
+## March assessment
 
-### [Bloomberg/Morning Consult] (https://pro-assets.morningconsult.com/wp-uploads/2024/03/Bloomberg_2024-Election-Tracking-Wave-6.pdf) 
+The model results, which take into account the 2020 election results in Wisconsin as prior probabilities and incorporate the April 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Wisconsin (0.5003) compared to Trump (0.4997) if the election were held at the time the polling data was collected. This indicates an insufficient margin to differ from a tie and it cannot be said that Biden would win Wisconsin's 10 electoral votes based on the current polling data and the historical voting patterns. Moreover, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates.
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.5003</td>
+      <td style = "text-align: right;">0.5130</td>
+      <td style = "text-align: right;">0.5008</td>
+      <td style = "text-align: right;">0.0607</td>
+      <td style = "text-align: right;">0.9397</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.4997</td>
+      <td style = "text-align: right;">0.4870</td>
+      <td style = "text-align: right;">0.4992</td>
+      <td style = "text-align: right;">0.0603</td>
+      <td style = "text-align: right;">0.9393</td>
+    </tr>
+  </tbody>
+</table>
+~~~
+## March assessment
+
+The model results, which take into account the 2020 election results in Wisconsin as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Wisconsin (0.5016) compared to Trump (0.4984 ) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Wisconsin's 10 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
 
 ~~~
-<img src="/assets/img/trends/mar/wi_bl_2.png" style="width: 100%; display: block;">
-~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.5016</td>
+      <td style = "text-align: right;">0.5498</td>
+      <td style = "text-align: right;">0.5019</td>
+      <td style = "text-align: right;">0.0615</td>
+      <td style = "text-align: right;">0.9391</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.4984</td>
+      <td style = "text-align: right;">0.4502</td>
+      <td style = "text-align: right;">0.4981</td>
+      <td style = "text-align: right;">0.0609</td>
+      <td style = "text-align: right;">0.9385</td>
+    </tr>
+  </tbody>
+</table>
+~~~ 
 
-~~~
-<img src="/assets/img/trends/mar/wi_bl_3.png" style="width: 100%; display: block;">
-~~~
-
-
-
-[Emerson College](https://docs.google.com/spreadsheets/d/1Mq-aWWHO_VeovjA96M0Ormz9C3dTdX_-qMCZQJgmfKg/edit#gid=0)
-
-~~~
-<img src="/assets/img/trends/mar/wi_ec_2.png" style="width: 100%; display: block;">
-~~~
-~~~
-<img src="/assets/img/trends/mar/wi_ec_3.png" style="width: 100%; display: block;">
-~~~
-
-
-[WSJ](https://s.wsj.net/public/resources/documents/WSJ_Swing_States_Partial_March_2024.pdf)
-
-~~~
-<img src="/assets/img/trends/mar/wi_ws_2.png" style="width: 100%; display: block;">
-~~~
-~~~
-<img src="/assets/img/trends/mar/wi_ws_3l.png" style="width: 100%; display: block;">
-~~~
-~~~
-<img src="/assets/img/trends/mar/wi_ws_3s.png" style="width: 100%; display: block;">
-~~~
-
-
-
-[See methodology](../method)
-
-## Other news
+Please note that results are shown to four decimal places **solely** to prevent rounding to leave the misleading impression that the results are tied.
 
 ## Scenarios
 

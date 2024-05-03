@@ -2,59 +2,82 @@
 title = "Georgia"
 +++
 
-## March polls
+## April assessment
 
-
-### [Bloomberg/Morning Consult] (https://pro-assets.morningconsult.com/wp-uploads/2024/03/Bloomberg_2024-Election-Tracking-Wave-6.pdf) 
-
+The model results, which take into account the 2020 election results in Georgia as prior probabilities and incorporate the April 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Georgia (0.5005) compared to Trump (0.4995) if the election were held at the time the polling data was collected. This indicates a no likelihood that either Biden nor Trump would win Georgia's 16 electoral votes based on the current polling data and the historical voting patterns. Moreover, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. 
 
 ~~~
-<img src="/assets/img/trends/mar/ga_bl_2.png" style="width: 100%; display: block;">
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.5005</td>
+      <td style = "text-align: right;">0.4262</td>
+      <td style = "text-align: right;">0.5010</td>
+      <td style = "text-align: right;">0.0609</td>
+      <td style = "text-align: right;">0.9391</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.4995</td>
+      <td style = "text-align: right;">0.5738</td>
+      <td style = "text-align: right;">0.4990</td>
+      <td style = "text-align: right;">0.0609</td>
+      <td style = "text-align: right;">0.9391</td>
+    </tr>
+  </tbody>
+</table>
+
+~~~
+## March assessment
+
+The model results, which take into account the 2020 election results in Georgia as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Georgia (0.5008) compared to Trump (0.4992) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Georgia's 16 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.5008</td>
+      <td style = "text-align: right;">0.3462</td>
+      <td style = "text-align: right;">0.5008</td>
+      <td style = "text-align: right;">0.0613</td>
+      <td style = "text-align: right;">0.9391</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.4992</td>
+      <td style = "text-align: right;">0.6538</td>
+      <td style = "text-align: right;">0.4992</td>
+      <td style = "text-align: right;">0.0609</td>
+      <td style = "text-align: right;">0.9387</td>
+    </tr>
+  </tbody>
+</table
 ~~~
 
 
-### [CBS](https://www.cbsnews.com/news/poll-trump-biden-georgia-2024-cbs-news/)
-
-~~~
-<img src="/assets/img/trends/mar/ga_cb_2.png" style="width: 100%; display: block;">
-~~~
-
-### [Emerson College](https://docs.google.com/spreadsheets/d/1ypv-r44vzsfvy4Q2S1fdd8RXAir0B-AJKPHrB6ruoDg/edit#gid=0)
-
-~~~
-<img src="/assets/img/trends/mar/ga_ec_2.png" style="width: 100%; display: block;">
-~~~
-
-### [Marist](https://maristpoll.marist.edu/wp-content/uploads/2024/03/Marist-Poll_Georgia-NOS-and-Tables_202403181355.pdf)
-
-
-~~~
-<img src="/assets/img/trends/mar/ga_ma_2.png" style="width: 100%; display: block;">
-~~~
-
-
-### [WSJ](https://s.wsj.net/public/resources/documents/WSJ_Swing_States_Partial_March_2024.pdf)
-
-
-~~~
-<img src="/assets/img/trends/mar/ga_ws_2.png" style="width: 100%; display: block;">
-~~~
-
-
-
-[See methodology](../method)
-
-## Other news
-
-Governor Kemp signed [SB 189](https://www.legis.ga.gov/legislation/64471). Among other provisions affecting the 2024 election, a party may qualify a candidate for the ballot  who has obtained ballot access in 20 other states, in addition to ways previously permitted. The bill details procedures to challenge ballots on the basis of an elector’s residence, among other grounds. County election officials may now begin counting absentee ballots on election day after 7 a.m. [Summary](https://abcnews.go.com/Politics/kemp-sign-sweeping-elections-bill-passed-georgia-legislature/story?id=76677927).
-
-
-
-[See methodology](../method)
-
-## Other news
-
-
+Please note that results are shown to four decimal places **solely** to prevent rounding to leave the misleading impression that the results are exactly tied.
 
 ## Scenarios
 
@@ -733,6 +756,10 @@ The scenario tables below show the possible outcomes that involve Georgia.  Geor
   </tbody>
 </table>
 ~~~
+
+## Other News
+
+> Over the past three years, about 140,000 registered voters moved to Georgia, according to the analysis. When accounting for Georgia voters who moved away, the state had a net gain of about 30,000 voters. Roughly two out of every three of these new voters are likely Democrats, accounting for about 19,500 voters. About 6,000 of the new voters are likely Republican voters, while the remainder were not registered with a political party in their prior state or belonged to third parties.
 
 ## Georgia facts
 

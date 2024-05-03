@@ -2,70 +2,82 @@
 title = "Michigan"
 +++
 
+## April assessment
 
+The model results, which take into account the 2020 election results in Michigan as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Michigan (0.5054) compared to Trump (0.4946) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Michigans's 15 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.5054</td>
+      <td style = "text-align: right;">0.5519</td>
+      <td style = "text-align: right;">0.5072</td>
+      <td style = "text-align: right;">0.0632</td>
+      <td style = "text-align: right;">0.9407</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.4946</td>
+      <td style = "text-align: right;">0.4481</td>
+      <td style = "text-align: right;">0.4928</td>
+      <td style = "text-align: right;">0.0593</td>
+      <td style = "text-align: right;">0.9368</td>
+    </tr>
+  </tbody>
+</table>
+~~~
 ## March polls
 
-### [Big Data](https://www.bigdatapoll.com/blog/rust-belt-poll-wolverine-battleground-for-april-2024/)
+## March assessment
+
+The model results, which take into account the 2020 election results in Michigan as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Michigan (0.5044) compared to Trump (0.4956) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Michigans's 15 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
 
 ~~~
-<img src="/assets/img/trends/mar/mi_bi_2.png"style="width: 100%; display: block;">
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">Parameter</th>
+      <th style = "text-align: right;">Mean</th>
+      <th style = "text-align: right;">Mode</th>
+      <th style = "text-align: right;">Median</th>
+      <th style = "text-align: right;">CI_Lower</th>
+      <th style = "text-align: right;">CI_Upper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.5044</td>
+      <td style = "text-align: right;">0.4766</td>
+      <td style = "text-align: right;">0.5056</td>
+      <td style = "text-align: right;">0.0637</td>
+      <td style = "text-align: right;">0.9407</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Trump likelihood</td>
+      <td style = "text-align: right;">0.4956</td>
+      <td style = "text-align: right;">0.5234</td>
+      <td style = "text-align: right;">0.4944</td>
+      <td style = "text-align: right;">0.0593</td>
+      <td style = "text-align: right;">0.9363</td>
+    </tr>
+  </tbody>
+</table>
 ~~~
 
-
-### [Bloomberg/Morning Consult] (https://pro-assets.morningconsult.com/wp-uploads/2024/03/Bloomberg_2024-Election-Tracking-Wave-6.pdf) 
-
-~~~
-<img src="/assets/img/trends/mar/mi_bl_2.png"style="width: 100%; display: block;">
-~~~
-
-
-### [CNN/ssrs](https://www.documentcloud.org/documents/24496678-cnn-michigan-poll) 
-
-
-~~~
-<img src="/assets/img/trends/mar/mi_cn_2.png"style="width: 100%; display: block;">
-~~~
-
-
-### [Emerson College](https://emersoncollegepolling.com/michigan-2024-poll-trump-45-biden-44/)
-
-~~~
-<img src="/assets/img/trends/mar/mi_ec_2.png" style="width: 100%; display: block;">
-~~~
-
-
-### [Quinnipiac University](https://poll.qu.edu/images/polling/mi/mi03142024_demos_mxat24.pdf)
-
-
-~~~
-<img src="/assets/img/trends/mar/mi_qi_2.png"style="width: 100%; display: block;">
-~~~
-
-
-
-### [Spry Strategies](https://ml.globenewswire.com/Resource/Download/f80dc41f-800c-4458-a04c-2f7fef98ebfe)
-
-~~~
-<img src="/assets/img/trends/mar/mi_sp_2.png"style="width: 100%; display: block;">
-~~~
-
-
-### [WSJ](https://s.wsj.net/public/resources/documents/WSJ_Swing_States_Partial_March_2024.pdf)
-
-~~~
-<img src="/assets/img/trends/mar/mi_ws_2.png" style="width: 100%; display: block;">
-~~~
-
-
-[See methodology](../method)
-
-## Other news
-
-Democrats [gained control](https://apnews.com/article/michigan-election-majority-democrats-house-deadlocked-77f6261041701e9839c9ce2069d7c24b) of the Michigan House in two special elections.
-
-on April 16, 2024.
-
-Robert F. Kennedy [qualified](https://www.freep.com/story/news/politics/elections/2024/04/18/robert-f-kennedy-jr-michigan-presidential-ballot-2024-election/73371452007/) for the Michigan ballot on April 18, 2024.
+Please note that results are shown to four decimal places **solely** to prevent rounding to leave the misleading impression that the results are exactly tied.
 
 ## Scenarios
 

@@ -1,4 +1,4 @@
-using BSON
+using DataFrames
 using LinearAlgebra
 using PrettyTables
 using Printf
@@ -54,6 +54,7 @@ struct Poll
     trump_support::Float64
     sample_size::Int
 end
+
 
 const months = Dict(mar => Dict(), apr => Dict(), may => Dict(), jun => Dict(), jul => Dict(), aug => Dict(), sep => Dict(), oct => Dict(), nov => Dict())
 
