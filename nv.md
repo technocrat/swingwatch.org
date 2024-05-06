@@ -808,6 +808,25 @@ The scenario tables below show the possible outcomes that involve Nevada. Not in
   </tbody>
 </table>
 ~~~
+## Other news
+
+### Nevada acceptance of mailed ballots after election day
+
+On May 3, 2025, the Republican National Committee and others filed a complaint in Federal District Court for the District of Nevada against Nevada election officials seeking to prevent mail-in ballots not received by election day from being counted. 
+
+REPUBLICAN NATIONAL COMMITTEE; NEVADA REPUBLICAN PARTY; DONALD J.TRUMP FOR PRESIDENT 2024, INC.; and DONALD J. SZYMANSKI, Plaintiffs, v.CARI-ANN BURGESS, in her official capacity as the Washoe County Registrar of Voters; JAN GALASSINI, in her official capacity as the Washoe County Clerk; LORENA PORTILLO, in her official capacity as the Clark County Registrar of Voters; LYNN MARIE GOYA, in her official capacity as the Clark County Clerk; FRANCISCO AGUILAR, in his official capacity as Nevada Secretary of State, Defendants. Case 3:24-cv-00198.
+
+> Nevada contravenes those federal laws by counting mail ballots that are
+received up to four business days after Election Day, Nev. Rev. Stat. §293.269921(1)(b),
+and by presuming that ballots received up to three days after Election Day “have been
+postmarked on or before the day of the election,” id. §293.269921(2). Nevada effectively
+extends Nevada’s federal election past the Election Day established by Congress. 
+
+**Comment** Similar actions can be expected in all other jurisdictions that have similar arrangements. One of the allegations cites the 
+
+> Exercising that power [pursuant to the Electors Clause], Congress has established that “[t]he electors of President and Vice President shall be appointed, in each State, *on election day*, in accordance with the laws of the State enacted prior to election day.” 3 U.S.C. §1. [*emphasis added*]
+
+which could also be used to argue that electors must be appointed on election day and that no votes counted after midnight can be considered.
 ## Nevada facts
 
 * Electoral votes:              6 

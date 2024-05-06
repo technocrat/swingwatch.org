@@ -2,6 +2,23 @@
 title = "Focus"
 +++
 
+## Without the Nebraska Second
+
+The models assume that except for the seven swing states, each candidate will win the states and election districts won in 2020. For Biden, the total includes a Nebraska
+district that centers on Omaha. Nebraska is one of two states that have this arrangement. The other is Maine. An attempt was made earlier this year to change Nebraska to the winner-take-all system used by other states. It was unsuccessful, and it is not clear if another attempt will be made. Should it be or if the Nebraska Second this time votes for Trump, possible outcomes differ.
+
+A tie outcome that was produced by Biden winning only Wisconsin, Michigan and Pennsylvania, now has three different possible scenarios
+
+* Wisconsin, Georgia and Pennsylvania
+* Wisconsin, Pennsylvania and North Carolina
+* Arizona, Michigan and Pennsylvania
+
+Those three scenarios, which were formally wins, are replaced as the smallest possible victories by
+
+* Nevada, Wisconsin, Arizona and Pennsylvania
+* Arizona, Georgia and Pennsylvania
+* Arizona, Pennsylvania and NC North Carolina
+
 ## Without Pennsylvania and North Carolina combined
 
 In 2020, Biden won Pennsylvania's 20 electoral votes by 80,555 and Trump won North Carolina's 15 electoral votes by 74,483. These were the too largest margins in 2020 in count. As between the two candidates[^1], disregarding third party candidates, the margin in Pennsylvania was 1.18% in favor of Biden and the margin in North Carolina was 1.37% in favor of Trump.

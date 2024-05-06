@@ -19,3 +19,24 @@ end
 
 header = ["Scenario", "Electoral Votes", "Biden Total", "Trump Total", "Result"]
 pretty_table(without_states["PA"]; backend = Val(:html), header = header, standalone = false)
+
+using DataFrames
+
+mutable struct MetaFrame
+    meta::Dict{Symbol, Any}
+    data::DataFrame
+end
+
+"""
+# Example usage
+df = DataFrame(name=["John", "Jane"], age=[28, 34])
+meta_info = Dict(:source => "Survey Data", :year => 2021)
+
+df = MetaFrame(meta_info, df)
+
+meta_info = Dict(
+  :source => "Census Bureau, Current Population Survey, November 2022", 
+  :title  =>  "Table 4c. Reported Voting and Registration of the Total Voting-Age Population, by Age, for States: November 2022",
+  :url => "https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-586.html", 
+  :title => "Table 4c. Reported Voting and Registration of the Total Voting-Age Population, by Age, for States: November 2022")
+"""
