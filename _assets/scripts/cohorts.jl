@@ -12,6 +12,9 @@ end
 cohort2020 = CSV.read("../data/2020age.csv",DataFrame)
 cohort2022 = CSV.read("../data/2022age.csv",DataFrame)
 
+using Missings
+cohort2022.vot = map(Int64, collect(skipmissing(cohort2022.vot)))
+
 meta_info_2020 = Dict(
   :source => "U.S. Census Bureau, Current Population Survey, November 2022",
   :url    => "https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-585.html",
@@ -28,3 +31,10 @@ meta_cohort_2022 = MetaFrames(meta_info_2022, cohort2022)
 
 @save "../objs/meta_cohort_2020.bson" meta_cohort_2020
 @save "../objs/meta_cohort_2022.bson" meta_cohort_2022
+
+
+cohort2020 = cohort2020[cohort2020.cohort .== "18 to 24", :]
+cohort2022 = cohort2022[cohort2022.cohort .== "18 to 24 years", :]
+
+
+

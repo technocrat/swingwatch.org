@@ -6,7 +6,8 @@ title = "Resources"
 
 ## Polling and statistical analysis
 
-### [Glossary of terms](/glossary)
+* [Glossary of polling terms](/glossary)
+* [Glossary of statistical terms](/stats)
 
 ### Recent developments in polling methods
 
@@ -42,5 +43,5 @@ title = "Resources"
 
 ## Further Reading
 
-[Shirani-Mehr, H., Rothschild, D., Goel, S., & Gelman, A. (2018). Disentangling Bias and Variance in Election Polls. Journal of the American Statistical Association, 113(522), 607–614.]( https://doi.org/10.1080/01621459.2018.1448823)
-
+* [Shirani-Mehr, H., Rothschild, D., Goel, S., & Gelman, A. (2018). Disentangling Bias and Variance in Election Polls. Journal of the American Statistical Association, 113(522), 607–614.]( https://doi.org/10.1080/01621459.2018.1448823)
+* [Cognitive bias](/cognition)

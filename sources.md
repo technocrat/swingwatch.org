@@ -69,13 +69,33 @@ df = CSV.read(IOBuffer(csv_data), DataFrame)
   - [Quinnipiac: conducted April](https://poll.qu.edu/images/polling/nc/nc04102024_ncaa99.pdf)
   - [WRAL: conducted March](https://wwwcache.wral.com/asset/news/state/nccapitol/2024/03/12/21325738/3247050-Poll_Report_-_PollPrint-DMID1-628w54pob.pdf)
 * Wisconsin
-    - [CBS: conducted April](https://www.scribd.com/document/727319278/Cbsnews-20240428-WI-SUN)
+  - [CBS: conducted April](https://www.scribd.com/document/727319278/Cbsnews-20240428-WI-SUN)
   - [Fox News: conducted April](https://static.foxnews.com/foxnews.com/content/uploads/2024/04/b002d3b3-Fox_April-11-16-2024_WISCONSIN_Topline_April-18-Release.pdf)
+  - [Quinnipiac conducted May](https://poll.qu.edu/images/polling/wi/wi05082024_wizz76.pdf)
 ---
 [^3]: Results selected for analysis here are for two-way preference questions if asked, except in cases in which a third-party candidate qualified for the ballot prior to poll. For polls with only multiple choices in addition to Biden and Trump, their respective percentages of responses were recorded. In all cases those percentages were normalized to 100% to reflect the relative, not absolute, support of the two candidates.
 ---
+
+## Demographics
+
+The U.S. Census Bureau's American Community Survey (ACS) is an ongoing survey that provides vital information on a yearly basis about the United States and its people. U.S. Census Bureau, 2022 American Community Survey 1-Year Estimates offers a snapshot of various demographic, social, economic, and housing characteristics across the nation.
+
+Key points about the data source:
+
+1. Conducted by the U.S. Census Bureau: The ACS is administered by the U.S. Census Bureau, which is the primary government agency responsible for collecting and providing data about the American people and economy.
+
+2. Annual survey: Unlike the decennial census, which is conducted every ten years, the ACS is conducted annually, providing more up-to-date information on the U.S. population.
+
+3. Representative sample: The ACS surveys a representative sample of the population, and the data is then weighted to produce estimates for the entire population.
+
+4. 1-Year Estimates: The 1-Year Estimates provide data for geographic areas with populations of 65,000 or more. These estimates are the most current but have a larger margin of error compared to 5-Year Estimates due to the smaller sample size.
+
+5. Wide range of topics: The ACS collects data on various subjects, including demographics, education, employment, income, housing, and more.
+
 ## AI research and drafting aids
 
 * [Claude Opus](https://claude.ai)
 * [Copilot](https://bing.com)
 * [GPT-4](https://perplexity.ai)
+
+

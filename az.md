@@ -801,3 +801,1400 @@ The scenario tables below show the possible outcomes that involve Arizona. Arizo
 * Polls close:                  7 pm Mountain
 * Mail-in voting:               Yes
 * Early in-person voting:       Yes
+
+## 2022 demographcis
+
+~~~
+<table>
+  <thead>
+    <tr class = "header">
+      <th style = "text-align: right;">Label (GROUPING)/th>
+      <th style = "text-align: right;">AZ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">TOTAL NUMBER OF RACES REPORTED</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Total population</td>
+      <td style = "text-align: right;">7,359,197</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        One race</td>
+      <td style = "text-align: right;">80.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Two races</td>
+      <td style = "text-align: right;">18.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Three races</td>
+      <td style = "text-align: right;">0.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Four or more races</td>
+      <td style = "text-align: right;">0.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">SEX AND AGE</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Total population</td>
+      <td style = "text-align: right;">7,359,197</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Male</td>
+      <td style = "text-align: right;">50.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Female</td>
+      <td style = "text-align: right;">50.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Under 5 years</td>
+      <td style = "text-align: right;">5.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">5 to 17 years</td>
+      <td style = "text-align: right;">16.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">18 to 24 years</td>
+      <td style = "text-align: right;">9.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">25 to 34 years</td>
+      <td style = "text-align: right;">13.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">35 to 44 years</td>
+      <td style = "text-align: right;">12.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">45 to 54 years</td>
+      <td style = "text-align: right;">11.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">55 to 64 years</td>
+      <td style = "text-align: right;">11.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">65 to 74 years</td>
+      <td style = "text-align: right;">10.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">75 years and over</td>
+      <td style = "text-align: right;">8.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Median age (years)</td>
+      <td style = "text-align: right;">38.8</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">18 years and over</td>
+      <td style = "text-align: right;">78.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">21 years and over</td>
+      <td style = "text-align: right;">74.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">62 years and over</td>
+      <td style = "text-align: right;">22.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">65 years and over</td>
+      <td style = "text-align: right;">18.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Under 18 years</td>
+      <td style = "text-align: right;">1,587,603</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male</td>
+      <td style = "text-align: right;">51.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female</td>
+      <td style = "text-align: right;">48.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">18 years and over</td>
+      <td style = "text-align: right;">5,771,594</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male</td>
+      <td style = "text-align: right;">49.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female</td>
+      <td style = "text-align: right;">50.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">18 to 34 years</td>
+      <td style = "text-align: right;">1,736,629</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male</td>
+      <td style = "text-align: right;">51.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female</td>
+      <td style = "text-align: right;">48.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">35 to 64 years</td>
+      <td style = "text-align: right;">2,653,011</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male</td>
+      <td style = "text-align: right;">50.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female</td>
+      <td style = "text-align: right;">49.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">65 years and over</td>
+      <td style = "text-align: right;">1,381,954</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male</td>
+      <td style = "text-align: right;">46.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female</td>
+      <td style = "text-align: right;">54.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">RELATIONSHIP</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Population in households</td>
+      <td style = "text-align: right;">7,204,265</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Householder or spouse</td>
+      <td style = "text-align: right;">58.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Unmarried partner</td>
+      <td style = "text-align: right;">3.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Child</td>
+      <td style = "text-align: right;">27.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Other relatives</td>
+      <td style = "text-align: right;">7.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Other nonrelatives</td>
+      <td style = "text-align: right;">3.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">HOUSEHOLDS BY TYPE</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Households</td>
+      <td style = "text-align: right;">2,850,377</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Family households</td>
+      <td style = "text-align: right;">64.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">With own children of the householder under 18 years</td>
+      <td style = "text-align: right;">25.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Married-couple family</td>
+      <td style = "text-align: right;">46.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">With own children of the householder under 18 years</td>
+      <td style = "text-align: right;">16.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Female householder, no spouse present, family</td>
+      <td style = "text-align: right;">11.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">With own children of the householder under 18 years</td>
+      <td style = "text-align: right;">5.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Nonfamily households</td>
+      <td style = "text-align: right;">35.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male householder</td>
+      <td style = "text-align: right;">16.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                Living alone</td>
+      <td style = "text-align: right;">12.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                Not living alone</td>
+      <td style = "text-align: right;">4.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female householder</td>
+      <td style = "text-align: right;">18.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                Living alone</td>
+      <td style = "text-align: right;">14.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                Not living alone</td>
+      <td style = "text-align: right;">3.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Average household size</td>
+      <td style = "text-align: right;">2.53</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Average family size</td>
+      <td style = "text-align: right;">3.10</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">MARITAL STATUS</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Population 15 years and over</td>
+      <td style = "text-align: right;">6,063,874</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Now married, except separated</td>
+      <td style = "text-align: right;">47.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Widowed</td>
+      <td style = "text-align: right;">5.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Divorced</td>
+      <td style = "text-align: right;">11.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Separated</td>
+      <td style = "text-align: right;">1.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Never married</td>
+      <td style = "text-align: right;">34.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Male 15 years and over</td>
+      <td style = "text-align: right;">3,017,075</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Now married, except separated</td>
+      <td style = "text-align: right;">48.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Widowed</td>
+      <td style = "text-align: right;">2.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Divorced</td>
+      <td style = "text-align: right;">9.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Separated</td>
+      <td style = "text-align: right;">1.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Never married</td>
+      <td style = "text-align: right;">37.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Female 15 years and over</td>
+      <td style = "text-align: right;">3,046,799</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Now married, except separated</td>
+      <td style = "text-align: right;">46.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Widowed</td>
+      <td style = "text-align: right;">7.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Divorced</td>
+      <td style = "text-align: right;">12.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Separated</td>
+      <td style = "text-align: right;">1.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Never married</td>
+      <td style = "text-align: right;">31.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">SCHOOL ENROLLMENT</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Population 3 years and over enrolled in school</td>
+      <td style = "text-align: right;">1,720,168</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Nursery school, preschool</td>
+      <td style = "text-align: right;">4.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Kindergarten</td>
+      <td style = "text-align: right;">4.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Elementary school (grades 1-8)</td>
+      <td style = "text-align: right;">41.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">High school (grades 9-12)</td>
+      <td style = "text-align: right;">23.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        College or graduate school</td>
+      <td style = "text-align: right;">26.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Male 3 years and over enrolled in school</td>
+      <td style = "text-align: right;">858,679</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Percent enrolled in kindergarten to grade 12</td>
+      <td style = "text-align: right;">70.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Percent enrolled in college or graduate school</td>
+      <td style = "text-align: right;">24.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Female 3 years and over enrolled in school</td>
+      <td style = "text-align: right;">861,489</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Percent enrolled in kindergarten to grade 12</td>
+      <td style = "text-align: right;">67.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Percent enrolled in college or graduate school</td>
+      <td style = "text-align: right;">28.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">EDUCATIONAL ATTAINMENT</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Population 25 years and over</td>
+      <td style = "text-align: right;">5,053,656</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Less than high school diploma</td>
+      <td style = "text-align: right;">10.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        High school graduate (includes equivalency)</td>
+      <td style = "text-align: right;">23.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Some college or associate&apos;s degree</td>
+      <td style = "text-align: right;">32.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Bachelor&apos;s degree</td>
+      <td style = "text-align: right;">20.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Graduate or professional degree</td>
+      <td style = "text-align: right;">12.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        High school graduate or higher</td>
+      <td style = "text-align: right;">89.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male, high school graduate or higher</td>
+      <td style = "text-align: right;">88.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female, high school graduate or higher</td>
+      <td style = "text-align: right;">89.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Bachelor&apos;s degree or higher</td>
+      <td style = "text-align: right;">33.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male, bachelor&apos;s degree or higher</td>
+      <td style = "text-align: right;">32.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female, bachelor&apos;s degree or higher</td>
+      <td style = "text-align: right;">33.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">FERTILITY</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Women 15 to 50 years</td>
+      <td style = "text-align: right;">1,680,785</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Women 15 to 50 years who had a birth in the past 12 months</td>
+      <td style = "text-align: right;">86,548</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Unmarried women 15 to 50 years who had a birth in the past 12 months</td>
+      <td style = "text-align: right;">30,022</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">As a percent of all women with a birth in the past 12 months</td>
+      <td style = "text-align: right;">34.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">RESPONSIBILITY FOR GRANDCHILDREN UNDER 18 YEARS</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Population 30 years and over</td>
+      <td style = "text-align: right;">4,546,407</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Grandparents living with grandchild(ren)</td>
+      <td style = "text-align: right;">3.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Grandparents responsible for grandchildren as a percentage of living with grandchildren</td>
+      <td style = "text-align: right;">31.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">VETERAN STATUS</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Civilian population 18 years and over</td>
+      <td style = "text-align: right;">5,747,509</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Civilian veteran</td>
+      <td style = "text-align: right;">7.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">DISABILITY STATUS</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Total civilian noninstitutionalized population</td>
+      <td style = "text-align: right;">7,251,924</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With a disability</td>
+      <td style = "text-align: right;">13.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Civilian noninstitutionalized population under 18 years</td>
+      <td style = "text-align: right;">1,585,268</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With a disability</td>
+      <td style = "text-align: right;">5.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Civilian noninstitutionalized population 18 to 64 years</td>
+      <td style = "text-align: right;">4,304,458</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With a disability</td>
+      <td style = "text-align: right;">10.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Civilian noninstitutionalized population 65 years and older</td>
+      <td style = "text-align: right;">1,362,198</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With a disability</td>
+      <td style = "text-align: right;">31.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">RESIDENCE 1 YEAR AGO</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Population 1 year and over</td>
+      <td style = "text-align: right;">7,285,247</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Same house</td>
+      <td style = "text-align: right;">86.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Different house in the U.S.</td>
+      <td style = "text-align: right;">13.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Same county</td>
+      <td style = "text-align: right;">7.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Different county</td>
+      <td style = "text-align: right;">5.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                Same state</td>
+      <td style = "text-align: right;">1.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                Different state</td>
+      <td style = "text-align: right;">3.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Abroad</td>
+      <td style = "text-align: right;">0.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">PLACE OF BIRTH, CITIZENSHIP STATUS AND YEAR OF ENTRY</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Native</td>
+      <td style = "text-align: right;">6,396,509</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Male</td>
+      <td style = "text-align: right;">50.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Female</td>
+      <td style = "text-align: right;">49.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Foreign born</td>
+      <td style = "text-align: right;">962,688</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Male</td>
+      <td style = "text-align: right;">48.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Female</td>
+      <td style = "text-align: right;">51.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Foreign born; naturalized U.S. citizen</td>
+      <td style = "text-align: right;">477,730</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male</td>
+      <td style = "text-align: right;">46.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female</td>
+      <td style = "text-align: right;">53.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Foreign born; not a U.S. citizen</td>
+      <td style = "text-align: right;">484,958</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male</td>
+      <td style = "text-align: right;">50.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female</td>
+      <td style = "text-align: right;">49.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Population born outside the United States</td>
+      <td style = "text-align: right;">962,688</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Entered 2010 or later</td>
+      <td style = "text-align: right;">27.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Entered 2000 to 2009</td>
+      <td style = "text-align: right;">22.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Entered before 2000</td>
+      <td style = "text-align: right;">49.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">WORLD REGION OF BIRTH OF FOREIGN BORN</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Foreign-born population excluding population born at sea</td>
+      <td style = "text-align: right;">962,688</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Europe</td>
+      <td style = "text-align: right;">8.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Asia</td>
+      <td style = "text-align: right;">21.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Africa</td>
+      <td style = "text-align: right;">4.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Oceania</td>
+      <td style = "text-align: right;">0.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Latin America</td>
+      <td style = "text-align: right;">61.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Northern America</td>
+      <td style = "text-align: right;">3.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">LANGUAGE SPOKEN AT HOME AND ABILITY TO SPEAK ENGLISH</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Population 5 years and over</td>
+      <td style = "text-align: right;">6,965,784</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        English only</td>
+      <td style = "text-align: right;">73.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Language other than English</td>
+      <td style = "text-align: right;">26.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Speak English less than &quot;very well&quot;</td>
+      <td style = "text-align: right;">8.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">EMPLOYMENT STATUS</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Population 16 years and over</td>
+      <td style = "text-align: right;">5,961,733</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        In labor force</td>
+      <td style = "text-align: right;">60.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Civilian labor force</td>
+      <td style = "text-align: right;">60.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                Employed</td>
+      <td style = "text-align: right;">57.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                Unemployed</td>
+      <td style = "text-align: right;">2.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                    Unemployment Rate</td>
+      <td style = "text-align: right;">4.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Armed Forces</td>
+      <td style = "text-align: right;">0.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Not in labor force</td>
+      <td style = "text-align: right;">39.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Females 16 years and over</td>
+      <td style = "text-align: right;">2,995,623</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        In labor force</td>
+      <td style = "text-align: right;">55.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Civilian labor force</td>
+      <td style = "text-align: right;">55.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                Employed</td>
+      <td style = "text-align: right;">52.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                Unemployed</td>
+      <td style = "text-align: right;">2.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">                    Unemployment Rate</td>
+      <td style = "text-align: right;">4.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">COMMUTING TO WORK</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Workers 16 years and over</td>
+      <td style = "text-align: right;">3,402,927</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Car, truck, or van - drove alone</td>
+      <td style = "text-align: right;">66.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Car, truck, or van - carpooled</td>
+      <td style = "text-align: right;">9.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Public transportation (excluding taxicab)</td>
+      <td style = "text-align: right;">0.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Walked</td>
+      <td style = "text-align: right;">1.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Other means</td>
+      <td style = "text-align: right;">2.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Worked from home</td>
+      <td style = "text-align: right;">19.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Mean travel time to work (minutes)</td>
+      <td style = "text-align: right;">24.9</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">OCCUPATION</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Civilian employed population 16 years and over</td>
+      <td style = "text-align: right;">3,441,676</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Management, business, science, and arts occupations</td>
+      <td style = "text-align: right;">40.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Service occupations</td>
+      <td style = "text-align: right;">17.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Sales and office occupations</td>
+      <td style = "text-align: right;">22.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Natural resources, construction, and maintenance occupations</td>
+      <td style = "text-align: right;">8.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Production, transportation, and material moving occupations</td>
+      <td style = "text-align: right;">10.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Male civilian employed population 16 years and over</td>
+      <td style = "text-align: right;">1,855,786</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Management, business, science, and arts occupations</td>
+      <td style = "text-align: right;">37.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Service occupations</td>
+      <td style = "text-align: right;">15.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Sales and office occupations</td>
+      <td style = "text-align: right;">17.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Natural resources, construction, and maintenance occupations</td>
+      <td style = "text-align: right;">15.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Production, transportation, and material moving occupations</td>
+      <td style = "text-align: right;">15.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Female civilian employed population 16 years and over</td>
+      <td style = "text-align: right;">1,585,890</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Management, business, science, and arts occupations</td>
+      <td style = "text-align: right;">45.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Service occupations</td>
+      <td style = "text-align: right;">19.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Sales and office occupations</td>
+      <td style = "text-align: right;">28.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Natural resources, construction, and maintenance occupations</td>
+      <td style = "text-align: right;">0.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Production, transportation, and material moving occupations</td>
+      <td style = "text-align: right;">6.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">INDUSTRY</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Civilian employed population 16 years and over</td>
+      <td style = "text-align: right;">3,441,676</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Agriculture, forestry, fishing and hunting, and mining</td>
+      <td style = "text-align: right;">1.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Construction</td>
+      <td style = "text-align: right;">7.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Manufacturing</td>
+      <td style = "text-align: right;">7.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Wholesale trade</td>
+      <td style = "text-align: right;">1.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Retail trade</td>
+      <td style = "text-align: right;">12.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Transportation and warehousing, and utilities</td>
+      <td style = "text-align: right;">6.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Information</td>
+      <td style = "text-align: right;">1.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Finance and insurance, and real estate and rental and leasing</td>
+      <td style = "text-align: right;">8.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Professional, scientific, and management, and administrative and waste management services</td>
+      <td style = "text-align: right;">12.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Educational services, and health care and social assistance</td>
+      <td style = "text-align: right;">21.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Arts, entertainment, and recreation, and accommodation and food services</td>
+      <td style = "text-align: right;">9.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Other services (except public administration)</td>
+      <td style = "text-align: right;">4.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Public administration</td>
+      <td style = "text-align: right;">4.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">CLASS OF WORKER</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Civilian employed population 16 years and over</td>
+      <td style = "text-align: right;">3,441,676</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Private wage and salary workers</td>
+      <td style = "text-align: right;">80.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Government workers</td>
+      <td style = "text-align: right;">13.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Self-employed workers in own not incorporated business</td>
+      <td style = "text-align: right;">5.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Unpaid family workers</td>
+      <td style = "text-align: right;">0.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">INCOME IN THE PAST 12 MONTHS (IN 2022 INFLATION-ADJUSTED DOLLARS)</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Households</td>
+      <td style = "text-align: right;">2,850,377</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Median household income (dollars)</td>
+      <td style = "text-align: right;">74,568</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With earnings</td>
+      <td style = "text-align: right;">75.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Mean earnings (dollars)</td>
+      <td style = "text-align: right;">102,494</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With Social Security income</td>
+      <td style = "text-align: right;">33.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Mean Social Security income (dollars)</td>
+      <td style = "text-align: right;">23,704</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With Supplemental Security Income</td>
+      <td style = "text-align: right;">4.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Mean Supplemental Security Income (dollars)</td>
+      <td style = "text-align: right;">10,678</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With cash public assistance income</td>
+      <td style = "text-align: right;">1.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Mean cash public assistance income (dollars)</td>
+      <td style = "text-align: right;">3,724</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With retirement income</td>
+      <td style = "text-align: right;">26.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Mean retirement income (dollars)</td>
+      <td style = "text-align: right;">31,251</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With Food Stamp/SNAP benefits</td>
+      <td style = "text-align: right;">10.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Families</td>
+      <td style = "text-align: right;">1,843,530</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Median family income (dollars)</td>
+      <td style = "text-align: right;">88,679</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Married-couple family</td>
+      <td style = "text-align: right;">72.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Median income (dollars)</td>
+      <td style = "text-align: right;">103,182</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male householder, no spouse present, family</td>
+      <td style = "text-align: right;">9.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Median income (dollars)</td>
+      <td style = "text-align: right;">64,779</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female householder, no husband present, family</td>
+      <td style = "text-align: right;">18.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Median income (dollars)</td>
+      <td style = "text-align: right;">51,649</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Individuals</td>
+      <td style = "text-align: right;">7,359,197</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Per capita income (dollars)</td>
+      <td style = "text-align: right;">39,819</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With earnings for full-time, year-round workers:</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male</td>
+      <td style = "text-align: right;">1,478,889</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female</td>
+      <td style = "text-align: right;">1,080,442</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Mean earnings (dollars)  for full-time, year-round workers:</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male</td>
+      <td style = "text-align: right;">81,123</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female</td>
+      <td style = "text-align: right;">64,020</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Median earnings (dollars) full-time, year-round workers:</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Male</td>
+      <td style = "text-align: right;">57,628</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">            Female</td>
+      <td style = "text-align: right;">50,126</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">HEALTH INSURANCE COVERAGE</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Civilian noninstitutionalized population</td>
+      <td style = "text-align: right;">7,251,924</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With private health insurance</td>
+      <td style = "text-align: right;">63.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With public coverage</td>
+      <td style = "text-align: right;">38.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        No health insurance coverage</td>
+      <td style = "text-align: right;">10.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">POVERTY RATES FOR FAMILIES AND PEOPLE FOR WHOM POVERTY STATUS IS DETERMINED</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    All families</td>
+      <td style = "text-align: right;">8.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">With related children of the householder under 18 years</td>
+      <td style = "text-align: right;">13.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">With related children of the householder under 5 years only</td>
+      <td style = "text-align: right;">11.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Married-couple family</td>
+      <td style = "text-align: right;">5.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">With related children of the householder under 18 years</td>
+      <td style = "text-align: right;">7.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">With related children of the householder under 5 years only</td>
+      <td style = "text-align: right;">5.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Female householder, no spouse present, family</td>
+      <td style = "text-align: right;">20.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">With related children of the householder under 18 years</td>
+      <td style = "text-align: right;">29.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">With related children of the householder under 5 years only</td>
+      <td style = "text-align: right;">31.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    All people</td>
+      <td style = "text-align: right;">12.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Under 18 years</td>
+      <td style = "text-align: right;">15.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Related children of the householder under 18 years</td>
+      <td style = "text-align: right;">15.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Related children of the householder under 5 years</td>
+      <td style = "text-align: right;">17.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Related children of the householder 5 to 17 years</td>
+      <td style = "text-align: right;">14.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">18 years and over</td>
+      <td style = "text-align: right;">11.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">18 to 64 years</td>
+      <td style = "text-align: right;">11.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">65 years and over</td>
+      <td style = "text-align: right;">10.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        People in families</td>
+      <td style = "text-align: right;">9.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Unrelated individuals 15 years and over</td>
+      <td style = "text-align: right;">22.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">HOUSING TENURE</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Occupied housing units</td>
+      <td style = "text-align: right;">2,850,377</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Owner-occupied housing units</td>
+      <td style = "text-align: right;">67.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Renter-occupied housing units</td>
+      <td style = "text-align: right;">32.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Average household size of owner-occupied unit</td>
+      <td style = "text-align: right;">2.59</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Average household size of renter-occupied unit</td>
+      <td style = "text-align: right;">2.39</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">UNITS IN STRUCTURE</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Occupied housing units</td>
+      <td style = "text-align: right;">2,850,377</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">1-unit, detached or attached</td>
+      <td style = "text-align: right;">71.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">2 to 4 units</td>
+      <td style = "text-align: right;">4.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">5 or more units</td>
+      <td style = "text-align: right;">16.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Mobile home, boat, RV, van, etc.</td>
+      <td style = "text-align: right;">8.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">YEAR STRUCTURE BUILT</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Occupied housing units</td>
+      <td style = "text-align: right;">2,850,377</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Built 2020 or later</td>
+      <td style = "text-align: right;">2.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Built 2010 to 2019</td>
+      <td style = "text-align: right;">12.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Built 2000 to 2009</td>
+      <td style = "text-align: right;">23.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Built 1980 to 1999</td>
+      <td style = "text-align: right;">32.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Built 1960 to 1979</td>
+      <td style = "text-align: right;">21.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Built 1940 to 1959</td>
+      <td style = "text-align: right;">6.6%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Built 1939 or earlier</td>
+      <td style = "text-align: right;">1.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">VEHICLES AVAILABLE</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Occupied housing units</td>
+      <td style = "text-align: right;">2,850,377</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        None</td>
+      <td style = "text-align: right;">5.1%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">1 or more</td>
+      <td style = "text-align: right;">94.9%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">HOUSE HEATING FUEL</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Occupied housing units</td>
+      <td style = "text-align: right;">2,850,377</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Gas</td>
+      <td style = "text-align: right;">35.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Electricity</td>
+      <td style = "text-align: right;">60.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        All other fuels</td>
+      <td style = "text-align: right;">3.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        No fuel used</td>
+      <td style = "text-align: right;">1.0%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">SELECTED CHARACTERISTICS</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Occupied housing units</td>
+      <td style = "text-align: right;">2,850,377</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        No telephone service available</td>
+      <td style = "text-align: right;">1.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">1.01 or more occupants per room</td>
+      <td style = "text-align: right;">4.5%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME IN THE PAST 12 MONTHS</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Housing units with a mortgage (excluding units where SMOC cannot be computed)</td>
+      <td style = "text-align: right;">1,180,749</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Less than 30 percent</td>
+      <td style = "text-align: right;">73.7%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">30 percent or more</td>
+      <td style = "text-align: right;">26.3%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">OWNER CHARACTERISTICS</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Owner-occupied housing units</td>
+      <td style = "text-align: right;">1,921,746</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Median value (dollars)</td>
+      <td style = "text-align: right;">402,800</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Median selected monthly owner costs with a mortgage (dollars)</td>
+      <td style = "text-align: right;">1,616</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Median selected monthly owner costs without a mortgage (dollars)</td>
+      <td style = "text-align: right;">468</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME IN THE PAST 12 MONTHS</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Occupied units paying rent (excluding units where GRAPI cannot be computed)</td>
+      <td style = "text-align: right;">867,455</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">Less than 30 percent</td>
+      <td style = "text-align: right;">47.2%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">30 percent or more</td>
+      <td style = "text-align: right;">52.8%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">GROSS RENT</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Occupied units paying rent</td>
+      <td style = "text-align: right;">887,809</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        Median gross rent (dollars)</td>
+      <td style = "text-align: right;">1,450</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">COMPUTERS AND INTERNET USE</td>
+      <td style = "text-align: right;"></td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">    Total households</td>
+      <td style = "text-align: right;">2,850,377</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With a computer</td>
+      <td style = "text-align: right;">96.4%</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">        With a broadband Internet subscription</td>
+      <td style = "text-align: right;">91.1%</td>
+    </tr>
+  </tbody>
+</table>
+~~~
+
+[Source: U.S. Census Bureau, 2022 American Community Survey 1-Year Estimates](https://data.census.gov/table/ACSDP1Y2022.DP05?q=DP05&g=040XX00US04,13,26,32,37,42,55)

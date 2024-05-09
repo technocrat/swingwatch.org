@@ -1,13 +1,14 @@
 include("bayes_head.jl")
+
 function filter_empty_entries(dict::Dict{Pollster, Vector{Poll}})
     return Dict(poll=> polls for (poll, polls) in dict if !isempty(polls))
 end
 
 using BSON: @save, @load
-@load "../objs/apr_polls.bson" months
+#@load "../objs/apr_polls.bson" months
 
-MO = apr
-ST = GA
+MO = may
+ST = WI
 
 current_mon = filter_empty_entries(months[MO][ST])
 

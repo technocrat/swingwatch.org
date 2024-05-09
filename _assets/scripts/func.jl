@@ -40,3 +40,14 @@ meta_info = Dict(
   :url => "https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-586.html", 
   :title => "Table 4c. Reported Voting and Registration of the Total Voting-Age Population, by Age, for States: November 2022")
 """
+
+function radix(df::DataFrame)
+	for col in names(df)
+	    if eltype(df[:, col]) == Int64
+	        df[:, col] = format.(df[:, col], commas=true)
+	    end
+	end
+end
+
+# Display the formatted DataFrame
+display(kids)

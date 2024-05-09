@@ -18,7 +18,10 @@ extends Nevada’s federal election past the Election Day established by Congres
 
 > Exercising that power [pursuant to the Electors Clause], Congress has established that “[t]he electors of President and Vice President shall be appointed, in each State, *on election day*, in accordance with the laws of the State enacted prior to election day.” 3 U.S.C. §1. [*emphasis added*]
 
-which could also be used to argue that electors must be appointed on election day and that no votes counted after midnight can be considered.
+which could also be used to argue that electors must be appointed on election day andwhich could also be used to argue that electors must be appointed on election day and that no votes counted after midnight can be considered. However, that argument runs counter to 3 U.S.C. § 5
+
+> (a)In general.--
+> (1) Certification.--Not later than the date that is 6 days before the time fixed for the meeting of the electors, the executive of each State shall issue a certificate of ascertainment of appointment of electors, under and in pursuance of the laws of such State providing for such appointment and ascertainment enacted prior to election day.
 
 ## Pennsylvania envelope signature requirement
 
@@ -37,3 +40,5 @@ because the Materiality Provision
 **Comment**: Unless the Supreme Court takes up this case on its so-called shadow docket, this opinion settles the specific question for Pennsylvania only, but provides **legal precedent** that other jurisdictions may look to for deciding whether similar technical requirements for accepting or rejecting questioned ballots are valid under the Materiality Provision. **Georgia** is the only other of the swing states directly connected to the case. It was one of 16 states for whom Alabama appeared as amicus on the prevailing side.
 
 Whether the signature requirement is invalid under the **Equal Protection Clause** is not yet settled. The decision applied to the 2022 election. The district court's summary judgment put the number of votes affected at under 10,000.
+
+For an overview of state practices regarding mail in balloting, *see* [Voting Outside the Polling Place: Absentee, All-Mail and other Voting at Home Options](https://www.ncsl.org/elections-and-campaigns/voting-outside-the-polling-place)

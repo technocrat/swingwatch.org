@@ -3,7 +3,7 @@ title = "Immigration"
 +++
 
 
-Apart from voter concerns regarding irregular border crossings for purposes of making asylum claims, non-citizens might also be concerned by Trump's statements regarding mass deportation. Not all non-citizens are in undocumented status; however in three states, non-citizens constitute approximately 10% of the total adult population. While they are not themselves voters, some are in family relationship with those who are or have otherwise may influence voters.
+Apart from voter concerns regarding irregular border crossings for purposes of making asylum claims, non-citizens might also be concerned by Trump's statements regarding mass deportation. Not all non-citizens are in undocumented status; however in three states, non-citizens constitute approximately 10% of the total adult population. While they are not themselves voters, some are in family relationship with those who are or have otherwise may influence voters. A Pew estimate reported by [NBC](https://apple.news/A5Uc7V1GrTGiGQ6ybsMayig) estimates that one in 25 US households include an undocumented member. Also, [Pew reports](https://www.pewresearch.org/short-reads/2022/02/14/around-four-in-ten-latinos-in-u-s-worry-that-they-or-someone-close-to-them-could-be-deported/) that in 2021 about 25% of U.S. born Latinos are concerned about how potential deportations under a second Trump administration would affect someone they know.
 
 ~~~
 <table>
@@ -64,3 +64,6 @@ Apart from voter concerns regarding irregular border crossings for purposes of m
 ~~~
 
 Source: Table 4c. Reported Voting and Registration of the Total Voting-Age Population, by Age, for States: November 2022 [Census Bureau, Current Population Survey, November 2022](https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-586.html)
+
+### Arizona governor vetos bill to give police power to enforce immigration laws
+Governor Hobbs [vetoed] a [proposed ballot measure](https://www.azleg.gov/legtext/56leg/2R/proposed/S.HCR20600442.pdf) that would have called for Arizona police to deport persons independently of federal officials. A measure is pending by the legislature to make it a ballot issue. May 8, 2024
