@@ -150,7 +150,7 @@ Key points about simple random sampling error:
 
 6. Confidence intervals: Sampling error is often quantified using confidence intervals, which provide a range of plausible values for the population parameter based on the sample data and the desired level of confidence.
 
-7. Margin of error: The margin of error is a common way to express sampling error, representing the maximum expected difference between the sample statistic and the population parameter at a given confidence level.
+7. Margin of error: The margin of error is a common way to express sampling error, representing the maximum expected difference between the sample statistic and the population parameter at a given confidence level. [*See more*](/moe)
 
 Factors affecting simple random sampling error:
 

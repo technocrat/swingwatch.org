@@ -16,7 +16,7 @@ end
 # Example usage
 # df = DataFrame(name=["John", "Jane"], age=[28, 34])
 # meta_info = Dict(:source => "Survey Data", :year => 2021)
-# df_meta = DataFrame_withMeta(meta_info, df)
+# df_meta = MetaFrames(meta_info, df)
 
 turnout   = CSV.read("../data/vote2022.csv",DataFrame)
 meta_info = Dict(
@@ -38,11 +38,6 @@ turnout           = turnout[1:36,:]
 state_turnout     = turnout[turnout.cohort .== "Total", :]
 turnout           = turnout[turnout.cohort .!= "Total", :]
 vote2022          = MetaFrames(meta_info,turnout)
-
-
-
-
-
 
 state_turnout.st     = convert.(String, state_turnout.st)
 state_turnout.totpop = convert.(Int64, state_turnout.totpop)
