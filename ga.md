@@ -2181,3 +2181,21 @@ The scenario tables below show the possible outcomes that involve Georgia.  Geor
 ~~~
 
 [Source: U.S. Census Bureau, 2022 American Community Survey 1-Year Estimates](https://data.census.gov/table/ACSDP1Y2022.DP05?q=DP05&g=040XX00US04,13,26,32,37,42,55)
+
+## Runoff rules
+
+In the 2020 United States presidential election, Georgia initially reported its results on November 4th, 2020, the day after Election Day. However, due to the very close margin between Joe Biden and Donald Trump, Georgia conducted a statewide hand recount of all ballots.
+
+The hand recount began on November 13th and concluded on November 19th, 2020. The recount affirmed Biden's win in the state.
+
+However, the Trump campaign requested another machine recount, which was conducted from November 24th to December 2nd, 2020. This second recount also confirmed Biden's victory.
+
+Georgia officially certified its election results on November 20th, 2020, after the hand recount. The results were then re-certified on December 7th, 2020, following the machine recount.
+
+So in total, it took about a month from Election Day for Georgia to finalize its presidential election results through the initial count, hand recount, machine recount, and two certifications, with the final certification occurring on December 7th, 2020. The same procedures are in place today.
+
+[Georgia Code § 21-2-495 (2022)](https://law.justia.com/codes/georgia/2022/title-21/chapter-2/article-12/section-21-2-495/) provides for a recount in an election.
+
+> Whenever the difference between the number of votes received by a candidate who has been declared … elected to an office in an election … and the number of votes received by any other candidate … not declared so … elected or … shall be not more than one-half of 1 percent of the total votes which were cast for such office therein, any such candidate … receiving a sufficient number of votes so that the difference between his or her vote and that of a candidate declared … elected … is not more than one-half of 1 percent of the total votes cast, within a period of two business days following the certification of the election results, shall have the right to a recount of the votes cast, if such request is made in writing by the losing candidate. If the office sought is a federal or state office voted upon by the electors of more than one county, the request shall be made to the Secretary of State who shall direct that the recount be performed in all counties in which electors voted for such office and notify the superintendents of the several counties involved of the request.
+
+The 0.5% (0.005) threshhold applies to the total number of votes cast for the position, rather than only the votes received by the two top candidates. In the 2020 election, the total number of votes cast for president was 4,999,960, while the votes for Biden and Trump numbered 4,935,487 and the 0.5% recount threshold was, accordingly 24,951 votes vs 24,678, a difference of only 273 votes. In the 2020 election, the difference between Biden and Trump was 11,779 votes, well within either measure. 

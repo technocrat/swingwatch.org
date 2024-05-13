@@ -24,8 +24,7 @@ Automatic when margin between first and second place candidates is less than or 
 
 ## Wisconsin
 
-	On request when margin between first and second place candidates is less than or equal to 1% of the votes cast for the office. 
-	[Citation](https://docs.legis.wisconsin.gov/statutes/statutes/9/01) **32,981** votes, based on 2020 election.
+On request when margin between first and second place candidates is less than or equal to 1% of the votes cast for the office. [Citation](https://docs.legis.wisconsin.gov/statutes/statutes/9/01) **32,981** votes, based on 2020 election.
 
 ## Nevada
 

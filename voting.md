@@ -36,11 +36,7 @@ On May 3, 2025, the Republican National Committee and others filed a complaint i
 
 REPUBLICAN NATIONAL COMMITTEE; NEVADA REPUBLICAN PARTY; DONALD J.TRUMP FOR PRESIDENT 2024, INC.; and DONALD J. SZYMANSKI, Plaintiffs, v.CARI-ANN BURGESS, in her official capacity as the Washoe County Registrar of Voters; JAN GALASSINI, in her official capacity as the Washoe County Clerk; LORENA PORTILLO, in her official capacity as the Clark County Registrar of Voters; LYNN MARIE GOYA, in her official capacity as the Clark County Clerk; FRANCISCO AGUILAR, in his official capacity as Nevada Secretary of State, Defendants. Case 3:24-cv-00198.
 
-> Nevada contravenes those federal laws by counting mail ballots that are
-received up to four business days after Election Day, Nev. Rev. Stat. §293.269921(1)(b),
-and by presuming that ballots received up to three days after Election Day “have been
-postmarked on or before the day of the election,” id. §293.269921(2). Nevada effectively
-extends Nevada’s federal election past the Election Day established by Congress. 
+> Nevada contravenes those federal laws by counting mail ballots that are received up to four business days after Election Day, Nev. Rev. Stat. §293.269921(1)(b), and by presuming that ballots received up to three days after Election Day “have been postmarked on or before the day of the election,” id. §293.269921(2). Nevada effectively extends Nevada’s federal election past the Election Day established by Congress. 
 
 **Comment** Similar actions can be expected in all other jurisdictions that have similar arrangements. One of the allegations cites the 
 
@@ -53,5 +49,14 @@ which could also be used to argue that electors must be appointed on election da
 
 [Kemp signs three election bills](https://www.ledger-enquirer.com/news/politics-government/election/article288415383.html) that 
 
-> Senate Bill 189, which makes it easier to file mass voter challenges, eliminates QR codes from paper ballots, and eases requirements for third-party presidential candidates to get on Georgia’s ballot. House Bill 1207, which allows fewer voting machines on election days, requires poll workers to be U.S. citizens, and allows closer access for poll watchers. House Bill 974, which requires the secretary of state to set up a statewide system to scan and post paper ballots at a minimum resolution and requires more audits of statewide election results. [From the link]
+> Senate Bill 189, which makes it easier to file mass voter challenges, eliminates QR codes from paper ballots, and eases requirements for third-party presidential candidates to get on Georgia’s ballot. House Bill 1207, which allows fewer voting machines on election days, requires poll workers to be U.S. citizens, and allows closer access for poll watchers. House Bill 974, which requires the secretary of state to set up a statewide system to scan and post paper ballots at a minimum resolution and requires more audits of statewide election results. [From the link] [Text](https://www.documentcloud.org/documents/24654559-ga-passed-senate-bill-189) [Summary](/sb189)
 
+
+**Georgia Election Board** considering rule to require "reasonable inquiry"
+
+> “‘Certify the result of a primary, election, or runoff,’ or words to that effect, means to attest, after reasonable inquiry, that the tabulation and canvassing of the election are complete and accurate and that the results are a true and accurate accounting of all votes cast in that election.”
+
+[AJC reporting](https://www.ajc.com/politics/georgia-election-board-proposes-a-new-rule-before-certifying-results/TW3BLX7EQFAQ7I4OD43IF6SSZ4/)
+
+A decision is pending in *Donna Curling, et al. v. Brad Raffensperger, et al.*, No. 1:17-CV-2989-AT, in Federal District Court for the Northern District of Georgia in which an attempt is being made to require paper ballots. [Summary](/curling)
+ 
