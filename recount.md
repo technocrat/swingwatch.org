@@ -12,7 +12,7 @@ On request when margin between first and second place candidates is less than or
 
 ## North Carolina
 
-On request when margin between first and second place candidates is less than or equal to 0.5% of the total vote for all candidates for the office or 10,000 votes, whichever is less. **27,625** votes, based on 2020 election. [Citation](https://ncleg.gov/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_163/Article_15A.pdf) 
+On request when margin between first and second place candidates is less than or equal to 0.5% of the total vote for all candidates for the office or 10,000 votes, whichever is less.    [Citation](https://ncleg.gov/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_163/Article_15A.pdf) 
 
 ## Michigan
 
