@@ -149,36 +149,51 @@ end
 """
     radix(df::DataFrame)
 
-Format numerals in a DataFrame as strings with thousands separators.
+Format integer columns in a DataFrame with thousands separators and return a new DataFrame
+with the formatted columns appended.
 
 # Arguments
-- `df::DataFrame`: The DataFrame whose integer columns will be formatted.
+- `df::DataFrame`: The input DataFrame containing the columns to be formatted.
 
-# Description
-The `radix` function iterates over each column in the provided DataFrame. If a column's element type is `Int64`, it formats the numerals in that column as strings with thousands separators (commas).
+# Returns
+- `DataFrame`: A new DataFrame with the original columns and the formatted columns appended.
+                The formatted columns have "_formatted" suffix added to their names.
 
 # Example
 ```julia
-using DataFrames
+julia> using DataFrames
 
-df = DataFrame(A = [1000, 2000, 3000], B = ["text1", "text2", "text3"], C = [4000, 5000, 6000])
-radix(df)
-println(df)
-# Output:
-# 3×3 DataFrame
-#  Row │ A         B      C        
-#      │ String   String String   
-# ─────┼──────────────────────────
-#    1 │ 1,000    text1  4,000    
-#    2 │ 2,000    text2  5,000    
-#    3 │ 3,000    text3  6,000    
+julia> df = DataFrame(A = [1000, 2000, 3000], B = ["text1", "text2", "text3"], C = [4000, 5000, 6000])
+3×3 DataFrame
+ Row │ A      B      C
+     │ Int64  String Int64
+─────┼──────────────────────
+   1 │  1000  text1   4000
+   2 │  2000  text2   5000
+   3 │  3000  text3   6000
+
+julia> radix(df)
+3×5 DataFrame
+ Row │ A      B      C      A_formatted  C_formatted
+     │ Int64  String Int64  String       String
+─────┼───────────────────────────────────────────────
+   1 │  1000  text1   4000  "1,000"      "4,000"
+   2 │  2000  text2   5000  "2,000"      "5,000"
+   3 │  3000  text3   6000  "3,000"      "6,000"
+In the example above, the radix function is applied to a DataFrame df containing integer
+columns. The function formats the integer columns with thousands separators and returns a new
+DataFrame with the formatted columns appended. The formatted columns have "_formatted" suffix
+added to their names.
 """
 function radix(df::DataFrame)
-	for col in names(df)
-      if eltype(df[!, col]) <: Integer
-	        df[:, col] = format.(df[:, col], commas=true)
-	    end
-	end
+  formatted_df = copy(df)
+  for col in names(formatted_df)
+  if eltype(formatted_df[:, col]) <: Integer
+    formatted_col_name = Symbol(string(col) * "_formatted")
+    formatted_df[:, formatted_col_name] = map(x -> format(x, commas=true), formatted_df[:, col])
+    end
+  end
+  return formatted_df
 end
 #------------------------------------------------------------------
 """

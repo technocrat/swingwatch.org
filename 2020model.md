@@ -91,13 +91,118 @@ Although there will be a different electorate, for the reasons explained [here](
 
 
 ### Pennsylvania
-
+~~~
+<table>
+  <thead>
+    <tr class = "header">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5059</td>
+      <td style = "text-align: right;">0.5059</td>
+      <td style = "text-align: right;">0.5058</td>
+      <td style = "text-align: right;">0.5055</td>
+      <td style = "text-align: right;">0.5063</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/PA_2020.png" style="width: 100%; display: block;">
+~~~
 ### Georgia
+~~~
+<table>
+  <thead>
+    <tr class = "header">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5008</td>
+      <td style = "text-align: right;">0.5016</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0007</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/GA_2020.png" style="width: 100%; display: block;">
 
+~~~
 ### North Carolina
-
+~~~
+<table>
+  <thead>
+    <tr class = "header">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.4932</td>
+      <td style = "text-align: right;">0.4932</td>
+      <td style = "text-align: right;">0.4933</td>
+      <td style = "text-align: right;">0.4927</td>
+      <td style = "text-align: right;">0.4936</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0002</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/NC_2020.png" style="width: 100%; display: block;">
+~~~
 ### Michigan
 
+~~~
+<table>
+  <thead>
+    <tr class = "header">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5141</td>
+      <td style = "text-align: right;">0.5141</td>
+      <td style = "text-align: right;">0.5142</td>
+      <td style = "text-align: right;">0.5137</td>
+      <td style = "text-align: right;">0.5145</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0008</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/MI_2020.png" style="width: 100%; display: block;">
+~~~
 ### Arizona
 ~~~
 <table>
@@ -128,5 +233,60 @@ Although there will be a different electorate, for the reasons explained [here](
 ~~~
 
 ### Wisconsin
+~~~
+<table>
+  <thead>
+    <tr class = "header">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5032</td>
+      <td style = "text-align: right;">0.5032</td>
+      <td style = "text-align: right;">0.5033</td>
+      <td style = "text-align: right;">0.5027</td>
+      <td style = "text-align: right;">0.5037</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0002</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/WI_2020.png" style="width: 100%; display: block;">
 
+~~~
 ### Nevada
+
+~~~
+<table>
+  <thead>
+    <tr class = "header">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5122</td>
+      <td style = "text-align: right;">0.5122</td>
+      <td style = "text-align: right;">0.5123</td>
+      <td style = "text-align: right;">0.5114</td>
+      <td style = "text-align: right;">0.5131</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/NV_2020.png" style="width: 100%; display: block;">
+~~~

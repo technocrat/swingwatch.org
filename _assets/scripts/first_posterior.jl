@@ -1,8 +1,8 @@
 include("first_posterior_forepart.jl")
 
-ST        = last_election[1, "st"]
-num_wins  = last_election[1, "num_wins"]
-num_votes = last_election[1, "num_votes"]
+ST        = last_election[7, "st"]
+num_wins  = last_election[7, "num_wins"]
+num_votes = last_election[7, "num_votes"]
 
 chain  = sample(election_model(num_votes, num_wins), sampler, num_samples, init_params=init_params)
 
@@ -29,8 +29,13 @@ kde_result = kde(p_vec)
 
 include("first_posterior_aftpart.jl")
 # Display posterior density plot
-draw_density()
+posterior_interval = p_intv
+fig = draw_density()
 deep = deepcopy(chain)
 @save ("../objs/$ST" * "_2020_p_sample.bson") deep
 save(("../img/models/$ST" * "_2020.png"), fig)
+out       = Vector(p_df[1,:])
+out       = round.(out,digits = 4)
+p_df[1,:] = out
+pretty_table(p_df,backend=Val(:html))
 
