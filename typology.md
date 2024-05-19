@@ -8,6 +8,7 @@ Voters who did not vote in 2020 are not reflected in the results of the 2020 ele
 
 ## Did not vote in 2020
 ### Will not vote in 2024
+
 * Ineligible
   + died
   + moved away
@@ -15,7 +16,9 @@ Voters who did not vote in 2020 are not reflected in the results of the 2020 ele
   + still too young
   + still not a naturalized citizen
 * Still not politically engaged  
+
 ### Will vote in 2024
+
 * Became eligible
     - moved in
     - voting rights restored
@@ -26,13 +29,17 @@ Voters who did not vote in 2020 are not reflected in the results of the 2020 ele
 ## Did vote in 2020
 
 ### Will not vote in 2024
+
 These voters are captured in the priors part of the model but are not reflected, for the most part, in the polling.
+
 * Became ineligible
-  - died
-	- moved away
-	- incarcerated
+    - died
+    - moved way
+    - incarcerated
 * Became politically unengaged 	
+
 ### Will vote in 2024
+
 These voters may be picked up by polling.
 
 * Still politically engaged and will flip

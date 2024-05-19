@@ -19,7 +19,8 @@ prior_probs[ST]
 summarystats(current_samples)
 
 # Trace plot
-plot(current_samples)
+plot(
+)
 
 # Autocorrelation
 autocor(current_samples)

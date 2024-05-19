@@ -1,56 +1,3 @@
-function find_True_positive(Pr_Positive_True::Float64,Pr_Positive_False::Float64, Pr_True::Float64)
-	Pr_Positive  = Pr_Positive_True * Pr_True + Pr_Positive_False * ( 1 - Pr_True )
-	posterior    = Pr_Positive_True * Pr_True / Pr_Positive
-	return(posterior)
-end
-find_True_positive(0.95,0.01,0.001)
-# 0.08683729433272395
-
-using Distributions
-using StatsBase
-
-using Distributions
-using StatsBase
-using StatsPlots
-
-function find_posterior(successes::Int, trials::Int, grid_points::Int, num_samples::Int)
-    # Create a grid of probabilities
-    p_grid = range(0, stop=1, length=grid_points)
-    
-    # Uniform prior
-    prob_p = fill(1.0, grid_points)
-    
-    # Likelihood of observing 'successes' successes in 'trials' trials
-    prob_data = [pdf(Binomial(trials, p), successes) for p in p_grid]
-    
-    # Posterior distribution
-    posterior = prob_data .* prob_p
-    
-    # Normalize the posterior
-    posterior ./= sum(posterior)
-    
-    # Sample from the posterior distribution
-    samples = sample(p_grid, Weights(posterior), num_samples, replace=true)
-    
-    # Create a density plot of the samples
-    density(samples, xlabel="Probability", ylabel="Density", title="Posterior Density")
-    
-    # Calculate the sum of posterior probabilities where p < 0.5
-    prob_less_than_half = sum(posterior[p_grid .< 0.5])
-    
-    # Calculate the proportion of samples between 0.5 and 0.75
-    proportion = sum((samples .> 0.5) .& (samples .< 0.75)) / length(samples)
-    
-    return p_grid, posterior, samples, prob_less_than_half, proportion
-end
-
-p_grid, posterior, samples, prob_less_than_half, proportion = find_posterior(6, 9, 1000, 10000)
-println("Probability that p < 0.5: ", prob_less_than_half)
-println("Proportion of samples between 0.5 and 0.75: ", proportion)
-
-
-quantile(samples,[0.1,0.9])
-
 """
 Yes, there are several additional metrics you can consider when assessing the election outcome based on your Bayesian model:
 
@@ -109,8 +56,7 @@ For each poll, we extract the relevant information (date, sample size, and candi
 
 After processing all the polls, we can retrieve the filtered estimates of the true state using the `get_filtered_state` function.
 
-DynamicLinearModels.jl provides a wide range of options for customizing the state-space model, handling missing data, and estimating model parameters. You can refer to the package documentation for more details and examples: 
-
+DynamicLinearModels.jl provides a wide range of options for customizing the state-space model, handling missing data, and estimating model parameters. You can refer to the package documentation for more details and examples: https://github.com/LAMPSPUC/DynamicLinearModels.jl
 
 Keep in mind that Kalman filtering assumes that the polls are noisy observations of the true state, and it tries to estimate the true state by balancing the information from the polls with the assumed dynamics of the state. The performance of the Kalman filter will depend on the quality of the polls, the appropriateness of the state-space model, and the choice of model parameters.
 

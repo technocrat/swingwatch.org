@@ -12,22 +12,23 @@ Find and return rows from the `outcomes` DataFrame where the `combo` column does
 # Examples
 ```julia
 without_states(["PA", "NC"])
+header = ["Scenario", "Electoral Votes", "Biden Total", "Trump Total", "Result"]
+pretty_table(without_states["PA"]; backend = Val(:html), header = header, standalone = false)
 """
 function without_states(lost::Vector{String})
     filter(row -> all(!occursin(state, row.combo) for state in lost) && row.result == "Biden", outcomes)
 end
+#------------------------------------------------------------------
+"""
+  metahelp()
 
-header = ["Scenario", "Electoral Votes", "Biden Total", "Trump Total", "Result"]
-pretty_table(without_states["PA"]; backend = Val(:html), header = header, standalone = false)
-
-using DataFrames
+shows MetaFrame structure and give example
 
 mutable struct MetaFrame
     meta::Dict{Symbol, Any}
     data::DataFrame
 end
 
-"""
 # Example usage
 df = DataFrame(name=["John", "Jane"], age=[28, 34])
 meta_info = Dict(:source => "Survey Data", :year => 2021)
@@ -40,6 +41,10 @@ meta_info = Dict(
   :url => "https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-586.html", 
   :title => "Table 4c. Reported Voting and Registration of the Total Voting-Age Population, by Age, for States: November 2022")
 """
+function metahelp()
+  println("Display with ?metahelp")
+end
+#------------------------------------------------------------------
 
 function radix(df::DataFrame)
 	for col in names(df)
@@ -49,5 +54,3 @@ function radix(df::DataFrame)
 	end
 end
 
-# Display the formatted DataFrame
-display(kids)

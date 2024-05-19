@@ -14,7 +14,7 @@ include("constants.jl")
 include("utils.jl")
 
 # see college_table.jl for production of 2024vote.csv
-base    = CSV.read("../objs/2020vote.csv", DataFrame)
+# base = CSV.read("../objs/2020vote.csv", DataFrame)
 base =  CSV.read("/Users/ro/projects/swingwatch/_assets/objs/2024vote.csv", DataFrame)
 
 # see CreateOutcomes.jl for production of outcome.csv
