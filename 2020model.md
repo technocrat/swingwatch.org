@@ -74,9 +74,9 @@ Models of the 2020 election for each of the seven swing states considers the num
 - **Mean**: The average of the 10,000 random samples constructed. It coincides with the Biden Proportion in the table above.
 - **Mode**: The probability that occurs most often.
 - **q025**: The value below which 2.5% of the probabilities occur.
-- **q975**: The value above which 97.5% of the probabilities occur.
+- **q975**: The value below which 97.5% of the probabilities occur.
 - **MCSE**: Measures the precision of Markov Chain Monte Carlo (MCMC) estimates by quantifying the variability due to finite sampling. Smaller values indicate better precision. Values close to zero indicate that little of the variability in the estimate arises from using MCMC.
-- **R-hat**: Assesses the convergence of MCMC chains by comparing within-chain and between-chain variances. Values close to 1 indicate convergence.
+- **Rhat**: Assesses the convergence of MCMC chains by comparing within-chain and between-chain variances. Values close to 1 indicate convergence.
 
 These diagnostics are used to assess usefulness of models using MCMC methods in determining whether the MCMC chains have run long enough to provide accurate and stable estimates of the posterior distributions.
 

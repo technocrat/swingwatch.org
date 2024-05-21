@@ -2,6 +2,14 @@
 title = "Wisconsin"
 +++
 
+* [April assessment](#april-assessment)
+* [March assessment](#march-assessment)
+* [2020 election](#2020-election)
+* [Scenarios](#scenarios)
+* [State facts](#state-facts)
+* [2022 demographics](#2022-demographics)
+* [Terms](#terms)
+
 ## April assessment
 
 The model results, which take into account the 2020 election results in Wisconsin as prior probabilities and incorporate the April 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Wisconsin (0.5003) compared to Trump (0.4997) if the election were held at the time the polling data was collected. This indicates an insufficient margin to differ from a tie and it cannot be said that Biden would win Wisconsin's 10 electoral votes based on the current polling data and the historical voting patterns. Moreover, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates.

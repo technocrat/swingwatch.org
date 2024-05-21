@@ -2,6 +2,14 @@
 title = "Nevada"
 +++
 
+* [April assessment](#april-assessment)
+* [March assessment](#march-assessment)
+* [2020 election](#2020-election)
+* [Scenarios](#scenarios)
+* [State facts](#state-facts)
+* [2022 demographics](#2022-demographics)
+* [Terms](#terms)
+
 ## April assessment
 The model results, which take into account the 2020 election results in Nevada as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Nevada (0.5047) compared to Trump (0.4953) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Nevada's 6 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in substitution of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
 ~~~

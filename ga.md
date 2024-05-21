@@ -2,6 +2,15 @@
 title = "Georgia"
 +++
 
+* [April assessment](#april-assessment)
+* [March assessment](#march-assessment)
+* [2020 election](#2020-election)
+* [Scenarios](#scenarios)
+* [State facts](#state-facts)
+* [2022 demographics](#2022-demographics)
+* [Runoff rules](#runoff-rules)
+* [Terms](#terms)
+
 ## April assessment
 
 The model results, which take into account the 2020 election results in Georgia as prior probabilities and incorporate the April 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Georgia (0.5005) compared to Trump (0.4995) if the election were held at the time the polling data was collected. This indicates a no likelihood that either Biden nor Trump would win Georgia's 16 electoral votes based on the current polling data and the historical voting patterns. Moreover, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. 
@@ -2179,6 +2188,20 @@ The scenario tables below show the possible outcomes that involve Georgia.  Geor
 
 
 ~~~
+
+## Terms
+
+- **Median**: Half of the random samples have probabilities greater than and half less than the median.
+- **Mean**: The average of the 10,000 random samples constructed. It coincides with the Biden Proportion in the table above.
+- **Mode**: The probability that occurs most often.
+- **q025**: The value below which 2.5% of the probabilities occur.
+- **q975**: The value below which 97.5% of the probabilities occur.
+- **MCSE**: Measures the precision of Markov Chain Monte Carlo (MCMC) estimates by quantifying the variability due to finite sampling. Smaller values indicate better precision. Values close to zero indicate that little of the variability in the estimate arises from using MCMC.
+- **Rhat**: Assesses the convergence of MCMC chains by comparing within-chain and between-chain variances. Values close to 1 indicate convergence.
+
+These diagnostics are used to assess usefulness of models using MCMC methods in determining whether the MCMC chains have run long enough to provide accurate and stable estimates of the posterior distributions.
+
+The density plots show the number of observations on the $y$-axis and the probabilities on the $x$-axis. The shaded area in the center shows the credible interval within which 95% of the probabilities fall. The unshaded areas show that the proportion of the votes are likely to be either less than or greater than the credible interval.
 
 [Source: U.S. Census Bureau, 2022 American Community Survey 1-Year Estimates](https://data.census.gov/table/ACSDP1Y2022.DP05?q=DP05&g=040XX00US04,13,26,32,37,42,55)
 

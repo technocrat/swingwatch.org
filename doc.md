@@ -4,6 +4,10 @@ title = "Resources"
 
 ## [Sources](../sources)
 
+## Election night
+
+These [scenarios](/calls) when the election could be called if swing states are called in the same order as in 2020.
+
 ## Polling and statistical analysis
 
 * [Glossary of polling terms](/glossary)

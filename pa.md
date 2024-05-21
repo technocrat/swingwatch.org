@@ -2,6 +2,14 @@
 title = "Pennsylvania"
 +++
 
+* [April assessment](#april-assessment)
+* [March assessment](#march-assessment)
+* [2020 election](#2020-election)
+* [Scenarios](#scenarios)
+* [State facts](#state-facts)
+* [2022 demographics](#2022-demographics)
+* [Terms](#terms)
+
 ## April assessment
 
 The model results, which take into account the 2020 election results in Pennsylvania as prior probabilities and incorporate the two April 2024 presidential preference polling dataset, suggest a slightly higher posterior probability for Biden winning Pennsylvania (0.5013) compared to Trump (0.4987) if the election were held at the time the polling data was collected. This is little changed from March, will had more polls conducted during the  month. This indicates a narrow likelihood that Biden would win Pennsylvania's 19 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.

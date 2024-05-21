@@ -2,83 +2,110 @@
 title = "Arizona"
 +++
 
+
+* [April assessment](#april-assessment)
+* [March assessment](#march-assessment)
+* [2020 election](#2020-election)
+* [Scenarios](#scenarios)
+* [State facts](#state-facts)
+* [2022 demographics](#2022-demographics)
+* [Terms](#terms)
+
 ## April assessment
 
-The model results, which take into account the 2020 election results in 
-Arizona as prior probabilities and incorporate the April 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Arizona (0.5019) compared to Trump (0.4981) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Arizona's 11 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer. 
+The model results, which take into account the March model as prior probabilities and incorporates the April 2024 presidential preference polling data,shows no substantial difference—although Biden trails in polls in March and April, he still have a higher likelihood of winning Arizona than not.
 
 ~~~
 <table>
   <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">Parameter</th>
-      <th style = "text-align: right;">Mean</th>
-      <th style = "text-align: right;">Mode</th>
-      <th style = "text-align: right;">Median</th>
-      <th style = "text-align: right;">CI_Lower</th>
-      <th style = "text-align: right;">CI_Upper</th>
+    <tr class = "header">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">Biden likelihood</td>
-      <td style = "text-align: right;">0.5019</td>
-      <td style = "text-align: right;">0.5267</td>
-      <td style = "text-align: right;">0.5026</td>
-      <td style = "text-align: right;">0.0615</td>
-      <td style = "text-align: right;">0.9396</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">Trump likelihood</td>
-      <td style = "text-align: right;">0.4981</td>
-      <td style = "text-align: right;">0.4733</td>
-      <td style = "text-align: right;">0.4974</td>
-      <td style = "text-align: right;">0.0604</td>
-      <td style = "text-align: right;">0.9385</td>
+      <td style = "text-align: right;">0.5015</td>
+      <td style = "text-align: right;">0.5015</td>
+      <td style = "text-align: right;">0.5014</td>
+      <td style = "text-align: right;">0.501</td>
+      <td style = "text-align: right;">0.5021</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0002</td>
     </tr>
   </tbody>
 </table>
+<img src="/assets/img/models/AZ_apr.png" style="width: 100%; display: block;">
+
 ~~~
 ## March assessment
 
-The model results, which take into account the 2020 election results in Arizona as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest an even posterior probability for Biden if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Arizona's 11 electoral votes based on the current polling data and the historical voting patterns. Moreover, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—provides some evidence that the contest is too close to reasonably assume a winner.
+The model results, which take into account the 2020 election model as the prior probability and incorporate suggest a possibly smaller margin of victory for Biden compared to 2020 if the election were held at the time the polling data was collected. Moreover, the narrow credible intervals (which are analogous to confidence intervals) indicate minor uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—provides some evidence that the contest is narrowing but that Biden is leading.
 ~~~
 <table>
   <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">Parameter</th>
-      <th style = "text-align: right;">Mean</th>
-      <th style = "text-align: right;">Mode</th>
-      <th style = "text-align: right;">Median</th>
-      <th style = "text-align: right;">CI_Lower</th>
-      <th style = "text-align: right;">CI_Upper</th>
+    <tr class = "header">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">Biden likelihood</td>
-      <td style = "text-align: right;">0.5005</td>
-      <td style = "text-align: right;">0.4717</td>
-      <td style = "text-align: right;">0.5012</td>
-      <td style = "text-align: right;">0.0600</td>
-      <td style = "text-align: right;">0.9394</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">Trump likelihood</td>
-      <td style = "text-align: right;">0.4995</td>
-      <td style = "text-align: right;">0.5283</td>
-      <td style = "text-align: right;">0.4988</td>
-      <td style = "text-align: right;">0.0606</td>
-      <td style = "text-align: right;">0.9400</td>
+      <td style = "text-align: right;">0.5015</td>
+      <td style = "text-align: right;">0.5015</td>
+      <td style = "text-align: right;">0.5015</td>
+      <td style = "text-align: right;">0.501</td>
+      <td style = "text-align: right;">0.5021</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">0.9999</td>
     </tr>
   </tbody>
 </table>
+<img src="/assets/img/models/AZ_mar.png" style="width: 100%; display: block;">
 ~~~
-Please note that results are shown to four decimal places **solely** to show how closely the results are tied. With the same total as 2020, Biden's margin would be fewer than 2,000 votes rather than the slightly over 10,000.
 
+## 2020 election
+
+~~~
+<table>
+  <thead>
+    <tr class = "header">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5016</td>
+      <td style = "text-align: right;">0.5016</td>
+      <td style = "text-align: right;">0.5015</td>
+      <td style = "text-align: right;">0.501</td>
+      <td style = "text-align: right;">0.5021</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0002</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/AZ_2020.png" style="width: 100%; display: block;">
+~~~
 ## Scenarios
 
-The scenario tables below show the possible outcomes that involve Arizona. Arizona is represented in 64 of the 128 possible outcomes.  *The combinations shown are those representing swing states taken by Biden.*
+The scenario tables below show the possible outcomes that involve Arizona. Arizona is represented in 64 of the 128 possible outcomes. *The combinations shown are those representing swing states taken by Biden.*
 
 ### Biden wins
 ~~~
@@ -780,7 +807,7 @@ The scenario tables below show the possible outcomes that involve Arizona. Arizo
 </table>
 ~~~
 
-## Arizona facts
+## State facts
 
 * Electoral votes:              11 
 * 2020:                         Biden
@@ -2198,3 +2225,17 @@ The scenario tables below show the possible outcomes that involve Arizona. Arizo
 ~~~
 
 [Source: U.S. Census Bureau, 2022 American Community Survey 1-Year Estimates](https://data.census.gov/table/ACSDP1Y2022.DP05?q=DP05&g=040XX00US04,13,26,32,37,42,55)
+
+## Terms
+
+- **Median**: Half of the random samples have probabilities greater than and half less than the median.
+- **Mean**: The average of the 10,000 random samples constructed. It coincides with the Biden Proportion in the table above.
+- **Mode**: The probability that occurs most often.
+- **q025**: The value below which 2.5% of the probabilities occur.
+- **q975**: The value below which 97.5% of the probabilities occur.
+- **MCSE**: Measures the precision of Markov Chain Monte Carlo (MCMC) estimates by quantifying the variability due to finite sampling. Smaller values indicate better precision. Values close to zero indicate that little of the variability in the estimate arises from using MCMC.
+- **Rhat**: Assesses the convergence of MCMC chains by comparing within-chain and between-chain variances. Values close to 1 indicate convergence.
+
+These diagnostics are used to assess usefulness of models using MCMC methods in determining whether the MCMC chains have run long enough to provide accurate and stable estimates of the posterior distributions.
+
+The density plots show the number of observations on the $y$-axis and the probabilities on the $x$-axis. The shaded area in the center shows the credible interval within which 95% of the probabilities fall. The unshaded areas show that the proportion of the votes are likely to be either less than or greater than the credible interval.

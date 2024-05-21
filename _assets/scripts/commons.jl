@@ -119,6 +119,10 @@ println(filtered_dict)
 # Dict{Pollster, Vector{Poll}} with 1 entry:
 #   Pollster("Pollster A") => Poll[Poll("Question 1", "Response 1"), Poll("Question 2", "Response 2")]
 """
+function remove_empties(the_month::Dict) 
+  Dict(state => Dict(pollster => polls for (pollster, polls) in pollsters 
+  if !isempty(polls)) for (state, pollsters) in the_month)
+end
 #------------------------------------------------------------------
 """
   metahelp()
@@ -239,3 +243,12 @@ function format_table(summary_df::DataFrame)
              standalone = false)
 end
 #------------------------------------------------------------------
+function remove_empties(the_month::Dict) 
+  Dict(state => Dict(pollster => polls for (pollster, polls) in pollsters 
+  if !isempty(polls)) for (state, pollsters) in the_month)
+end
+#------------------------------------------------------------------
+function process_polls(polls::Vector{Poll})
+    result = Int64.(collect(collect([(p.biden_support, p.sample_size) for p in polls])[1]))
+    return [Int64(floor(result[1] / 100 * result[2])), result[2]]
+end

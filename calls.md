@@ -31,7 +31,6 @@ These calls were made based on the AP's analysis of the vote counts and remainin
 
 [^1]: [Georgia](https://apnews.com/article/election-2020-joe-biden-donald-trump-georgia-elections-bb997641ca36805c0f53f406a3529d87)
 [^2]: [North Carolina](https://apnews.com/article/why-ap-called-north-carolina-for-trump-e07a1022a90ef31ca7c75d32eea1849b)
-)
 [^3]: [Pennsylvania](https://apnews.com/article/ap-called-pennsylvania-joe-biden-why-f7dba7b31bd21ec2819a7ac9d2b028d3)
 [^4]: [North Carolina] (https://www.npr.org/sections/live-updates-2020-election-results/2020/11/13/933960799/president-trump-wins-north-carolina-per-ap-nearly-wrapping-state-calls)
 [^5]: [Michigan] (https://apnews.com/article/ap-explains-michigan-joe-biden-4a2bbdd10e3bb42a2e129f91c6ae5132)
