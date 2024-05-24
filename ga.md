@@ -9,85 +9,116 @@ title = "Georgia"
 * [State facts](#state-facts)
 * [2022 demographics](#2022-demographics)
 * [Runoff rules](#runoff-rules)
+* [Other news](#other-news)
 * [Terms](#terms)
+
+
+In the 2020 election President Biden won 50.12% (0.5012) of the votes cast for Biden or Trump in Georgia. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 50.08% to 50.16%. Next, the results of each month's polling are factored in on a rolling basis.
+
+Assessments are based on three criteria.
+
+* **Stringent**—Biden wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than his 2020 margin.
+* **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
+* **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
 
 ## April assessment
 
-The model results, which take into account the 2020 election results in Georgia as prior probabilities and incorporate the April 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Georgia (0.5005) compared to Trump (0.4995) if the election were held at the time the polling data was collected. This indicates a no likelihood that either Biden nor Trump would win Georgia's 16 electoral votes based on the current polling data and the historical voting patterns. Moreover, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. 
+Biden win under the *Relaxed* criterion.
 
 ~~~
 <table>
   <thead>
     <tr class = "header headerLastRow">
-      <th style = "text-align: right;">Parameter</th>
-      <th style = "text-align: right;">Mean</th>
-      <th style = "text-align: right;">Mode</th>
-      <th style = "text-align: right;">Median</th>
-      <th style = "text-align: right;">CI_Lower</th>
-      <th style = "text-align: right;">CI_Upper</th>
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">Biden likelihood</td>
-      <td style = "text-align: right;">0.5005</td>
-      <td style = "text-align: right;">0.4262</td>
-      <td style = "text-align: right;">0.5010</td>
-      <td style = "text-align: right;">0.0609</td>
-      <td style = "text-align: right;">0.9391</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">Trump likelihood</td>
-      <td style = "text-align: right;">0.4995</td>
-      <td style = "text-align: right;">0.5738</td>
-      <td style = "text-align: right;">0.4990</td>
-      <td style = "text-align: right;">0.0609</td>
-      <td style = "text-align: right;">0.9391</td>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5011</td>
+      <td style = "text-align: right;">0.5007</td>
+      <td style = "text-align: right;">0.5016</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0007</td>
     </tr>
   </tbody>
 </table>
 
+<img src="/assets/img/models/GA_apr.png" style="width: 100%; display: block;">
+
 ~~~
 ## March assessment
 
-The model results, which take into account the 2020 election results in Georgia as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Georgia (0.5008) compared to Trump (0.4992) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Georgia's 16 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
+Biden win under the *Relaxed* criterion.
+
+~~~
+
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5013</td>
+      <td style = "text-align: right;">0.5007</td>
+      <td style = "text-align: right;">0.5016</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<img src="/assets/img/models/GA_mar.png" style="width: 100%; display: block;">
+
+~~~
+
+## 2020 election
 
 ~~~
 <table>
   <thead>
     <tr class = "header headerLastRow">
-      <th style = "text-align: right;">Parameter</th>
-      <th style = "text-align: right;">Mean</th>
-      <th style = "text-align: right;">Mode</th>
-      <th style = "text-align: right;">Median</th>
-      <th style = "text-align: right;">CI_Lower</th>
-      <th style = "text-align: right;">CI_Upper</th>
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">Biden likelihood</td>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5013</td>
       <td style = "text-align: right;">0.5008</td>
-      <td style = "text-align: right;">0.3462</td>
-      <td style = "text-align: right;">0.5008</td>
-      <td style = "text-align: right;">0.0613</td>
-      <td style = "text-align: right;">0.9391</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">Trump likelihood</td>
-      <td style = "text-align: right;">0.4992</td>
-      <td style = "text-align: right;">0.6538</td>
-      <td style = "text-align: right;">0.4992</td>
-      <td style = "text-align: right;">0.0609</td>
-      <td style = "text-align: right;">0.9387</td>
+      <td style = "text-align: right;">0.5016</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
     </tr>
   </tbody>
-</table
+</table>
+
+<img src="/assets/img/models/GA_2020.png" style="width: 100%; display: block;">
 ~~~
-
-
-Please note that results are shown to four decimal places **solely** to prevent rounding to leave the misleading impression that the results are exactly tied.
-
 ## Scenarios
 
 The scenario tables below show the possible outcomes that involve Georgia.  Georgia is represented in 64 of the 128 possible outcomes. *The combinations shown are those representing swing states taken by Biden.*
@@ -765,10 +796,6 @@ The scenario tables below show the possible outcomes that involve Georgia.  Geor
   </tbody>
 </table>
 ~~~
-
-## Other News
-
-> Over the past three years, about 140,000 registered voters moved to Georgia, according to the analysis. When accounting for Georgia voters who moved away, the state had a net gain of about 30,000 voters. Roughly two out of every three of these new voters are likely Democrats, accounting for about 19,500 voters. About 6,000 of the new voters are likely Republican voters, while the remainder were not registered with a political party in their prior state or belonged to third parties.
 
 ## Georgia facts
 
@@ -2222,3 +2249,21 @@ So in total, it took about a month from Election Day for Georgia to finalize its
 > Whenever the difference between the number of votes received by a candidate who has been declared … elected to an office in an election … and the number of votes received by any other candidate … not declared so … elected or … shall be not more than one-half of 1 percent of the total votes which were cast for such office therein, any such candidate … receiving a sufficient number of votes so that the difference between his or her vote and that of a candidate declared … elected … is not more than one-half of 1 percent of the total votes cast, within a period of two business days following the certification of the election results, shall have the right to a recount of the votes cast, if such request is made in writing by the losing candidate. If the office sought is a federal or state office voted upon by the electors of more than one county, the request shall be made to the Secretary of State who shall direct that the recount be performed in all counties in which electors voted for such office and notify the superintendents of the several counties involved of the request.
 
 The 0.5% (0.005) threshhold applies to the total number of votes cast for the position, rather than only the votes received by the two top candidates. In the 2020 election, the total number of votes cast for president was 4,999,960, while the votes for Biden and Trump numbered 4,935,487 and the 0.5% recount threshold was, accordingly 24,951 votes vs 24,678, a difference of only 273 votes. In the 2020 election, the difference between Biden and Trump was 11,779 votes, well within either measure. 
+
+## Other News
+
+> Over the past three years, about 140,000 registered voters moved to Georgia, according to the analysis. When accounting for Georgia voters who moved away, the state had a net gain of about 30,000 voters. Roughly two out of every three of these new voters are likely Democrats, accounting for about 19,500 voters. About 6,000 of the new voters are likely Republican voters, while the remainder were not registered with a political party in their prior state or belonged to third parties.
+
+## Terms
+
+- **Median**: Half of the random samples have probabilities greater than and half less than the median.
+- **Mean**: The average of the 10,000 random samples constructed. It coincides with the Biden Proportion in the table above.
+- **Mode**: The probability that occurs most often.
+- **q025**: The value below which 2.5% of the probabilities occur.
+- **q975**: The value below which 97.5% of the probabilities occur.
+- **MCSE**: Measures the precision of Markov Chain Monte Carlo (MCMC) estimates by quantifying the variability due to finite sampling. Smaller values indicate better precision. Values close to zero indicate that little of the variability in the estimate arises from using MCMC.
+- **Rhat**: Assesses the convergence of MCMC chains by comparing within-chain and between-chain variances. Values close to 1 indicate convergence.
+
+These diagnostics are used to assess usefulness of models using MCMC methods in determining whether the MCMC chains have run long enough to provide accurate and stable estimates of the posterior distributions.
+
+The density plots show the number of observations on the $y$-axis and the probabilities on the $x$-axis. The shaded area in the center shows the credible interval within which 95% of the probabilities fall. The unshaded areas show that the proportion of the votes are likely to be either less than or greater than the credible interval.

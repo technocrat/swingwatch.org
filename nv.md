@@ -10,78 +10,109 @@ title = "Nevada"
 * [2022 demographics](#2022-demographics)
 * [Terms](#terms)
 
+# Model results
+
+In the 2020 election President Biden won 51.22% (0.5122) of the votes cast for Biden or Trump in Nevada. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 51.14% to 51.31%. Next, the results of each month's polling are factored in on a rolling basis
+
+Assessments are based on three criteria.
+
+* **Stringent**—Biden wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than his 2020 margin.
+* **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
+* **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
+
 ## April assessment
-The model results, which take into account the 2020 election results in Nevada as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Nevada (0.5047) compared to Trump (0.4953) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Nevada's 6 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in substitution of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
+
+Biden wins under the *Relaxed criterion*
 ~~~
 <table>
   <thead>
     <tr class = "header headerLastRow">
-      <th style = "text-align: right;">Parameter</th>
-      <th style = "text-align: right;">Mean</th>
-      <th style = "text-align: right;">Mode</th>
-      <th style = "text-align: right;">Median</th>
-      <th style = "text-align: right;">CI_Lower</th>
-      <th style = "text-align: right;">CI_Upper</th>
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">Biden likelihood</td>
-      <td style = "text-align: right;">0.5047</td>
-      <td style = "text-align: right;">0.6412</td>
-      <td style = "text-align: right;">0.5053</td>
-      <td style = "text-align: right;">0.0631</td>
-      <td style = "text-align: right;">0.9408</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">Trump likelihood</td>
-      <td style = "text-align: right;">0.4953</td>
-      <td style = "text-align: right;">0.3588</td>
-      <td style = "text-align: right;">0.4947</td>
-      <td style = "text-align: right;">0.0592</td>
-      <td style = "text-align: right;">0.9369</td>
+      <td style = "text-align: right;">0.5122</td>
+      <td style = "text-align: right;">0.5122</td>
+      <td style = "text-align: right;">0.5122</td>
+      <td style = "text-align: right;">0.5113</td>
+      <td style = "text-align: right;">0.513</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
     </tr>
   </tbody>
 </table>
+<img src="/assets/img/models/NV_apr.png" style="width: 100%; display: block;">
+
 ~~~
 ## March assessment
 
-The model results, which take into account the 2020 election results in Nevada as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Nevada (0.5039) compared to Trump (0.4961) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Nevada's 6 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in substitution of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
+Biden wins under the *Relaxed criterion*
+
 
 ~~~
 <table>
   <thead>
     <tr class = "header headerLastRow">
-      <th style = "text-align: right;">Parameter</th>
-      <th style = "text-align: right;">Mean</th>
-      <th style = "text-align: right;">Mode</th>
-      <th style = "text-align: right;">Median</th>
-      <th style = "text-align: right;">CI_Lower</th>
-      <th style = "text-align: right;">CI_Upper</th>
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">Biden likelihood</td>
-      <td style = "text-align: right;">0.5039</td>
-      <td style = "text-align: right;">0.4709</td>
-      <td style = "text-align: right;">0.5050</td>
-      <td style = "text-align: right;">0.0616</td>
-      <td style = "text-align: right;">0.9406</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">Trump likelihood</td>
-      <td style = "text-align: right;">0.4961</td>
-      <td style = "text-align: right;">0.5291</td>
-      <td style = "text-align: right;">0.4950</td>
-      <td style = "text-align: right;">0.0594</td>
-      <td style = "text-align: right;">0.9384</td>
+      <td style = "text-align: right;">0.5122</td>
+      <td style = "text-align: right;">0.5122</td>
+      <td style = "text-align: right;">0.5123</td>
+      <td style = "text-align: right;">0.5113</td>
+      <td style = "text-align: right;">0.513</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
     </tr>
   </tbody>
 </table>
+<img src="/assets/img/models/NV_mar.png" style="width: 100%; display: block;">
+
 ~~~
 
-Please note that results are shown to four decimal places **solely** to prevent rounding to leave the misleading impression that the results are exactly tied.
+## 2020 election
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5122</td>
+      <td style = "text-align: right;">0.5122</td>
+      <td style = "text-align: right;">0.5121</td>
+      <td style = "text-align: right;">0.5114</td>
+      <td style = "text-align: right;">0.5131</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/NV_2020.png" style="width: 100%; display: block;">
+~~~
 
 ### [Bloomberg/Morning Consult] (https://pro-assets.morningconsult.com/wp-uploads/2024/03/Bloomberg_2024-Election-Tracking-Wave-6.pdf) 
 
@@ -822,15 +853,11 @@ The scenario tables below show the possible outcomes that involve Nevada. Not in
 
 On May 3, 2025, the Republican National Committee and others filed a complaint in Federal District Court for the District of Nevada against Nevada election officials seeking to prevent mail-in ballots not received by election day from being counted. 
 
-REPUBLICAN NATIONAL COMMITTEE; NEVADA REPUBLICAN PARTY; DONALD J.TRUMP FOR PRESIDENT 2024, INC.; and DONALD J. SZYMANSKI, Plaintiffs, v.CARI-ANN BURGESS, in her official capacity as the Washoe County Registrar of Voters; JAN GALASSINI, in her official capacity as the Washoe County Clerk; LORENA PORTILLO, in her official capacity as the Clark County Registrar of Voters; LYNN MARIE GOYA, in her official capacity as the Clark County Clerk; FRANCISCO AGUILAR, in his official capacity as Nevada Secretary of State, Defendants. Case 3:24-cv-00198.
+> REPUBLICAN NATIONAL COMMITTEE; NEVADA REPUBLICAN PARTY; DONALD J.TRUMP FOR PRESIDENT 2024, INC.; and DONALD J. SZYMANSKI, Plaintiffs, v.CARI-ANN BURGESS, in her official capacity as the Washoe County Registrar of Voters; JAN GALASSINI, in her official capacity as the Washoe County Clerk; LORENA PORTILLO, in her official capacity as the Clark County Registrar of Voters; LYNN MARIE GOYA, in her official capacity as the Clark County Clerk; FRANCISCO AGUILAR, in his official capacity as Nevada Secretary of State, Defendants. Case 3:24-cv-00198.
 
-> Nevada contravenes those federal laws by counting mail ballots that are
-received up to four business days after Election Day, Nev. Rev. Stat. §293.269921(1)(b),
-and by presuming that ballots received up to three days after Election Day “have been
-postmarked on or before the day of the election,” id. §293.269921(2). Nevada effectively
-extends Nevada’s federal election past the Election Day established by Congress. 
+> Nevada contravenes those federal laws by counting mail ballots that are received up to four business days after Election Day, Nev. Rev. Stat. §293.269921(1)(b), and by presuming that ballots received up to three days after Election Day “have been postmarked on or before the day of the election,” id. §293.269921(2). Nevada effectively extends Nevada’s federal election past the Election Day established by Congress. 
 
-**Comment** Similar actions can be expected in all other jurisdictions that have similar arrangements. One of the allegations cites the 
+**Comment** Similar actions can be expected in all other jurisdictions that have similar arrangements. One of the allegations cites the Electors Clause
 
 > Exercising that power [pursuant to the Electors Clause], Congress has established that “[t]he electors of President and Vice President shall be appointed, in each State, *on election day*, in accordance with the laws of the State enacted prior to election day.” 3 U.S.C. §1. [*emphasis added*]
 
@@ -839,7 +866,7 @@ which could also be used to argue that electors must be appointed on election da
 > (a)In general.--
 > (1) Certification.--Not later than the date that is 6 days before the time fixed for the meeting of the electors, the executive of each State shall issue a certificate of ascertainment of appointment of electors, under and in pursuance of the laws of such State providing for such appointment and ascertainment enacted prior to election day.
 
-## Nevada facts
+## State facts
 
 * Electoral votes:              6 
 * 2020:                         Biden
@@ -861,7 +888,7 @@ which could also be used to argue that electors must be appointed on election da
 * Mail-in voting:               Yes
 * Early in-person voting:       Yes
 
-## Nevada demographics
+## State demographics
 
 ~~~
 <table>

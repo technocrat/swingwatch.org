@@ -10,83 +10,112 @@ title = "Michigan"
 * [2022 demographics](#2022-demographics)
 * [Terms](#terms)
 
+
+ # Model results
+
+In the 2020 election President Biden won 51.41% (0.5141) of the votes cast for Biden or Trump in Michigan. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 51.36% to 51.45%. Next, the results of each month's polling are factored in on a rolling basis.
+
+Assessments are based on three criteria.
+
+* **Stringent**—Biden wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than his 2020 margin.
+* **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
+* **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
+
 ## April assessment
 
-The model results, which take into account the 2020 election results in Michigan as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Michigan (0.5054) compared to Trump (0.4946) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Michigans's 15 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
+Biden win under the *Relaxed* criterion.
 
 ~~~
 <table>
   <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">Parameter</th>
-      <th style = "text-align: right;">Mean</th>
-      <th style = "text-align: right;">Mode</th>
-      <th style = "text-align: right;">Median</th>
-      <th style = "text-align: right;">CI_Lower</th>
-      <th style = "text-align: right;">CI_Upper</th>
+    <tr class = "header">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">Biden likelihood</td>
-      <td style = "text-align: right;">0.5054</td>
-      <td style = "text-align: right;">0.5519</td>
-      <td style = "text-align: right;">0.5072</td>
-      <td style = "text-align: right;">0.0632</td>
-      <td style = "text-align: right;">0.9407</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">Trump likelihood</td>
-      <td style = "text-align: right;">0.4946</td>
-      <td style = "text-align: right;">0.4481</td>
-      <td style = "text-align: right;">0.4928</td>
-      <td style = "text-align: right;">0.0593</td>
-      <td style = "text-align: right;">0.9368</td>
+      <td style = "text-align: right;">0.5141</td>
+      <td style = "text-align: right;">0.5141</td>
+      <td style = "text-align: right;">0.5141</td>
+      <td style = "text-align: right;">0.5137</td>
+      <td style = "text-align: right;">0.5145</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0002</td>
     </tr>
   </tbody>
 </table>
+<img src="/assets/img/models/MI_apr.png" style="width: 100%; display: block;">
 ~~~
 ## March polls
 
 ## March assessment
 
-The model results, which take into account the 2020 election results in Michigan as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Michigan (0.5044) compared to Trump (0.4956) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Michigans's 15 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
+Biden win under the *Relaxed* criterion.
 
 ~~~
 <table>
   <thead>
     <tr class = "header headerLastRow">
-      <th style = "text-align: right;">Parameter</th>
-      <th style = "text-align: right;">Mean</th>
-      <th style = "text-align: right;">Mode</th>
-      <th style = "text-align: right;">Median</th>
-      <th style = "text-align: right;">CI_Lower</th>
-      <th style = "text-align: right;">CI_Upper</th>
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">Biden likelihood</td>
-      <td style = "text-align: right;">0.5044</td>
-      <td style = "text-align: right;">0.4766</td>
-      <td style = "text-align: right;">0.5056</td>
-      <td style = "text-align: right;">0.0637</td>
-      <td style = "text-align: right;">0.9407</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">Trump likelihood</td>
-      <td style = "text-align: right;">0.4956</td>
-      <td style = "text-align: right;">0.5234</td>
-      <td style = "text-align: right;">0.4944</td>
-      <td style = "text-align: right;">0.0593</td>
-      <td style = "text-align: right;">0.9363</td>
+      <td style = "text-align: right;">0.5141</td>
+      <td style = "text-align: right;">0.5141</td>
+      <td style = "text-align: right;">0.5141</td>
+      <td style = "text-align: right;">0.5137</td>
+      <td style = "text-align: right;">0.5145</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">0.9999</td>
     </tr>
   </tbody>
 </table>
+<img src="/assets/img/models/MI_mar.png" style="width: 100%; display: block;">
+
 ~~~
 
-Please note that results are shown to four decimal places **solely** to prevent rounding to leave the misleading impression that the results are exactly tied.
+## 2020 election
 
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.514</td>
+      <td style = "text-align: right;">0.514</td>
+      <td style = "text-align: right;">0.514</td>
+      <td style = "text-align: right;">0.5136</td>
+      <td style = "text-align: right;">0.5145</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0002</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/MI_2020.png" style="width: 100%; display: block;">
+~~~
 ## Scenarios
 
 The scenario tables below show the possible outcomes that involve Michigan. Not included is the trivial case where one candidate takes all of the swing states. Michigan is represented in 64 of the 127 possible outcomes.  *The combinations shown are those representing swing states taken by Biden.*

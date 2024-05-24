@@ -29,31 +29,36 @@ fig = draw_density()
 function draw_density()
     # Create a new figure with specified resolution
     fig = Figure(size = (600, 400))
-
+    
     # Add an axis to the figure
-    ax = Axis(fig[1, 1], xlabel = "p", ylabel = "Density", title = "Density Plot of p for $ST")
-
+    ax = Axis(fig[1, 1], xlabel = "Likelihood of Biden win", ylabel = "Number of draws", title = "Model: Biden wins in $ST from 2020 election before polling")
+    
     # Plot the full density curve
-    #lines!(ax, kde_result.x, kde_result.density, color = :blue, strokewidth = 2, strokecolor = :black, label = "Density")
-    lines!(ax, kde_result.x, kde_result.density, color = "#a3b35c", strokewidth = 8, strokecolor = "#a3b35c", label = "Density")
-
+    lines!(ax, kde_result.x, kde_result.density, color = "#a3b35c", linewidth = 3, strokewidth = 4, strokecolor = GREENBAR, label = "Draws")
+    
     # Find the indices corresponding to the posterior interval
     indices = findall((posterior_interval[1] .<= kde_result.x) .& (kde_result.x .<= posterior_interval[2]))
-
+    
     # Extract the x and y values within the posterior interval
     x_region = kde_result.x[indices]
     y_region = kde_result.density[indices]
-
+    
     # Fill the specific area under the curve
-    #band!(ax, x_region, fill(0, length(x_region)), y_region, color = (:red, 0.2), label = "Credible Interval")
-    band!(ax, x_region, fill(0, length(x_region)), y_region, color = ("#e1aa6e"), label = "Credible Interval")
+    band!(ax, x_region, fill(0, length(x_region)), y_region, color = (LORANGE), label = "Credible Interval")
+    
+    # Find the y-value corresponding to the specified x-value
+    y_value = kde_result.density[argmin(abs.(kde_result.x .- margin))]
+    
+    # Add a vertical line at the specified x-value from 0 to the y-value
+    vlines!(ax, [margin], [0, y_value], color = FLAGBLUE, linestyle = :dash, linewidth = 4, label = "2020 Actual")
+    
     # Add a legend to the plot
     axislegend(ax)
-
+    
     # Adjust the plot limits to fit the density line
     Makie.xlims!(ax, extrema(p_vec))
     Makie.ylims!(ax, 0, nothing)
-
+    
     # Display the figure
     fig
 end

@@ -10,80 +10,111 @@ title = "Pennsylvania"
 * [2022 demographics](#2022-demographics)
 * [Terms](#terms)
 
+# Model results
+
+In the 2020 election President Biden won 50.59% (0.5059) of the votes cast for Biden or Trump in Pennsylvania. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 50.55% to 50.63%. Next, the results of each month's polling are factored in on a rolling basis.
+
+Assessments are based on three criteria.
+
+* **Stringent**—Biden wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than his 2020 margin.
+* **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
+* **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
+
 ## April assessment
 
-The model results, which take into account the 2020 election results in Pennsylvania as prior probabilities and incorporate the two April 2024 presidential preference polling dataset, suggest a slightly higher posterior probability for Biden winning Pennsylvania (0.5013) compared to Trump (0.4987) if the election were held at the time the polling data was collected. This is little changed from March, will had more polls conducted during the  month. This indicates a narrow likelihood that Biden would win Pennsylvania's 19 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
+Biden wins under the *Relaxed* criterion
 ~~~
 <table>
   <thead>
     <tr class = "header headerLastRow">
-      <th style = "text-align: right;">Parameter</th>
-      <th style = "text-align: right;">Mean</th>
-      <th style = "text-align: right;">Mode</th>
-      <th style = "text-align: right;">Median</th>
-      <th style = "text-align: right;">CI_Lower</th>
-      <th style = "text-align: right;">CI_Upper</th>
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">Biden likelihood</td>
-      <td style = "text-align: right;">0.5013</td>
-      <td style = "text-align: right;">0.3200</td>
-      <td style = "text-align: right;">0.5018</td>
-      <td style = "text-align: right;">0.0618</td>
-      <td style = "text-align: right;">0.9401</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">Trump likelihood</td>
-      <td style = "text-align: right;">0.4987</td>
-      <td style = "text-align: right;">0.6800</td>
-      <td style = "text-align: right;">0.4982</td>
-      <td style = "text-align: right;">0.0599</td>
-      <td style = "text-align: right;">0.9382</td>
+      <td style = "text-align: right;">0.5059</td>
+      <td style = "text-align: right;">0.5059</td>
+      <td style = "text-align: right;">0.5059</td>
+      <td style = "text-align: right;">0.5055</td>
+      <td style = "text-align: right;">0.5063</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0001</td>
     </tr>
   </tbody>
 </table>
+<img src="/assets/img/models/PA_apr.png" style="width: 100%; display: block;">
+
 ~~~
 
 ## March assessment
 
-The model results, which take into account the 2020 election results in Pennsylvania as prior probabilities and incorporate the March 2024 presidential preference polling data, suggest a slightly higher posterior probability for Biden winning Pennsylvania (0.5017) compared to Trump (0.4977) if the election were held at the time the polling data was collected. This indicates a narrow likelihood that Biden would win Pennsylvania's 19 electoral votes based on the current polling data and the historical voting patterns. However, the wide credible intervals (which are analogous to confidence intervals) indicate substantial uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—indicates neither that Biden is widening his lead from 2020 nor that Trump is drawing closer.
+Biden win under the *Relaxed* criterion.
 
 ~~~
 <table>
   <thead>
     <tr class = "header headerLastRow">
-      <th style = "text-align: right;">Parameter</th>
-      <th style = "text-align: right;">Mean</th>
-      <th style = "text-align: right;">Mode</th>
-      <th style = "text-align: right;">Median</th>
-      <th style = "text-align: right;">CI_Lower</th>
-      <th style = "text-align: right;">CI_Upper</th>
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">Biden likelihood</td>
-      <td style = "text-align: right;">0.5017</td>
-      <td style = "text-align: right;">0.5163</td>
-      <td style = "text-align: right;">0.5023</td>
-      <td style = "text-align: right;">0.0616</td>
-      <td style = "text-align: right;">0.9397</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">Trump likelihood</td>
-      <td style = "text-align: right;">0.4983</td>
-      <td style = "text-align: right;">0.4837</td>
-      <td style = "text-align: right;">0.4977</td>
-      <td style = "text-align: right;">0.0603</td>
-      <td style = "text-align: right;">0.9384</td>
+      <td style = "text-align: right;">0.5058</td>
+      <td style = "text-align: right;">0.5058</td>
+      <td style = "text-align: right;">0.5057</td>
+      <td style = "text-align: right;">0.5054</td>
+      <td style = "text-align: right;">0.5062</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0004</td>
     </tr>
   </tbody>
 </table>
+<img src="/assets/img/models/PA_mar.png" style="width: 100%; display: block;">
+
 ~~~
 
-Please note that results are shown to four decimal places **solely** to prevent rounding to leave the misleading impression that the results are tied.
+## Model of 2020 election adding uncertainty
+
+~~~
+<table>
+  <thead>
+    <tr class = "header">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5059</td>
+      <td style = "text-align: right;">0.5059</td>
+      <td style = "text-align: right;">0.5059</td>
+      <td style = "text-align: right;">0.5055</td>
+      <td style = "text-align: right;">0.5063</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0004</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/PA_2020.png" style="width: 100%; display: block;">
+~~~
+
 
 ## Other news
 

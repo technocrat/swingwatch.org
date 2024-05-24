@@ -67,7 +67,7 @@ save(("../img/models/"*"$st"*"_"*"$mon"*".png"), fig)
 out       = Vector(p_df[1,:])
 out       = round.(out,digits = 4)
 p_df[1,:] = out
-pretty_table(p_df,backend=Val(:html))
+pretty_table(p_df,backend=Val(:html),show_subheader = false)
 chain
 summarystats(chain)
 autocor(chain)

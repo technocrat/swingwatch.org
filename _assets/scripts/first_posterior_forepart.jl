@@ -12,13 +12,22 @@ using Printf
 using Serialization
 using Statistics
 using Turing
-#------------
-
-# Set the number of votes and wins
-last_election = CSV.read("../objs/election_priors.csv", DataFrame)
+#------------------------------------------------------------------
+const FLAGRED  = "rgb(178,  34,  52)"
+const FLAGBLUE = "rgb( 60,  59, 110)"
+const PURPLE   = "rgb(119,  47,  81)"
+const GREENBAR = "rgb( 47, 119,  78)"
+const LORANGE  = "rgb(225, 170, 110)"
+#------------------------------------------------------------------
 
 # Define the model
-include("models.jl")
+@model function election_model(num_votes::Int64, num_wins::Int64)
+    # Prior: Beta(2, 2) equivalent to a close race going in
+    p ~ Beta(2, 2)
+    
+    # Likelihood: Binomial(num_votes, p)
+    num_wins ~ Binomial(num_votes, p)
+end
 
 # Set up the sampler
 sampler = NUTS(0.65)
@@ -29,3 +38,13 @@ num_chains  = 4
 
 # Sample from the posterior
 init_params = [Dict(:p => 0.5)]
+
+Month_names = Dict(
+	"mar" => "March",
+	"apr" => "April",
+	"may" => "May",
+	"jun" => "June",
+	"aug" => "August",
+	"sep" => "September",
+	"oct" => "October")
+#------------------------------------------------------------------

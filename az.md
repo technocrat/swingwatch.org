@@ -11,14 +11,24 @@ title = "Arizona"
 * [2022 demographics](#2022-demographics)
 * [Terms](#terms)
 
+
+# Model results
+
+In the 2020 election President Biden won 50.16% (0.5016) of the votes cast for Biden or Trump in Arizona. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 50.10% to 50.21%. Next, the results of each month's polling are factored in on a rolling basis.
+
+Assessments are based on three criteria.
+
+* **Stringent**—Biden wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than his 2020 margin.
+* **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
+* **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
+
 ## April assessment
 
-The model results, which take into account the March model as prior probabilities and incorporates the April 2024 presidential preference polling data,shows no substantial difference—although Biden trails in polls in March and April, he still have a higher likelihood of winning Arizona than not.
-
+Biden win under the *Relaxed* criterion.
 ~~~
 <table>
   <thead>
-    <tr class = "header">
+    <tr class = "header headerLastRow">
       <th style = "text-align: right;">median</th>
       <th style = "text-align: right;">mean</th>
       <th style = "text-align: right;">mode</th>
@@ -32,11 +42,11 @@ The model results, which take into account the March model as prior probabilitie
     <tr>
       <td style = "text-align: right;">0.5015</td>
       <td style = "text-align: right;">0.5015</td>
-      <td style = "text-align: right;">0.5014</td>
+      <td style = "text-align: right;">0.5015</td>
       <td style = "text-align: right;">0.501</td>
       <td style = "text-align: right;">0.5021</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0002</td>
+      <td style = "text-align: right;">1.0</td>
     </tr>
   </tbody>
 </table>
@@ -44,12 +54,13 @@ The model results, which take into account the March model as prior probabilitie
 
 ~~~
 ## March assessment
+Biden win under the *Relaxed* criterion.
 
-The model results, which take into account the 2020 election model as the prior probability and incorporate suggest a possibly smaller margin of victory for Biden compared to 2020 if the election were held at the time the polling data was collected. Moreover, the narrow credible intervals (which are analogous to confidence intervals) indicate minor uncertainty in these estimates. This month's result in the context of the historical result—not in *substitution* of the result—provides some evidence that the contest is narrowing but that Biden is leading.
+
 ~~~
 <table>
   <thead>
-    <tr class = "header">
+    <tr class = "header headerLastRow">
       <th style = "text-align: right;">median</th>
       <th style = "text-align: right;">mean</th>
       <th style = "text-align: right;">mode</th>
@@ -67,7 +78,7 @@ The model results, which take into account the 2020 election model as the prior 
       <td style = "text-align: right;">0.501</td>
       <td style = "text-align: right;">0.5021</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">0.9999</td>
+      <td style = "text-align: right;">1.0</td>
     </tr>
   </tbody>
 </table>
@@ -79,7 +90,7 @@ The model results, which take into account the 2020 election model as the prior 
 ~~~
 <table>
   <thead>
-    <tr class = "header">
+    <tr class = "header headerLastRow">
       <th style = "text-align: right;">median</th>
       <th style = "text-align: right;">mean</th>
       <th style = "text-align: right;">mode</th>
@@ -93,11 +104,11 @@ The model results, which take into account the 2020 election model as the prior 
     <tr>
       <td style = "text-align: right;">0.5016</td>
       <td style = "text-align: right;">0.5016</td>
-      <td style = "text-align: right;">0.5015</td>
+      <td style = "text-align: right;">0.5017</td>
       <td style = "text-align: right;">0.501</td>
       <td style = "text-align: right;">0.5021</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0002</td>
+      <td style = "text-align: right;">1.0006</td>
     </tr>
   </tbody>
 </table>

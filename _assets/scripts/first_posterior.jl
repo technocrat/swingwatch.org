@@ -1,8 +1,13 @@
 include("first_posterior_forepart.jl")
+# Set the number of votes and wins
+last_election = CSV.read("../objs/election_priors.csv", DataFrame)
 
-ST        = last_election[7, "st"]
-num_wins  = last_election[7, "num_wins"]
-num_votes = last_election[7, "num_votes"]
+
+ST        = last_election[1, :st]
+num_wins  = last_election[1, :num_wins]
+num_votes = last_election[1, :num_votes]
+margins   = CSV.read("../objs/margins.csv", DataFrame)
+margin    = first(margins[margins.st .== ST, :pct])
 
 chain  = sample(election_model(num_votes, num_wins), sampler, num_samples, init_params=init_params)
 
@@ -37,5 +42,5 @@ save(("../img/models/$ST" * "_2020.png"), fig)
 out       = Vector(p_df[1,:])
 out       = round.(out,digits = 4)
 p_df[1,:] = out
-pretty_table(p_df,backend=Val(:html))
+pretty_table(p_df,backend=Val(:html), show_subheader = false)
 

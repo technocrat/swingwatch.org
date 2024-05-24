@@ -6,11 +6,11 @@ title = "Latest"
 
 ### Stringent view
 
-Based on the criterion that the model must show Biden taking at least 50.25% of the two-candidate split, Bidin would win only Nevada and its six electoral votes, resulting in **231-307 Electoral College loss.**
+Based on the criterion that the model must show Biden taking at least 50.25% of the two-candidate split, Bidin would win none of the swing states, resulting in **225-313 Electoral College loss.**
 
 ### Historical view
 
-Based on the criterion that the model shows Biden doing at least as well as he did in 2020 in the two-candidate split, Biden would win *only* Arizona and Nevada with their combined 17 electoral votes resulting in a **246-292 Electoral College loss.**
+Based on the criterion that the model shows Biden doing at least as well as he did in 2020 in the two-candidate split, Biden would win none of the swing states resulting in a **225-313 Electoral College loss.**
 
 ### Relaxed view
 
