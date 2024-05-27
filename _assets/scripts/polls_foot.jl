@@ -17,12 +17,21 @@ prior_alpha    = posterior_mean * (posterior_mean * (1 - posterior_mean) / poste
 prior_beta     = (1 - posterior_mean) * (posterior_mean * (1 - posterior_mean) / posterior_var - 1)
 prior_dist     = Beta(prior_alpha, prior_beta)
 
+# @model function poll_model(num_votes::Int64, num_wins::Int64)
+#     # Define the prior using the Beta distribution
+#     p ~ prior_dist
+# 
+#     # Define the likelihood
+#     num_wins ~ Binomial(num_votes, p)
+# end
+
 @model function poll_model(num_votes::Int64, num_wins::Int64)
     # Define the prior using the Beta distribution
-    p ~ prior_dist
+    p ~ Beta(2, 2)
 
-    # Define the likelihood
-    num_wins ~ Binomial(num_votes, p)
+    # Define the likelihood with additional uncertainty
+    p_survey ~ Beta(2, 2)
+    num_wins ~ Binomial(num_votes, p * p_survey)
 end
 
 # Set up the sampler
