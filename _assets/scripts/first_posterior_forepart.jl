@@ -23,20 +23,16 @@ const LORANGE  = "rgb(225, 170, 110)"
 # Define the model
 @model function election_model(num_votes::Int64, num_wins::Int64)
     # Prior: Beta(2, 2) equivalent to a close race going in
-    p ~ Beta(2, 2)
-    
-    # Likelihood: Binomial(num_votes, p)
+    p ~ Beta(2,2)
+    # Likelihood
     num_wins ~ Binomial(num_votes, p)
 end
 
-# Set up the sampler
 sampler = NUTS(0.65)
-
-# Specify the number of samples and chains
 num_samples = 10000
 num_chains  = 4
 
-# Sample from the posterior
+
 init_params = [Dict(:p => 0.5)]
 
 Month_names = Dict(

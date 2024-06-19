@@ -2,7 +2,7 @@
 title = "Arizona"
 +++
 
-
+* [May assessment](#may-assessment)
 * [April assessment](#april-assessment)
 * [March assessment](#march-assessment)
 * [2020 election](#2020-election)
@@ -20,8 +20,40 @@ Assessments are based on three criteria.
 
 * **Stringent**—Biden wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than his 2020 margin.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
-* **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
+* **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.  
 
+## May assessment
+
+Biden win under the *Relaxed* criterion.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5014</td>
+      <td style = "text-align: right;">0.5014</td>
+      <td style = "text-align: right;">0.5015</td>
+      <td style = "text-align: right;">0.5009</td>
+      <td style = "text-align: right;">0.502</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/AZ_may.png" style="width: 100%; display: block;">
+
+ ~~~
 ## April assessment
 
 Biden win under the *Relaxed* criterion.
@@ -42,11 +74,11 @@ Biden win under the *Relaxed* criterion.
     <tr>
       <td style = "text-align: right;">0.5015</td>
       <td style = "text-align: right;">0.5015</td>
-      <td style = "text-align: right;">0.5015</td>
-      <td style = "text-align: right;">0.501</td>
-      <td style = "text-align: right;">0.5021</td>
+      <td style = "text-align: right;">0.5013</td>
+      <td style = "text-align: right;">0.5009</td>
+      <td style = "text-align: right;">0.502</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0</td>
+      <td style = "text-align: right;">1.0008</td
     </tr>
   </tbody>
 </table>
@@ -74,11 +106,12 @@ Biden win under the *Relaxed* criterion.
     <tr>
       <td style = "text-align: right;">0.5015</td>
       <td style = "text-align: right;">0.5015</td>
-      <td style = "text-align: right;">0.5015</td>
+      <td style = "text-align: right;">0.5014</td>
       <td style = "text-align: right;">0.501</td>
       <td style = "text-align: right;">0.5021</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0</td>
+      <td style = "text-align: right;">1.0001
+    </td>
     </tr>
   </tbody>
 </table>
@@ -104,11 +137,11 @@ Biden win under the *Relaxed* criterion.
     <tr>
       <td style = "text-align: right;">0.5016</td>
       <td style = "text-align: right;">0.5016</td>
-      <td style = "text-align: right;">0.5017</td>
+      <td style = "text-align: right;">0.5016</td>
       <td style = "text-align: right;">0.501</td>
       <td style = "text-align: right;">0.5021</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0006</td>
+      <td style = "text-align: right;">1.0002</td>
     </tr>
   </tbody>
 </table>

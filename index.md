@@ -16,7 +16,7 @@ Based on the criterion that the model shows Biden doing at least as well as he d
 
 Based on the criterion that the model shows Biden winning by at least 50% plus one vote of the two-candidate split, Biden would six of the seven swing states (having lost in North Carolina), Biden would take 77 electoral votes resulting in a **302-236 Electoral College victory.**
 
-The poll results conducted in the seven swing states in March and April show presidential preference divided, but favoring Trump in more states than Biden. Each of the poll results has a greater or smaller degree of uncertainty that depends primarily on how many answers were collected. 
+The poll results conducted in the seven swing states in March, April and May show presidential preference divided, but favoring Trump in more states than Biden. Each of the poll results has a greater or smaller degree of uncertainty that depends primarily on how many answers were collected. Taking into account, however, the results of 2020, although there are signs of erosion in Biden's support, the performance is better than the standalone polls would suggest.
 
 The model is based on the *Bayesian analysis*  described in [Methodology](/method]) It begins with the relative share of the two-candidate popular vote won by Biden in each of the swing states in 2020 adjusted by the effect of polling conducted in April. Beginning next month, the beginning point will be adjusted to reflect a cumulative model in which cumulative results will be reporting.
 

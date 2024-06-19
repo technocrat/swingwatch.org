@@ -52,23 +52,23 @@ df = CSV.read(IOBuffer(csv_data), DataFrame)
 *Single State*
 
 * Arizona
-  - [Cook Political Report: conducted May](https://www.cookpolitical.com/survey-research/2024-swing-state-project/23May2024-toplines)
   - [Fox News: conducted March](https://static.foxnews.com/foxnews.com/content/uploads/2024/03/Fox_March-7-11-2024_Arizona_Topline_March-13-Release.pdf)
   - [CBS: conducted May](https://www.scribd.com/document/733845819/cbsnews-20240519-AZ-1-SUN#1fullscreen=1)
   - [Nobel Predictive Insights: conducted May](https://www.scribd.com/document/733845819/cbsnews-20240519-AZ-1-SUN#1fullscreen=1)
 * Georgia
-  - [Cook Political Report; conducted May](https://www.cookpolitical.com/survey-research/2024-swing-state-project/unique-election-driven-traditional-issue)
   - [Fox News: conducted April](https://static.foxnews.com/foxnews.com/content/uploads/2024/04/Fox_April-11-16-2024_GEORGIA_Topline_April-18-Release-1.pdf)
 * Michigan
   - [CBS: conducted in April](https://www.scribd.com/document/727317994/Cbsnews-20240428-MI-SUN)
   - [Fox News: conducted April](https://static.foxnews.com/foxnews.com/content/uploads/2024/04/Fox_April-11-16-2024_MICHIGAN_Topline_April-18-Release.pdf)
   - [Marketing Resource Group: conducted April](https://www.realclearpolitics.com/docs/2024/michigan-poll-presidential-election-Press_Release.pdf)
   - [Mitchell Research and Communications: conducted March](https://www.realclearpolitics.com/docs/2024/Mitchell-MIRS_MI_Poll_Press_Release_-_Presidential_Race_12_NOON_3-20-24.pdf)
+  -  [Mitchell Research and Communications: conducted May](https://www.realclearpolitics.com/docs/2024/Mitchell-MIRS_MI_Poll_Press_Release_-_Presidential_Race_517_PM_5-27-24.pdf)
   - [Quinnipiac University: conducted March](https://poll.qu.edu/poll-release?releaseid=3893)
 * Pennsylvania
   - [CBS: conducted April](https://www.scribd.com/document/727318459/Cbsnews-20240428-PA-SUN)
   - [Franklin & Marshall College Poll: conducted March](https://www.fandmpoll.org/franklin-marshall-poll-release-april-2024)
 * North Carolina
+  - [High Point: conduct May](https://www.highpoint.edu/src/files/2023/08/103memo.pdf)
   -  [Marist: conducted March ](https://maristpoll.marist.edu/wp-content/uploads/2024/03/Marist-Poll_North-Carolina-NOS-and-Tables_202403181357.pdf)
   - [Highpoint University: conducted March](https://www.highpoint.edu/src/files/2023/08/102memo.pdf)
   - [Highpoint University: conducted May](https://www.highpoint.edu/src/files/2023/08/103memo.pdf)
@@ -81,7 +81,7 @@ df = CSV.read(IOBuffer(csv_data), DataFrame)
   - [Quinnipiac conducted May](https://poll.qu.edu/images/polling/wi/wi05082024_wizz76.pdf)
   
 ---
-[^3]: Results selected for analysis here are for two-way preference questions if asked, except in cases in which a third-party candidate qualified for the ballot prior to poll. For polls with only multiple choices in addition to Biden and Trump, their respective percentages of responses were recorded. In all cases those percentages were normalized to 100% to reflect the relative, not absolute, support of the two candidates.
+[^3]: Results selected for analysis here are for two-way preference questions if asked, except in cases in which Robert F. Kennedy, Jr. qualified for the ballot prior to poll. For polls with only multiple choices in addition to Biden and Trump, their respective percentages of responses were recorded. In all cases those percentages were normalized to 100% to reflect the relative, not absolute, support of the two candidates.
 ---
 
 ## Demographics

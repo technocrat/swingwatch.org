@@ -85,7 +85,7 @@ Without Biden wins in both North Carolina and Pennsylvania there are only **four
 </table>
 ~~~
 
-All the possible comes (the scenario in which Biden wins none of the swing states is not shown.)
+All the possible outcomes (the scenario in which Biden wins none of the swing states is not shown.)
 ~~~
 <table>
   <thead>

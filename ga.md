@@ -2,6 +2,7 @@
 title = "Georgia"
 +++
 
+* [May assessment](#may-assessment)
 * [April assessment](#april-assessment)
 * [March assessment](#march-assessment)
 * [2020 election](#2020-election)
@@ -11,7 +12,6 @@ title = "Georgia"
 * [Runoff rules](#runoff-rules)
 * [Other news](#other-news)
 * [Terms](#terms)
-
 
 In the 2020 election President Biden won 50.12% (0.5012) of the votes cast for Biden or Trump in Georgia. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 50.08% to 50.16%. Next, the results of each month's polling are factored in on a rolling basis.
 
@@ -74,14 +74,13 @@ Biden win under the *Relaxed* criterion.
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.5012</td>
-      <td style = "text-align: right;">0.5012</td>
-      <td style = "text-align: right;">0.5013</td>
+      <td style = "text-align: right;">0.5011</td>
+      <td style = "text-align: right;">0.5011</td>
+      <td style = "text-align: right;">0.5011</td>
       <td style = "text-align: right;">0.5007</td>
       <td style = "text-align: right;">0.5016</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0</td>
-    </tr>
+      <td style = "text-align: right;">1.0</td>    </tr>
   </tbody>
 </table>
 
@@ -106,14 +105,13 @@ Biden win under the *Relaxed* criterion.
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.5012</td>
-      <td style = "text-align: right;">0.5012</td>
-      <td style = "text-align: right;">0.5013</td>
-      <td style = "text-align: right;">0.5008</td>
+     <td style = "text-align: right;">0.5011</td>
+      <td style = "text-align: right;">0.5011</td>
+      <td style = "text-align: right;">0.501</td>
+      <td style = "text-align: right;">0.5007</td>
       <td style = "text-align: right;">0.5016</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0</td>
-    </tr>
+      <td style = "text-align: right;">1.0005</td>    </tr>
   </tbody>
 </table>
 

@@ -5,7 +5,7 @@ function filter_empty_entries(dict::Dict{Pollster, Vector{Poll}})
 end
 
 using BSON: @save, @load
-#@load "../objs/apr_polls.bson" months
+@load "../objs/may_polls.bson" months
 
 MO = may
 ST = WI
@@ -19,8 +19,7 @@ prior_probs[ST]
 summarystats(current_samples)
 
 # Trace plot
-plot(
-)
+plot()
 
 # Autocorrelation
 autocor(current_samples)

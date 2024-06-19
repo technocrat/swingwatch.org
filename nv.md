@@ -2,6 +2,7 @@
 title = "Nevada"
 +++
 
+* [May assessment](#may-assessment)
 * [April assessment](#april-assessment)
 * [March assessment](#march-assessment)
 * [2020 election](#2020-election)
@@ -12,13 +13,49 @@ title = "Nevada"
 
 # Model results
 
-In the 2020 election President Biden won 51.22% (0.5122) of the votes cast for Biden or Trump in Nevada. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 51.14% to 51.31%. Next, the results of each month's polling are factored in on a rolling basis
+In the 2020 election President Biden won 51.22% (0.5122) of the votes cast for Biden or Trump in Nevada. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 51.1% to 51.3%. Next, the results of each month's polling are factored in on a rolling basis
 
 Assessments are based on three criteria.
 
 * **Stringent**—Biden wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than his 2020 margin.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
+
+## May assessment
+
+Biden wins under the *Relaxed criterion*
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+    <tr class = "header headerLastRow">
+      <td style = "text-align: right;">0.512</td>
+      <td style = "text-align: right;">0.512</td>
+      <td style = "text-align: right;">0.5126</td>
+      <td style = "text-align: right;">0.5112</td>
+      <td style = "text-align: right;">0.5129</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
+   </tr>
+  </thead>
+  <tbody>
+    <tr>
+
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/NV_may.png" style="width: 100%; display: block;">
+
+~~~
 
 ## April assessment
 
@@ -38,13 +75,13 @@ Biden wins under the *Relaxed criterion*
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.5122</td>
-      <td style = "text-align: right;">0.5122</td>
-      <td style = "text-align: right;">0.5122</td>
-      <td style = "text-align: right;">0.5113</td>
-      <td style = "text-align: right;">0.513</td>
+      <td style = "text-align: right;">0.5031</td>
+      <td style = "text-align: right;">0.5031</td>
+      <td style = "text-align: right;">0.5032</td>
+      <td style = "text-align: right;">0.5026</td>
+      <td style = "text-align: right;">0.5037</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0</td>
+      <td style = "text-align: right;">1.0003</td>
     </tr>
   </tbody>
 </table>
@@ -73,7 +110,7 @@ Biden wins under the *Relaxed criterion*
     <tr>
       <td style = "text-align: right;">0.5122</td>
       <td style = "text-align: right;">0.5122</td>
-      <td style = "text-align: right;">0.5123</td>
+      <td style = "text-align: right;">0.512</td>
       <td style = "text-align: right;">0.5113</td>
       <td style = "text-align: right;">0.513</td>
       <td style = "text-align: right;">0.0</td>

@@ -2,6 +2,7 @@
 title = "Pennsylvania"
 +++
 
+* [May assessment](#may-assessment)
 * [April assessment](#april-assessment)
 * [March assessment](#march-assessment)
 * [2020 election](#2020-election)
@@ -12,7 +13,7 @@ title = "Pennsylvania"
 
 # Model results
 
-In the 2020 election President Biden won 50.59% (0.5059) of the votes cast for Biden or Trump in Pennsylvania. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 50.55% to 50.63%. Next, the results of each month's polling are factored in on a rolling basis.
+In the 2020 election President Biden won 50.59% (0.5059) of the votes cast for Biden or Trump in Pennsylvania. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 50.56% to 50.63%. Next, the results of each month's polling are factored in on a rolling basis. When the plot shows that more of the credible interval lies to the right of the 2020 margin it indicates that Biden is losing ground compared to the 2020 election results, taking the polls at face value.
 
 Assessments are based on three criteria.
 
@@ -20,9 +21,9 @@ Assessments are based on three criteria.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
 
-## April assessment
+## May assessment
 
-Biden wins under the *Relaxed* criterion
+Biden win under the *Relaxed* criterion
 ~~~
 <table>
   <thead>
@@ -38,13 +39,45 @@ Biden wins under the *Relaxed* criterion
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.5059</td>
-      <td style = "text-align: right;">0.5059</td>
-      <td style = "text-align: right;">0.5059</td>
-      <td style = "text-align: right;">0.5055</td>
-      <td style = "text-align: right;">0.5063</td>
+      <td style = "text-align: right;">0.5058</td>
+      <td style = "text-align: right;">0.5058</td>
+      <td style = "text-align: right;">0.5058</td>
+      <td style = "text-align: right;">0.5054</td>
+      <td style = "text-align: right;">0.5061</td>
       <td style = "text-align: right;">0.0</td>
       <td style = "text-align: right;">1.0001</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/PA_may.png" style="width: 100%; display: block;">
+
+~~~
+
+## April assessment
+
+Biden win under the *Relaxed* criterion
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5058</td>
+      <td style = "text-align: right;">0.5058</td>
+      <td style = "text-align: right;">0.5058</td>
+      <td style = "text-align: right;">0.5054</td>
+      <td style = "text-align: right;">0.5062</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0009</td>
     </tr>
   </tbody>
 </table>
@@ -77,8 +110,8 @@ Biden win under the *Relaxed* criterion.
       <td style = "text-align: right;">0.5054</td>
       <td style = "text-align: right;">0.5062</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0004</td>
-    </tr>
+      <td style = "text-align: right;">1.0001</td>
+      </tr>
   </tbody>
 </table>
 <img src="/assets/img/models/PA_mar.png" style="width: 100%; display: block;">

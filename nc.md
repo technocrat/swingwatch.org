@@ -11,7 +11,7 @@ title = "North Carolina"
 * [Terms](#terms)
 
 
-In the 2020 election President Biden won 49.32% (0.4942) of the votes cast for Biden or Trump in North Carolina. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 50.08% to 50.16%. Next, the results of each month's polling is factored in on a rolling basis
+In the 2020 election President Biden won 49.32% (0.4942) of the votes cast for Biden or Trump in North Carolina. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 50.08% to 50.16%, . Next, the results of each month's polling is factored in on a rolling basis
 
 Assessments are based on three criteria.
 
@@ -19,6 +19,37 @@ Assessments are based on three criteria.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
 
+## May assessment
+
+A Biden victory is not within the credible interval under any of the scenarios.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.493</td>
+      <td style = "text-align: right;">0.493</td>
+      <td style = "text-align: right;">0.4929</td>
+      <td style = "text-align: right;">0.4926</td>
+      <td style = "text-align: right;">0.4935</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/NC_apr.png" style="width: 100%; display: block;">
+~~~
 ## April assessment
 
 A Biden victory is not within the credible interval under any of the scenarios.
@@ -38,13 +69,13 @@ A Biden victory is not within the credible interval under any of the scenarios.
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.4931</td>
-      <td style = "text-align: right;">0.4931</td>
-      <td style = "text-align: right;">0.4931</td>
+      <td style = "text-align: right;">0.4932</td>
+      <td style = "text-align: right;">0.4932</td>
+      <td style = "text-align: right;">0.4933</td>
       <td style = "text-align: right;">0.4927</td>
-      <td style = "text-align: right;">0.4935</td>
+      <td style = "text-align: right;">0.4936</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0</td>
+      <td style = "text-align: right;">1.0001</td>
     </tr>
   </tbody>
 </table>
@@ -72,11 +103,11 @@ A Biden victory is not within the credible interval under any of the scenarios.
     <tr>
       <td style = "text-align: right;">0.4931</td>
       <td style = "text-align: right;">0.4931</td>
-      <td style = "text-align: right;">0.493</td>
-      <td style = "text-align: right;">0.4927</td>
+      <td style = "text-align: right;">0.4929</td>
+      <td style = "text-align: right;">0.4926</td>
       <td style = "text-align: right;">0.4935</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0002</td>
+      <td style = "text-align: right;">1.0004</td>
     </tr>
   </tbody>
 </table>

@@ -7,7 +7,7 @@ using Statistics
 using StatsPlots
 using Turing
 
-const DESIGN_ERROR = 0.012
+# const DESIGN_ERROR = 0.012
 
 @enum Month mar apr may jun jul aug sep oct nov
 
@@ -28,14 +28,18 @@ const DESIGN_ERROR = 0.012
     fo3
     hi2
     hi3
+    hp2
     ma2
     ma3
     mi2
     mi3
     mr2
     mr3
+    ny2
     qi2
     qi3
+    si2
+    si3
     sp2
     sp3
     su2
@@ -58,28 +62,30 @@ end
 
 @load "../objs/apr_polls.bson" months
 
-"""
-months[may][AZ][bl2] = [Poll(43,49, 801)]
-months[may][AZ][ec2] = [Poll(44,48,1000)]
-months[may][GA][bl2] = [Poll(45,47, 802)]
-months[may][GA][ec2] = [Poll(44,47,1000)]
-months[may][GA][fo2] = [Poll(45,51,1128)]
-months[may][MI][bi2] = [Poll(43,51, 708)]
-months[may][MI][ec2] = [Poll(44,45,1000)]
-months[may][MI][fo2] = [Poll(46,49,1106)]
-months[may][MI][mr2] = [Poll(46,42, 600)]
-months[may][NC][ec2] = [Poll(42,47,1000)]
-months[may][NC][bl2] = [Poll(41,51, 703)]
-months[may][NC][ma2] = [Poll(43,49, 645)]
-months[may][NC][qi2] = [Poll(46,48,1401)]
-months[may][NV][ec2] = [Poll(44,45,1000)]
-months[may][PA][bi2] = [Poll(46,47, 803)]
-months[may][PA][ec2] = [Poll(45,47,1000)]
-months[may][WI][bl2] = [Poll(44,48, 703)]
-months[may][WI][ec2] = [Poll(45,47,1000)]
-"""
+months[may][AZ][bl2] = [Poll(44,49, 795)]
+months[may][GA][bl2] = [Poll(44,47, 795)]
+months[may][MI][bl3] = [Poll(40,44, 704)]
+months[may][NC][bl2] = [Poll(42,49, 704)]
+months[may][WI][bl2] = [Poll(46,47, 693)]
+months[may][NV][bl2] = [Poll(47,47, 459)]
+months[may][PA][bl2] = [Poll(46,48, 812)]
+months[may][AZ][ec2] = [Poll(42,49, 626)]
+months[may][GA][ec2] = [Poll(39,49, 604)]
+months[may][MI][ec2] = [Poll(36,38, 616)]
+months[may][NV][ec2] = [Poll(38,50, 614)]
+months[may][PA][ec2] = [Poll(44,47,1023)]
+months[may][WI][ec2] = [Poll(47,45, 614)]
+months[may][NC][hp2] = [Poll(43,48,1002)]
 months[may][WI][qi2] = [Poll(50,44,1497)]
+months[may][AZ][si2] = [Poll(42,49, 626)]
+months[may][GA][si2] = [Poll(39,49, 604)]
+months[may][MI][si3] = [Poll(36,38, 616)]
+months[may][NV][si2] = [Poll(38,50, 614)]
+months[may][PA][si2] = [Poll(44,47,1023)]
+months[may][WI][si2] = [Poll(47,45, 614)]
 
-# @save "../objs/may_polls.bson" months
+
+# needs to be done manually rather than with include()
+#@save "../objs/may_polls.bson" months
 
 
