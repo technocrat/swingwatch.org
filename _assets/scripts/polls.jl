@@ -3,12 +3,12 @@
 
 
 STATE       = State
-prior_month = "apr"
-mon         = may
-MON         = "may"
-Mon         = "may"
-st          = "WI"
-ST          =  WI
+prior_month = "may"
+mon         = jun
+MON         = "jun"
+Mon         = "jun"
+st          = "NV"
+ST          =  NV
 
 include("polls_head.jl")
 prior_poll = BSON.load("../objs/"*"$st"*"_"*"$prior_month"*"_p_sample.bson")

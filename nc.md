@@ -2,6 +2,8 @@
 title = "North Carolina"
 +++
 
+* [June assessment](#jun-assessment)
+* [May assessment](#may-assessment)
 * [April assessment](#april-assessment)
 * [March assessment](#march-assessment)
 * [2020 election](#2020-election)
@@ -19,6 +21,37 @@ Assessments are based on three criteria.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
 
+## June assessment
+
+A Biden victory is not within the credible interval under any of the scenarios.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.493</td>
+      <td style = "text-align: right;">0.493</td>
+      <td style = "text-align: right;">0.493</td>
+      <td style = "text-align: right;">0.4926</td>
+      <td style = "text-align: right;">0.4934</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0002</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/NC_jun.png" style="width: 100%; display: block;">
+~~~
 ## May assessment
 
 A Biden victory is not within the credible interval under any of the scenarios.
@@ -48,7 +81,7 @@ A Biden victory is not within the credible interval under any of the scenarios.
     </tr>
   </tbody>
 </table>
-<img src="/assets/img/models/NC_apr.png" style="width: 100%; display: block;">
+<img src="/assets/img/models/NC_may.png" style="width: 100%; display: block;">
 ~~~
 ## April assessment
 

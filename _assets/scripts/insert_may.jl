@@ -1,25 +1,24 @@
-using BSON: @save, @load
-using LinearAlgebra
-using PrettyTables
-using Printf
-using Serialization
-using Statistics
-using StatsPlots
-using Turing
 
-# const DESIGN_ERROR = 0.012
 
-@enum Month mar apr may jun jul aug sep oct nov
 
-@enum Pollster begin
+
+
+
+
+
+
+
+
     bi2
     bi3
+    biden_support::Float64
     bl2
     bl3
     cb2
     cb3
     cn2
     cn3
+    ea2
     ec2
     ec3
     fm2
@@ -49,43 +48,37 @@ using Turing
     ws2
     ws3l
     ws3s
-end
-
+@enum Month mar apr may jun jul aug sep oct nov
+@enum Pollster begin
 @enum State PA GA NC MI AZ WI NV
-
-struct Poll
-    biden_support::Float64
-    trump_support::Float64
-    sample_size::Int
-end
-# 
-
 @load "../objs/apr_polls.bson" months
-
-months[may][AZ][bl2] = [Poll(44,49, 795)]
-months[may][GA][bl2] = [Poll(44,47, 795)]
-months[may][MI][bl3] = [Poll(40,44, 704)]
-months[may][NC][bl2] = [Poll(42,49, 704)]
-months[may][WI][bl2] = [Poll(46,47, 693)]
-months[may][NV][bl2] = [Poll(47,47, 459)]
-months[may][PA][bl2] = [Poll(46,48, 812)]
-months[may][AZ][ec2] = [Poll(42,49, 626)]
-months[may][GA][ec2] = [Poll(39,49, 604)]
-months[may][MI][ec2] = [Poll(36,38, 616)]
-months[may][NV][ec2] = [Poll(38,50, 614)]
-months[may][PA][ec2] = [Poll(44,47,1023)]
-months[may][WI][ec2] = [Poll(47,45, 614)]
-months[may][NC][hp2] = [Poll(43,48,1002)]
-months[may][WI][qi2] = [Poll(50,44,1497)]
-months[may][AZ][si2] = [Poll(42,49, 626)]
-months[may][GA][si2] = [Poll(39,49, 604)]
-months[may][MI][si3] = [Poll(36,38, 616)]
-months[may][NV][si2] = [Poll(38,50, 614)]
-months[may][PA][si2] = [Poll(44,47,1023)]
-months[may][WI][si2] = [Poll(47,45, 614)]
-
-
+# 
+# const DESIGN_ERROR = 0.012
 # needs to be done manually rather than with include()
 #@save "../objs/may_polls.bson" months
-
-
+end
+end
+months[may][AZ][am2] = [Poll(42,48, 600)]
+months[may][AZ][ec2] = [Poll(43,47,1000)]
+months[may][AZ][rr2] = [Poll(42,47, 750)]
+months[may][GA][aj2] = [Poll(38,43,1000)]
+months[may][GA][ec2] = [Poll(41,45,1000)]
+months[may][GA][qi2] = [Poll(44,49,1203)]
+months[may][MI][ep2] = [Poll(45,49, 600)]
+months[may][MI][ec2] = [Poll(49,51,1000)]
+months[may][MI][mi2] = [Poll(45,46, 697)]
+months[may][NC][ea2] = [Poll(43,48,1332)]
+months[may][NV][fo2] = [Poll(45,50,1000)]
+months[may][NV][ec2] = [Poll(39,41,1000)]
+months[may][PA][ec2] = [Poll(45,47,1000)]
+months[may][WI][ec2] = [Poll(42,44,1000)]
+months[may][WI][mq2] = [Poll(50,50, 811)]
+struct Poll
+using BSON: @save, @load
+using LinearAlgebra
+using PrettyTables
+using Printf
+using Serialization
+using Statistics
+using StatsPlots
+using Turing
