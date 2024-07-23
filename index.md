@@ -2,7 +2,13 @@
 title = "Latest"
 +++
 
-## Overall assessment
+## Superseding event
+
+As of July 22, 2024, Vice President Harris will replace President Biden as the nominee of the Democratic Party and a new model will need to be developed to reflect that change. The plan is to aggregate the polls conducted in July prior to July 21, 2024 (when Biden withdrew) as the prior distribution, after introducing some variability to partially account for the added uncertainty.
+
+For polls conducted through the end of the month, the model will be updated and every fortnight thereafter. Consideration will also be given to reassessing swing states, depending on initial results. It is expected that most Blue and Red states will remain as such, but some swing states will move.
+
+## Overall assessment for polling through June
 
 ### Stringent view
 
