@@ -34,4 +34,4 @@ The author reviews, and may revise, such content and accepts responsibility for 
 
 ### Political bias
 
-The author is a registered Democrat who intends to vote for President Biden. No assurance can be given that the assessments of polls made here will be free of effects of that bias, whether tending to show a favorable outcome on the one hand, or tending to show an unfavorable outcome, on the other, by making methodological decisions that may overcompensate for the bias. Opinions expressed are intended to be clear from context or will be labelled as **Comment** or similarly.
+The author is a registered Democrat who intends to vote for Vice President Harris. No assurance can be given that the assessments of polls made here will be free of effects of that bias, whether tending to show a favorable outcome on the one hand, or tending to show an unfavorable outcome, on the other, by making methodological decisions that may overcompensate for the bias. Opinions expressed are intended to be clear from context or will be labelled as **Comment** or similarly.

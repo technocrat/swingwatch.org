@@ -61,7 +61,7 @@ outcome.result = Vector{String}(undef, size(outcome, 1))
 
 outcome.result[outcome[:,:biden] .< TIE]  .= "Trump"
 outcome.result[outcome[:,:biden] .== TIE] .= "Tie"
-outcome.result[outcome[:,:biden] .> TIE]  .= "Biden"
+outcome.result[outcome[:,:biden] .> TIE]  .= "Harris"
 
 states = collect(keys(votes))
 

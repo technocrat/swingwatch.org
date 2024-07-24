@@ -90,7 +90,7 @@ df = CSV.read(IOBuffer(csv_data), DataFrame)
   - [Quinnipiac conducted May](https://poll.qu.edu/images/polling/wi/wi05082024_wizz76.pdf)
   
 ---
-[^3]: Results selected for analysis here are for two-way preference questions if asked, except in cases in which Robert F. Kennedy, Jr. qualified for the ballot prior to poll. For polls with only multiple choices in addition to Biden and Trump, their respective percentages of responses were recorded. In all cases those percentages were normalized to 100% to reflect the relative, not absolute, support of the two candidates.
+[^3]: Results selected for analysis here are for two-way preference questions if asked, except in cases in which Robert F. Kennedy, Jr. qualified for the ballot prior to poll. For polls with only multiple choices in addition to Harris and Trump, their respective percentages of responses were recorded. In all cases those percentages were normalized to 100% to reflect the relative, not absolute, support of the two candidates.
 ---
 
 ## Demographics

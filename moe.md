@@ -2,9 +2,9 @@
 title = "Margin of error"
 +++
 
-> The latest poll shows President Biden leading former President Trump in Arizona in the two-candidate race by 50.1% to 49.9% with a margin of error of 2.5%
+> The latest poll before his withdrawal showed President Biden leading former President Trump in Arizona in the two-candidate race by 50.1% to 49.9% with a margin of error of 2.5%
 
-is the form of a news lede often seen and it means that if the election were held at the time of the poll, those proportions of respondents indicate their preferences for the respective candidates. The margin of error provides the additional information that the respondents were selected at random and indicates how much the response varies from what could be found if everyone, and not just the sample, were asked. So, while the proportion of voters *in the sample* favoring Biden is *exactly* 50.1%, the proportion of *all voters* could be larger or smaller—47.6% to 52.6%. Because the margin for Trump overlaps—47.4% to 52.4%. This is often referred to as a "statistical dead heat."
+is the form of a news lede often seen and it means that if the election were held at the time of the poll, those proportions of respondents indicate their preferences for the respective candidates. The margin of error provides the additional information that the respondents were selected at random and indicates how much the response varies from what could be found if everyone, and not just the sample, were asked. So, while the proportion of voters *in the sample* favoring Harris is *exactly* 50.1%, the proportion of *all voters* could be larger or smaller—47.6% to 52.6%. Because the margin for Trump overlaps—47.4% to 52.4%. This is often referred to as a "statistical dead heat."
 
 That is an over-simplification because there are two principal sources of error that can be estimated at the time of survey. 
 

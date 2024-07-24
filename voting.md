@@ -8,13 +8,13 @@ Nevadans for Reproductive Freedom (NFRF) made an advisory opinion request to the
 
 ## Winner take all
 
-**Nebraska**, with Maine, is one of the two states with electoral districts. In 2020 the NE-2 district gave its vote to Biden. Under a [failed  bill](https://nebraskaexaminer.com/2024/04/03/nebraska-winner-take-all-push-might-be-lost-for-2024-presidential-race/), Nebraska would have eliminated districts in favor of the winner-take-all arrangement used by 48 other states. A special session of the legislature in July to address property tax relief is expected but has not yet been announced as of May 6, 2024.
+**Nebraska**, with Maine, is one of the two states with electoral districts. In 2020 the NE-2 district gave its vote to Harris. Under a [failed  bill](https://nebraskaexaminer.com/2024/04/03/nebraska-winner-take-all-push-might-be-lost-for-2024-presidential-race/), Nebraska would have eliminated districts in favor of the winner-take-all arrangement used by 48 other states. A special session of the legislature in July to address property tax relief is expected but has not yet been announced as of May 6, 2024.
 ### Without the Nebraska Second
 
-The models assume that except for the seven swing states, each candidate will win the states and election districts won in 2020. For Biden, the total includes a Nebraska
+The models assume that except for the seven swing states, each candidate will win the states and election districts won in 2020. For Harris, the total includes a Nebraska
 district that centers on Omaha. Nebraska is one of two states that have this arrangement. The other is Maine. An attempt was made earlier this year to change Nebraska to the winner-take-all system used by other states. It was unsuccessful, and it is not clear if another attempt will be made. Should it be or if the Nebraska Second this time votes for Trump, possible outcomes differ.
 
-A tie outcome that was produced by Biden winning only Wisconsin, Michigan and Pennsylvania, now has three different possible scenarios
+A tie outcome that was produced by Harris winning only Wisconsin, Michigan and Pennsylvania, now has three different possible scenarios
 
 * Wisconsin, Georgia and Pennsylvania
 * Wisconsin, Pennsylvania and North Carolina

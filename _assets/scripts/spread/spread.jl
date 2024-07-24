@@ -10,10 +10,10 @@ include("moe.jl")
 
 gr()
 
-function spread(Biden::Int64,Trump::Int64,N::Int64)
-  biden_lo = Biden/100 - (moe(N) + PLUG)
-  biden_hi = Biden/100 + (moe(N) + PLUG)
-  biden_pk = [biden_lo,Biden/100,biden_hi] .* 100
+function spread(Harris::Int64,Trump::Int64,N::Int64)
+  biden_lo = Harris/100 - (moe(N) + PLUG)
+  biden_hi = Harris/100 + (moe(N) + PLUG)
+  biden_pk = [biden_lo,Harris/100,biden_hi] .* 100
   biden_bk = Int.(round.(biden_pk,digits = 0))
   trump_lo = Trump/100 - (moe(N) + PLUG)
   trump_hi = Trump/100 + (moe(N) + PLUG)
@@ -37,7 +37,7 @@ function create_ribbon_chart(result, STATE, TYPE_POLL, POLLSTER; filename=nothin
     # Create the ribbon chart
     p = plot(size=(800, 300), legend=false, grid=false, yaxis=false, bottom_margin=10Plots.mm, top_margin=15Plots.mm)
     
-    # Plot Biden's and Trump's ranges
+    # Plot Harris's and Trump's ranges
     plot!([biden_range[1], biden_range[end]], [1.2, 1.2], linewidth=10, color=FLAGBLUE)
     plot!([trump_range[1], trump_range[end]], [0.2, 0.2], linewidth=10, color=FLAGRED)
     

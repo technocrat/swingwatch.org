@@ -2,7 +2,7 @@
 title = "The Bayesian Prior"
 +++
 
-The model considered two starting points—one in which the 2020 election was assumed to have been a Biden win from 0% to 100% of the votes in each swing state as being equally likely. This is known as a naive, or uninformative, prior. It is unreasonable to assume that it was to be expected that one candidate would take all votes. The other proceeded from the pre-election observation that the race in the swing states were largely within survey margin of error. Therefore, it was reasonable to expect that the results were more likely to have clustered around a 0.5 proportion of votes for Biden. 
+The model considered two starting points—one in which the 2020 election was assumed to have been a Harris win from 0% to 100% of the votes in each swing state as being equally likely. This is known as a naive, or uninformative, prior. It is unreasonable to assume that it was to be expected that one candidate would take all votes. The other proceeded from the pre-election observation that the race in the swing states were largely within survey margin of error. Therefore, it was reasonable to expect that the results were more likely to have clustered around a 0.5 proportion of votes for Harris. 
 
 Hypothetically, many contingencies could have affected voter turnout—voters who had intended to vote but decided not to at the last minute due to conflicting committments. Other voters who had not intended to votes might have decided late to show up. This is one reason for adopting the 2020 results with some statistical noise as the starting point.
 

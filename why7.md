@@ -12,7 +12,7 @@ title = "Seven Swing States"
 <img src="/assets/img/maps/electoral_map.png" style="width: 100%; display: block;">
 ~~~
 
-In the 2020 election, there were 49 states (including the District of Columnia and the sub-state districts in each of Maine and Nebraska) won by a margin of greater than 3.2%. Only **seven states** were decided by a margin of less than 3.2%. *Assuming* that each candidate retains all states won in the 2020 election except for the swing states, President Biden begins with 225 electoral votes, and former President Trump begins with 220 electoral votes[^1] using the 2024 Electoral College allocation. The scenario table following shows the result of a Biden win of each of the possible combinations of outcomes in those states. 
+In the 2020 election, there were 49 states (including the District of Columnia and the sub-state districts in each of Maine and Nebraska) won by a margin of greater than 3.2%. Only **seven states** were decided by a margin of less than 3.2%. *Assuming* that each candidate retains all states won in the 2020 election except for the swing states, President Harris begins with 225 electoral votes, and former President Trump begins with 220 electoral votes[^1] using the 2024 Electoral College allocation. The scenario table following shows the result of a Harris win of each of the possible combinations of outcomes in those states. 
 
 These are the states that are widely discussed as swing states for 2024.
 * **PA** 19 votes (down from 20 in the 2020 election)
@@ -25,9 +25,9 @@ These are the states that are widely discussed as swing states for 2024.
 
 President Biden won all of the swing states in 2020 except for North Carolina.
 
-Assuming that the remaining states and districts will be non-competitive and have the same electoral outcome, the starting point is 28 red states and districts with 220 electoral votes and 28 blue states and districts with 225 electoral votes. **President Biden begins with an advantage of five electoral votes.**
+Assuming that the remaining states and districts will be non-competitive and have the same electoral outcome, the starting point is 28 red states and districts with 220 electoral votes and 28 blue states and districts with 225 electoral votes. **President Harris begins with an advantage of five electoral votes.**
 
-The seven swing states have **93 votes** among them. Depending on the outcomes of their elections either President Biden or former President Trump could have more than 269 electoral votes **with 45 or more of the 93 electoral votes in the swing states.** Or they could each have 269 electoral votes, which puts the decision to the House of Representatives, voting by state delegation.
+The seven swing states have **93 votes** among them. Depending on the outcomes of their elections either President Harris or former President Trump could have more than 269 electoral votes **with 45 or more of the 93 electoral votes in the swing states.** Or they could each have 269 electoral votes, which puts the decision to the House of Representatives, voting by state delegation.
 
 ~~~
     <div style="text-align: center;">
@@ -36,10 +36,10 @@ The seven swing states have **93 votes** among them. Depending on the outcomes o
 ~~~
 
 * Former President **Trump wins in 57** of the possible outcomes
-* President **Biden wins in 70** of the possible outcomes
-* There is **one possible tie** (if Biden wins only WI, MI and PA)
+* Vice President **Harris wins in 70** of the possible outcomes
+* There is **one possible tie** (if Harris wins only WI, MI and PA)
 
-Without Biden wins in both North Carolina and Pennsylvania there are only **four** winning outcomes and no tie would occur. 
+Without Harris wins in both North Carolina and Pennsylvania there are only **four** winning outcomes and no tie would occur. 
 
 ~~~
 <table>
@@ -47,7 +47,7 @@ Without Biden wins in both North Carolina and Pennsylvania there are only **four
     <tr class = "header headerLastRow">
       <th style = "text-align: right;">Scenario</th>
       <th style = "text-align: right;">Electoral Votes</th>
-      <th style = "text-align: right;">Biden Total</th>
+      <th style = "text-align: right;">Harris Total</th>
       <th style = "text-align: right;">Trump Total</th>
       <th style = "text-align: right;">Result</th>
     </tr>
@@ -58,41 +58,41 @@ Without Biden wins in both North Carolina and Pennsylvania there are only **four
       <td style = "text-align: right;">47</td>
       <td style = "text-align: right;">272</td>
       <td style = "text-align: right;">266</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, GA and MI</td>
       <td style = "text-align: right;">48</td>
       <td style = "text-align: right;">273</td>
       <td style = "text-align: right;">265</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, GA and MI</td>
       <td style = "text-align: right;">52</td>
       <td style = "text-align: right;">277</td>
       <td style = "text-align: right;">261</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, GA and MI</td>
       <td style = "text-align: right;">58</td>
       <td style = "text-align: right;">283</td>
       <td style = "text-align: right;">255</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
   </tbody>
 </table>
 ~~~
 
-All the possible outcomes (the scenario in which Biden wins none of the swing states is not shown.)
+All the possible outcomes (the scenario in which Harris wins none of the swing states is not shown.)
 ~~~
 <table>
   <thead>
     <tr class = "header headerLastRow">
-      <th style = "text-align: right;">States won by Biden</th>
+      <th style = "text-align: right;">States won by Harris</th>
       <th style = "text-align: right;">Swing electoral votes</th>
-      <th style = "text-align: right;">Biden total</th>
+      <th style = "text-align: right;">Harris total</th>
       <th style = "text-align: right;">Trump total</th>
       <th style = "text-align: right;">Result</th>
     </tr>
@@ -502,490 +502,490 @@ All the possible outcomes (the scenario in which Biden wins none of the swing st
       <td style = "text-align: right;">45</td>
       <td style = "text-align: right;">270</td>
       <td style = "text-align: right;">268</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, PA and NC</td>
       <td style = "text-align: right;">45</td>
       <td style = "text-align: right;">270</td>
       <td style = "text-align: right;">268</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">AZ, MI and PA</td>
       <td style = "text-align: right;">45</td>
       <td style = "text-align: right;">270</td>
       <td style = "text-align: right;">268</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ and PA</td>
       <td style = "text-align: right;">46</td>
       <td style = "text-align: right;">271</td>
       <td style = "text-align: right;">267</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">AZ, GA and PA</td>
       <td style = "text-align: right;">46</td>
       <td style = "text-align: right;">271</td>
       <td style = "text-align: right;">267</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">AZ, PA and NC</td>
       <td style = "text-align: right;">46</td>
       <td style = "text-align: right;">271</td>
       <td style = "text-align: right;">267</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA and MI</td>
       <td style = "text-align: right;">47</td>
       <td style = "text-align: right;">272</td>
       <td style = "text-align: right;">266</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, MI and NC</td>
       <td style = "text-align: right;">47</td>
       <td style = "text-align: right;">272</td>
       <td style = "text-align: right;">266</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">GA, MI and NC</td>
       <td style = "text-align: right;">47</td>
       <td style = "text-align: right;">272</td>
       <td style = "text-align: right;">266</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA and NC</td>
       <td style = "text-align: right;">48</td>
       <td style = "text-align: right;">273</td>
       <td style = "text-align: right;">265</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, GA and MI</td>
       <td style = "text-align: right;">48</td>
       <td style = "text-align: right;">273</td>
       <td style = "text-align: right;">265</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, MI and NC</td>
       <td style = "text-align: right;">48</td>
       <td style = "text-align: right;">273</td>
       <td style = "text-align: right;">265</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, GA and NC</td>
       <td style = "text-align: right;">49</td>
       <td style = "text-align: right;">274</td>
       <td style = "text-align: right;">264</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, MI and PA</td>
       <td style = "text-align: right;">50</td>
       <td style = "text-align: right;">275</td>
       <td style = "text-align: right;">263</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">GA, MI and PA</td>
       <td style = "text-align: right;">50</td>
       <td style = "text-align: right;">275</td>
       <td style = "text-align: right;">263</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">MI, PA and NC</td>
       <td style = "text-align: right;">50</td>
       <td style = "text-align: right;">275</td>
       <td style = "text-align: right;">263</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA and PA</td>
       <td style = "text-align: right;">51</td>
       <td style = "text-align: right;">276</td>
       <td style = "text-align: right;">262</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, PA and NC</td>
       <td style = "text-align: right;">51</td>
       <td style = "text-align: right;">276</td>
       <td style = "text-align: right;">262</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, MI and PA</td>
       <td style = "text-align: right;">51</td>
       <td style = "text-align: right;">276</td>
       <td style = "text-align: right;">262</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">GA, PA and NC</td>
       <td style = "text-align: right;">51</td>
       <td style = "text-align: right;">276</td>
       <td style = "text-align: right;">262</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, GA and PA</td>
       <td style = "text-align: right;">52</td>
       <td style = "text-align: right;">277</td>
       <td style = "text-align: right;">261</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, PA and NC</td>
       <td style = "text-align: right;">52</td>
       <td style = "text-align: right;">277</td>
       <td style = "text-align: right;">261</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, GA and MI</td>
       <td style = "text-align: right;">52</td>
       <td style = "text-align: right;">277</td>
       <td style = "text-align: right;">261</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, MI and NC</td>
       <td style = "text-align: right;">52</td>
       <td style = "text-align: right;">277</td>
       <td style = "text-align: right;">261</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, GA, MI and NC</td>
       <td style = "text-align: right;">53</td>
       <td style = "text-align: right;">278</td>
       <td style = "text-align: right;">260</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, GA and NC</td>
       <td style = "text-align: right;">53</td>
       <td style = "text-align: right;">278</td>
       <td style = "text-align: right;">260</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, MI and PA</td>
       <td style = "text-align: right;">55</td>
       <td style = "text-align: right;">280</td>
       <td style = "text-align: right;">258</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, GA, MI and PA</td>
       <td style = "text-align: right;">56</td>
       <td style = "text-align: right;">281</td>
       <td style = "text-align: right;">257</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, MI, PA and NC</td>
       <td style = "text-align: right;">56</td>
       <td style = "text-align: right;">281</td>
       <td style = "text-align: right;">257</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, GA and PA</td>
       <td style = "text-align: right;">56</td>
       <td style = "text-align: right;">281</td>
       <td style = "text-align: right;">257</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, PA and NC</td>
       <td style = "text-align: right;">56</td>
       <td style = "text-align: right;">281</td>
       <td style = "text-align: right;">257</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, GA, PA and NC</td>
       <td style = "text-align: right;">57</td>
       <td style = "text-align: right;">282</td>
       <td style = "text-align: right;">256</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, GA, MI and NC</td>
       <td style = "text-align: right;">57</td>
       <td style = "text-align: right;">282</td>
       <td style = "text-align: right;">256</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, GA and MI</td>
       <td style = "text-align: right;">58</td>
       <td style = "text-align: right;">283</td>
       <td style = "text-align: right;">255</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, MI and NC</td>
       <td style = "text-align: right;">58</td>
       <td style = "text-align: right;">283</td>
       <td style = "text-align: right;">255</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">AZ, GA, MI and NC</td>
       <td style = "text-align: right;">58</td>
       <td style = "text-align: right;">283</td>
       <td style = "text-align: right;">255</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, GA and NC</td>
       <td style = "text-align: right;">59</td>
       <td style = "text-align: right;">284</td>
       <td style = "text-align: right;">254</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, GA, MI and PA</td>
       <td style = "text-align: right;">60</td>
       <td style = "text-align: right;">285</td>
       <td style = "text-align: right;">253</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, MI, PA and NC</td>
       <td style = "text-align: right;">60</td>
       <td style = "text-align: right;">285</td>
       <td style = "text-align: right;">253</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, MI and PA</td>
       <td style = "text-align: right;">61</td>
       <td style = "text-align: right;">286</td>
       <td style = "text-align: right;">252</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, GA, PA and NC</td>
       <td style = "text-align: right;">61</td>
       <td style = "text-align: right;">286</td>
       <td style = "text-align: right;">252</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">AZ, GA, MI and PA</td>
       <td style = "text-align: right;">61</td>
       <td style = "text-align: right;">286</td>
       <td style = "text-align: right;">252</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">AZ, MI, PA and NC</td>
       <td style = "text-align: right;">61</td>
       <td style = "text-align: right;">286</td>
       <td style = "text-align: right;">252</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, GA and PA</td>
       <td style = "text-align: right;">62</td>
       <td style = "text-align: right;">287</td>
       <td style = "text-align: right;">251</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, PA and NC</td>
       <td style = "text-align: right;">62</td>
       <td style = "text-align: right;">287</td>
       <td style = "text-align: right;">251</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">AZ, GA, PA and NC</td>
       <td style = "text-align: right;">62</td>
       <td style = "text-align: right;">287</td>
       <td style = "text-align: right;">251</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA, MI and NC</td>
       <td style = "text-align: right;">63</td>
       <td style = "text-align: right;">288</td>
       <td style = "text-align: right;">250</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, GA, MI and NC</td>
       <td style = "text-align: right;">64</td>
       <td style = "text-align: right;">289</td>
       <td style = "text-align: right;">249</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA, MI and PA</td>
       <td style = "text-align: right;">66</td>
       <td style = "text-align: right;">291</td>
       <td style = "text-align: right;">247</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, MI, PA and NC</td>
       <td style = "text-align: right;">66</td>
       <td style = "text-align: right;">291</td>
       <td style = "text-align: right;">247</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">GA, MI, PA and NC</td>
       <td style = "text-align: right;">66</td>
       <td style = "text-align: right;">291</td>
       <td style = "text-align: right;">247</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA, PA and NC</td>
       <td style = "text-align: right;">67</td>
       <td style = "text-align: right;">292</td>
       <td style = "text-align: right;">246</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, GA, MI and PA</td>
       <td style = "text-align: right;">67</td>
       <td style = "text-align: right;">292</td>
       <td style = "text-align: right;">246</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, MI, PA and NC</td>
       <td style = "text-align: right;">67</td>
       <td style = "text-align: right;">292</td>
       <td style = "text-align: right;">246</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, GA, PA and NC</td>
       <td style = "text-align: right;">68</td>
       <td style = "text-align: right;">293</td>
       <td style = "text-align: right;">245</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, GA, MI and NC</td>
       <td style = "text-align: right;">68</td>
       <td style = "text-align: right;">293</td>
       <td style = "text-align: right;">245</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, GA, MI and PA</td>
       <td style = "text-align: right;">71</td>
       <td style = "text-align: right;">296</td>
       <td style = "text-align: right;">242</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, MI, PA and NC</td>
       <td style = "text-align: right;">71</td>
       <td style = "text-align: right;">296</td>
       <td style = "text-align: right;">242</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, GA, MI, PA and NC</td>
       <td style = "text-align: right;">72</td>
       <td style = "text-align: right;">297</td>
       <td style = "text-align: right;">241</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, GA, PA and NC</td>
       <td style = "text-align: right;">72</td>
       <td style = "text-align: right;">297</td>
       <td style = "text-align: right;">241</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, GA, MI and NC</td>
       <td style = "text-align: right;">74</td>
       <td style = "text-align: right;">299</td>
       <td style = "text-align: right;">239</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, GA, MI, PA and NC</td>
       <td style = "text-align: right;">76</td>
       <td style = "text-align: right;">301</td>
       <td style = "text-align: right;">237</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">AZ, GA, MI, PA and NC</td>
       <td style = "text-align: right;">77</td>
       <td style = "text-align: right;">302</td>
       <td style = "text-align: right;">236</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, GA, MI and PA</td>
       <td style = "text-align: right;">77</td>
       <td style = "text-align: right;">302</td>
       <td style = "text-align: right;">236</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, MI, PA and NC</td>
       <td style = "text-align: right;">77</td>
       <td style = "text-align: right;">302</td>
       <td style = "text-align: right;">236</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, GA, PA and NC</td>
       <td style = "text-align: right;">78</td>
       <td style = "text-align: right;">303</td>
       <td style = "text-align: right;">235</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA, MI, PA and NC</td>
       <td style = "text-align: right;">82</td>
       <td style = "text-align: right;">307</td>
       <td style = "text-align: right;">231</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, AZ, GA, MI, PA and NC</td>
       <td style = "text-align: right;">83</td>
       <td style = "text-align: right;">308</td>
       <td style = "text-align: right;">230</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, AZ, GA, MI, PA and NC</td>
       <td style = "text-align: right;">87</td>
       <td style = "text-align: right;">312</td>
       <td style = "text-align: right;">226</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, AZ, GA, MI, PA and NC</td>
       <td style = "text-align: right;">93</td>
       <td style = "text-align: right;">318</td>
       <td style = "text-align: right;">220</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
   </tbody>
 </table>

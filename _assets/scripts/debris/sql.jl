@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS polls (
     end_date DATE         COMMENT 'End date of polling',
     url VARCHAR(255)      COMMENT 'URL of the poll',
     n INTEGER             COMMENT 'Sample size (in respondents)',
-    biden FLOAT           COMMENT 'Biden support',
+    biden FLOAT           COMMENT 'Harris support',
     trump FLOAT           COMMENT 'Trump support',
     third FLOAT           COMMENT 'Third-party support',
     sserept FLOAT         COMMENT 'Reported sample standard error',
@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS polls (
     ssecalc FLOAT         COMMENT 'Calculated [sub]sample standard error',
     deadj FLOAT           COMMENT 'Design effect adj [sub]sample st error',
     moeadj FLOAT          COMMENT 'Total adjusted margin of error',
-    leadr VARCHAR(255)    COMMENT 'Poll leader (Biden,Trump,Third,None)'
+    leadr VARCHAR(255)    COMMENT 'Poll leader (Harris,Trump,Third,None)'
     );
 """
 # Database connection details

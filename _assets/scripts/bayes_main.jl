@@ -23,7 +23,7 @@
     # Define the prior
     biden_prob ~ Beta(prior_prob, 1 - prior_prob)
 
-    # Return the Biden and Trump probabilities
+    # Return the Harris and Trump probabilities
     return (biden_prob, trump_prob)
 end
 
@@ -68,7 +68,7 @@ trump_prob_mean    = mean(trump_prob_samples)
 trump_prob_median  = median(trump_prob_samples)
 trump_prob_sd      = std(trump_prob_samples)
 trump_prob_credible_interval = quantile(trump_prob_samples, [0.025, 0.975])
-println("Biden Probability:")
+println("Harris Probability:")
 println("  Mean: ", biden_prob_mean)
 println("  Mode: ", biden_prob_mode)
 println("  Median: ", biden_prob_median)
@@ -77,7 +77,7 @@ println("  95% Credible Interval: ", biden_prob_credible_interval)
 
 
 summary_df = DataFrame(
-    Parameter = ["Biden likelihood", "Trump likelihood"],
+    Parameter = ["Harris likelihood", "Trump likelihood"],
     Mean      = [biden_prob_mean, trump_prob_mean],
     Mode      = [biden_prob_mode, trump_prob_mode],
     Median    = [biden_prob_median, trump_prob_median],

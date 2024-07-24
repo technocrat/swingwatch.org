@@ -1,6 +1,6 @@
 # purpose: create a dataframe `outcomes` with variables state containing states 
 # that vote in combination in the sample space, the collective electoral votes
-# and whether that results in a Biden win, loss or draw
+# and whether that results in a Harris win, loss or draw
 
 using CSV
 using DataFrames

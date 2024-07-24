@@ -36,4 +36,4 @@ Three ballot initiatives are in process
 Note that this is not an affirmative protection for abortion access in the first trimester. 2024-03-21
 * The proposed [Nebraska Human Life Protection Act](https://sos.nebraska.gov/sites/sos.nebraska.gov/files/doc/elections/Petitions/2024/Nebraska%20Human%20Life%20Protection%20Initiative.pdf) would criminalize abortion from fertilization, subject to an affirmative defense that it was necessary for stated medical reasons. An affirmative defense permits, but does not require, a judge or jury to find a defendant physician not guilty.
 
-These initiatives might affect turnout, which could have an effect on the vote in the Nebraska Second District, which voted for Biden in 2020.
+These initiatives might affect turnout, which could have an effect on the vote in the Nebraska Second District, which voted for Harris in 2020.

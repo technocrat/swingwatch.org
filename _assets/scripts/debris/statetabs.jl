@@ -12,16 +12,16 @@ include("utils.jl")
 # objs    = "/Users/ro/projects/SwingWatch/_src/objs/"
 outcome = CSV.read("/Users/ro/projects/SwingWatch/_src/objs/outcome.csv"DataFrame)
 
-header = ["Scenario", "Electoral Votes", "Biden Total", "Trump Total", "Result"]
+header = ["Scenario", "Electoral Votes", "Harris Total", "Trump Total", "Result"]
 
 # pretty_table(outcome; backend = Val(:html), header = header, standalone = false)
 
 pa_loss = outcome[(occursin.("PA", outcome.combo)) .& (outcome.result .== 
 "Trump"), :]
 pa_ties = outcome[(occursin.("PA", outcome.combo)) .& (outcome.result .== "Tie"),   :]
-pa_wins = outcome[(occursin.("PA", outcome.combo)) .& (outcome.result .== "Biden"), :]
+pa_wins = outcome[(occursin.("PA", outcome.combo)) .& (outcome.result .== "Harris"), :]
 
-println("### Biden wins")
+println("### Harris wins")
 
 
 # see intake.jl for production of 2020vote.csv

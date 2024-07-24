@@ -3,7 +3,7 @@ title = "Arizona Models"
 +++
 
 - **Median**: Half of the random samples have probabilities greater than and half less than the median.
-- **Mean**: The average of the 10,000 random samples constructed. It coincides with the Biden Proportion in the table above.
+- **Mean**: The average of the 10,000 random samples constructed. It coincides with the Harris Proportion in the table above.
 - **Mode**: The probability that occurs most often.
 - **q025**: The value below which 2.5% of the probabilities occur.
 - **q975**: The value below which 97.5% of the probabilities occur.

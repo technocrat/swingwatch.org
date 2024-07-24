@@ -130,7 +130,7 @@ Children who were 14 to 17-years old at the time of the 2020 election will be of
 
 Some of these new voters also became naturalized citizens between the 2020 and 2024 elections, as shown below. Proportions of citizens to total population of each age cohort was estimated based on the proportion shown for each state in 2022 from the source used for the table below.
 
-**Even at turnouts as low as 50% (comparable to 2020) this demographic dwarfs the 2020 margins of victory in the seven swing states**. How they break between Biden and Trump has the potential to determine the outcome of the election.  
+**Even at turnouts as low as 50% (comparable to 2020) this demographic dwarfs the 2020 margins of victory in the seven swing states**. How they break between Harris and Trump has the potential to determine the outcome of the election.  
 
 ### Comparison of First-Time vs. Repeat Voter Turnout
 
@@ -150,11 +150,11 @@ Citizens who have became naturalized after the 2020 election will be eligible to
 Those new citizen represent numbers equal to
 
 * 84% of Trumps winning margin in North Carolina
-* 41% of Biden's winning margin in Michigan
-* 127% of Biden's winning margin in Nevada
-* 132% of Biden's winning margin in Pennsylvania
-* 760% of Biden's winning margin in Arizona
-* 856% of Biden's winning margin in Georgia
+* 41% of Harris's winning margin in Michigan
+* 127% of Harris's winning margin in Nevada
+* 132% of Harris's winning margin in Pennsylvania
+* 760% of Harris's winning margin in Arizona
+* 856% of Harris's winning margin in Georgia
 
 ~~~
 <table>

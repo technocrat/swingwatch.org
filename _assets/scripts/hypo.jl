@@ -2,15 +2,15 @@
 To illustrate the limitations of presidential preference polling it is possible to simulate accuracy of polling conducted for the Georgia election in 2020. It is assumed that one or more pollsters independently sample after polls close election night but before official results are released. The pollsters each ask three questions:
 
 1. Did you vote?
-2. Did you vote for one of Donald Trump or Joe Biden?
+2. Did you vote for one of Donald Trump or Joe Harris?
 3. Which one?
 
 until some preset number of replies to the third question are obtained.
 
 The objective is to determine
 
-1. The minimum sample size needed to have a 97.5% probablility of identifying a vote spread less than or equal to 246775, or 0.5% of the total cast for Trump and Biden, which is the threshhold for a mandatory recount.
-2. The probability that the mean spread is positive (a Biden win) at the 97.5% confidence interval, which is 39 chances in 40 of being correct.
+1. The minimum sample size needed to have a 97.5% probablility of identifying a vote spread less than or equal to 246775, or 0.5% of the total cast for Trump and Harris, which is the threshhold for a mandatory recount.
+2. The probability that the mean spread is positive (a Harris win) at the 97.5% confidence interval, which is 39 chances in 40 of being correct.
 3. The probability that all polls will show a positive spread at the 97.5% confidence interval
 4. The probability that at least one poll will show a negative spread (Trump win) at the 97.5% confidence interval
 """

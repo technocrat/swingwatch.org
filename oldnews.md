@@ -15,7 +15,7 @@ Governor Kemp signed [SB 189](https://www.legis.ga.gov/legislation/64471). Among
 
 ### Michigan
 
-Robert F. Kennedy, Jr.  [qualified](https://www.freep.com/story/news/politics/elections/2024/04/18/robert-f-kennedy-jr-michigan-presidential-ballot-2024-election/73371452007/) for the Michigan ballot on April 18, 2024. Beginning with polls conducted in May, the presidential preference polls that include his name as a choice will be used in preference to polls that limit the choice to Biden and Trump.
+Robert F. Kennedy, Jr.  [qualified](https://www.freep.com/story/news/politics/elections/2024/04/18/robert-f-kennedy-jr-michigan-presidential-ballot-2024-election/73371452007/) for the Michigan ballot on April 18, 2024. Beginning with polls conducted in May, the presidential preference polls that include his name as a choice will be used in preference to polls that limit the choice to Harris and Trump.
 
 Democrats [gained control](https://apnews.com/article/michigan-election-majority-democrats-house-deadlocked-77f6261041701e9839c9ce2069d7c24b) of the Michigan House in two special elections.
  

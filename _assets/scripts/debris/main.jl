@@ -91,7 +91,7 @@ function determine_result(biden_value)
     elseif biden_value < 269
         return "Trump"
     else
-        return "Biden"
+        return "Harris"
     end
 end
 

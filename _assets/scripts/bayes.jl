@@ -71,7 +71,7 @@ end
 """
    normalize_poll(poll::Poll)
 
-Normalizes the poll results for Biden and Trump by dividing their respective support values
+Normalizes the poll results for Harris and Trump by dividing their respective support values
 by the total support, and returns a `NormalizedPoll` object with the normalized values and sample size.
 
 # Arguments
@@ -79,7 +79,7 @@ by the total support, and returns a `NormalizedPoll` object with the normalized 
 
 # Returns
 - `NormalizedPoll`: A `NormalizedPoll` object with the following fields:
-   - `normalized_biden::Float64`: The normalized support for Biden (between 0 and 1).
+   - `normalized_biden::Float64`: The normalized support for Harris (between 0 and 1).
    - `normalized_trump::Float64`: The normalized support for Trump (between 0 and 1).
    - `sample_size::Int64`: The sample size of the poll.
 

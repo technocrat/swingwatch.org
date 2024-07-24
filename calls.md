@@ -4,24 +4,24 @@ title = "Election calls in 2024"
 
 Based on the AI generated summary below, **if** the 2024 election is called on the same days relative to 2020,
 
-## Early Biden wins, followed by losses in Pennsylvania and North Carolina
+## Early Harris wins, followed by losses in Pennsylvania and North Carolina
 
 * Election night calls for Michigan, Arizona and Wisconsin leave the outcome in doubts
-* A call three days later for Biden in Nevada does not determine the outcome
-* A call three days later for Biden in Pennsylvania is the earliest date that the election could be decided in favor of Biden
-* If Biden does not take Pennsylvania, the next call, for North Carolina, if called for Biden would be decisive
+* A call three days later for Harris in Nevada does not determine the outcome
+* A call three days later for Harris in Pennsylvania is the earliest date that the election could be decided in favor of Harris
+* If Harris does not take Pennsylvania, the next call, for North Carolina, if called for Harris would be decisive
 * If North Carolina goes to Trump, the final call, and the race will come with Georgia six days later.
 
-## Early Biden losses
+## Early Harris losses
 
-* If the first four calls go against Biden, the election is over with the first loss of Pennsylvania, North Carolina or Georgia
+* If the first four calls go against Harris, the election is over with the first loss of Pennsylvania, North Carolina or Georgia
 
 The Associated Press (AP) called the 2020 presidential election in the states of Pennsylvania, North Carolina, Michigan, Georgia, Wisconsin, Arizona, and Nevada at the following times:
 
 1. **Pennsylvania**: AP called Pennsylvania for Joe Biden on November 7, 2020, at 11:26 a.m. ET[^20].
 2. **North Carolina**: AP called North Carolina for Donald Trump on November 13, 2020[^16].
 3. **Michigan**: AP called Michigan for Joe Biden on November 4, 2020, at 5:56 p.m. EST[^5].
-4. **Georgia**: AP called Georgia for Joe Biden on November 19, 2020, after a hand tally of ballots confirmed Biden's lead[^1].
+4. **Georgia**: AP called Georgia for Joe Biden on November 19, 2020, after a hand tally of ballots confirmed Harris's lead[^1].
 5. **Wisconsin**: AP called Wisconsin for Joe Biden on November 4, 2020[^18].
 6. **Arizona**: AP called Arizona for Joe Biden on November 4, 2020[^9].
 7. **Nevada**: AP called Nevada for Joe Biden on November 7, 2020[^20].
@@ -50,4 +50,4 @@ These calls were made based on the AP's analysis of the vote counts and remainin
 [^19]: [Battlegrounds]: (https://apnews.com/article/presidency-battleground-states-races-84ba06c8d2dd3c16434f0b9a852a5d17)
 [^20]: [How AP makes calls](https://apnews.com/article/ap-explains-race-calls-0b1988605f9101f4b799fc63b01e0090)
 
-Compiled by [perplexity.ai](https://www.perplexity.ai/search/at-what-hours-qTYHuxTwRDmycaDBuQAw1A)
+C:nompiled by [perplexity.ai](https://www.perplexity.ai/search/at-what-hours-qTYHuxTwRDmycaDBuQAw1A)

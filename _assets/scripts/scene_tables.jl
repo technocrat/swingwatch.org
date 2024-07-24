@@ -1,5 +1,5 @@
 
-h1 = "Biden wins"
+h1 = "Harris wins"
 h2 = "Tie"
 h3 = "Trump wins"
 
@@ -10,9 +10,9 @@ const FULL   = ["Nevada","Michigan","Wisconsin","North Carolina","Arizona","Penn
 state_dict = Dict(zip(STATES, FULL)) 
 
 new_names = [
- "States won by Biden ",
+ "States won by Harris ",
  "Electoral Votes",
- "Biden Votes",
+ "Harris Votes",
  "Trump Votes",
  "Result"]
 
@@ -20,7 +20,7 @@ new_names = [
 
 h1
 
-pretty_table(outcome[(occursin.(ST, outcome.combo)) .& (outcome.result .== "Biden"), :], backend = Val(:html), header = new_names, standalone = false)
+pretty_table(outcome[(occursin.(ST, outcome.combo)) .& (outcome.result .== "Harris"), :], backend = Val(:html), header = new_names, standalone = false)
 
 h2
 
@@ -30,7 +30,7 @@ h3
 
 pretty_table(outcome[(occursin.(ST, outcome.combo)) .& (outcome.result .== "Trump"), :], backend = Val(:html), header = new_names, standalone = false)
 
-h4 = "Biden wins without $state_dict[ST]"
+h4 = "Harris wins without $state_dict[ST]"
 
-pretty_table(outcome[.!(occursin.(ST, outcome.combo)) .& (outcome.result .== "Biden"), :], backend = Val(:html), header = new_names, standalone = false)
+pretty_table(outcome[.!(occursin.(ST, outcome.combo)) .& (outcome.result .== "Harris"), :], backend = Val(:html), header = new_names, standalone = false)
 

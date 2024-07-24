@@ -1,7 +1,7 @@
 """
     without_states(lost::Vector{String}) -> DataFrame
 
-Find and return rows from the `outcomes` DataFrame where the `combo` column does not contain any of the states specified in the `lost` vector and where the result is "Biden".
+Find and return rows from the `outcomes` DataFrame where the `combo` column does not contain any of the states specified in the `lost` vector and where the result is "Harris".
 
 # Arguments
 - `lost::Vector{String}`: A vector of strings where each string represents a state to be excluded from the `combo` column.
@@ -12,11 +12,11 @@ Find and return rows from the `outcomes` DataFrame where the `combo` column does
 # Examples
 ```julia
 without_states(["PA", "NC"])
-header = ["Scenario", "Electoral Votes", "Biden Total", "Trump Total", "Result"]
+header = ["Scenario", "Electoral Votes", "Harris Total", "Trump Total", "Result"]
 pretty_table(without_states["PA"]; backend = Val(:html), header = header, standalone = false)
 """
 function without_states(lost::Vector{String})
-    filter(row -> all(!occursin(state, row.combo) for state in lost) && row.result == "Biden", outcomes)
+    filter(row -> all(!occursin(state, row.combo) for state in lost) && row.result == "Harris", outcomes)
 end
 #------------------------------------------------------------------
 """

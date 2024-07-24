@@ -82,7 +82,7 @@ rename!(votes, name_dict)
 const FLAGRED  = "#B22234"
 const FLAGBLUE = "#3C3B6E"
 change.color = ifelse.(change.biden_col .!= 0, FLAGBLUE,FLAGRED)
-change.party = ifelse.(change.biden_col .!= 0, "Biden","Trump")
+change.party = ifelse.(change.biden_col .!= 0, "Harris","Trump")
 sort!(tab1,[:party,:st])
 tab1 = change[:,[:st,:ev,:old,:chg,:party]]
 sort!(tab1,[:party,:st])

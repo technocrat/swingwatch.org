@@ -30,7 +30,7 @@ p = plot(legend=:topright, xlims=(TRUMP_LOW, BIDEN_HIGH), ylims=(0, 0.1),
 
 # Plotting the segments
 plot!([TRUMP_LOW, TRUMP_HIGH], [0, 0], linewidth=NEW_LINEWIDTH, linecolor=:red, label="Trump")
-plot!([BIDEN_LOW, BIDEN_HIGH], [0, 0], linewidth=NEW_LINEWIDTH, linecolor=:blue, label="Biden")
+plot!([BIDEN_LOW, BIDEN_HIGH], [0, 0], linewidth=NEW_LINEWIDTH, linecolor=:blue, label="Harris")
 plot!([TRUMP_HIGH, BIDEN_LOW], [0, 0], linewidth=NEW_LINEWIDTH, linecolor=:purple, label="Overlap")
 
 # Add chart title and labels
@@ -64,7 +64,7 @@ Create a ribbon chart visualization to display the ranges and overlap of poll re
 
 # Examples
 ```julia
-# Assuming `result` is a tuple containing two ranges (vectors) for Biden and Trump
+# Assuming `result` is a tuple containing two ranges (vectors) for Harris and Trump
 biden_range = [46.0, 50.0]
 trump_range = [45.0, 49.0]
 result = (biden_range, trump_range)
@@ -90,7 +90,7 @@ function create_ribbon_chart(result, STATE, TYPE_POLL, POLLSTER; filename=nothin
            # Create the ribbon chart
            p = plot(size=(800, 300), legend=false, grid=false, yaxis=false, bottom_margin=10Plots.mm, top_margin=15Plots.mm)
 
-           # Plot Biden's and Trump's ranges
+           # Plot Harris's and Trump's ranges
            plot!([biden_range[1], biden_range[end]], [1.2, 1.2], linewidth=10, color=FLAGBLUE)
            plot!([trump_range[1], trump_range[end]], [0.2, 0.2], linewidth=10, color=FLAGRED)
 

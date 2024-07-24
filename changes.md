@@ -21,56 +21,56 @@ As the result of the 2020 Census, 17 states lost or gain an electoral vote, exce
       <td style = "text-align: right;">54</td>
       <td style = "text-align: right;">55</td>
       <td style = "text-align: right;">-1</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">CO</td>
       <td style = "text-align: right;">10</td>
       <td style = "text-align: right;">9</td>
       <td style = "text-align: right;">1</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">IL</td>
       <td style = "text-align: right;">19</td>
       <td style = "text-align: right;">20</td>
       <td style = "text-align: right;">-1</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">ME</td>
       <td style = "text-align: right;">1</td>
       <td style = "text-align: right;">2</td>
       <td style = "text-align: right;">-1</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">MI</td>
       <td style = "text-align: right;">15</td>
       <td style = "text-align: right;">16</td>
       <td style = "text-align: right;">-1</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NY</td>
       <td style = "text-align: right;">28</td>
       <td style = "text-align: right;">29</td>
       <td style = "text-align: right;">-1</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">OR</td>
       <td style = "text-align: right;">8</td>
       <td style = "text-align: right;">7</td>
       <td style = "text-align: right;">1</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">PA</td>
       <td style = "text-align: right;">19</td>
       <td style = "text-align: right;">20</td>
       <td style = "text-align: right;">-1</td>
-      <td style = "text-align: right;">Biden</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
       <td style = "text-align: right;">FL</td>
