@@ -1,82 +1,56 @@
+"""
+    without_states(lost::Vector{String}) -> DataFrame
 
-function find_combinations(target::Int64)
-    less_than_target    = Set()
-    equal_to_target     = Set()
-    greater_than_target = Set()
-    for i in 1:length(swing_col)
-        for combination in combinations(collect(keys(swing_col)), i)
-            sum_values = sum(swing_col[state] for state in combination)
-            if sum_values < target
-                push!(less_than_target, combination)
-            elseif sum_values == target
-                push!(equal_to_target, combination)
-            else
-                push!(greater_than_target, combination)
-            end
-        end
-    end
-    return (
-        less_than_target    = collect(less_than_target),
-        equal_to_target     = collect(equal_to_target),
-        greater_than_target = collect(greater_than_target)
-    )
+Find and return rows from the `outcomes` DataFrame where the `combo` column does not contain any of the states specified in the `lost` vector and where the result is "Harris".
+
+# Arguments
+- `lost::Vector{String}`: A vector of strings where each string represents a state to be excluded from the `combo` column.
+
+# Returns
+- `DataFrame`: A DataFrame containing rows that meet the criteria.
+
+# Examples
+```julia
+without_states(["PA", "NC"])
+header = ["Scenario", "Electoral Votes", "Harris Total", "Trump Total", "Result"]
+pretty_table(without_states["PA"]; backend = Val(:html), header = header, standalone = false)
+"""
+function without_states(lost::Vector{String})
+    filter(row -> all(!occursin(state, row.combo) for state in lost) && row.result == "Harris", outcomes)
+end
+#------------------------------------------------------------------
+"""
+  metahelp()
+
+shows MetaFrame structure and give example
+
+mutable struct MetaFrame
+    meta::Dict{Symbol, Any}
+    data::DataFrame
+end
+
+# Example usage
+df = DataFrame(name=["John", "Jane"], age=[28, 34])
+meta_info = Dict(:source => "Survey Data", :year => 2021)
+
+df = MetaFrame(meta_info, df)
+
+meta_info = Dict(
+  :source => "Census Bureau, Current Population Survey, November 2022", 
+  :title  =>  "Table 4c. Reported Voting and Registration of the Total Voting-Age Population, by Age, for States: November 2022",
+  :url => "https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-586.html", 
+  :title => "Table 4c. Reported Voting and Registration of the Total Voting-Age Population, by Age, for States: November 2022")
+"""
+function metahelp()
+  println("Display with ?metahelp")
 end
 #------------------------------------------------------------------
 
-function electoral_map(data,kindof)
-    if kindof == "pop"
-        pastel  = greens
-        titular = titlecase(kindof *"ular")
-    else
-        pastel = purples
-        titular = "Electoral"
-    end
-
-    color_scale = [
-        (0.0, pastel[1]),
-        (0.2, pastel[2]),
-        (0.4, pastel[3]),
-        (0.6, pastel[4]),
-        (0.8, pastel[5]),
-        (1.0, pastel[6])
-    ]
-    # Create the data for the choropleth map
-    data = choropleth(
-        locationmode = "USA-states",
-        locations = states,
-        z = data,
-        colorscale = color_scale,
-        colorbar = attr(
-            title = titular * "Votes",
-            #tickvals = unique(input),
-            #ticktext = string.(unique(input))
-        ),
-        zmin = minimum(input),
-        zmax = maximum(input)
-    )
-
-    # Create the layout for the map
-    layout = Layout(
-        title = titular * " Vote by Swing State",
-        geo = attr(
-            scope = "usa",
-            projection_type = "albers usa",
-            showlakes = true,
-            lakecolor = "rgb(255, 255, 255)"
-        )
-    )
-# Create the plot
-    plot(data, layout)
+function radix(df::DataFrame)
+	for col in names(df)
+	    if eltype(df[:, col]) == Int64
+	        df[:, col] = format.(df[:, col], commas=true)
+	    end
+	end
 end
 
-#------------------------------------------------------------------
-# Function to determine the result based on the value of `biden`
-function determine_result(biden_value)
-    if biden_value    == 269
-        return "tie"
-    elseif biden_value < 269
-        return "Trump"
-    else
-        return "Harris"
-    end
-end

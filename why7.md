@@ -12,7 +12,7 @@ title = "Seven Swing States"
 <img src="/assets/img/maps/electoral_map.png" style="width: 100%; display: block;">
 ~~~
 
-In the 2020 election, there were 49 states (including the District of Columnia and the sub-state districts in each of Maine and Nebraska) won by a margin of greater than 3.2%. Only **seven states** were decided by a margin of less than 3.2%. *Assuming* that each candidate retains all states won in the 2020 election except for the swing states, President Harris begins with 225 electoral votes, and former President Trump begins with 220 electoral votes[^1] using the 2024 Electoral College allocation. The scenario table following shows the result of a Harris win of each of the possible combinations of outcomes in those states. 
+In the 2020 election, there were 49 states (including the District of Columnia and the sub-state districts in each of Maine and Nebraska) won by a margin of greater than 3.2%. Only **seven states** were decided by a margin of less than 3.2%. *Assuming* that each candidate retains all states won in the 2020 election except for the swing states, Vicr President Harris begins with the 226 electoral votes won by President Biden, excluding the swing states, and former President Trump begins with 221 electoral votes[^1] using the 2024 Electoral College allocation. The scenario table following shows the result of a Harris win of each of the possible combinations of outcomes in those states. 
 
 These are the states that are widely discussed as swing states for 2024.
 * **PA** 19 votes (down from 20 in the 2020 election)
@@ -25,7 +25,7 @@ These are the states that are widely discussed as swing states for 2024.
 
 President Biden won all of the swing states in 2020 except for North Carolina.
 
-Assuming that the remaining states and districts will be non-competitive and have the same electoral outcome, the starting point is 28 red states and districts with 220 electoral votes and 28 blue states and districts with 225 electoral votes. **President Harris begins with an advantage of five electoral votes.**
+Assuming that the remaining states and districts will be non-competitive and have the same electoral outcome, the starting point is 28 red states and districts with 220 electoral votes and 28 blue states and districts with 226 electoral votes. **Vice President Harris begins with an advantage of six electoral votes.**
 
 The seven swing states have **93 votes** among them. Depending on the outcomes of their elections either President Harris or former President Trump could have more than 269 electoral votes **with 45 or more of the 93 electoral votes in the swing states.** Or they could each have 269 electoral votes, which puts the decision to the House of Representatives, voting by state delegation.
 
@@ -34,6 +34,8 @@ The seven swing states have **93 votes** among them. Depending on the outcomes o
 <b>128 possible outcomes</b>
     </div>
 ~~~
+
+### Rest of page under revision
 
 * Former President **Trump wins in 57** of the possible outcomes
 * Vice President **Harris wins in 70** of the possible outcomes

@@ -1,6 +1,6 @@
 # these static types assure that only legal values can be accepted
 @enum Month mar apr may jun jul aug sep oct nov
-# 2 indicates polls using a Biden-Trump matchup
+# 2 indicates polls using a Harris-Trump matchup
 # 3 indicates polls including RJK Jr if he has qualified for the ballot
 @enum Pollster bi2 bi3 bl2 bl3 cn2 cn3 ec2 ec3 hi2 hi3 ma2 ma3 moe qi2 qi3 sp2 sp3 su2 su3 ws2 ws3l ws3s
 # the swing states
@@ -8,7 +8,7 @@
 
 
 struct PollData
-    biden_support::Union{Float64, Missing}
+    harris_support::Union{Float64, Missing}
     trump_support::Union{Float64, Missing}
     sample_size::Union{Int, Missing}
 end
@@ -121,7 +121,7 @@ end
 
 Generate a template for entering poll data into the `master_polls` object.
 
-The template includes the appropriate `master_polls.data` syntax with placeholders for the `biden_support`, `trump_support`, and `sample_size` values in a single `PollData` entry.
+The template includes the appropriate `master_polls.data` syntax with placeholders for the `harris_support`, `trump_support`, and `sample_size` values in a single `PollData` entry.
 
 # Arguments
 - `pollster::Pollster`: The pollster enum value for which the data is being entered.

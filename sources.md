@@ -42,11 +42,15 @@ df = CSV.read(IOBuffer(csv_data), DataFrame)
   - [Bloomberg/Morning Consult: conducted April](https://pro-assets.morningconsult.com/wp-uploads/2024/04/Bloomberg_2024-Election-Tracking-Wave-7.pdf)
   - [Bloomberg/Morning Consult: conducted May](https://pro-assets.morningconsult.com/wp-uploads/2024/05/Bloomberg-Election-Tracking-Wave-8-Toplines-Crosstabs.pdf)
   - [Bloomberg/Morning Consult: conducted March](https://pro-assets.morningconsult.com/wp-uploads/2024/03/Bloomberg_2024-Election-Tracking-Wave-6.pdf) 
+  - [Bloomberg/Morning Consult: conducted July pre-July](https://pro-assets.morningconsult.com/wp-uploads/2024/07/Bloomberg-Election-Tracking-Wave-9-Toplines-Crosstabs.pdf)
   - [Emerson College: conducted June](https://docs.google.com/spreadsheets/d/1vGeTKW3MRDR5dXHM2IjM8ORz7HOyP5Le/edit?gid=532631346#gid=532631346)
   - [Emerson College: conducted April](https://emersoncollegepolling.com/trump-holds-edge-over-biden-in-seven-key-swing-state-polls/)
   - [Emerson College: conducted March](https://emersoncollegepolling.com/category/state-poll/)
+  - [Emerson College: conducted July pre-Harris](https://docs.google.com/spreadsheets/d/1zJrIOcXtzIRkaa34BDkxoVe9HY3stwFc/edit?gid=1704598980#gid=1704598980)
   - [New York Times/Sienna: conducted May](https://www.nytimes.com/interactive/2024/05/13/us/elections/times-siena-poll-registered-voter-crosstabs.html)
   - [Wall Street Journal: conducted March ]((https://s.wsj.net/public/resources/documents/WSJ_Swing_States_Partial_March_2024.pdf))
+  - [YouGov: conducted July pre-Harris](https://ygo-assets-websites-editorial-emea.yougov.net/documents/Times_SAY24_20240712_state_poll_results.pdf)
+
 
 ---
 
@@ -60,8 +64,12 @@ df = CSV.read(IOBuffer(csv_data), DataFrame)
   - [American Greatness: conducted June](https://cdn.amgreatness.com/app/uploads/2024/06/AZ-June-Toplines.pdf)
   - [Emerson College: conducted June](https://docs.google.com/spreadsheets/d/1vGeTKW3MRDR5dXHM2IjM8ORz7HOyP5Le/edit?gid=532631346#gid=532631346)
   - [Rasmussen Reports: conducted June](https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_arizona_june_2024)
+  - [Public Policy Polling conducted July pre-Harris](https://www.nytimes.com/interactive/2024/us/politics/presidential-candidates-third-party-independent.html)
+  - [Insider Advantage: conducted July pre-Harris](https://insideradvantage.com/top-line-cross-tabs-for-insideradvantage-az-nv-and-pa-july-15-16-surveys/)
+  
 * Georgia
   - [Fox News: conducted April](https://static.foxnews.com/foxnews.com/content/uploads/2024/04/Fox_April-11-16-2024_GEORGIA_Topline_April-18-Release-1.pdf)
+  - [Insider Advantage: conducted July pre-Harris](https://insideradvantage.com/top-line-tabs-for-insideradvantage-fox5-atlanta-survey/)
 * Michigan
   - [CBS: conducted in April](https://www.scribd.com/document/727317994/Cbsnews-20240428-MI-SUN)
   - [Fox News: conducted April](https://static.foxnews.com/foxnews.com/content/uploads/2024/04/Fox_April-11-16-2024_MICHIGAN_Topline_April-18-Release.pdf)
@@ -70,8 +78,10 @@ df = CSV.read(IOBuffer(csv_data), DataFrame)
   -  [Mitchell Research and Communications: conducted May](https://www.realclearpolitics.com/docs/2024/Mitchell-MIRS_MI_Poll_Press_Release_-_Presidential_Race_517_PM_5-27-24.pdf)
   - [Atlantic Journal Constitution: completed June](https://www.ajc.com/news/am-atl-poll-trump-edging-biden/2SN4MIOROZA4DFOFDNXE2CFCJU/)
   - [Quinnipiac University: conducted March](https://poll.qu.edu/poll-release?releaseid=3893)
-    - [Quinnipiac University: conducted June](https://poll.qu.edu/images/polling/ga/ga06052024_ggwb04.pdf)
+  - [Quinnipiac University: conducted June](https://poll.qu.edu/images/polling/ga/ga06052024_ggwb04.pdf)
   - [Fox News: conducted June](https://static.foxnews.com/foxnews.com/content/uploads/2024/06/Fox_June-1-4-2024_NEVADA_Topline_June-6-Release.pdf)
+  - [EPIC-MRA: conducted in July, pre-Harris](https://ssl2002.webhosting.comcast.net/epic-mra/press/Stwd_Survey_July2024_Media_Freq.pdf)
+  - [Trafalger: conducted July pre-Harris](https://www.thetrafalgargroup.org/wp-content/uploads/2024/07/MI-Gen-Pres-Poll-Report-0718.pdf)
 * Pennsylvania
   - [CBS: conducted April](https://www.scribd.com/document/727318459/Cbsnews-20240428-PA-SUN)
   - [Franklin & Marshall College Poll: conducted March](https://www.fandmpoll.org/franklin-marshall-poll-release-april-2024)
@@ -84,6 +94,7 @@ df = CSV.read(IOBuffer(csv_data), DataFrame)
   - [Quinnipiac: conducted April](https://poll.qu.edu/images/polling/nc/nc04102024_ncaa99.pdf)
   - [WRAL: conducted March](https://wwwcache.wral.com/asset/news/state/nccapitol/2024/03/12/21325738/3247050-Poll_Report_-_PollPrint-DMID1-628w54pob.pdf)
   - [ECU: conducted June](https://surveyresearch-ecu.reportablenews.com/pr/trump-leads-biden-by-5-points-in-north-carolina-gubernatorial-election-remains-close-with-stein-up-1-on-robinson-trump-guilty-verdict-has-little-impact-on-nc-voter-intentions-for-november)
+  - [Insider Advantage: conducted July pre-Harris](https://insideradvantage.com/top-line-cross-tabs-for-insideradvantage-az-nv-and-pa-july-15-16-surveys/)
 * Wisconsin
   - [CBS: conducted April](https://www.scribd.com/document/727319278/Cbsnews-20240428-WI-SUN)
   - [Fox News: conducted April](https://static.foxnews.com/foxnews.com/content/uploads/2024/04/b002d3b3-Fox_April-11-16-2024_WISCONSIN_Topline_April-18-Release.pdf)

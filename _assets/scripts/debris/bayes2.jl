@@ -89,8 +89,6 @@ function add_poll!(month::Month, state::State, pollster::Pollster, poll::Poll)
 end
 
 add_poll!(mar, AZ, bl2, Poll(42., 49., 788))
-
-add_poll!(mar, AZ, bl2, Poll(42., 49., 788))
 add_poll!(mar, AZ, ec2, Poll(44., 48., 1000))
 add_poll!(mar, AZ, ws2, Poll(44., 47., 600))
 add_poll!(mar, GA, bl2, Poll(42., 49., 788))

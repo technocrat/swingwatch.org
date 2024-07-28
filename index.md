@@ -8,6 +8,10 @@ As of July 22, 2024, Vice President Harris will replace President Harris as the 
 
 For polls conducted through the end of the month, the model will be updated and every fortnight thereafter. Consideration will also be given to reassessing swing states, depending on initial results. It is expected that most Blue and Red states will remain as such, but some swing states will move.
 
+## Allocation of electoral college votes corrected\
+
+Harris starts with the 226 (not 225) votes won in 2020, using the revised 2024 electoral college vote allocations.
+
 ## Overall assessment for polling through June
 
 ### Stringent view

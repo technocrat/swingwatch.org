@@ -2,7 +2,7 @@
 title = "Electoral College Changes for 2024"
 +++
 
-As the result of the 2020 Census, 17 states lost or gain an electoral vote, except that Texas gained two.
+As the result of the 2020 Census, 13 states lost or gained an electoral vote, except that Texas gained two.
 
 ~~~
 <table>
@@ -37,14 +37,6 @@ As the result of the 2020 Census, 17 states lost or gain an electoral vote, exce
       <td style = "text-align: right;">-1</td>
       <td style = "text-align: right;">Harris</td>
     </tr>
-    <tr>
-      <td style = "text-align: right;">ME</td>
-      <td style = "text-align: right;">1</td>
-      <td style = "text-align: right;">2</td>
-      <td style = "text-align: right;">-1</td>
-      <td style = "text-align: right;">Harris</td>
-    </tr>
-    <tr>
       <td style = "text-align: right;">MI</td>
       <td style = "text-align: right;">15</td>
       <td style = "text-align: right;">16</td>
@@ -80,13 +72,6 @@ As the result of the 2020 Census, 17 states lost or gain an electoral vote, exce
       <td style = "text-align: right;">Trump</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">ME2</td>
-      <td style = "text-align: right;">2</td>
-      <td style = "text-align: right;">1</td>
-      <td style = "text-align: right;">1</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
       <td style = "text-align: right;">MT</td>
       <td style = "text-align: right;">4</td>
       <td style = "text-align: right;">3</td>
@@ -97,20 +82,6 @@ As the result of the 2020 Census, 17 states lost or gain an electoral vote, exce
       <td style = "text-align: right;">NC</td>
       <td style = "text-align: right;">16</td>
       <td style = "text-align: right;">15</td>
-      <td style = "text-align: right;">1</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">NE</td>
-      <td style = "text-align: right;">1</td>
-      <td style = "text-align: right;">2</td>
-      <td style = "text-align: right;">-1</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">NE3</td>
-      <td style = "text-align: right;">2</td>
-      <td style = "text-align: right;">1</td>
       <td style = "text-align: right;">1</td>
       <td style = "text-align: right;">Trump</td>
     </tr>

@@ -1,4 +1,4 @@
-# find popular votes for all candidates in swing STATES
+ find popular votes for all candidates in swing STATES
 # for purpose of applying a finite population correction factor
 # BUT only in the event of a sample so large as to represent
 # MORE than 5% of the population; this possibly could be
