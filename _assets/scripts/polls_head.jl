@@ -26,6 +26,9 @@ using Turing
 # @enum State PA GA NC MI AZ WI NV
 # STATE = State
 @enum Pollster begin
+    ag
+    aj
+    am
     bi2
     bi3
     bl2
@@ -34,33 +37,45 @@ using Turing
     cb3
     cn2
     cn3
+    ea
     ec2
     ec3
+    ep
+    eu
     fm2
     fm3
     fo2
     fo3
     hi2
     hi3
+    hp
+    ia
     ma2
     ma3
     mi2
     mi3
+    mq
     mr2
     mr3
+    ns
+    pp
+    ny
     qi2
     qi3
+    rr
     si2
     si3
     sp2
     sp3
     su2
     su3
+    tr
     wa2
     wa3
-    ws2
-    ws3l
-    ws3s
+    ws
+    wsl
+    wss
+    yg
 end
 #------------------------------------------------------------------
 const states   = ["NV", "WI", "AZ", "GA", "MI", "PA", "NC"]
@@ -86,6 +101,7 @@ Month_names = Dict(
 	"apr" => "April",
 	"may" => "May",
 	"jun" => "June",
+	"jul" => "July",
 	"aug" => "August",
 	"sep" => "September",
 	"oct" => "October")

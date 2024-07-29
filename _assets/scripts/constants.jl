@@ -46,7 +46,7 @@ const TIE     = 269
 # biden won 6 of the 7 swing states
 # trump won NC
 const BLUE    = 226
-const RED     = 220
+const RED     = 219
 
 # Create a color scale with discrete colors for each value
 

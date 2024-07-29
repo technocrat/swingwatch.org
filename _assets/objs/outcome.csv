@@ -1,128 +1,128 @@
-combo,votes,biden,trump,result
-NV,6,231,307,Trump
-WI,10,235,303,Trump
-AZ,11,236,302,Trump
-MI,15,240,298,Trump
-NV and WI,16,241,297,Trump
-GA,16,241,297,Trump
-NC,16,241,297,Trump
-NV and AZ,17,242,296,Trump
-PA,19,244,294,Trump
-NV and MI,21,246,292,Trump
-WI and AZ,21,246,292,Trump
-NV and GA,22,247,291,Trump
-NV and NC,22,247,291,Trump
-NV and PA,25,250,288,Trump
-WI and MI,25,250,288,Trump
-WI and GA,26,251,287,Trump
-WI and NC,26,251,287,Trump
-AZ and MI,26,251,287,Trump
-AZ and GA,27,252,286,Trump
-AZ and NC,27,252,286,Trump
-"NV, WI and AZ",27,252,286,Trump
-WI and PA,29,254,284,Trump
-AZ and PA,30,255,283,Trump
-GA and MI,31,256,282,Trump
-MI and NC,31,256,282,Trump
-"NV, WI and MI",31,256,282,Trump
-GA and NC,32,257,281,Trump
-"NV, WI and GA",32,257,281,Trump
-"NV, WI and NC",32,257,281,Trump
-"NV, AZ and MI",32,257,281,Trump
-"NV, AZ and GA",33,258,280,Trump
-"NV, AZ and NC",33,258,280,Trump
-MI and PA,34,259,279,Trump
-GA and PA,35,260,278,Trump
-PA and NC,35,260,278,Trump
-"NV, WI and PA",35,260,278,Trump
-"NV, AZ and PA",36,261,277,Trump
-"WI, AZ and MI",36,261,277,Trump
-"NV, GA and MI",37,262,276,Trump
-"NV, MI and NC",37,262,276,Trump
-"WI, AZ and GA",37,262,276,Trump
-"WI, AZ and NC",37,262,276,Trump
-"NV, GA and NC",38,263,275,Trump
-"NV, MI and PA",40,265,273,Trump
-"WI, AZ and PA",40,265,273,Trump
-"NV, GA and PA",41,266,272,Trump
-"NV, PA and NC",41,266,272,Trump
-"WI, GA and MI",41,266,272,Trump
-"WI, MI and NC",41,266,272,Trump
-"NV, WI, AZ and MI",42,267,271,Trump
-"WI, GA and NC",42,267,271,Trump
-"AZ, GA and MI",42,267,271,Trump
-"AZ, MI and NC",42,267,271,Trump
-"NV, WI, AZ and GA",43,268,270,Trump
-"NV, WI, AZ and NC",43,268,270,Trump
-"AZ, GA and NC",43,268,270,Trump
-"WI, MI and PA",44,269,269,Tie
-"WI, GA and PA",45,270,268,Harris
-"WI, PA and NC",45,270,268,Harris
-"AZ, MI and PA",45,270,268,Harris
-"NV, WI, AZ and PA",46,271,267,Harris
-"AZ, GA and PA",46,271,267,Harris
-"AZ, PA and NC",46,271,267,Harris
-"NV, WI, GA and MI",47,272,266,Harris
-"NV, WI, MI and NC",47,272,266,Harris
-"GA, MI and NC",47,272,266,Harris
-"NV, WI, GA and NC",48,273,265,Harris
-"NV, AZ, GA and MI",48,273,265,Harris
-"NV, AZ, MI and NC",48,273,265,Harris
-"NV, AZ, GA and NC",49,274,264,Harris
-"NV, WI, MI and PA",50,275,263,Harris
-"GA, MI and PA",50,275,263,Harris
-"MI, PA and NC",50,275,263,Harris
-"NV, WI, GA and PA",51,276,262,Harris
-"NV, WI, PA and NC",51,276,262,Harris
-"NV, AZ, MI and PA",51,276,262,Harris
-"GA, PA and NC",51,276,262,Harris
-"NV, AZ, GA and PA",52,277,261,Harris
-"NV, AZ, PA and NC",52,277,261,Harris
-"WI, AZ, GA and MI",52,277,261,Harris
-"WI, AZ, MI and NC",52,277,261,Harris
-"NV, GA, MI and NC",53,278,260,Harris
-"WI, AZ, GA and NC",53,278,260,Harris
-"WI, AZ, MI and PA",55,280,258,Harris
-"NV, GA, MI and PA",56,281,257,Harris
-"NV, MI, PA and NC",56,281,257,Harris
-"WI, AZ, GA and PA",56,281,257,Harris
-"WI, AZ, PA and NC",56,281,257,Harris
-"NV, GA, PA and NC",57,282,256,Harris
-"WI, GA, MI and NC",57,282,256,Harris
-"NV, WI, AZ, GA and MI",58,283,255,Harris
-"NV, WI, AZ, MI and NC",58,283,255,Harris
-"AZ, GA, MI and NC",58,283,255,Harris
-"NV, WI, AZ, GA and NC",59,284,254,Harris
-"WI, GA, MI and PA",60,285,253,Harris
-"WI, MI, PA and NC",60,285,253,Harris
-"NV, WI, AZ, MI and PA",61,286,252,Harris
-"WI, GA, PA and NC",61,286,252,Harris
-"AZ, GA, MI and PA",61,286,252,Harris
-"AZ, MI, PA and NC",61,286,252,Harris
-"NV, WI, AZ, GA and PA",62,287,251,Harris
-"NV, WI, AZ, PA and NC",62,287,251,Harris
-"AZ, GA, PA and NC",62,287,251,Harris
-"NV, WI, GA, MI and NC",63,288,250,Harris
-"NV, AZ, GA, MI and NC",64,289,249,Harris
-"NV, WI, GA, MI and PA",66,291,247,Harris
-"NV, WI, MI, PA and NC",66,291,247,Harris
-"GA, MI, PA and NC",66,291,247,Harris
-"NV, WI, GA, PA and NC",67,292,246,Harris
-"NV, AZ, GA, MI and PA",67,292,246,Harris
-"NV, AZ, MI, PA and NC",67,292,246,Harris
-"NV, AZ, GA, PA and NC",68,293,245,Harris
-"WI, AZ, GA, MI and NC",68,293,245,Harris
-"WI, AZ, GA, MI and PA",71,296,242,Harris
-"WI, AZ, MI, PA and NC",71,296,242,Harris
-"NV, GA, MI, PA and NC",72,297,241,Harris
-"WI, AZ, GA, PA and NC",72,297,241,Harris
-"NV, WI, AZ, GA, MI and NC",74,299,239,Harris
-"WI, GA, MI, PA and NC",76,301,237,Harris
-"AZ, GA, MI, PA and NC",77,302,236,Harris
-"NV, WI, AZ, GA, MI and PA",77,302,236,Harris
-"NV, WI, AZ, MI, PA and NC",77,302,236,Harris
-"NV, WI, AZ, GA, PA and NC",78,303,235,Harris
-"NV, WI, GA, MI, PA and NC",82,307,231,Harris
-"NV, AZ, GA, MI, PA and NC",83,308,230,Harris
-"WI, AZ, GA, MI, PA and NC",87,312,226,Harris
-"NV, WI, AZ, GA, MI, PA and NC",93,318,220,Harris
+combo,votes,harris,trump,result
+NV,6,232,306,Trump
+WI,10,236,302,Trump
+AZ,11,237,301,Trump
+MI,15,241,297,Trump
+NV and WI,16,242,296,Trump
+GA,16,242,296,Trump
+NC,16,242,296,Trump
+NV and AZ,17,243,295,Trump
+PA,19,245,293,Trump
+NV and MI,21,247,291,Trump
+WI and AZ,21,247,291,Trump
+NV and GA,22,248,290,Trump
+NV and NC,22,248,290,Trump
+NV and PA,25,251,287,Trump
+WI and MI,25,251,287,Trump
+WI and GA,26,252,286,Trump
+WI and NC,26,252,286,Trump
+AZ and MI,26,252,286,Trump
+AZ and GA,27,253,285,Trump
+AZ and NC,27,253,285,Trump
+"NV, WI and AZ",27,253,285,Trump
+WI and PA,29,255,283,Trump
+AZ and PA,30,256,282,Trump
+GA and MI,31,257,281,Trump
+MI and NC,31,257,281,Trump
+"NV, WI and MI",31,257,281,Trump
+GA and NC,32,258,280,Trump
+"NV, WI and GA",32,258,280,Trump
+"NV, WI and NC",32,258,280,Trump
+"NV, AZ and MI",32,258,280,Trump
+"NV, AZ and GA",33,259,279,Trump
+"NV, AZ and NC",33,259,279,Trump
+MI and PA,34,260,278,Trump
+GA and PA,35,261,277,Trump
+PA and NC,35,261,277,Trump
+"NV, WI and PA",35,261,277,Trump
+"NV, AZ and PA",36,262,276,Trump
+"WI, AZ and MI",36,262,276,Trump
+"NV, GA and MI",37,263,275,Trump
+"NV, MI and NC",37,263,275,Trump
+"WI, AZ and GA",37,263,275,Trump
+"WI, AZ and NC",37,263,275,Trump
+"NV, GA and NC",38,264,274,Trump
+"NV, MI and PA",40,266,272,Trump
+"WI, AZ and PA",40,266,272,Trump
+"NV, GA and PA",41,267,271,Trump
+"NV, PA and NC",41,267,271,Trump
+"WI, GA and MI",41,267,271,Trump
+"WI, MI and NC",41,267,271,Trump
+"NV, WI, AZ and MI",42,268,270,Trump
+"WI, GA and NC",42,268,270,Trump
+"AZ, GA and MI",42,268,270,Trump
+"AZ, MI and NC",42,268,270,Trump
+"NV, WI, AZ and GA",43,269,269,Tie
+"NV, WI, AZ and NC",43,269,269,Tie
+"AZ, GA and NC",43,269,269,Tie
+"WI, MI and PA",44,270,268,Harris
+"WI, GA and PA",45,271,267,Harris
+"WI, PA and NC",45,271,267,Harris
+"AZ, MI and PA",45,271,267,Harris
+"NV, WI, AZ and PA",46,272,266,Harris
+"AZ, GA and PA",46,272,266,Harris
+"AZ, PA and NC",46,272,266,Harris
+"NV, WI, GA and MI",47,273,265,Harris
+"NV, WI, MI and NC",47,273,265,Harris
+"GA, MI and NC",47,273,265,Harris
+"NV, WI, GA and NC",48,274,264,Harris
+"NV, AZ, GA and MI",48,274,264,Harris
+"NV, AZ, MI and NC",48,274,264,Harris
+"NV, AZ, GA and NC",49,275,263,Harris
+"NV, WI, MI and PA",50,276,262,Harris
+"GA, MI and PA",50,276,262,Harris
+"MI, PA and NC",50,276,262,Harris
+"NV, WI, GA and PA",51,277,261,Harris
+"NV, WI, PA and NC",51,277,261,Harris
+"NV, AZ, MI and PA",51,277,261,Harris
+"GA, PA and NC",51,277,261,Harris
+"NV, AZ, GA and PA",52,278,260,Harris
+"NV, AZ, PA and NC",52,278,260,Harris
+"WI, AZ, GA and MI",52,278,260,Harris
+"WI, AZ, MI and NC",52,278,260,Harris
+"NV, GA, MI and NC",53,279,259,Harris
+"WI, AZ, GA and NC",53,279,259,Harris
+"WI, AZ, MI and PA",55,281,257,Harris
+"NV, GA, MI and PA",56,282,256,Harris
+"NV, MI, PA and NC",56,282,256,Harris
+"WI, AZ, GA and PA",56,282,256,Harris
+"WI, AZ, PA and NC",56,282,256,Harris
+"NV, GA, PA and NC",57,283,255,Harris
+"WI, GA, MI and NC",57,283,255,Harris
+"NV, WI, AZ, GA and MI",58,284,254,Harris
+"NV, WI, AZ, MI and NC",58,284,254,Harris
+"AZ, GA, MI and NC",58,284,254,Harris
+"NV, WI, AZ, GA and NC",59,285,253,Harris
+"WI, GA, MI and PA",60,286,252,Harris
+"WI, MI, PA and NC",60,286,252,Harris
+"NV, WI, AZ, MI and PA",61,287,251,Harris
+"WI, GA, PA and NC",61,287,251,Harris
+"AZ, GA, MI and PA",61,287,251,Harris
+"AZ, MI, PA and NC",61,287,251,Harris
+"NV, WI, AZ, GA and PA",62,288,250,Harris
+"NV, WI, AZ, PA and NC",62,288,250,Harris
+"AZ, GA, PA and NC",62,288,250,Harris
+"NV, WI, GA, MI and NC",63,289,249,Harris
+"NV, AZ, GA, MI and NC",64,290,248,Harris
+"NV, WI, GA, MI and PA",66,292,246,Harris
+"NV, WI, MI, PA and NC",66,292,246,Harris
+"GA, MI, PA and NC",66,292,246,Harris
+"NV, WI, GA, PA and NC",67,293,245,Harris
+"NV, AZ, GA, MI and PA",67,293,245,Harris
+"NV, AZ, MI, PA and NC",67,293,245,Harris
+"NV, AZ, GA, PA and NC",68,294,244,Harris
+"WI, AZ, GA, MI and NC",68,294,244,Harris
+"WI, AZ, GA, MI and PA",71,297,241,Harris
+"WI, AZ, MI, PA and NC",71,297,241,Harris
+"NV, GA, MI, PA and NC",72,298,240,Harris
+"WI, AZ, GA, PA and NC",72,298,240,Harris
+"NV, WI, AZ, GA, MI and NC",74,300,238,Harris
+"WI, GA, MI, PA and NC",76,302,236,Harris
+"AZ, GA, MI, PA and NC",77,303,235,Harris
+"NV, WI, AZ, GA, MI and PA",77,303,235,Harris
+"NV, WI, AZ, MI, PA and NC",77,303,235,Harris
+"NV, WI, AZ, GA, PA and NC",78,304,234,Harris
+"NV, WI, GA, MI, PA and NC",82,308,230,Harris
+"NV, AZ, GA, MI, PA and NC",83,309,229,Harris
+"WI, AZ, GA, MI, PA and NC",87,313,225,Harris
+"NV, WI, AZ, GA, MI, PA and NC",93,319,219,Harris

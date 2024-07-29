@@ -3,16 +3,16 @@
 
 
 STATE       = State
-prior_month = "may"
-mon         = jun
-MON         = "jun"
-Mon         = "jun"
-st          = "NV"
-ST          =  NV
+prior_month = "jun"
+mon         = jul
+MON         = "jul"
+Mon         = "jul"
+st          = "AZ"
+ST          =  AZ
 
 include("polls_head.jl")
 prior_poll = BSON.load("../objs/"*"$st"*"_"*"$prior_month"*"_p_sample.bson")
-@load "../objs/"*"$MON"*"_Polls.bson" months
+@load "../objs/"*"$MON"*"_pre_polls.bson" months
 
 current_month = remove_empties(months[mon])
 

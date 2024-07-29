@@ -2,6 +2,7 @@
 title = "Arizona"
 +++
 
+* [July assessment through end of Biden campaign](#July-assessment-through-end-of-Biden-xcampaign)
 * [June assessment](#June-assessment)
 * [May assessment](#may-assessment)
 * [April assessment](#april-assessment)
@@ -17,15 +18,50 @@ title = "Arizona"
 
 In the 2020 election President Biden won 50.16% (0.5016) of the votes cast for Biden or Trump in Arizona. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 50.10% to 50.21%. Next, the results of each month's polling are factored in on a rolling basis.
 
+Beginning with polls conducted from July 23 - July 31, 2024, the model that used results through July 22, 2024 plus an allowance for the uncertainty introduced by the entry of Vice President Harris in place of President Biden will be used as the starting point, to be updated fortnightly by later poll results.
+
 Assessments are based on three criteria.
 
-* **Stringent**—Harris wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than his 2020 margin.
+* **Stringent**—Harris (after July 22, 2024) or Biden (before July 23, 2024) wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than the 2020 margin of Biden over Trump.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.  
 
+## July assessment through end of Biden campaign
+
+Biden wins under the *Relaxed* criterion.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5013</td>
+      <td style = "text-align: right;">0.5013</td>
+      <td style = "text-align: right;">0.5015</td>
+      <td style = "text-align: right;">0.5008</td>
+      <td style = "text-align: right;">0.5018</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/AZ_jul_pre.png" style="width: 100%; display: block;">
+
+~~~
+
 ## June assessment
 
-Harris wins under the *Relaxed* criterion.
+Biden wins under the *Relaxed* criterion.
 
 ~~~
 <table>
@@ -58,7 +94,7 @@ Harris wins under the *Relaxed* criterion.
 
 ## May assessment
 
-Harris wins under the *Relaxed* criterion.
+Biden wins under the *Relaxed* criterion.
 
 ~~~
 <table>
@@ -90,7 +126,7 @@ Harris wins under the *Relaxed* criterion.
  ~~~
 ## April assessment
 
-Harris wins under the *Relaxed* criterion.
+Biden wins under the *Relaxed* criterion.
 ~~~
 <table>
   <thead>
@@ -120,7 +156,7 @@ Harris wins under the *Relaxed* criterion.
 
 ~~~
 ## March assessment
-Harris wins under the *Relaxed* criterion.
+Biden wins under the *Relaxed* criterion.
 
 
 ~~~
@@ -502,7 +538,7 @@ The scenario tables below show the possible outcomes that involve Arizona. Arizo
     <tr class = "header headerLastRow">
       <th style = "text-align: right;">States won by Harris </th>
       <th style = "text-align: right;">Electoral Votes</th>
-      <th style = "text-align: right;">Harris Votes</th>
+      <th style = "text-align: right;">Biden Votes</th>
       <th style = "text-align: right;">Trump Votes</th>
       <th style = "text-align: right;">Result</th>
     </tr>
@@ -677,9 +713,9 @@ The scenario tables below show the possible outcomes that involve Arizona. Arizo
 <table>
   <thead>
     <tr class = "header headerLastRow">
-      <th style = "text-align: right;">States won by Harris </th>
+      <th style = "text-align: right;">States won by Biden </th>
       <th style = "text-align: right;">Electoral Votes</th>
-      <th style = "text-align: right;">Harris Votes</th>
+      <th style = "text-align: right;">Biden Votes</th>
       <th style = "text-align: right;">Trump Votes</th>
       <th style = "text-align: right;">Result</th>
     </tr>
@@ -690,196 +726,196 @@ The scenario tables below show the possible outcomes that involve Arizona. Arizo
       <td style = "text-align: right;">45</td>
       <td style = "text-align: right;">270</td>
       <td style = "text-align: right;">268</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, PA and NC</td>
       <td style = "text-align: right;">45</td>
       <td style = "text-align: right;">270</td>
       <td style = "text-align: right;">268</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA and MI</td>
       <td style = "text-align: right;">47</td>
       <td style = "text-align: right;">272</td>
       <td style = "text-align: right;">266</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, MI and NC</td>
       <td style = "text-align: right;">47</td>
       <td style = "text-align: right;">272</td>
       <td style = "text-align: right;">266</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">GA, MI and NC</td>
       <td style = "text-align: right;">47</td>
       <td style = "text-align: right;">272</td>
       <td style = "text-align: right;">266</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA and NC</td>
       <td style = "text-align: right;">48</td>
       <td style = "text-align: right;">273</td>
       <td style = "text-align: right;">265</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, MI and PA</td>
       <td style = "text-align: right;">50</td>
       <td style = "text-align: right;">275</td>
       <td style = "text-align: right;">263</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">GA, MI and PA</td>
       <td style = "text-align: right;">50</td>
       <td style = "text-align: right;">275</td>
       <td style = "text-align: right;">263</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">MI, PA and NC</td>
       <td style = "text-align: right;">50</td>
       <td style = "text-align: right;">275</td>
       <td style = "text-align: right;">263</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA and PA</td>
       <td style = "text-align: right;">51</td>
       <td style = "text-align: right;">276</td>
       <td style = "text-align: right;">262</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, PA and NC</td>
       <td style = "text-align: right;">51</td>
       <td style = "text-align: right;">276</td>
       <td style = "text-align: right;">262</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">GA, PA and NC</td>
       <td style = "text-align: right;">51</td>
       <td style = "text-align: right;">276</td>
       <td style = "text-align: right;">262</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, GA, MI and NC</td>
       <td style = "text-align: right;">53</td>
       <td style = "text-align: right;">278</td>
       <td style = "text-align: right;">260</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, GA, MI and PA</td>
       <td style = "text-align: right;">56</td>
       <td style = "text-align: right;">281</td>
       <td style = "text-align: right;">257</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, MI, PA and NC</td>
       <td style = "text-align: right;">56</td>
       <td style = "text-align: right;">281</td>
       <td style = "text-align: right;">257</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, GA, PA and NC</td>
       <td style = "text-align: right;">57</td>
       <td style = "text-align: right;">282</td>
       <td style = "text-align: right;">256</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, GA, MI and NC</td>
       <td style = "text-align: right;">57</td>
       <td style = "text-align: right;">282</td>
       <td style = "text-align: right;">256</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, GA, MI and PA</td>
       <td style = "text-align: right;">60</td>
       <td style = "text-align: right;">285</td>
       <td style = "text-align: right;">253</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, MI, PA and NC</td>
       <td style = "text-align: right;">60</td>
       <td style = "text-align: right;">285</td>
       <td style = "text-align: right;">253</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, GA, PA and NC</td>
       <td style = "text-align: right;">61</td>
       <td style = "text-align: right;">286</td>
       <td style = "text-align: right;">252</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA, MI and NC</td>
       <td style = "text-align: right;">63</td>
       <td style = "text-align: right;">288</td>
       <td style = "text-align: right;">250</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA, MI and PA</td>
       <td style = "text-align: right;">66</td>
       <td style = "text-align: right;">291</td>
       <td style = "text-align: right;">247</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, MI, PA and NC</td>
       <td style = "text-align: right;">66</td>
       <td style = "text-align: right;">291</td>
       <td style = "text-align: right;">247</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">GA, MI, PA and NC</td>
       <td style = "text-align: right;">66</td>
       <td style = "text-align: right;">291</td>
       <td style = "text-align: right;">247</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA, PA and NC</td>
       <td style = "text-align: right;">67</td>
       <td style = "text-align: right;">292</td>
       <td style = "text-align: right;">246</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, GA, MI, PA and NC</td>
       <td style = "text-align: right;">72</td>
       <td style = "text-align: right;">297</td>
       <td style = "text-align: right;">241</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">WI, GA, MI, PA and NC</td>
       <td style = "text-align: right;">76</td>
       <td style = "text-align: right;">301</td>
       <td style = "text-align: right;">237</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
     <tr>
       <td style = "text-align: right;">NV, WI, GA, MI, PA and NC</td>
       <td style = "text-align: right;">82</td>
       <td style = "text-align: right;">307</td>
       <td style = "text-align: right;">231</td>
-      <td style = "text-align: right;">Harris</td>
+      <td style = "text-align: right;">Biden</td>
     </tr>
   </tbody>
 </table>
@@ -2307,7 +2343,7 @@ The scenario tables below show the possible outcomes that involve Arizona. Arizo
 ## Terms
 
 - **Median**: Half of the random samples have probabilities greater than and half less than the median.
-- **Mean**: The average of the 10,000 random samples constructed. It coincides with the Harris Proportion in the table above.
+- **Mean**: The average of the 10,000 random samples constructed. It coincides with the Biden Proportion in the table above.
 - **Mode**: The probability that occurs most often.
 - **q025**: The value below which 2.5% of the probabilities occur.
 - **q975**: The value below which 97.5% of the probabilities occur.
