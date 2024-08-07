@@ -2,6 +2,7 @@
 title = "Nevada"
 +++
 
+* [July assessment from beginning of Harris campaign](#July-assessment-from-beginning-of-Harris-campaign)
 * [July assessment through end of Biden campaign](#July-assessment-through-end-of-Biden-campaign)
 * [June assessment](#june-assessment)
 * [May assessment](#may-assessment)
@@ -24,6 +25,38 @@ Assessments are based on three criteria.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
 
+## July assessment from beginning of Harris campaign
+
+Harris wins under the *Relaxed criterion*
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5117</td>
+      <td style = "text-align: right;">0.5117</td>
+      <td style = "text-align: right;">0.5115</td>
+      <td style = "text-align: right;">0.5109</td>
+      <td style = "text-align: right;">0.5125</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">0.9999</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/NV_jul2.png" style="width: 100%; display: block;">
+
+~~~
 ## July assessment through end of Biden campaign
 
 Biden wins under the *Relaxed criterion*

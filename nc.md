@@ -2,12 +2,14 @@
 title = "North Carolina"
 +++
 
+* [July assessment from beginning of Harris campaign](#July-assessment-from-beginning-of-Harris-campaign)
 * [July assessment through end of Biden campaign](#July-assessment-through-end-of-Biden-campaign)
 * [June assessment](#jun-assessment)
 * [May assessment](#may-assessment)
 * [April assessment](#april-assessment)
 * [March assessment](#march-assessment)
 * [2020 election](#2020-election)
+* [Scenarios](#scenarios)
 * [2022 demographics](#2022-demographics)
 * [Terms](#terms)
 
@@ -19,6 +21,39 @@ Assessments are based on three criteria.
 * **Stringent**—Harris wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than his 2020 margin.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
+
+## July assessment from beginning of Harris campaign
+
+Harris wins under the *Relaxed criterion*
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.493</td>
+      <td style = "text-align: right;">0.493</td>
+      <td style = "text-align: right;">0.4929</td>
+      <td style = "text-align: right;">0.4926</td>
+      <td style = "text-align: right;">0.4934</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/NC_jul2.png" style="width: 100%; display: block;">
+
+~~~
 
 ## July assessment through end of Biden campaign
 
@@ -208,7 +243,11 @@ A Biden victory is not within the credible interval under any of the scenarios.
 </table>
 <img src="/assets/img/models/NC_2020.png" style="width: 100%; display: block;">
 ~~~
-## Harris wins
+## Scenarios
+
+The scenario tables below show the possible outcomes that involve Georgia.  Georgia is represented in 46 of the 128 possible outcomes. *The combinations shown are those representing swing states taken by Harris.*
+
+### Harris wins
 
 ~~~
 <table>
@@ -548,7 +587,7 @@ A Biden victory is not within the credible interval under any of the scenarios.
 </table>
 ~~~
 
-## Trump wins
+### Trump wins
 ~~~
 <table>
   <thead>
@@ -676,285 +715,199 @@ A Biden victory is not within the credible interval under any of the scenarios.
   </tbody>
 </table>
 ~~~
-## Harris wins without North Carolina
+### Harris wins without North Carolina
 
 ~~~
 <img src="/assets/img/maps/no_nc.png" style="width: 100%; display: block;">
-~~~
-
-~~~
 <table>
   <thead>
     <tr class = "header headerLastRow">
-      <th style = "text-align: right;">States won by Harris </th>
-      <th style = "text-align: right;">Electoral Votes</th>
-      <th style = "text-align: right;">Harris</th>
-      <th style = "text-align: right;">Trump</th>
-      <th style = "text-align: right;">Winner</th>
+      <th style = "text-align: right;">combo</th>
+      <th style = "text-align: right;">votes</th>
+      <th style = "text-align: right;">harris</th>
+      <th style = "text-align: right;">trump</th>
+      <th style = "text-align: right;">result</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">NV</td>
-      <td style = "text-align: right;">6</td>
-      <td style = "text-align: right;">232</td>
-      <td style = "text-align: right;">306</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">WI, MI and PA</td>
+      <td style = "text-align: right;">44</td>
+      <td style = "text-align: right;">270</td>
+      <td style = "text-align: right;">268</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">WI</td>
-      <td style = "text-align: right;">10</td>
-      <td style = "text-align: right;">236</td>
-      <td style = "text-align: right;">302</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">WI, GA and PA</td>
+      <td style = "text-align: right;">45</td>
+      <td style = "text-align: right;">271</td>
+      <td style = "text-align: right;">267</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">AZ</td>
-      <td style = "text-align: right;">11</td>
-      <td style = "text-align: right;">237</td>
-      <td style = "text-align: right;">301</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">AZ, MI and PA</td>
+      <td style = "text-align: right;">45</td>
+      <td style = "text-align: right;">271</td>
+      <td style = "text-align: right;">267</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">MI</td>
-      <td style = "text-align: right;">15</td>
-      <td style = "text-align: right;">241</td>
-      <td style = "text-align: right;">297</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, WI, AZ and PA</td>
+      <td style = "text-align: right;">46</td>
+      <td style = "text-align: right;">272</td>
+      <td style = "text-align: right;">266</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">NV and WI</td>
-      <td style = "text-align: right;">16</td>
-      <td style = "text-align: right;">242</td>
-      <td style = "text-align: right;">296</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">AZ, GA and PA</td>
+      <td style = "text-align: right;">46</td>
+      <td style = "text-align: right;">272</td>
+      <td style = "text-align: right;">266</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">GA</td>
-      <td style = "text-align: right;">16</td>
-      <td style = "text-align: right;">242</td>
-      <td style = "text-align: right;">296</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, WI, GA and MI</td>
+      <td style = "text-align: right;">47</td>
+      <td style = "text-align: right;">273</td>
+      <td style = "text-align: right;">265</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">NV and AZ</td>
-      <td style = "text-align: right;">17</td>
-      <td style = "text-align: right;">243</td>
-      <td style = "text-align: right;">295</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, AZ, GA and MI</td>
+      <td style = "text-align: right;">48</td>
+      <td style = "text-align: right;">274</td>
+      <td style = "text-align: right;">264</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">PA</td>
-      <td style = "text-align: right;">19</td>
-      <td style = "text-align: right;">245</td>
-      <td style = "text-align: right;">293</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, WI, MI and PA</td>
+      <td style = "text-align: right;">50</td>
+      <td style = "text-align: right;">276</td>
+      <td style = "text-align: right;">262</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">NV and MI</td>
-      <td style = "text-align: right;">21</td>
-      <td style = "text-align: right;">247</td>
-      <td style = "text-align: right;">291</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">GA, MI and PA</td>
+      <td style = "text-align: right;">50</td>
+      <td style = "text-align: right;">276</td>
+      <td style = "text-align: right;">262</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">WI and AZ</td>
-      <td style = "text-align: right;">21</td>
-      <td style = "text-align: right;">247</td>
-      <td style = "text-align: right;">291</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, WI, GA and PA</td>
+      <td style = "text-align: right;">51</td>
+      <td style = "text-align: right;">277</td>
+      <td style = "text-align: right;">261</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">NV and GA</td>
-      <td style = "text-align: right;">22</td>
-      <td style = "text-align: right;">248</td>
-      <td style = "text-align: right;">290</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, AZ, MI and PA</td>
+      <td style = "text-align: right;">51</td>
+      <td style = "text-align: right;">277</td>
+      <td style = "text-align: right;">261</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">NV and PA</td>
-      <td style = "text-align: right;">25</td>
-      <td style = "text-align: right;">251</td>
-      <td style = "text-align: right;">287</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">WI and MI</td>
-      <td style = "text-align: right;">25</td>
-      <td style = "text-align: right;">251</td>
-      <td style = "text-align: right;">287</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">WI and GA</td>
-      <td style = "text-align: right;">26</td>
-      <td style = "text-align: right;">252</td>
-      <td style = "text-align: right;">286</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">AZ and MI</td>
-      <td style = "text-align: right;">26</td>
-      <td style = "text-align: right;">252</td>
-      <td style = "text-align: right;">286</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">AZ and GA</td>
-      <td style = "text-align: right;">27</td>
-      <td style = "text-align: right;">253</td>
-      <td style = "text-align: right;">285</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">NV, WI and AZ</td>
-      <td style = "text-align: right;">27</td>
-      <td style = "text-align: right;">253</td>
-      <td style = "text-align: right;">285</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">WI and PA</td>
-      <td style = "text-align: right;">29</td>
-      <td style = "text-align: right;">255</td>
-      <td style = "text-align: right;">283</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">AZ and PA</td>
-      <td style = "text-align: right;">30</td>
-      <td style = "text-align: right;">256</td>
-      <td style = "text-align: right;">282</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">GA and MI</td>
-      <td style = "text-align: right;">31</td>
-      <td style = "text-align: right;">257</td>
-      <td style = "text-align: right;">281</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">NV, WI and MI</td>
-      <td style = "text-align: right;">31</td>
-      <td style = "text-align: right;">257</td>
-      <td style = "text-align: right;">281</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">NV, WI and GA</td>
-      <td style = "text-align: right;">32</td>
-      <td style = "text-align: right;">258</td>
-      <td style = "text-align: right;">280</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">NV, AZ and MI</td>
-      <td style = "text-align: right;">32</td>
-      <td style = "text-align: right;">258</td>
-      <td style = "text-align: right;">280</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">NV, AZ and GA</td>
-      <td style = "text-align: right;">33</td>
-      <td style = "text-align: right;">259</td>
-      <td style = "text-align: right;">279</td>
-      <td style = "text-align: right;">Trump</td>
-    </tr>
-    <tr>
-      <td style = "text-align: right;">MI and PA</td>
-      <td style = "text-align: right;">34</td>
-      <td style = "text-align: right;">260</td>
+      <td style = "text-align: right;">NV, AZ, GA and PA</td>
+      <td style = "text-align: right;">52</td>
       <td style = "text-align: right;">278</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">260</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">GA and PA</td>
-      <td style = "text-align: right;">35</td>
-      <td style = "text-align: right;">261</td>
-      <td style = "text-align: right;">277</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">WI, AZ, GA and MI</td>
+      <td style = "text-align: right;">52</td>
+      <td style = "text-align: right;">278</td>
+      <td style = "text-align: right;">260</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">NV, WI and PA</td>
-      <td style = "text-align: right;">35</td>
-      <td style = "text-align: right;">261</td>
-      <td style = "text-align: right;">277</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">WI, AZ, MI and PA</td>
+      <td style = "text-align: right;">55</td>
+      <td style = "text-align: right;">281</td>
+      <td style = "text-align: right;">257</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">NV, AZ and PA</td>
-      <td style = "text-align: right;">36</td>
-      <td style = "text-align: right;">262</td>
-      <td style = "text-align: right;">276</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, GA, MI and PA</td>
+      <td style = "text-align: right;">56</td>
+      <td style = "text-align: right;">282</td>
+      <td style = "text-align: right;">256</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">WI, AZ and MI</td>
-      <td style = "text-align: right;">36</td>
-      <td style = "text-align: right;">262</td>
-      <td style = "text-align: right;">276</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">WI, AZ, GA and PA</td>
+      <td style = "text-align: right;">56</td>
+      <td style = "text-align: right;">282</td>
+      <td style = "text-align: right;">256</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">NV, GA and MI</td>
-      <td style = "text-align: right;">37</td>
-      <td style = "text-align: right;">263</td>
-      <td style = "text-align: right;">275</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, WI, AZ, GA and MI</td>
+      <td style = "text-align: right;">58</td>
+      <td style = "text-align: right;">284</td>
+      <td style = "text-align: right;">254</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">WI, AZ and GA</td>
-      <td style = "text-align: right;">37</td>
-      <td style = "text-align: right;">263</td>
-      <td style = "text-align: right;">275</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">WI, GA, MI and PA</td>
+      <td style = "text-align: right;">60</td>
+      <td style = "text-align: right;">286</td>
+      <td style = "text-align: right;">252</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">NV, MI and PA</td>
-      <td style = "text-align: right;">40</td>
-      <td style = "text-align: right;">266</td>
-      <td style = "text-align: right;">272</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, WI, AZ, MI and PA</td>
+      <td style = "text-align: right;">61</td>
+      <td style = "text-align: right;">287</td>
+      <td style = "text-align: right;">251</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">WI, AZ and PA</td>
-      <td style = "text-align: right;">40</td>
-      <td style = "text-align: right;">266</td>
-      <td style = "text-align: right;">272</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">AZ, GA, MI and PA</td>
+      <td style = "text-align: right;">61</td>
+      <td style = "text-align: right;">287</td>
+      <td style = "text-align: right;">251</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">NV, GA and PA</td>
-      <td style = "text-align: right;">41</td>
-      <td style = "text-align: right;">267</td>
-      <td style = "text-align: right;">271</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, WI, AZ, GA and PA</td>
+      <td style = "text-align: right;">62</td>
+      <td style = "text-align: right;">288</td>
+      <td style = "text-align: right;">250</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">WI, GA and MI</td>
-      <td style = "text-align: right;">41</td>
-      <td style = "text-align: right;">267</td>
-      <td style = "text-align: right;">271</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, WI, GA, MI and PA</td>
+      <td style = "text-align: right;">66</td>
+      <td style = "text-align: right;">292</td>
+      <td style = "text-align: right;">246</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">NV, WI, AZ and MI</td>
-      <td style = "text-align: right;">42</td>
-      <td style = "text-align: right;">268</td>
-      <td style = "text-align: right;">270</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">NV, AZ, GA, MI and PA</td>
+      <td style = "text-align: right;">67</td>
+      <td style = "text-align: right;">293</td>
+      <td style = "text-align: right;">245</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
     <tr>
-      <td style = "text-align: right;">AZ, GA and MI</td>
-      <td style = "text-align: right;">42</td>
-      <td style = "text-align: right;">268</td>
-      <td style = "text-align: right;">270</td>
-      <td style = "text-align: right;">Trump</td>
+      <td style = "text-align: right;">WI, AZ, GA, MI and PA</td>
+      <td style = "text-align: right;">71</td>
+      <td style = "text-align: right;">297</td>
+      <td style = "text-align: right;">241</td>
+      <td style = "text-align: right;">Harris</td>
+    </tr>
+    <tr>
+      <td style = "text-align: right;">NV, WI, AZ, GA, MI and PA</td>
+      <td style = "text-align: right;">77</td>
+      <td style = "text-align: right;">303</td>
+      <td style = "text-align: right;">235</td>
+      <td style = "text-align: right;">Harris</td>
     </tr>
   </tbody>
 </table>
+
 ~~~
 
 

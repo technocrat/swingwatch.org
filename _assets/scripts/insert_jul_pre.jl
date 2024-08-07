@@ -7,9 +7,7 @@ using Statistics
 using StatsPlots
 using Turing
 
-# const DESIGN_ERROR = .
-
-@enum Month mar apr may jun   jul aug sep oct nov
+@enum Month mar apr may jun jul jul2 aug sep oct nov
 
 @enum Pollster begin
     ag
@@ -109,6 +107,6 @@ months[jul][WI][yg] = [Poll(39,43,900)]
 
 
 # needs to be done manually rather than with include()
-#@save "../objs/jul_pre_polls.bson" months
+@save "../objs/jul_polls.bson" months
 
 

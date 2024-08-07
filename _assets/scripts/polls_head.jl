@@ -20,6 +20,10 @@ using Serialization
 using Statistics
 using StatsPlots
 using Turing
+
+
+
+
 #------------------------------------------------------------------
 
 
@@ -93,7 +97,7 @@ end
 struct Poll
     biden_support::Float64
     trump_support::Float64
-    sample_size::Int
+    sample_size::Int64
 end
 #------------------------------------------------------------------
 Month_names = Dict(
@@ -102,12 +106,13 @@ Month_names = Dict(
 	"may" => "May",
 	"jun" => "June",
 	"jul" => "July",
+	"jul2" => "July-post",
 	"aug" => "August",
 	"sep" => "September",
 	"oct" => "October")
 #------------------------------------------------------------------
 margins = CSV.read("../objs/margins.csv", DataFrame)
-margin = first(margins[margins.st .== st, :pct])
+margin  = first(margins[margins.st .== st, :pct])
 #------------------------------------------------------------------
 """
     filter_empty_entries(dict::Dict{Pollster, Vector{Poll}}) -> Dict{Pollster, Vector{Poll}}
@@ -197,7 +202,7 @@ function draw_density()
     fig = Figure(size = (600, 400))
     
     # Add an axis to the figure
-    ax = Axis(fig[1, 1], xlabel = "Likelihood of Biden win", ylabel = "Number of draws", title = "Model: Biden results in $ST from 2020 election and polling through " * Month_names[Mon])
+    ax = Axis(fig[1, 1], xlabel = "Likelihood of Harris win", ylabel = "Number of draws", title = "Model: Harris results in $ST from 2020 election and polling through " * Month_names[Mon])
     
     # Plot the full density curve
     lines!(ax, kde_result.x, kde_result.density, color = "#a3b35c", linewidth = 3, strokewidth = 4, strokecolor = GREENBAR, label = "Draws")

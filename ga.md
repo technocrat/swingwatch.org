@@ -2,6 +2,7 @@
 title = "Georgia"
 +++
 
+* [July assessment from beginning of Harris campaign](#July-assessment-from-beginning-of-Harris-campaign)
 * [July assessment through end of Biden campaign](#July-assessment-through-end-of-Biden-campaign)
 * [June assessment](#june-assessment)
 * [May assessment](#may-assessment)
@@ -23,6 +24,38 @@ Assessments are based on three criteria.
 * **Stringent**—Harris wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than his 2020 margin.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
+
+## July assessment from beginning of Harris campaign
+
+Harris wins under the *Relaxed* criterion.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.501</td>
+      <td style = "text-align: right;">0.501</td>
+      <td style = "text-align: right;">0.5013</td>
+      <td style = "text-align: right;">0.5005</td>
+      <td style = "text-align: right;">0.5014</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0001</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/GA_jul2.png" style="width: 100%; display: block;">
+~~~
 
 ## July assessment through end of Biden campaign
 
@@ -51,7 +84,7 @@ Assessments are based on three criteria.
     </tr>
   </tbody>
 </table>
-<img src="/assets/img/models/PA_jul.png" style="width: 100%; display: block;">
+<img src="/assets/img/models/GA_jul.png" style="width: 100%; display: block;">
 
 ~~~
 ## June assessment
@@ -589,7 +622,9 @@ The scenario tables below show the possible outcomes that involve Georgia.  Geor
       <td style = "text-align: right;">Tie</td>
     </tr>
   </tbody>
+</table>
 ~~~
+
 ### Trump wins
 ~~~
 <table>
