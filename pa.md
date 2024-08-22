@@ -2,17 +2,7 @@
 title = "Pennsylvania"
 +++
 
-* [July assessment from beginning of Harris campaign](#July-assessment-from-beginning-of-Harris-campaign)
-* [July assessment through end of Biden campaign](#July-assessment-through-end-of-Biden-campaign)
-* [June assessment](#June-assessment)
-* [May assessment](#may-assessment)
-* [April assessment](#april-assessment)
-* [March assessment](#march-assessment)
-* [2020 election](#2020-election)
-* [Scenarios](#scenarios)
-* [State facts](#state-facts)
-* [2022 demographics](#2022-demographics)
-* [Terms](#terms)
+\toc
 
 
 # Model results
@@ -26,6 +16,39 @@ Assessments are based on three criteria.
 * **Stringent**—Harris (after July 22, 2024) or Biden (before July 23, 2024) wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than the 2020 margin of Biden over Trump.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.  
+
+## August assessment before convention
+
+Harris wins under the *Relaxed* criterion.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5057</td>
+      <td style = "text-align: right;">0.5057</td>
+      <td style = "text-align: right;">0.5055</td>
+      <td style = "text-align: right;">0.5053</td>
+      <td style = "text-align: right;">0.5061</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0004</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/PA_aug1.png" style="width: 100%; display: block;">
+
+~~~
 
 ## July assessment from beginning of Harris campaign
 

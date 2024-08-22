@@ -2,25 +2,12 @@
 title = "Wisconsin"
 +++
 
-
-* [July assessment from beginning of Harris campaign](#July-assessment-from-beginning-of-Harris-campaign)
-* [July assessment through end of Biden campaign](#July-assessment-through-end-of-Biden-campaign)
-* [June assessment](#june-assessment)
-* [May assessment](#may-assessment)
-* [April assessment](#april-assessment)
-* [March assessment](#march-assessment)
-* [2020 election](#2020-election)
-* [Scenarios](#scenarios)
-* [Scenarios](#scenarios)
-* [State facts](#state-facts)
-* [2022 demographics](#2022-demographics)
-* [Terms](#terms)
+\toc
 
 
 # Model results
 
 In the 2020 election President Biden won 50.32% (0.5032) of the votes cast for Biden or Trump in Wisconsin. This leaves out votes for third-party candidates. Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 50.27% to 50.37%. Next, the results of each month's polling are factored in on a rolling basis. When the plot shows that more of the credible interval lies to the left of the 2020 margin it indicates that Harris is losing ground compared to the 2020 election results, taking the polls at face value.
-
 
 Assessments are based on three criteria.
 
@@ -28,6 +15,39 @@ Assessments are based on three criteria.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
 
+
+## August assessment before convention
+
+Harris wins under the *Relaxed* criterion.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.503</td>
+      <td style = "text-align: right;">0.503</td>
+      <td style = "text-align: right;">0.503</td>
+      <td style = "text-align: right;">0.5025</td>
+      <td style = "text-align: right;">0.5036</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/WI_aug1.png" style="width: 100%; display: block;">
+
+~~~
 
 ## July assessment from beginning of Harris campaign
 

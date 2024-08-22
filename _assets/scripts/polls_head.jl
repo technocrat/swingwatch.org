@@ -39,6 +39,7 @@ using Turing
     bl3
     cb2
     cb3
+    cj
     cn2
     cn3
     ea
@@ -63,7 +64,7 @@ using Turing
     mr3
     ns
     pp
-    ny
+    ny2
     qi2
     qi3
     rr
@@ -107,7 +108,8 @@ Month_names = Dict(
 	"jun" => "June",
 	"jul" => "July",
 	"jul2" => "July-post",
-	"aug" => "August",
+	"aug1" => "early August",
+	"aug2" => "late August",
 	"sep" => "September",
 	"oct" => "October")
 #------------------------------------------------------------------

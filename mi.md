@@ -2,17 +2,7 @@
 title = "Michigan"
 +++
 
-* [July assessment from beginning of Harris campaign](#July-assessment-from-beginning-of-Harris-campaign)
-* [July assessment through end of Biden campaign](#July-assessment-through-end-of-Biden-campaign)
-* [June assessment](#june-assessment)
-* [May assessment](#may-assessment)
-* [April assessment](#april-assessment)
-* [March assessment](#march-assessment)
-* [2020 election](#2020-election)
-* [Scenarios](#scenarios)
-* [State facts](#state-facts)
-* [2022 demographics](#2022-demographics)
-* [Terms](#terms)
+\toc
 
 # Model results
 
@@ -25,6 +15,41 @@ Assessments are based on three criteria.
 * **Stringent**—Harris wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than his 2020 margin.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
+
+## August assessment before convention
+
+Harris wins under the *Relaxed* criterion.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5139</td>
+      <td style = "text-align: right;">0.5139</td>
+      <td style = "text-align: right;">0.5136</td>
+      <td style = "text-align: right;">0.5134</td>
+      <td style = "text-align: right;">0.5143</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0012</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/MI_aug1.png" style="width: 100%; display: block;">
+
+~~~
+
+
 
 ## July assessment from beginning of Harris campaign
 

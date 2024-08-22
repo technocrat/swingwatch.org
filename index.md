@@ -4,7 +4,7 @@ title = "Latest"
 
 ## Superseding event
 
-Vice President Harris replaced President President as the nominee of the Democratic Party. The model has been revised to take into account the polls conducted in July prior to July 21, 2024 (when Biden withdrew) as the prior distribution, after introducing some variability to partially account for the added uncertainty introduced by the substitution
+Vice President Harris replaced President Biden as the nominee of the Democratic Party. The model has been revised to take into account the polls conducted in July prior to July 21, 2024 (when Biden withdrew) as the prior distribution, after introducing some variability to partially account for the added uncertainty introduced by the substitution
 
 For polls conducted through the end of the month, the model will be updated and every fortnight thereafter. Consideration will also be given to reassessing swing states, depending on initial results. It is expected that most Blue and Red states will remain as such, but some swing states will move.
 
