@@ -33,11 +33,11 @@ Trump wins under the *Historical* criterion.
     <tr>
       <td style = "text-align: right;">0.493</td>
       <td style = "text-align: right;">0.493</td>
-      <td style = "text-align: right;">0.4931</td>
+      <td style = "text-align: right;">0.4932</td>
       <td style = "text-align: right;">0.4926</td>
       <td style = "text-align: right;">0.4934</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0007</td>
+      <td style = "text-align: right;">1.0</td>
     </tr>
   </tbody>
 </table>

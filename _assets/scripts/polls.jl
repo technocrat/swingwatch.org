@@ -7,8 +7,8 @@ prior_month = "jul2"
 mon         = aug1
 MON         = "aug1"
 Mon         = "aug1"
-st          = "PA"
-ST          =  PA
+st          = "NC"
+ST          =  NC
 
 #include("polls_head.jl")
 prior_poll = BSON.load("../objs/"*"$st"*"_"*"$prior_month"*"_p_sample.bson")
