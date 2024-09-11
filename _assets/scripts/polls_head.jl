@@ -96,7 +96,7 @@ mutable struct MetaFrame
 end
 #------------------------------------------------------------------
 struct Poll
-    biden_support::Float64
+    harris_support::Float64
     trump_support::Float64
     sample_size::Int64
 end
@@ -117,7 +117,7 @@ margins = CSV.read("../objs/margins.csv", DataFrame)
 margin  = first(margins[margins.st .== st, :pct])
 #------------------------------------------------------------------
 """
-    filter_empty_entries(dict::Dict{Pollster, Vector{Poll}}) -> Dict{Pollster, Vector{Poll}}
+filter_empty_entries(dict::Dict{Pollster, Vector{Poll}}) -> Dict{Pollster, Vector{Poll}}
 
 Filter out entries in a dictionary where the values are empty vectors.
 
@@ -166,7 +166,7 @@ function remove_empties(the_month::Dict)
 end
 #------------------------------------------------------------------
 function process_polls(polls::Vector{Poll})
-    result = Int64.(collect(collect([(p.biden_support, p.sample_size) for p in polls])[1]))
+    result = Int64.(collect(collect([(p.harris_support, p.sample_size) for p in polls])[1]))
     return [Int64(floor(result[1] / 100 * result[2])), result[2]]
 end
 #------------------------------------------------------------------

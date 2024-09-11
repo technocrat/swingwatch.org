@@ -4,6 +4,9 @@ title = "Older news"
 
 ### General
 
+Nevadans for Reproductive Freedom (NFRF) made an advisory opinion request to the Federal Election Commission regarding the application of the Federal Election Campaign Act and Commission regulations to federal candidates' and officeholders' activities in support of a state ballot initiative. NFRF is a Section 401(c)(4) tax-exempt organization and has a political action committee. NFRF asked if federal candidates and office holders may solicit funds on behalf of NFRF and its PAC without restrictions on amount or source both before and after the ballot initiative qualifies for the election. Because ballot initiatives are not "elections" within the meaning of the Act, restrictions otherwise applicable under the Act do not apply to this type of fundraising. [See the advisory letter](https://www.fec.gov/data/legal/advisory-opinions/2024-05/) May 5, 2025.
+
+
 [RNC plans to turn out a staff of 100,000 workers and volunteers to contest  election processes and results.](https://gop.com/press-release/trump-campaign-and-rnc-unveil-historic-100000-person-strong-election-integrity-program/) [Initial activities](https://www.protectthevote.com) are directed to the seven swing states plus California, Texas, Florida, New York, Ohio and Montana. April 19, 2024
 
 ### Pennsylvania
@@ -13,14 +16,7 @@ title = "Older news"
 Governor Kemp signed [SB 189](https://www.legis.ga.gov/legislation/64471). Among other provisions affecting the 2024 election, a party may qualify a candidate for the ballot  who has obtained ballot access in 20 other states, in addition to ways previously permitted. The bill details procedures to challenge ballots on the basis of an elector’s residence, among other grounds. County election officials may now begin counting absentee ballots on election day after 7 a.m. [Summary](https://abcnews.go.com/Politics/kemp-sign-sweeping-elections-bill-passed-georgia-legislature/story?id=76677927).
 
 
-### Michigan
-
-Robert F. Kennedy, Jr.  [qualified](https://www.freep.com/story/news/politics/elections/2024/04/18/robert-f-kennedy-jr-michigan-presidential-ballot-2024-election/73371452007/) for the Michigan ballot on April 18, 2024. Beginning with polls conducted in May, the presidential preference polls that include his name as a choice will be used in preference to polls that limit the choice to Harris and Trump.
-
 Democrats [gained control](https://apnews.com/article/michigan-election-majority-democrats-house-deadlocked-77f6261041701e9839c9ce2069d7c24b) of the Michigan House in two special elections.
- 
-
-### Arizona
 
 ### Arizona
 
@@ -31,9 +27,7 @@ Democrats [gained control](https://apnews.com/article/michigan-election-majority
 
 ### Wisconsin
 
-### Nevada
-
-#### Nevada acceptance of mailed ballots after election day
+### Nevada acceptance of mailed ballots after election day
 
 On May 3, 2025, the Republican National Committee and others filed a complaint in Federal District Court for the District of Nevada against Nevada election officials seeking to prevent mail-in ballots not received by election day from being counted. 
 

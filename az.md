@@ -17,6 +17,40 @@ Assessments are based on three criteria.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.  
 
+
+## August assessment after convention
+
+Harris wins under the *Relaxed* criterion.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5013</td>
+      <td style = "text-align: right;">0.5007</td>
+      <td style = "text-align: right;">0.5017</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0024</td>
+    </tr>
+  </tbody>
+</table>
+
+<img src="/assets/img/models/AZ_aug2.png" style="width: 100%; display: block;">
+
+~~~
 ## August assessment before convention
 
 Harris wins under the *Relaxed* criterion.
@@ -36,13 +70,13 @@ Harris wins under the *Relaxed* criterion.
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.5013</td>
-      <td style = "text-align: right;">0.5013</td>
+      <td style = "text-align: right;">0.5012</td>
+      <td style = "text-align: right;">0.5012</td>
       <td style = "text-align: right;">0.5012</td>
       <td style = "text-align: right;">0.5007</td>
       <td style = "text-align: right;">0.5018</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0001</td>
+      <td style = "text-align: right;">1.0</td>
     </tr>
   </tbody>
 </table>
@@ -69,11 +103,11 @@ Harris wins under the *Relaxed* criterion.
     <tr>
       <td style = "text-align: right;">0.5013</td>
       <td style = "text-align: right;">0.5013</td>
-      <td style = "text-align: right;">0.5013</td>
+      <td style = "text-align: right;">0.5012</td>
       <td style = "text-align: right;">0.5007</td>
       <td style = "text-align: right;">0.5018</td>
       <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0004</td>
+      <td style = "text-align: right;">1.0</td>
     </tr>
   </tbody>
 </table>

@@ -93,6 +93,6 @@ months[aug1][WI][tr] = [Poll(48,49,800)]
 
 
 # needs to be done manually rather than with include()
-#@save "../objs/aug1_polls.bson" months
+@save "../objs/aug1_polls.bson" months
 
 

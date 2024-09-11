@@ -16,6 +16,40 @@ Assessments are based on three criteria.
 * **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
 * **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.
 
+## August assessment after convention
+
+Harris wins under the *Relaxed* criterion.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+      <th style = "text-align: right;">mcse</th>
+      <th style = "text-align: right;">rhat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5138</td>
+      <td style = "text-align: right;">0.5138</td>
+      <td style = "text-align: right;">0.514</td>
+      <td style = "text-align: right;">0.5134</td>
+      <td style = "text-align: right;">0.5142</td>
+      <td style = "text-align: right;">0.0</td>
+      <td style = "text-align: right;">1.0009</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/MI_aug2.png" style="width: 100%; display: block;">
+
+~~~
+
+
 ## August assessment before convention
 
 Harris wins under the *Relaxed* criterion.

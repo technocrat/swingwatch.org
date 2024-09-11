@@ -76,7 +76,7 @@ struct Poll
 end
 #------------------------------------------------------------------
 """
-    filter_empty_entries(dict::Dict{Pollster, Vector{Poll}}) -> Dict{Pollster, Vector{Poll}}
+    remove_empty_entries(dict::Dict{Pollster, Vector{Poll}}) -> Dict{Pollster, Vector{Poll}}
 
 Filter out entries in a dictionary where the values are empty vectors.
 
@@ -87,7 +87,7 @@ Filter out entries in a dictionary where the values are empty vectors.
 - `Dict{Pollster, Vector{Poll}}`: A new dictionary containing only the entries from the input dictionary where the vectors are not empty.
 
 # Description
-The `filter_empty_entries` function iterates over each key-value pair in the provided dictionary. It constructs a new dictionary that includes only those entries where the value (a vector of `Poll` objects) is not empty.
+The `remove_empty_entries` function iterates over each key-value pair in the provided dictionary. It constructs a new dictionary that includes only those entries where the value (a vector of `Poll` objects) is not empty.
 
 # Example
 ```julia
@@ -113,7 +113,7 @@ dict = Dict(
 )
 
 # Filter out entries with empty vectors
-filtered_dict = filter_empty_entries(dict)
+filtered_dict = remove_entries(dict)
 println(filtered_dict)
 # Output:
 # Dict{Pollster, Vector{Poll}} with 1 entry:

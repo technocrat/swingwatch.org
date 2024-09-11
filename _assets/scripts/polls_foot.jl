@@ -26,9 +26,14 @@ poll_posterior         = prior_poll
 posterior_mean         = mean(poll_posterior[:deep][:p])
 posterior_var          =  var(poll_posterior[:deep][:p])
 prior_alpha            = posterior_mean * 
-                        (posterior_mean * (1 - posterior_mean) / posterior_var - 1)
-prior_beta             = (1 - posterior_mean) * (posterior_mean *
-                         (1 - posterior_mean) / posterior_var - 1)
+                        (posterior_mean * 
+                        (1 - posterior_mean) / 
+                         posterior_var - 1)
+prior_beta             = (1 - posterior_mean) * 
+                         (posterior_mean *
+                         (1 - posterior_mean) / 
+                         posterior_var - 1)
+                         
 prior_dist             = Beta(prior_alpha, prior_beta)
 
 model                  = poll_model(num_votes, num_wins, prior_dist)

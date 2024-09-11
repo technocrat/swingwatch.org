@@ -2,17 +2,18 @@
 title = "Latest"
 +++
 
-## Superseding event
+This is the third round of surveys since President Biden withdrew and reflects the following:
 
-Vice President Harris replaced President Biden as the nominee of the Democratic Party. The model has been revised to take into account the polls conducted in July prior to July 21, 2024 (when Biden withdrew) as the prior distribution, after introducing some variability to partially account for the added uncertainty introduced by the substitution
-
-For polls conducted through the end of the month, the model will be updated and every fortnight thereafter. Consideration will also be given to reassessing swing states, depending on initial results. It is expected that most Blue and Red states will remain as such, but some swing states will move.
-
-## Allocation of electoral college votes corrected
-
-Harris starts with the 226 (not 225) votes won by Biden in 2020, using the revised 2024 electoral college vote allocations.
-
-## Overall assessment for polling through July
+* The state of the model at July 22, 2024 (the date President Biden) announced his withdrawal was taken as a starting point. This model reflects the following
+  - The results of the 2020 election (in terms of the percentage won by Biden in the two-candidate tabulation)
+  - The addition of some random variation to account for the passage of time
+  - Adjustments based on surveys conducted March-June, 2024 and the July surveys before Biden withdrew
+* Into that model more random variation was introduced 
+* The model was updated based on
+  - August surveys conducted before the Democratic convention
+  - August surveys conducted after the Democratic convention
+  
+## Overall assessment for polling through August
 
 ### Stringent view
 
@@ -26,7 +27,7 @@ Based on the criterion that the model shows Harris doing at least as well as Bid
 
 Based on the criterion that the model shows Harris winning by at least 50% plus one vote of the two-candidate split, Harris would six of the seven swing states (having lost in North Carolina), taking 77 electoral votes resulting in a **303-235 Electoral College victory.**
 
-The poll results conducted in the seven swing states in March, April, May, June, July (before Biden withdrew) showed presidential preference divided, but favoring Trump in more states than Biden. After Biden withdrew, polling showed Harris generally holding steady in polling through the end of July. In the August pre-convention polls, Harris's nuimbers improved.  Each of the poll results has a greater or smaller degree of uncertainty that depends primarily on how many answers were collected. Taking into account, however, the results of 2020, although there were signs of erosion in Biden's support, the performance is better than the standalone polls would suggest. The choice of model is intended to dampen volatility. To date, the results are consistent with an eroding margin in the swing states won by the Democrats in 2020. North Carolina has been static. There has not been sufficient polling to determine if Harris is reversing the previous trend to exceed tne 2020 margins.
+The poll results conducted in the seven swing states in March, April, May, June and July (before Biden withdrew) showed presidential preference divided, but favoring Trump in more states than Biden. After Biden withdrew, polling showed Harris generally holding steady in polling through the end of July. In the August pre-convention polls, Harris's nuimbers improved. Each of the poll results has a greater or smaller degree of uncertainty that depends primarily on how many responses were collected. Taking into account, however, the results of 2020, although there were signs of erosion in Biden's support, the performance is better than the standalone polls would suggest. The choice of model is intended to dampen volatility. To date, the results are consistent with an eroding margin in the swing states won by the Democrats in 2020. North Carolina has been static. Although there is a slight model improvement through the end of August, the losing margin in North Carolina has not improved. In the other six swing states, the improvements in polling do not yet reflect the improvements in polling. This is expected. The model describes a close race, possibly closer than 2020.
 
 The model is based on the *Bayesian analysis*  described in [Methodology](/method]) It begins with the relative share of the two-candidate popular vote won by Biden in each of the swing states in 2020 adjusted by the effect of polling conducted to date.
 
@@ -38,7 +39,7 @@ The model is **not** a prediction, but only a projection using stated assumption
 
 ### National
 
-Nevadans for Reproductive Freedom (NFRF) made an advisory opinion request to the Federal Election Commission regarding the application of the Federal Election Campaign Act and Commission regulations to federal candidates' and officeholders' activities in support of a state ballot initiative. NFRF is a Section 401(c)(4) tax-exempt organization and has a political action committee. NFRF asked if federal candidates and office holders may solicit funds on behalf of NFRF and its PAC without restrictions on amount or source both before and after the ballot initiative qualifies for the election. Because ballot initiatives are not "elections" within the meaning of the Act, restrictions otherwise applicable under the Act do not apply to this type of fundraising. [See the advisory letter](https://www.fec.gov/data/legal/advisory-opinions/2024-05/) May 5, 2025.
+Robert F. Kennedy [suspended his campaign](https://www.kennedy24.com) and is in the process of withdrawing his name from the ballot in states in which he had qualified.
 
 ## See also
 
