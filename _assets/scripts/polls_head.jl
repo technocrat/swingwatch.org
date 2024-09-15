@@ -111,7 +111,8 @@ Month_names = Dict(
 	"aug1" => "early August",
 	"aug2" => "late August",
 	"sep" => "September",
-	"oct" => "October")
+	"oct" => "October",
+	"hyp" => "Hypothetical")
 #------------------------------------------------------------------
 margins = CSV.read("../objs/margins.csv", DataFrame)
 margin  = first(margins[margins.st .== st, :pct])

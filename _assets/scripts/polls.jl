@@ -3,14 +3,14 @@
 
 
 STATE       = State
-prior_month = "aug1"
-mon         = aug2
-MON         = "aug2"
-Mon         = "aug2"
-st          = "PA"
-ST          =  PA
+prior_month = "aug2"
+mon         = hyp
+MON         = "hyp"
+Mon         = "hyp"
+st          = "AZ"
+ST          =  AZ
 
-# include("polls_head.jl")
+include("polls_head.jl")
 prior_poll = BSON.load("../objs/"*"$st"*"_"*"$prior_month"*"_p_sample.bson")
 #@load "../objs/"*"$MON"*"_polls.bson" months # comes up empty
 margin  = first(margins[margins.st .== st, :pct])
