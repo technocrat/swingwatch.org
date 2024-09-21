@@ -9,7 +9,7 @@ using Statistics
 using StatsPlots
 using Turing
 
-@enum Month mar apr may jul jul2 aug1 aug2 sep oct nov
+@enum Month mar apr may jul jul2 aug1 aug2 sep oct nov last
 
 @enum Pollster begin
     ag

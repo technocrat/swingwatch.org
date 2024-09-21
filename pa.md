@@ -7,19 +7,39 @@ title = "Pennsylvania"
 
 # Model results
 
-In the 2020 election President Biden won 50.59% (0.5059) of the votes cast for Biden or Trump in Pennsylvania This leaves out votes for third-party candidates.  Taking the actual result as a starting point, the model introduces some uncertainty into the result to create a range of outcomes for that election from 50.56% to 50.63%. Next, the results of each month's polling are factored in on a rolling basis. When the plot shows that more of the credible interval lies to the left of the 2020 margin it indicates that Harris is losing ground compared to the 2020 election results, taking the polls at face value.
+## Early September assessment
 
-Beginning with polls conducted from July 23 - July 31, 2024, the model that used results through July 22, 2024 plus an allowance for the uncertainty introduced by the entry of Vice President Harris in place of President Biden will be used as the starting point, to be updated fortnightly by later poll results.
-
-Assessments are based on three criteria.
-
-* **Stringent**—Harris (after July 22, 2024) or Biden (before July 23, 2024) wins if all of the values in the credible interval (analogous to the confidence interval) are equal to or greater than the 2020 margin of Biden over Trump.
-* **Historical**—fewer than 2.5% of the values in the credible interval are less than 2020 margin.
-* **Relaxed**—fewer than 2.5% of the values in the credible interval are less than 50.01% of the two candidate vote.  
-
+Harris is likely to lose—all of the credible interval is less than 50% of the two-candidate vote.
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">min</th>
+      <th style = "text-align: right;">max</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.4927</td>
+      <td style = "text-align: right;">0.4927</td>
+      <td style = "text-align: right;">0.4948</td>
+      <td style = "text-align: right;">0.4775</td>
+      <td style = "text-align: right;">0.5087</td>
+      <td style = "text-align: right;">0.485</td>
+      <td style = "text-align: right;">0.5003</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/PA_sep1.png" style="width: 100%; display: block;">
+~~~
 ## August assessment after convention
 
-Harris wins under the *Relaxed* criterion.
+Harris is likely to lose—all of the credible interval is less than 50% of the two-candidate vote.
 
 ~~~
 <table>
@@ -28,21 +48,23 @@ Harris wins under the *Relaxed* criterion.
       <th style = "text-align: right;">median</th>
       <th style = "text-align: right;">mean</th>
       <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">min</th>
+      <th style = "text-align: right;">max</th>
       <th style = "text-align: right;">q025</th>
       <th style = "text-align: right;">q975</th>
-      <th style = "text-align: right;">mcse</th>
-      <th style = "text-align: right;">rhat</th>
+    </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style = "text-align: right;">0.4902</td>
+      <td style = "text-align: right;">0.4902</td>
+      <td style = "text-align: right;">0.4892</td>
+      <td style = "text-align: right;">0.4699</td>
+      <td style = "text-align: right;">0.5141</td>
+      <td style = "text-align: right;">0.4782</td>
+      <td style = "text-align: right;">0.5022</td>
     </tr>
-      <td style = "text-align: right;">0.5056</td>
-      <td style = "text-align: right;">0.5056</td>
-      <td style = "text-align: right;">0.5056</td>
-      <td style = "text-align: right;">0.5053</td>
-      <td style = "text-align: right;">0.506</td>
-      <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0004</td>
-  <tbody>
+  </tbody>
 </table>
 
 <img src="/assets/img/models/PA_aug2.png" style="width: 100%; display: block;">
@@ -50,7 +72,7 @@ Harris wins under the *Relaxed* criterion.
 
 ## August assessment before convention
 
-Harris wins under the *Relaxed* criterion.
+Harris is likely to lose—of the credible interval is less than 50% of the two-candidate vote.
 
 ~~~
 <table>
@@ -59,252 +81,27 @@ Harris wins under the *Relaxed* criterion.
       <th style = "text-align: right;">median</th>
       <th style = "text-align: right;">mean</th>
       <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">min</th>
+      <th style = "text-align: right;">max</th>
       <th style = "text-align: right;">q025</th>
       <th style = "text-align: right;">q975</th>
-      <th style = "text-align: right;">mcse</th>
-      <th style = "text-align: right;">rhat</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.5057</td>
-      <td style = "text-align: right;">0.5057</td>
-      <td style = "text-align: right;">0.5055</td>
+      <td style = "text-align: right;">0.4837</td>
+      <td style = "text-align: right;">0.4837</td>
+      <td style = "text-align: right;">0.4854</td>
+      <td style = "text-align: right;">0.4629</td>
       <td style = "text-align: right;">0.5053</td>
-      <td style = "text-align: right;">0.5061</td>
-      <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0004</td>
+      <td style = "text-align: right;">0.4724</td>
+      <td style = "text-align: right;">0.495</td>
     </tr>
   </tbody>
 </table>
 <img src="/assets/img/models/PA_aug1.png" style="width: 100%; display: block;">
 
 ~~~
-
-## July assessment from beginning of Harris campaign
-
-Harris wins under the *Relaxed criterion*
-
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-      <th style = "text-align: right;">mcse</th>
-      <th style = "text-align: right;">rhat</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5057</td>
-      <td style = "text-align: right;">0.5057</td>
-      <td style = "text-align: right;">0.5055</td>
-      <td style = "text-align: right;">0.5053</td>
-      <td style = "text-align: right;">0.5061</td>
-      <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0001</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/PA_jul2.png" style="width: 100%; display: block;">
-~~~
-
-## July assessment through end of Biden campaign
-
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-      <th style = "text-align: right;">mcse</th>
-      <th style = "text-align: right;">rhat</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5057</td>
-      <td style = "text-align: right;">0.5057</td>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5053</td>
-      <td style = "text-align: right;">0.5061</td>
-      <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/PA_jul.png" style="width: 100%; display: block;">
-~~~
-
-## June assessment
-
-Biden wins under the *Relaxed* criterion
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-      <th style = "text-align: right;">mcse</th>
-      <th style = "text-align: right;">rhat</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5054</td>
-      <td style = "text-align: right;">0.5061</td>
-      <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0004</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/PA_jun.png" style="width: 100%; display: block;">
-~~~
-
-## May assessment
-
-Biden wins under the *Relaxed* criterion
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-      <th style = "text-align: right;">mcse</th>
-      <th style = "text-align: right;">rhat</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5054</td>
-      <td style = "text-align: right;">0.5061</td>
-      <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0001</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/PA_may.png" style="width: 100%; display: block;">
-
-~~~
-
-## April assessment
-
-Biden wins under the *Relaxed* criterion
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-      <th style = "text-align: right;">mcse</th>
-      <th style = "text-align: right;">rhat</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5054</td>
-      <td style = "text-align: right;">0.5062</td>
-      <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0009</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/PA_apr.png" style="width: 100%; display: block;">
-
-~~~
-
-## March assessment
-
-Biden wins under the *Relaxed* criterion.
-
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-      <th style = "text-align: right;">mcse</th>
-      <th style = "text-align: right;">rhat</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5058</td>
-      <td style = "text-align: right;">0.5057</td>
-      <td style = "text-align: right;">0.5054</td>
-      <td style = "text-align: right;">0.5062</td>
-      <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0001</td>
-      </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/PA_mar.png" style="width: 100%; display: block;">
-
-~~~
-
-## Model of 2020 election adding uncertainty
-
-~~~
-<table>
-  <thead>
-    <tr class = "header">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-      <th style = "text-align: right;">mcse</th>
-      <th style = "text-align: right;">rhat</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5059</td>
-      <td style = "text-align: right;">0.5059</td>
-      <td style = "text-align: right;">0.5059</td>
-      <td style = "text-align: right;">0.5055</td>
-      <td style = "text-align: right;">0.5063</td>
-      <td style = "text-align: right;">0.0</td>
-      <td style = "text-align: right;">1.0004</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/PA_2020.png" style="width: 100%; display: block;">
-~~~
-
-
-## Other news
-
-Pennsylvania's requirement for mail-in ballot envelopes to bear a date survived a [challenge](../mailin) under a federal civil rights law; a claim that it is invalid under the Equal Protection Clause is still pending.
 
 ## Scenarios
 

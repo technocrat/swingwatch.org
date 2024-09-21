@@ -4,9 +4,11 @@ title = "Methodology"
 
 ## How the likelihood model is made
 
-Among many other facts, one thing is known about the 2020 election in the seven swing states to a high degree of certainty—the [definitive outcomes](https://www.archives.gov/electoral-college/2020) in terms of the votes for the two top candidates and the number of electoral votes awarded. Under the rule of thumb that the future will look similar to the immediate past plus or minus a little, those outcomes provide a *starting* point for further analysis.
+At the beginning of the 2024 election season, it was widely thought that the presidential contest would be similar to 2020 with the outcome determined in the states in which the winning margin was very low—less than 1% for PA, GA, MI, PA, NC, AZ, WI—or 2%—Nevada. Polling through mid-July suggested that Trump was pulling into the lead in those states. However, the data was not strong enough to overcome the prior result. The principal effect was to show it would be even closer.
 
-Subject to all the infirmities inherent in political preference polling, the results of swing state specific polling provides additional, provisional information about the 2024 election. The responses of polled voters to questions concrerning the relative level of support enjoyed by the two candidates for any recent period is, at least, some indictor of how the actual outcome should be expected. For this situation we can adjust the results of the 2020 election based on currrent presidential preference primary polling through a process known as **Bayesian modeling**. 
+When President Biden withdrew in favor of Vice President Harris, it was not clear whether much had changed in the likely outcome other than the influence of 2020 might not be as great since the same two candidates were no longer involved. A reasonable assumption is to model the outcome as a tie to start, updated by new information as it comes along.
+
+Subject to all the infirmities inherent in political preference polling, the results of swing state specific polling provides additional, provisional information about the 2024 election. The responses of polled voters to questions concrerning the relative level of support enjoyed by the two candidates for any recent period is, at least, some indictor of how the actual outcome should be expected. For this situation we can adjust the results of the prior assumption of an evenly election based on currrent presidential preference primary polling through a process known as **Bayesian modeling**. 
 
 Here is a short [chatGPT](https://open.ai) summary:
 
@@ -50,10 +52,10 @@ Several types of voters can be considered.
 * Still politically engaged
 
 #### Voters who will vote differently
-* Changed view of candidate
+* Different Democratic candidate
 * Different issues came to the fore
-#### Voters who will vote the same
-* No change in view of candidate
+### Voters who will vote the same
+* Party loyalty 
 * Different mix of issues in 2024 did not affect choice
 
 The main purpose of selecting a Bayesian model for analyzing presidential preference polling in light of actual votes from a swing state in the 2020 election is to effectively incorporate both prior knowledge and new data to update beliefs about the likely outcomes. Bayesian models are particularly suited for this task due to several key features and advantages that align well with the complexities of electoral predictions.

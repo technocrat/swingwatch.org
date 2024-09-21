@@ -1,99 +1,10 @@
-using BSON: @load, @save
-using BSON
-using Colors
-using Combinatorics
-using CSV
-using DataFrames
-using Distributions
-using Format
-using HTTP
-using GLMakie
-using KernelDensity
-using LinearAlgebra
-using MCMCChains
-using Missings
-using PlotlyJS
-using Plots
-using PrettyTables
-using Printf
-using Serialization
-using Statistics
-using StatsPlots
-using Turing
-
-
-
-
-#------------------------------------------------------------------
-
-
-# @enum State PA GA NC MI AZ WI NV
-# STATE = State
-@enum Pollster begin
-    ag
-    aj
-    am
-    bi2
-    bi3
-    bl2
-    bl3
-    cb2
-    cb3
-    cj
-    cn2
-    cn3
-    ea
-    ec2
-    ec3
-    ep
-    eu
-    fm2
-    fm3
-    fo2
-    fo3
-    hi2
-    hi3
-    hp
-    ia
-    ma2
-    ma3
-    mi2
-    mi3
-    mq
-    mr2
-    mr3
-    ns
-    pp
-    ny2
-    qi2
-    qi3
-    rr
-    si2
-    si3
-    sp2
-    sp3
-    su2
-    su3
-    tr
-    wa2
-    wa3
-    ws
-    wsl
-    wss
-    yg
-end
-#------------------------------------------------------------------
 const states   = ["NV", "WI", "AZ", "GA", "MI", "PA", "NC"]
 const FLAGRED  = "rgb(178,  34,  52)"
 const FLAGBLUE = "rgb( 60,  59, 110)"
 const PURPLE   = "rgb(119,  47,  81)"
 const GREENBAR = "rgb( 47, 119,  78)"
 const LORANGE  = "rgb(225, 170, 110)"
-#------------------------------------------------------------------
-mutable struct MetaFrame
-    meta::Dict{Symbol, Any}
-    data::DataFrame
-end
+
 #------------------------------------------------------------------
 struct Poll
     harris_support::Float64
@@ -110,12 +21,13 @@ Month_names = Dict(
 	"jul2" => "July-post",
 	"aug1" => "early August",
 	"aug2" => "late August",
-	"sep" => "September",
-	"oct" => "October",
-	"hyp" => "Hypothetical")
+	"sep1" => "early September",
+	"sep3" => "late September",
+	"oct1" => "early October",
+	"oct2" => "late October",
+	"fin" => "final polling")
 #------------------------------------------------------------------
-margins = CSV.read("../objs/margins.csv", DataFrame)
-margin  = first(margins[margins.st .== st, :pct])
+
 #------------------------------------------------------------------
 """
 filter_empty_entries(dict::Dict{Pollster, Vector{Poll}}) -> Dict{Pollster, Vector{Poll}}
@@ -138,10 +50,7 @@ struct Pollster
     name::String
 end
 
-struct Poll
-    question::String
-    response::String
-end
+
 
 # Create a dictionary with some empty and non-empty vectors
 pollster1 = Pollster("Pollster A")
@@ -205,7 +114,7 @@ function draw_density()
     fig = Figure(size = (600, 400))
     
     # Add an axis to the figure
-    ax = Axis(fig[1, 1], xlabel = "Likelihood of Harris win", ylabel = "Number of draws", title = "Model: Harris results in $ST from 2020 election and polling through " * Month_names[Mon])
+    ax = Axis(fig[1, 1], xlabel = "Likelihood of Harris win", ylabel = "Number of draws", title = "Model: Harris results in $ST with polling through " * Month_names[Mon])
     
     # Plot the full density curve
     lines!(ax, kde_result.x, kde_result.density, color = "#a3b35c", linewidth = 3, strokewidth = 4, strokecolor = GREENBAR, label = "Draws")
@@ -237,3 +146,60 @@ function draw_density()
     fig
 end
 #------------------------------------------------------------------
+@model function poll_model(num_votes::Int64, num_wins::Int64, prior_dist::Distribution)
+    # Define the prior using the informed prior distribution
+    p ~ prior_dist
+    # Define the likelihood with additional uncertainty
+    num_wins ~ Binomial(num_votes, p)
+end
+
+function consolidate_polls(current_month)
+    consolidated = Dict{State, NamedTuple{(:harris_support, :trump_support, :sample_size), Tuple{Float64, Float64, Int64}}}()
+    
+    for (state, pollsters) in current_month
+        total_harris = 0.0
+        total_trump = 0.0
+        total_sample = 0
+        
+        for (_, polls) in pollsters
+            for poll in polls
+                total_harris += poll.harris_support * poll.sample_size
+                total_trump += poll.trump_support * poll.sample_size
+                total_sample += poll.sample_size
+            end
+        end
+        
+        avg_harris = total_harris / total_sample
+        avg_trump = total_trump / total_sample
+        
+        consolidated[state] = (harris_support = avg_harris, trump_support = avg_trump, sample_size = total_sample)
+    end
+    
+    return consolidated
+end
+
+    poll_data = consolidated_polls[state]
+    
+    harris_votes = floor(Int, poll_data.sample_size * (poll_data.harris_support / 100))
+    trump_votes = floor(Int, poll_data.sample_size * (poll_data.trump_support / 100))
+    
+    return (
+        harris_votes = harris_votes,
+        trump_votes = trump_votes,
+        sample_size = poll_data.sample_size
+    )
+end
+
+function calculate_support(consolidated_polls, state)
+  poll_data = consolidated_polls[state]
+  
+  harris_votes = floor(Int, poll_data.sample_size * (poll_data.harris_support / 100))
+  trump_votes =  floor(Int, poll_data.sample_size * (poll_data.trump_support  / 100))
+  
+  return (
+      harris_votes = harris_votes,
+      trump_votes  = trump_votes,
+      sample_size  = poll_data.sample_size
+  )
+end
+

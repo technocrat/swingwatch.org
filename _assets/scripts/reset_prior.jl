@@ -6,8 +6,8 @@ prior_month = "jul"
 mon         = jul2
 MON         = "jul2"
 Mon         = "jul2"
-st          = "NV"
-ST          =  NV
+st          = "PA"
+ST          =  PA
 #------------------------------------------------------------------
 using BSON: @load, @save
 using BSON
@@ -99,8 +99,12 @@ Month_names = Dict(
 	"jul" => "July",
 	"jul2" => "July-post",
 	"aug" => "August",
-	"sep" => "September",
-	"oct" => "October")
+	"sep1" => "early September",
+	"sep2" => "late September",
+	"oct1" => "early October",
+	"oct2" => "late October",
+	"fin"  => "final polls")
+
 #------------------------------------------------------------------
 const states   = ["NV", "WI", "AZ", "GA", "MI", "PA", "NC"]
 const FLAGRED  = "rgb(178,  34,  52)"
@@ -114,8 +118,8 @@ function draw_density()
     fig = Figure(size = (600, 400))
     
     # Add an axis to the figure
-    ax = Axis(fig[1, 1], xlabel = "Likelihood of Harris win", ylabel = "Number of draws", title = "Model: Harris results in $ST from 2020 election and polling through " * Month_names[Mon])
-        # Plot the full density curve
+    ax = Axis(fig[1, 1], xlabel = "Likelihood of Harris win", ylabel = "Number of draws", title = "Model: Harris results in $ST from assumed tie and polling through " * Month_names[Mon])
+    # Plot the full density curve
     lines!(ax, kde_result.x, kde_result.density, color = "#a3b35c", linewidth = 3, strokewidth = 4, strokecolor = GREENBAR, label = "Draws")
     
     # Find the indices corresponding to the posterior interval
@@ -198,37 +202,6 @@ processed_polls_totals = Dict(state      =>
 
 num_wins               = processed_polls_totals[ST]["num_wins"]
 num_votes              = processed_polls_totals[ST]["num_votes"]
-#------------------------------------------------------------------
-# Create a kernel density estimate of the prior
-# Flatten p_prior to a vector
-p_prior_flat = vec(p_prior)
-
-# Create the new model instance
-new_model = updated_model(num_wins, num_votes)
-
-# Sample from the new model to create an updated posterior
-chain = sample(new_model, NUTS(), 10000)
-
-# Now 'chain' contains your reset posterior, which you can use as a prior for future analyses
-#------------------------------------------------------------------
-# poll_posterior         = prior_poll
-# 
-# posterior_mean         = mean(poll_posterior[:deep][:p])
-# posterior_var          = var(poll_posterior[:deep][:p])
-# prior_alpha            = posterior_mean * 
-#                         (posterior_mean * (1 - posterior_mean) / posterior_var - 1)
-# prior_beta             = (1 - posterior_mean) * (posterior_mean *
-#                          (1 - posterior_mean) / posterior_var - 1)
-# prior_dist             = Beta(prior_alpha, prior_beta)
-# 
-# model                  = poll_model(num_votes, num_wins, prior_dist)
-# sampler                = NUTS(0.65)
-# num_samples            = 10000
-# num_chains             = 4
-# init_params            = [Dict(:p => 0.5)]
-# chain                  = sample(poll_model(num_votes, num_wins, prior_dist), 
-#                          sampler, num_samples, init_params=init_params)
-                         
 p_intv = quantile(chain[:p], [0.025, 0.975])
 p_mean = summarystats(chain)[1,:mean]
 p_mcse = summarystats(chain)[1,:mcse]
@@ -238,8 +211,8 @@ p_df   = DataFrame(median = median(chain[:p]),
                    mode   = mode(chain[:p]),
                    q025   = p_intv[1],
                    q975   = p_intv[2],
-                   mcse   = summarystats(chain)[1,:mcse],
-                   rhat   = summarystats(chain)[1,:rhat])
+                   min    = min(chain[:p],
+                   max    = max(chain[:p])
 
 p_samples  = chain[:p]
 p_vec      = vec(p_samples)

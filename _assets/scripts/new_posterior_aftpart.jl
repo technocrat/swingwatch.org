@@ -27,7 +27,7 @@ function draw_density()
     fig = Figure(size = (600, 400))
     
     # Add an axis to the figure
-    ax = Axis(fig[1, 1], xlabel = "Likelihood of Harris win", ylabel = "Number of draws", title = "Model: $ST from beginning assuming an even contest on July 22 before polling")
+    ax = Axis(fig[1, 1], xlabel = "Likelihood of Harris win", ylabel = "Number of draws", title = "Model: $ST from beginning assumption of an even contest on July 22 before polling")
     
     # Plot the full density curve
     lines!(ax, kde_result.x, kde_result.density, color = "#a3b35c", linewidth = 3, strokewidth = 4, strokecolor = GREENBAR, label = "Draws")

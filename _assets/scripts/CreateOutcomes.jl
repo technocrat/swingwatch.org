@@ -55,10 +55,10 @@ outcome = DataFrame(
     votes = [sum(votes[state] for state in combo) for combos_list in values(combos) for combo in combos_list]
 )
 
-outcome.harris    = outcome.votes .+ blues
-outcome.trump    = COLLEGE       .- outcome.harris
+outcome.harris   = outcome.votes  .+ blues
+outcome.trump    = COLLEGE        .- outcome.harris
 outcome.total    = outcome.harris .+ outcome.trump
-outcome.check    = outcome.total .- COLLEGE
+outcome.check    = outcome.total  .- COLLEGE
 sort!(outcome,:votes)
 all(outcome.check .== 0)
 
