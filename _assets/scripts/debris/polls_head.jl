@@ -22,7 +22,7 @@ Month_names = Dict(
 	"aug1" => "early August",
 	"aug2" => "late August",
 	"sep1" => "early September",
-	"sep3" => "late September",
+	"sep2" => "late September",
 	"oct1" => "early October",
 	"oct2" => "late October",
 	"fin" => "final polling")
@@ -178,7 +178,7 @@ function consolidate_polls(current_month)
     return consolidated
 end
 
-    poll_data = consolidated_polls[state]
+    poll_data = consolidate_polls[state]
     
     harris_votes = floor(Int, poll_data.sample_size * (poll_data.harris_support / 100))
     trump_votes = floor(Int, poll_data.sample_size * (poll_data.trump_support / 100))

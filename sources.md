@@ -35,7 +35,15 @@ df = CSV.read(IOBuffer(csv_data), DataFrame)
 
 ## Polls used[^3]
 
-[Links to original sources were collected from RealClearPolling.com](https://www.realclearpolling.com/latest-polls/election) Results were taken from the most detailed reports found and had to include the number of respondents ($N$). 
+[Links to original sources were collected from RealClearPolling.com](https://www.realclearpolling.com/latest-polls/election) Results were taken from the summary tables for each swing state and had to include the number of respondents ($N$). 
+
+* [Pennsylvania](https://www.realclearpolling.com/polls/president/general/2024/pennsylvania/trump-vs-harris)
+* [Georgia](https://www.realclearpolling.com/polls/president/general/2024/pennsylvania/trump-vs-harris)
+* [North Carolina](https://www.realclearpolling.com/polls/president/general/2024/north-carolina/trump-vs-harris)
+* [Michigan](https://www.realclearpolling.com/polls/president/general/2024/michigan/trump-vs-harris)
+* [Arizona](https://www.realclearpolling.com/polls/president/general/2024/arizona/trump-vs-harris)
+* [Wisconsin](https://www.realclearpolling.com/polls/president/general/2024/wisconsin/trump-vs-harris)
+* [Nevada](https://www.realclearpolling.com/polls/president/general/2024/nevada/trump-vs-harris)
 
 ## Demographics
 

@@ -6,9 +6,10 @@ title = "Nevada"
 
 # Model results
 
-## Early September assessment
+## Late September assessment
 
-Harris is likely to lose—all of the credible interval is less than 50% of the two-candidate vote.
+The model shows Harris leading, with **55.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a positive position for Harris, but it's important to note that this is a statistical projection based the data from August through late September. This is a summary of the model, not a prediction of the election outcome.
+
 ~~~
 <table>
   <thead>
@@ -24,13 +25,44 @@ Harris is likely to lose—all of the credible interval is less than 50% of the 
   </thead>
   <tbody>
     <tr>
-         <td style = "text-align: right;">0.4867</td>
-      <td style = "text-align: right;">0.4867</td>
-      <td style = "text-align: right;">0.4871</td>
-      <td style = "text-align: right;">0.4659</td>
-      <td style = "text-align: right;">0.5055</td>
-      <td style = "text-align: right;">0.4769</td>
-      <td style = "text-align: right;">0.4962</td> 
+      <td style = "text-align: right;">0.5005</td>
+      <td style = "text-align: right;">0.5005</td>
+      <td style = "text-align: right;">0.4991</td>
+      <td style = "text-align: right;">0.4854</td>
+      <td style = "text-align: right;">0.5157</td>
+      <td style = "text-align: right;">0.4927</td>
+      <td style = "text-align: right;">0.5081</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/NV_sep2.png" style="width: 100%; display: block;">
+~~~
+## Early September assessment
+
+he model shows Harris trailing, with **31.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through early September. This is a summary of the model, not a prediction of the election outcome.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">min</th>
+      <th style = "text-align: right;">max</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.4975</td>
+      <td style = "text-align: right;">0.4976</td>
+      <td style = "text-align: right;">0.4961</td>
+      <td style = "text-align: right;">0.4809</td>
+      <td style = "text-align: right;">0.5178</td>
+      <td style = "text-align: right;">0.4881</td>
+      <td style = "text-align: right;">0.5073</td>
     </tr>
   </tbody>
 </table>
@@ -39,7 +71,7 @@ Harris is likely to lose—all of the credible interval is less than 50% of the 
 
 ## August assessment after convention
 
-Harris is likely to lose—all of the credible interval is less than 50% of the two-candidate vote.
+The model shows Harris trailing, with **27.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through late August. This is a summary of the model, not a prediction of the election outcome.
 
 ~~~
 <table>
@@ -56,13 +88,13 @@ Harris is likely to lose—all of the credible interval is less than 50% of the 
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.4945</td>
-      <td style = "text-align: right;">0.4944</td>
-      <td style = "text-align: right;">0.4974</td>
-      <td style = "text-align: right;">0.4695</td>
-      <td style = "text-align: right;">0.5166</td>
-      <td style = "text-align: right;">0.4831</td>
-      <td style = "text-align: right;">0.5057</td>
+      <td style = "text-align: right;">0.4969</td>
+      <td style = "text-align: right;">0.4969</td>
+      <td style = "text-align: right;">0.4972</td>
+      <td style = "text-align: right;">0.478</td>
+      <td style = "text-align: right;">0.5167</td>
+      <td style = "text-align: right;">0.487</td>
+      <td style = "text-align: right;">0.507</td>
     </tr>
   </tbody>
 </table>
@@ -72,7 +104,9 @@ Harris is likely to lose—all of the credible interval is less than 50% of the 
 
 ## August assessment before convention
 
-Harris is likely to lose—all of credible interval is less than 50% of the two-candidate vote.
+The model shows Harris trailing, with **25.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through early August. This is a summary of the model, not a prediction of the election outcome.outcome.
+
+The result is influenced by the beginning "Bayesian prior," an assumption that at the end of July, each candidate had an equal chance of leading. The relative strength of that beginning assumption and cumulative polling results will change as more results are added.
 
 ~~~
 <table>
@@ -89,13 +123,13 @@ Harris is likely to lose—all of credible interval is less than 50% of the two-
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.4942</td>
-      <td style = "text-align: right;">0.4942</td>
-      <td style = "text-align: right;">0.4946</td>
-      <td style = "text-align: right;">0.4731</td>
-      <td style = "text-align: right;">0.5156</td>
-      <td style = "text-align: right;">0.4828</td>
-      <td style = "text-align: right;">0.5055</td>
+      <td style = "text-align: right;">0.4958</td>
+      <td style = "text-align: right;">0.4959</td>
+      <td style = "text-align: right;">0.4969</td>
+      <td style = "text-align: right;">0.4715</td>
+      <td style = "text-align: right;">0.5189</td>
+      <td style = "text-align: right;">0.4833</td>
+      <td style = "text-align: right;">0.5085</td>
     </tr>
   </tbody>
 </table>

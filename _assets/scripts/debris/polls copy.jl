@@ -77,6 +77,7 @@ STATE = State
     su2
     su3
     tr
+    us
     wa2
     wa3
     ws
@@ -85,12 +86,10 @@ STATE = State
     yg
 end
 
-
-STATE       = State
-prior_month = "jul2"
-mon         =  aug1
-MON         = "aug1"
-Mon         = "aug1"
+prior_month = "sep1"
+mon         =  sep2
+MON         = "sep2"
+Mon         = "sep2"
 st          = "AZ"
 ST          =  AZ
 

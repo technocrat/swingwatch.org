@@ -7,9 +7,9 @@ title = "Arizona"
 
 # Model results
 
-## Early September assessment
+## Late September assessment
 
-Harris is likely to lose—all of the credible interval is less than 50% of the two-candidate vote.
+The model shows Harris trailing, with **8.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a very weak position for Harris, but it's important to note that this is a statistical projection based the data from August through late September. This is a summary of the model, not a prediction of the election outcome.
 ~~~
 <table>
   <thead>
@@ -25,13 +25,44 @@ Harris is likely to lose—all of the credible interval is less than 50% of the 
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.4836</td>
-      <td style = "text-align: right;">0.4836</td>
-      <td style = "text-align: right;">0.4836</td>
-      <td style = "text-align: right;">0.4673</td>
-      <td style = "text-align: right;">0.5018</td>
-      <td style = "text-align: right;">0.4742</td>
-      <td style = "text-align: right;">0.493</td>   
+      <td style = "text-align: right;">0.4951</td>
+      <td style = "text-align: right;">0.4951</td>
+      <td style = "text-align: right;">0.4961</td>
+      <td style = "text-align: right;">0.482</td>
+      <td style = "text-align: right;">0.5093</td>
+      <td style = "text-align: right;">0.4884</td>
+      <td style = "text-align: right;">0.502</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/AZ_sep2.png" style="width: 100%; display: block;">
+~~~
+
+## Early September assessment
+
+The model shows Harris trailing, with **26.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through early September. This is a summary of the model, not a prediction of the election outcome.
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">min</th>
+      <th style = "text-align: right;">max</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.4971</td>
+      <td style = "text-align: right;">0.497</td>
+      <td style = "text-align: right;">0.4981</td>
+      <td style = "text-align: right;">0.477</td>
+      <td style = "text-align: right;">0.5159</td>
+      <td style = "text-align: right;">0.4872</td>
+      <td style = "text-align: right;">0.5066</td>
     </tr>
   </tbody>
 </table>
@@ -40,7 +71,7 @@ Harris is likely to lose—all of the credible interval is less than 50% of the 
 
 ## August assessment after convention
 
-Harris is likely to lose—all of the credible interval is less than 50% of the two-candidate vote.
+The model shows Harris trailing, with **29.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through late August. This is a summary of the model, not a prediction of the election outcome.
 
 ~~~
 <table>
@@ -57,13 +88,13 @@ Harris is likely to lose—all of the credible interval is less than 50% of the 
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.4875</td>
-      <td style = "text-align: right;">0.4875</td>
-      <td style = "text-align: right;">0.4858</td>
-      <td style = "text-align: right;">0.4684</td>
-      <td style = "text-align: right;">0.5074</td>
-      <td style = "text-align: right;">0.4766</td>
-      <td style = "text-align: right;">0.4983</td>
+      <td style = "text-align: right;">0.497</td>
+      <td style = "text-align: right;">0.4971</td>
+      <td style = "text-align: right;">0.5003</td>
+      <td style = "text-align: right;">0.477</td>
+      <td style = "text-align: right;">0.5169</td>
+      <td style = "text-align: right;">0.487</td>
+      <td style = "text-align: right;">0.5073</td>
     </tr>
   </tbody>
 </table>
@@ -72,7 +103,10 @@ Harris is likely to lose—all of the credible interval is less than 50% of the 
 ~~~
 ## August assessment before convention
 
-Harris is likely to lose—most of the credible interval is less than 50% of the two-candidate vote.
+The model shows Harris leading, with **66.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through early August. This is a summary of the model, not a prediction of the election outcome.
+
+The result is somewhat influenced by the beginning "Bayesian prior," an assumption that at the end of July, each candidate had an equal chance of leading. The relative strength of that beginning assumption and cumulative polling results will change as more results are added.
+
 ~~~
 <table>
   <thead>
@@ -88,13 +122,13 @@ Harris is likely to lose—most of the credible interval is less than 50% of the
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.4934</td>
-      <td style = "text-align: right;">0.4933</td>
-      <td style = "text-align: right;">0.4939</td>
-      <td style = "text-align: right;">0.4669</td>
-      <td style = "text-align: right;">0.5212</td>
-      <td style = "text-align: right;">0.48</td>
-      <td style = "text-align: right;">0.5064</td>
+      <td style = "text-align: right;">0.5027</td>
+      <td style = "text-align: right;">0.5027</td>
+      <td style = "text-align: right;">0.502</td>
+      <td style = "text-align: right;">0.4742</td>
+      <td style = "text-align: right;">0.5261</td>
+      <td style = "text-align: right;">0.4903</td>
+      <td style = "text-align: right;">0.5151</td>
     </tr>
   </tbody>
 </table>

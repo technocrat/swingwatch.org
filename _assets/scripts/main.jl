@@ -1,9 +1,4 @@
-current_month          = remove_empties(months[mon])
 margin                 = first(margins[margins.st .== st, :pct])
-consolidated_polls     = consolidate_polls(current_month)
-support                = calculate_support(consolidated_polls,ST)
-num_wins               = support[1]
-num_votes              = support[3]
 poll_posterior         = prior_poll
 posterior_mean         = mean(poll_posterior[:deep][:p])
 posterior_var          = var( poll_posterior[:deep][:p])
@@ -16,6 +11,12 @@ prior_beta             = (1 - posterior_mean) *
                          (1 - posterior_mean) / 
                          posterior_var - 1)
 prior_dist             = Beta(prior_alpha, prior_beta)
+@model function poll_model(num_votes::Int64, num_wins::Int64, prior_dist::Distribution)
+    # Define the prior using the informed prior distribution
+    p ~ prior_dist
+    # Define the likelihood with additional uncertainty
+    num_wins ~ Binomial(num_votes, p)
+end
 model                  = poll_model(num_votes, num_wins, prior_dist)
 sampler                = NUTS(0.65)
 num_samples            = 10000

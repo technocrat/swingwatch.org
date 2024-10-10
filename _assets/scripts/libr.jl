@@ -1,5 +1,6 @@
 using BSON
 using BSON: @load, @save
+using Chain
 using Colors
 using Combinatorics
 using CSV

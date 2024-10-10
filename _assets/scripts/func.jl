@@ -1,20 +1,9 @@
-#------------------------------------------------------------------
-function remove_empties(the_month::Dict) 
-  Dict(state => Dict(pollster => polls for (pollster, polls) in pollsters 
-  if !isempty(polls)) for (state, pollsters) in the_month)
-end
-#------------------------------------------------------------------
-function process_polls(polls::Vector{Poll})
-    result = Int64.(collect(collect([(p.harris_support, p.sample_size) for p in polls])[1]))
-    return [Int64(floor(result[1] / 100 * result[2])), result[2]]
-end
-#------------------------------------------------------------------
 function draw_density()
     # Create a new figure with specified resolution
     fig = Figure(size = (600, 400))
     
     # Add an axis to the figure
-    ax = Axis(fig[1, 1], xlabel = "Likelihood of Harris win", ylabel = "Number of draws", title = "Model: Harris results in $ST with polling through " * Month_names[Mon])
+    ax = Axis(fig[1, 1], xlabel = "Likelihood of Harris win", ylabel = "Number of draws", title = "Model: Harris results in $st with polling through " * Month_names[Mon])
     
     # Plot the full density curve
     lines!(ax, kde_result.x, kde_result.density, color = "#a3b35c", linewidth = 3, strokewidth = 4, strokecolor = GREENBAR, label = "Draws")
@@ -45,44 +34,17 @@ function draw_density()
     # Display the figure
     fig
 end
-#------------------------------------------------------------------
-function consolidate_polls(current_month)
-    consolidated = Dict{State, NamedTuple{(:harris_support, :trump_support, :sample_size), Tuple{Float64, Float64, Int64}}}() 
-    for (state, pollsters) in current_month
-        total_harris = 0.0
-        total_trump  = 0.0
-        total_sample = 0     
-        for (_, polls) in pollsters
-            for poll in polls
-                total_harris += poll.harris_support * poll.sample_size
-                total_trump += poll.trump_support * poll.sample_size
-                total_sample += poll.sample_size
-            end
-        end       
-        avg_harris = total_harris / total_sample
-        avg_trump  = total_trump  / total_sample     
-        consolidated[state] = (harris_support = avg_harris, trump_support = avg_trump, sample_size = total_sample)
-    end  
-    return consolidated
+
+function estimate_high_probability_outcomes(kde, threshold=0.5, num_samples=10000)
+    # Sample from the kernel density estimate
+    samples = rand(kde, num_samples)
+    
+    # Count samples above the threshold
+    count_above_threshold = sum(samples .> threshold)
+    
+    # Calculate the proportion
+    proportion = count_above_threshold / num_samples
+    
+    return proportion
 end
 
-#------------------------------------------------------------------
-function calculate_support(consolidated_polls, state)
-  poll_data = consolidated_polls[state]
-  
-  harris_votes = floor(Int, poll_data.sample_size * (poll_data.harris_support / 100))
-  trump_votes =  floor(Int, poll_data.sample_size * (poll_data.trump_support  / 100))
-  
-  return (
-      harris_votes = harris_votes,
-      trump_votes  = trump_votes,
-      sample_size  = poll_data.sample_size
-  )
-end
-#------------------------------------------------------------------
-@model function poll_model(num_votes::Int64, num_wins::Int64, prior_dist::Distribution)
-    # Define the prior using the informed prior distribution
-    p ~ prior_dist
-    # Define the likelihood with additional uncertainty
-    num_wins ~ Binomial(num_votes, p)
-end

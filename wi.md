@@ -7,10 +7,40 @@ title = "Wisconsin"
 
 # Model results
 
+## Late September assessment
+
+The model shows Harris leading, with **86.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a very strong position for Harris, but it's important to note that this is a statistical projection based the data from August through late September. This is a summary of the model, not a prediction of the election outcome.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">min</th>
+      <th style = "text-align: right;">max</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5035</td>
+      <td style = "text-align: right;">0.5034</td>
+      <td style = "text-align: right;">0.4915</td>
+      <td style = "text-align: right;">0.5166</td>
+      <td style = "text-align: right;">0.497</td>
+      <td style = "text-align: right;">0.5099</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/WI_sep2.png" style="width: 100%; display: block;">
+~~~
 ## Early September assessment
 
+The model shows Harris leading, with **81.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through early September. This is a summary of the model, not a prediction of the election outcome.
 
-Harris is likely to lose—most of the credible interval is less than 50% of the two-candidate vote.
 
 ~~~
 <table>
@@ -42,7 +72,7 @@ Harris is likely to lose—most of the credible interval is less than 50% of the
 
 ## August assessment after convention
 
-Harris is likely to lose—most of the credible interval is less than 50% of the two-candidate vote.
+The model shows Harris leading, with **60.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through late August. This is a summary of the model, not a prediction of the election outcome.
 
 ~~~
 <table>
@@ -59,13 +89,13 @@ Harris is likely to lose—most of the credible interval is less than 50% of the
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.4915</td>
-      <td style = "text-align: right;">0.4914</td>
-      <td style = "text-align: right;">0.486</td>
-      <td style = "text-align: right;">0.4648</td>
-      <td style = "text-align: right;">0.5159</td>
-      <td style = "text-align: right;">0.4775</td>
-      <td style = "text-align: right;">0.5054</td>
+      <td style = "text-align: right;">0.5036</td>
+      <td style = "text-align: right;">0.5036</td>
+      <td style = "text-align: right;">0.5032</td>
+      <td style = "text-align: right;">0.4868</td>
+      <td style = "text-align: right;">0.5193</td>
+      <td style = "text-align: right;">0.4953</td>
+      <td style = "text-align: right;">0.512</td>
     </tr>
   </tbody>
 </table>
@@ -73,7 +103,9 @@ Harris is likely to lose—most of the credible interval is less than 50% of the
 ~~~
 ## August assessment before convention
 
-Harris is likely to lose—most of the credible interval is less than 50% of the two-candidate vote.
+The model shows Harris leading, with **68.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through early August. This is a summary of the model, not a prediction of the election outcome.
+
+The result is influenced by the beginning "Bayesian prior," an assumption that at the end of July, each candidate had an equal chance of leading. The relative strength of that beginning assumption and cumulative polling results will change as more results are added.
 ~~~
 <table>
   <thead>
@@ -89,13 +121,13 @@ Harris is likely to lose—most of the credible interval is less than 50% of the
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.4967</td>
-      <td style = "text-align: right;">0.4967</td>
-      <td style = "text-align: right;">0.4943</td>
-      <td style = "text-align: right;">0.4668</td>
-      <td style = "text-align: right;">0.5239</td>
-      <td style = "text-align: right;">0.4825</td>
-      <td style = "text-align: right;">0.5108</td>
+      <td style = "text-align: right;">0.5028</td>
+      <td style = "text-align: right;">0.5028</td>
+      <td style = "text-align: right;">0.5041</td>
+      <td style = "text-align: right;">0.4811</td>
+      <td style = "text-align: right;">0.524</td>
+      <td style = "text-align: right;">0.4912</td>
+      <td style = "text-align: right;">0.514</td>
     </tr>
   </tbody>
 </table>
