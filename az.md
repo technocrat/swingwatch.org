@@ -7,6 +7,39 @@ title = "Arizona"
 
 # Model results
 
+## Early October assessment
+
+
+The model shows Harris trailing, with only 8.14% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through mid-October. This is a summary of the model, not a prediction of the election outcome.
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">min</th>
+      <th style = "text-align: right;">max</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.4951</td>
+      <td style = "text-align: right;">0.4951</td>
+      <td style = "text-align: right;">0.4943</td>
+      <td style = "text-align: right;">0.4811</td>
+      <td style = "text-align: right;">0.509</td>
+      <td style = "text-align: right;">0.4883</td>
+      <td style = "text-align: right;">0.502</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/AZ_oct1.png" style="width: 100%; display: block;">
+~~~
+
 ## Late September assessment
 
 The model shows Harris trailing, with **8.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a very weak position for Harris, but it's important to note that this is a statistical projection based the data from August through late September. This is a summary of the model, not a prediction of the election outcome.

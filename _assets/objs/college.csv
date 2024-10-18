@@ -1,18 +1,57 @@
-st1,ev1,st2,ev2,st3,ev3
-Alabama,9,Kentucky,8,North Dakota,3
-Alaska,3,Louisiana,8,Ohio,17
-Arizona,11,Maine,4,Oklahoma,7
-Arkansas,6,Maryland,10,Oregon,8
-California,54,Massachusetts,11,Pennsylvania,19
-Colorado,10,Michigan,15,Rhode Island,4
-Connecticut,7,Minnesota,10,South Carolina,9
-Delaware,3,Mississippi,6,South Dakota,3
-District of Columbia,3,Missouri,10,Tennessee,11
-Florida,30,Montana,4,Texas,40
-Georgia,16,Nebraska,5,Utah,6
-Hawaii,4,Nevada,6,Vermont,3
-Idaho,4,New Hampshire,4,Virginia,13
-Illinois,19,New Jersey,14,Washington,12
-Indiana,11,New Mexico,5,West Virginia,4
-Iowa,6,New York,28,Wisconsin,10
-Kansas,6,North Carolina,16,Wyoming,3
+state,po,ev
+Alabama,AL,9
+Alaska,AK,3
+Arizona,AZ,11
+Arkansas,AR,6
+California,CA,54
+Colorado,CO,10
+Connecticut,CT,7
+Delaware,DE,3
+DC,DC,3
+Florida,FL,30
+Georgia,GA,16
+Hawaii,HI,4
+Idaho,ID,4
+Illinois,IL,19
+Indiana,IN,11
+Iowa,IA,6
+Kansas,KS,6
+Kentucky,KY,8
+Louisiana,LA,8
+Maine,ME,2
+ME1,ME1,1
+ME2,ME2,1
+Maryland,MD,10
+Massachusetts,MA,11
+Michigan,MI,15
+Minnesota,MN,10
+Mississippi,MS,6
+Missouri,MO,10
+Montana,MT,4
+Nebraska,NE,2
+NE1,NE1,1
+NE2,NE2,1
+NE3,NE3,1
+Nevada,NV,6
+New Hampshire,NH,4
+New Jersey,NJ,14
+New Mexico,NM,5
+New York,NY,28
+North Carolina,NC,16
+North Dakota,ND,3
+Ohio,OH,17
+Oklahoma,OK,7
+Oregon,OR,8
+Pennsylvania,PA,19
+Rhode Island,RI,4
+South Carolina,SC,9
+South Dakota,SD,3
+Tennessee,TN,11
+Texas,TX,40
+Utah,UT,6
+Vermont,VT,3
+Virginia,VA,13
+Washington,WA,12
+West Virginia,WV,4
+Wisconsin,WI,10
+Wyoming,WY,3

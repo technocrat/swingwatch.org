@@ -7,6 +7,37 @@ title = "North Carolina"
 
 # Model results
 
+## Mid October assessment
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">min</th>
+      <th style = "text-align: right;">max</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.497</td>
+      <td style = "text-align: right;">0.4969</td>
+      <td style = "text-align: right;">0.4962</td>
+      <td style = "text-align: right;">0.485</td>
+      <td style = "text-align: right;">0.5083</td>
+      <td style = "text-align: right;">0.4911</td>
+      <td style = "text-align: right;">0.5029</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/NC_oct1.png" style="width: 100%; display: block;">
+
+~~~
+The model shows Harris trailing, with 15.39% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through mid-October. This is a summary of the model, not a prediction of the election outcome.
+
 ## Late September assessment
 
 The model shows Harris trailing, with **16.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through late September. This is a summary of the model, not a prediction of the election outcome.

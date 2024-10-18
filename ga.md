@@ -6,6 +6,36 @@ title = "Georgia"
 
 # Model results
 
+## Mid-October assessment
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">min</th>
+      <th style = "text-align: right;">max</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.4935</td>
+      <td style = "text-align: right;">0.4935</td>
+      <td style = "text-align: right;">0.4936</td>
+      <td style = "text-align: right;">0.4807</td>
+      <td style = "text-align: right;">0.507</td>
+      <td style = "text-align: right;">0.4869</td>
+      <td style = "text-align: right;">0.5001</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/GA_oct1.png" style="width: 100%; display: block;">
+~~~
+The model shows Harris trailing, with only 2.97% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through mid-October. This is a summary of the model, not a prediction of the election outcome.
+
 ## Late September assessment
 
 The model shows Harris trailing, with **3.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a very weak position for Harris, but it's important to note that this is a statistical projection based the data from August through late September. This is a summary of the model, not a prediction of the election outcome.

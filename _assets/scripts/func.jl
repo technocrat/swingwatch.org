@@ -6,8 +6,7 @@ function draw_density()
     ax = Axis(fig[1, 1], xlabel = "Likelihood of Harris win", ylabel = "Number of draws", title = "Model: Harris results in $st with polling through " * Month_names[Mon])
     
     # Plot the full density curve
-    lines!(ax, kde_result.x, kde_result.density, color = "#a3b35c", linewidth = 3, strokewidth = 4, strokecolor = GREENBAR, label = "Draws")
-    
+    lines!(ax, kde_result.x, kde_result.density, color = "#a3b35c", linewidth = 3, label = "Draws")
     # Find the indices corresponding to the posterior interval
     indices = findall((posterior_interval[1] .<= kde_result.x) .& (kde_result.x .<= posterior_interval[2]))
     
@@ -47,4 +46,5 @@ function estimate_high_probability_outcomes(kde, threshold=0.5, num_samples=1000
     
     return proportion
 end
+
 
