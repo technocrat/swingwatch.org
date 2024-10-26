@@ -7,6 +7,39 @@ title = "Wisconsin"
 
 # Model results
 
+## Late October assessment
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">min</th>
+      <th style = "text-align: right;">max</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5029</td>
+      <td style = "text-align: right;">0.5028</td>
+      <td style = "text-align: right;">0.5003</td>
+      <td style = "text-align: right;">0.4891</td>
+      <td style = "text-align: right;">0.5145</td>
+      <td style = "text-align: right;">0.4954</td>
+      <td style = "text-align: right;">0.51</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/WI_oct2.png" style="width: 100%; display: block;">
+
+~~~
+The model shows Harris leading, with 81.35% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through October 25. This is a summary of the model, not a prediction of the election outcome.
+
+
 ## Mid October assessment
 
 ~~~

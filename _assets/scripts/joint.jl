@@ -1,7 +1,7 @@
 include("libr.jl")
-mon         = "sep2"
-MON         = "sep2"
-Mon         = "sep2"
+mon         = "oct1"
+MON         = "oct1"
+Mon         = "oct1"
 
 st                   = "AZ"
 deep                 = BSON.load("../objs/$st" * "_" *"$mon" * "_p_sample.bson")
@@ -68,11 +68,11 @@ p1 = Plots.heatmap(corr_matrix, title="State Correlation Heatmap",
 p2 = Plots.bar(state_names, individual_probs, title="Individual State Probabilities", 
          ylabel="Probability > 0.5")
 
-p3 = Plots.plot(1:7, subset_probs, title="Probability of k or more states > 0.5", 
-          xlabel="k", ylabel="Probability", marker=:circle)
+p3 = Plots.plot(1:7, subset_probs, title="Probability of Harris winning k or more states > 0.5", 
+          xlabel="k", ylabel="Probability", marker=:circle, legend = false)
 
-Plots.plot(p1, p2, p3, layout=(3,1), size=(800,1200))
-
+#Plots.plot(p1, p2, p3, layout=(3,1), size=(800,1200))
+Plots.plot(p3)
 # Print results
 println("Individual state probabilities:")
 for (state, prob) in zip(state_names, individual_probs)
@@ -85,3 +85,5 @@ println("\nSubset probabilities:")
 for k in 1:7
     println("  $k or more states > 0.5: $(round(subset_probs[k], digits=3))")
 end
+
+savefig(p3, "../img/joint.png")

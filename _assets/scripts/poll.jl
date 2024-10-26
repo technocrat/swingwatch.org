@@ -10,7 +10,7 @@ include("load.jl") # libraries, etc.
 #------------------------------------------------------------------
 st          = "MI"
 sT          = "mi"
-HEADER      =  ["pollster", "Date", "Day", "n", "margin", "harris", "trump"]
+HEADER      =  ["pollster", "Date", "Day", "n", "margin", "trump", "harris"]
 include("load.jl") # libraries, etc.
 #------------------------------------------------------------------
 st          = "NC"
@@ -20,7 +20,7 @@ include("load.jl") # libraries, etc.
 #------------------------------------------------------------------
 st          = "NV"
 sT          = "nv"
-HEADER      =  ["pollster", "Date", "Day", "n", "margin", "harris", "trump"]
+HEADER      =  ["pollster", "Date", "Day", "n", "margin", "trump", "harris"]
 include("load.jl") # libraries, etc.
 #------------------------------------------------------------------
 st          = "PA"
@@ -30,6 +30,6 @@ include("load.jl") # libraries, etc.
 #------------------------------------------------------------------
 st          = "WI"
 sT          = "wi"
-HEADER      =  ["pollster", "Date", "Day", "n", "margin", "harris", "trump"]
+HEADER      =  ["pollster", "Date", "Day", "n", "margin", "trump", "harris"]
 include("load.jl") # libraries, etc.
 #------------------------------------------------------------------

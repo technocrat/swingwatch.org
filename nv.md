@@ -4,6 +4,38 @@ title = "Nevada"
 
 \toc
 
+## Late October assessment
+
+
+~~~
+<table>
+  <thead>
+    <tr class = "header headerLastRow">
+      <th style = "text-align: right;">median</th>
+      <th style = "text-align: right;">mean</th>
+      <th style = "text-align: right;">mode</th>
+      <th style = "text-align: right;">min</th>
+      <th style = "text-align: right;">max</th>
+      <th style = "text-align: right;">q025</th>
+      <th style = "text-align: right;">q975</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "text-align: right;">0.5005</td>
+      <td style = "text-align: right;">0.5005</td>
+      <td style = "text-align: right;">0.4998</td>
+      <td style = "text-align: right;">0.4861</td>
+      <td style = "text-align: right;">0.5156</td>
+      <td style = "text-align: right;">0.4913</td>
+      <td style = "text-align: right;">0.5097</td>
+    </tr>
+  </tbody>
+</table>
+<img src="/assets/img/models/NV_oct2.png" style="width: 100%; display: block;">
+~~~
+The model shows Harris leading, with 55.51% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a positive position for Harris, but it's important to note that this is a statistical projection based the data from August through October 25. This is a summary of the model, not a prediction of the election outcome.
+
 ## Mid October assessment
 ~~~
 <table>
@@ -33,7 +65,7 @@ title = "Nevada"
 <img src="/assets/img/models/NV_oct1.png" style="width: 100%; display: block;">
 ~~~
 
-The model shows Harris leading, with 54.84% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through mid-October. This is a summary of the model, not a prediction of the election outcome.
+The model shows Harris leading, with 54.84% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a positive position for Harris, but it's important to note that this is a statistical projection based the data from August through mid-October. This is a summary of the model, not a prediction of the election outcome.
 # Model results
 
 ## Late September assessment
@@ -163,7 +195,7 @@ The result is influenced by the beginning "Bayesian prior," an assumption that a
     </tr>
   </tbody>
 </table>
-<img src="/assets/img/models/nv_aug1.png" style="width: 100%; display: block;">
+<img src="/assets/img/models/NV_aug1.png" style="width: 100%; display: block;">
 ~~~
 
 

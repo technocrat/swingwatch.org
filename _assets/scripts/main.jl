@@ -24,7 +24,7 @@ num_chains             = 4
 init_params            = [Dict(:p => 0.5)]
 chain                  = sample(poll_model(num_votes, num_wins, prior_dist), 
                          sampler, num_samples, init_params=init_params)
-p_intv                 = quantile(chain[:p], [0.025, 0.975])
+p_intv                 = quantile(chain[:p], [0.01, 0.99])
 p_mean                 = summarystats(chain)[1,:mean]
 p_mcse                 = summarystats(chain)[1,:mcse]
 p_rhat                 = summarystats(chain)[1,:rhat]

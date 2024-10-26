@@ -18,3 +18,7 @@ prior_month = "sep2"
 mon         =  oct1
 MON         = "oct1"
 Mon         = "oct1"
+prior_month = "oct1"
+mon         =  oct2
+MON         = "oct2"
+Mon         = "oct2"

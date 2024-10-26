@@ -12,7 +12,7 @@ data       = @chain lines begin
       line = replace(line, r"\t7\/"    => "\tjul\t")
       line = replace(line, r"\t8\/"    => "\taug\t")
       line = replace(line, r"\t9\/"    => "\tsep\t")
-      line = replace(line, r"\t10\/"   => "\toc\t")
+      line = replace(line, r"\t10\/"   => "\toct\t")
       line = replace(line, r"\t11\/"   => "\tnov\t")
       return line
     end, _)
@@ -26,8 +26,9 @@ df = CSV.read(IOBuffer(data_str),
               header        = HEADER,
               missingstring = "—")
 select!(df, Not(:margin))
-
-df.Day = ifelse.(df.Day .> 15, 2, 1)
+# df.Day = parse.(Int,df.Day)
+#df.n   = parse.(Int,df.n)
+df.Day = ifelse.(df.Day .> 18, 2, 1)
 
 df.Date = df.Date .* string.(df.Day)
 
