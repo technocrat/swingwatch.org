@@ -1,10 +1,4 @@
 Month_names = Dict(
-	"mar" => "March",
-	"apr" => "April",
-	"may" => "May",
-	"jun" => "June",
-	"jul" => "July",
-	"jul2" => "July-post",
 	"aug1" => "early August",
 	"aug2" => "late August",
 	"sep1" => "early September",

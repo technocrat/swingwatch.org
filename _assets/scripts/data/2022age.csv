@@ -1,0 +1,39 @@
+st,cohort,totpop,cpop,reg,vot
+AZ,18 to 24 ,751,694,322,170
+AZ,25 to 34 ,911,782,509,300
+AZ,35 to 44 ,937,800,532,428
+AZ,45 to 64 ,1800,1530,1148,975
+AZ,65  and over,1332,1287,1047,971
+GA,18 to 24 ,924,859,466,322
+GA,25 to 34 ,1620,1395,918,640
+GA,35 to 44 ,1400,1176,812,628
+GA,45 to 64 ,2610,2451,1695,1457
+GA,65  and over,1760,1720,1384,1276
+NC,18 to 24 ,921,866,372,40.3
+NC,25 to 34 ,1395,1236,652,46.7
+NC,35 to 44 ,1290,1069,675,52.3
+NC,45 to 64 ,2687,2523,1581,58.9
+NC,65  and over,1881,1838,1303,69.3
+MI,18 to 24 ,826,799,532,371
+MI,25 to 34 ,1304,1223,852,622
+MI,35 to 44 ,1228,1183,894,689
+MI,45 to 64 ,2639,2545,2025,1710
+MI,65  and over,1779,1767,1494,1365
+NV,18 to 24 ,297,287,122,63
+NV,25 to 34 ,414,355,222,153
+NV,35 to 44 ,406,358,229,170
+NV,45 to 64 ,789,694,458,378
+NV,65  and over,544,511,405,358
+PA,18 to 24 ,1145,1093,610,437
+PA,25 to 34 ,1680,1611,1041,776
+PA,35 to 44 ,1531,1397,1007,784
+PA,45 to 64 ,3139,3043,2328,1995
+PA,65  and over,2630,2597,2024,1851
+WI,18 to 24 ,588,579,341,286
+WI,25 to 34 ,724,679,474,371
+WI,35 to 44 ,693,669,447,373
+WI,45 to 64 ,1473,1440,1107,908
+WI,65  and over,1113,1095,856,777
+"Source: U.S. Census Bureau, Current Population Survey, November 2022",,,,,
+https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-586.html,,,,,
+"Table 4c. Reported Voting and Registration of the Total Voting-Age Population, by Age, for States: November 2022",,,,,

@@ -1,8 +1,9 @@
-margins    = CSV.read("../objs/margins.csv", DataFrame)
-prior_poll = BSON.load("../objs/"*"$st"*"_"*"$prior_month"*"_p_sample.bson")
-# prior_poll = BSON.load("../objs/new_prior.bson")
+margins    = CSV.read("objs/margins.csv", DataFrame)
+prior_poll = BSON.load("objs/"*"$st"*"_"*"$prior_month"*"_p_sample.bson")
+# when starting with an initial prior
+# prior_poll = BSON.load("objs/new_prior.bson")
 
-input_file =  "../data/$sT.csv"
+input_file =  "data/$sT.csv"
 lines      = readlines(input_file)
 data       = @chain lines begin
     map(line -> begin
@@ -26,13 +27,10 @@ df = CSV.read(IOBuffer(data_str),
               header        = HEADER,
               missingstring = "—")
 select!(df, Not(:margin))
-# df.Day = parse.(Int,df.Day)
-#df.n   = parse.(Int,df.n)
-df.Day = ifelse.(df.Day .> 18, 2, 1)
-
+df.Day = ifelse.(df.Day .> 26, 2, 1)
 df.Date = df.Date .* string.(df.Day)
-
 select!(df, Not(:Day))
+select!(df, Not(:Column8))
 
 df.total_support   = df.harris + df.trump
 df.harris_adjusted = (df.harris ./ df.total_support) .* 100

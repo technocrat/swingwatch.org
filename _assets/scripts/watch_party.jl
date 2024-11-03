@@ -18,13 +18,13 @@ function round_up_30min(dt::DateTime)
     end
 end
 #------------------------------------------------------------------
-df          = CSV.read("../data/call_order.csv", DataFrame)
-college		= CSV.read("../objs/college.csv", DataFrame)
-oldvote     = CSV.read("../objs/2024vote.csv", DataFrame)
-oldvote 	= oldvote[:,[1,5,6]]
+df            = CSV.read("data/call_order.csv", DataFrame)
+college		    = CSV.read("objs/college.csv", DataFrame)
+oldvote       = CSV.read("objs/2024vote.csv", DataFrame)
+oldvote 	    = oldvote[:,[1,5,6]]
 rename!(oldvote, [:po,:harris,:trump])
 
-df.time     = map(x -> DateTime(x, "yyyy-mm-dd HH:MM"), df.time)
+df.time       = map(x -> DateTime(x, "yyyy-mm-dd HH:MM"), df.time)
 
 # df.est      = map(x -> DateTime(x, "yyyy-mm-dd HH:MM"), df.time)
 # df.cst      = map(x -> DateTime(x, "yyyy-mm-dd HH:MM") - Hour(1), df.time)
@@ -38,8 +38,8 @@ df.time     = map(x -> DateTime(x, "yyyy-mm-dd HH:MM"), df.time)
 
 df 			= leftjoin(df,college,on = :state)
 df 			= leftjoin(df,oldvote,on = :po)
-df.time 	= round_up_30min.(df.time)
-df.idx 		= 1:56
+df.time = round_up_30min.(df.time)
+df.idx 	= 1:56
 [df.harris[df.idx .== i] .= 0 for i in pos]
 swings      = ["PA","GA","NC","MI","AZ","WI","NV"]
 filtered_df = df[in.(df.po, Ref(swings)), :]
