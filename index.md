@@ -21,7 +21,7 @@ Harris lost all of the swing states.
 
 # Evaluation
 
-## States where model and reslts coincided
+## States where model and results coincided
 
 ### Arizona
 
@@ -697,10 +697,10 @@ overstating the actual share for Harris., 48.42%.
 In Michigan 21 pollsters conducted a total of
 37 polls from Aug 2 to Oct 30. Overall,
 the weighted mean poll of 50.42% indicated a
-victory for Trump over Harris in the two-candidate race. Weights were
+victory for Harris over Trump in the two-candidate race. Weights were
 assigned by number of respondents. Of the pollsters,
 5 corresponded to a victory for Trump with 49.58% of the
-two-candidate vote. The other 16 corresponded to a victory
+two-candidate vote going to Harris//t//. The other 16 corresponded to a victory
 for Harris in the two-candidate vote, overstating her actual
 share, 49.29%.
 
