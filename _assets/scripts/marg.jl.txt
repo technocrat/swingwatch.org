@@ -1,0 +1,121 @@
+using Chain
+using CSV
+using DataFrames
+using Distributions
+using PrettyTables
+using Statistics
+include("load.jl") # libraries, etc.
+
+margins     = CSV.read("objs/margins.csv", DataFrame)
+
+# st          = "AZ"
+# sT          = "az"
+st          = "GA"
+sT          = "ga"
+# st          = "NC"
+# sT          = "nc"
+# st          = "NV"
+# sT          = "nv"
+# st          = "PA"
+# sT          = "pa"
+HEADER      =  ["pollster", "Date", "Day", "n", "margin", "trump", "harris","null"]
+
+
+# HEADER      =  ["pollster", "Date", "Day", "n", "margin", "harris", "trump","null"]
+# st          = "MI"
+# sT          = "mi"
+# st          = "WI"
+# sT          = "wi"
+
+include("load.jl") # libraries, etc.
+
+input_file =  "data/$sT.csv"
+lines      = readlines(input_file)
+data       = @chain lines begin
+    map(line -> begin
+      line = replace(line, r" LV| RV"  => "")
+      line = replace(line, r"\t .*$"   => "")
+      line = replace(line, r" \d+.*- " => "\t")
+      line = replace(line, r"\t7\/"    => "\tjul\t")
+      line = replace(line, r"\t8\/"    => "\taug\t")
+      line = replace(line, r"\t9\/"    => "\tsep\t")
+      line = replace(line, r"\t10\/"   => "\toct\t")      		
+		return line
+    end, _)
+end
+
+data_str = join(data, "\n")
+
+df       = CSV.read(IOBuffer(data_str),
+              DataFrame;
+              delim         = '\t',
+              header        = HEADER,
+              missingstring = "—")
+
+
+df.Day = ifelse.(df.Day .> 26, 2, 1)
+df     = df[df.Date .== "oct",:]
+df     = df[df.Day .== 2,:]
+
+select!(df, Not(:Day))
+select!(df, Not(:null))
+
+df.vote = df.trump .+ df.harris
+df.h    = (df.harris ./ df.vote) .* 100
+
+margins.delt = round.(abs.(margins.margin .- 50), digits = 2)
+dict_margins = Dict(zip(margins.po, margins.delt))
+delta        = dict_margins[st]
+n_polls      = nrow(df)
+true_value   = mean(df.h)
+
+poll_estimates  = Float64[]
+standard_errors = Float64[]
+
+for n_i in n_polls
+    p_hat    = true_value / 100  # Convert percentage to proportion
+    SE_i     = sqrt(p_hat * (1 - p_hat) / n_i)
+    estimate = true_value + rand(Normal(0, SE_i * 100))  # Convert SE back to percentage points
+    push!(poll_estimates, estimate)
+    push!(standard_errors, SE_i * 100)  # Store SE in percentage points
+end
+
+weights       = [1 / (SE_i^2) for SE_i in standard_errors]
+weighted_mean = sum(weights .* poll_estimates) / sum(weights)
+SE_combined   = sqrt(1 / sum(weights))
+lower_bound   = weighted_mean - delta
+upper_bound   = weighted_mean + delta
+Z_lower       = -delta / SE_combined
+Z_upper       = delta / SE_combined
+P_interval    = cdf(Normal(0, 1), Z_upper) - cdf(Normal(0, 1), Z_lower)
+Z_victory     = (weighted_mean - 50) / SE_combined
+P_victory     = 1 - cdf(Normal(0, 1), (50 - weighted_mean) / SE_combined)
+
+
+row_desc      = ["Results"]
+entry         = [st]
+push!(row_desc,"Weighted Mean Estimate: ")
+push!(entry,"$(round(weighted_mean, digits=2))%")
+
+push!(row_desc,"Combined Standard Error: ")
+push!(entry,"$(round(SE_combined, digits=2))%")
+
+push!(row_desc,"Probability outcome is within ±$delta% of the weighted mean: ")
+
+p_int = round(P_interval * 100, digits=2)
+push!(entry,"$p_int%")
+
+push!(row_desc,"Probability that Harris wins >50% for two-candidate: ")
+push!(entry, "$(round(P_victory * 100, digits=2))%")
+
+results = DataFrame(
+           Description = row_desc,
+           Value = entry
+       )
+
+capt = ["Results for $st"]
+pretty_table(results,
+        alignment = [:l, :r],
+        header    = nothing,
+        crop      = :none
+       )

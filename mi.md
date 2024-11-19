@@ -6,74 +6,9 @@ title = "Michigan"
 
 # Model results
 
-## Late October assessment
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5053</td>
-      <td style = "text-align: right;">0.5054</td>
-      <td style = "text-align: right;">0.5052</td>
-      <td style = "text-align: right;">0.4929</td>
-      <td style = "text-align: right;">0.519</td>
-      <td style = "text-align: right;">0.4977</td>
-      <td style = "text-align: right;">0.513</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/MI_oct2.png" style="width: 100%; display: block;"
+## Final
 
-~~~
-
-The model shows Harris leading, with 94.87% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through October 25. This is a summary of the model, not a prediction of the election outcome.
-
-
-## Mid-October assessment
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.505</td>
-      <td style = "text-align: right;">0.505</td>
-      <td style = "text-align: right;">0.5083</td>
-      <td style = "text-align: right;">0.4912</td>
-      <td style = "text-align: right;">0.5177</td>
-      <td style = "text-align: right;">0.4983</td>
-      <td style = "text-align: right;">0.5118</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/MI_oct1.png" style="width: 100%; display: block;"
-~~~
-The model shows Harris leading, with 92.25% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through late September. This is a summary of the model, not a prediction of the election outcome.<img src="/assets/img/models/MI_oct1.png" style="width: 100%; display: block;">
-
-
-## Late September assessment
-
-The model shows Harris leading, with **92.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a very strong position for Harris, but it's important to note that this is a statistical projection based the data from August through late September. This is a summary of the model, not a prediction of the election outcome.
-
+The model shows Harris leading by a lot, with 95.81% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a very strong position for Harris, but it's important to note that this is a statistical projection based the data from August through October 31. This is a summary of the model, not a prediction of the election outcome.
 ~~~
 <table>
   <thead>
@@ -91,113 +26,18 @@ The model shows Harris leading, with **92.0**% of simulated outcomes showing her
     <tr>
       <td style = "text-align: right;">0.5049</td>
       <td style = "text-align: right;">0.5049</td>
-      <td style = "text-align: right;">0.5049</td>
-      <td style = "text-align: right;">0.4889</td>
-      <td style = "text-align: right;">0.5178</td>
+      <td style = "text-align: right;">0.5043</td>
+      <td style = "text-align: right;">0.4942</td>
+      <td style = "text-align: right;">0.5154</td>
       <td style = "text-align: right;">0.4982</td>
       <td style = "text-align: right;">0.5117</td>
     </tr>
   </tbody>
 </table>
-<img src="/assets/img/models/MI_sep2.png" style="width: 100%; display: block;">
-~~~
 
-## Early September assessment
-
-The model shows Harris leading, with **81.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through early September. This is a summary of the model, not a prediction of the election outcome.
+<img src="/assets/img/models/MI_oct2.png" style="width: 100%; display: block;">
 
 ~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5039</td>
-      <td style = "text-align: right;">0.5039</td>
-      <td style = "text-align: right;">0.505</td>
-      <td style = "text-align: right;">0.4871</td>
-      <td style = "text-align: right;">0.5212</td>
-      <td style = "text-align: right;">0.4951</td>
-      <td style = "text-align: right;">0.5124</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/MI_sep1.png" style="width: 100%; display: block;">
-~~~
-
-## August assessment after convention
-
-The model shows Harris leading, with **82.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a very strong position for Harris, but it's important to note that this is a statistical projection based the data from August through late August. This is a summary of the model, not a prediction of the election outcome.
-
-
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/MI_aug2.png" style="width: 100%; display: block;">
-
-~~~
-
-
-## August assessment before convention
-
-The model shows Harris leading, with **73.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a very strong position for Harris, but it's important to note that this is a statistical projection based the data from August through early August. This is a summary of the model, not a prediction of the election outcome.
-
-The result is influenced by the beginning "Bayesian prior," an assumption that at the end of July, each candidate had an equal chance of leading. The relative strength of that beginning assumption and cumulative polling results will change as more results are added.
-
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5042</td>
-      <td style = "text-align: right;">0.5042</td>
-      <td style = "text-align: right;">0.5034</td>
-      <td style = "text-align: right;">0.4788</td>
-      <td style = "text-align: right;">0.5285</td>
-      <td style = "text-align: right;">0.4915</td>
-      <td style = "text-align: right;">0.5166</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/MI_aug1.png" style="width: 100%; display: block;">
-
-~~~
-
 
 ## Scenarios
 

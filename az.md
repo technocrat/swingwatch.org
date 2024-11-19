@@ -7,9 +7,9 @@ title = "Arizona"
 
 # Model results
 
-## Late October assessment
+## Final
 
-The model shows Harris trailing, with 6.32% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through October 25. This is a summary of the model, not a prediction of the election outcome.
+The model shows Harris trailing badly, with 0.38% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests an extremely weak position for Harris, but it's important to note that this is a statistical projection based the data from August through October 31. This is a summary of the model, not a prediction of the election outcome. 
 ~~~
 <table>
   <thead>
@@ -25,180 +25,19 @@ The model shows Harris trailing, with 6.32% of simulated outcomes showing her ga
   </thead>
   <tbody>
     <tr>
-      <td style = "text-align: right;">0.495</td>
-      <td style = "text-align: right;">0.495</td>
-      <td style = "text-align: right;">0.4956</td>
-      <td style = "text-align: right;">0.4814</td>
-      <td style = "text-align: right;">0.5071</td>
-      <td style = "text-align: right;">0.487</td>
-      <td style = "text-align: right;">0.5025</td>
+      <td style = "text-align: right;">0.4922</td>
+      <td style = "text-align: right;">0.4923</td>
+      <td style = "text-align: right;">0.4936</td>
+      <td style = "text-align: right;">0.4788</td>
+      <td style = "text-align: right;">0.5039</td>
+      <td style = "text-align: right;">0.4854</td>
+      <td style = "text-align: right;">0.4988</td>
     </tr>
   </tbody>
 </table>
 <img src="/assets/img/models/AZ_oct2.png" style="width: 100%; display: block;">
 ~~~
 
-
-## Early October assessment
-
-
-The model shows Harris trailing, with only 8.14% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through mid-October. This is a summary of the model, not a prediction of the election outcome.
-
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.4951</td>
-      <td style = "text-align: right;">0.4951</td>
-      <td style = "text-align: right;">0.4943</td>
-      <td style = "text-align: right;">0.4811</td>
-      <td style = "text-align: right;">0.509</td>
-      <td style = "text-align: right;">0.4883</td>
-      <td style = "text-align: right;">0.502</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/AZ_oct1.png" style="width: 100%; display: block;">
-~~~
-
-## Late September assessment
-
-The model shows Harris trailing, with **8.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a very weak position for Harris, but it's important to note that this is a statistical projection based the data from August through late September. This is a summary of the model, not a prediction of the election outcome.
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.4951</td>
-      <td style = "text-align: right;">0.4951</td>
-      <td style = "text-align: right;">0.4961</td>
-      <td style = "text-align: right;">0.482</td>
-      <td style = "text-align: right;">0.5093</td>
-      <td style = "text-align: right;">0.4884</td>
-      <td style = "text-align: right;">0.502</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/AZ_sep2.png" style="width: 100%; display: block;">
-~~~
-
-## Early September assessment
-
-The model shows Harris trailing, with **26.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through early September. This is a summary of the model, not a prediction of the election outcome.
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.4971</td>
-      <td style = "text-align: right;">0.497</td>
-      <td style = "text-align: right;">0.4981</td>
-      <td style = "text-align: right;">0.477</td>
-      <td style = "text-align: right;">0.5159</td>
-      <td style = "text-align: right;">0.4872</td>
-      <td style = "text-align: right;">0.5066</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/AZ_sep1.png" style="width: 100%; display: block;">
-~~~
-
-## August assessment after convention
-
-The model shows Harris trailing, with **29.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a weak position for Harris, but it's important to note that this is a statistical projection based the data from August through late August. This is a summary of the model, not a prediction of the election outcome.
-
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.497</td>
-      <td style = "text-align: right;">0.4971</td>
-      <td style = "text-align: right;">0.5003</td>
-      <td style = "text-align: right;">0.477</td>
-      <td style = "text-align: right;">0.5169</td>
-      <td style = "text-align: right;">0.487</td>
-      <td style = "text-align: right;">0.5073</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/AZ_aug2.png" style="width: 100%; display: block;">
-
-~~~
-## August assessment before convention
-
-The model shows Harris leading, with **66.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through early August. This is a summary of the model, not a prediction of the election outcome.
-
-The result is somewhat influenced by the beginning "Bayesian prior," an assumption that at the end of July, each candidate had an equal chance of leading. The relative strength of that beginning assumption and cumulative polling results will change as more results are added.
-
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5027</td>
-      <td style = "text-align: right;">0.5027</td>
-      <td style = "text-align: right;">0.502</td>
-      <td style = "text-align: right;">0.4742</td>
-      <td style = "text-align: right;">0.5261</td>
-      <td style = "text-align: right;">0.4903</td>
-      <td style = "text-align: right;">0.5151</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/AZ_aug1.png" style="width: 100%; display: block;">
-~~~
 ## Scenarios
 
 The scenario tables below show the possible outcomes that involve Arizona. Arizona is represented in 42 of the 128 possible outcomes. *The combinations shown are those representing swing states taken by Harris.*
@@ -664,7 +503,6 @@ The scenario tables below show the possible outcomes that involve Arizona. Arizo
 ~~~
 
 ### Harris wins without Arizona
-
 
 ~~~
 <img src="/assets/img/maps/no_az.png" style="width: 100%; display: block;">

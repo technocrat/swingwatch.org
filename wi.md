@@ -7,77 +7,12 @@ title = "Wisconsin"
 
 # Model results
 
-## Late October assessment
+## Final
+
+The model shows Harris strongly leading, with 88.39% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a very strong position for Harris, but it's important to note that this is a statistical projection based the data from August through October 31. This is a summary of the model, not a prediction of the election outcome.
 
 ~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5029</td>
-      <td style = "text-align: right;">0.5028</td>
-      <td style = "text-align: right;">0.5003</td>
-      <td style = "text-align: right;">0.4891</td>
-      <td style = "text-align: right;">0.5145</td>
-      <td style = "text-align: right;">0.4954</td>
-      <td style = "text-align: right;">0.51</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/WI_oct2.png" style="width: 100%; display: block;">
 
-~~~
-The model shows Harris leading, with 81.35% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through October 25. This is a summary of the model, not a prediction of the election outcome.
-
-
-## Mid October assessment
-
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5034</td>
-      <td style = "text-align: right;">0.5034</td>
-      <td style = "text-align: right;">0.5015</td>
-      <td style = "text-align: right;">0.4895</td>
-      <td style = "text-align: right;">0.5157</td>
-      <td style = "text-align: right;">0.4969</td>
-      <td style = "text-align: right;">0.5098</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/WI_oct1.png" style="width: 100%; display: block;">
-~~~
-The model shows Harris leading, with 85.11% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through mid-October. This is a summary of the model, not a prediction of the election outcome.
-
-
-
-## Late September assessment
-
-The model shows Harris leading, with **86.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a very strong position for Harris, but it's important to note that this is a statistical projection based the data from August through late September. This is a summary of the model, not a prediction of the election outcome.
-
-~~~
 <table>
   <thead>
     <tr class = "header headerLastRow">
@@ -93,111 +28,16 @@ The model shows Harris leading, with **86.0**% of simulated outcomes showing her
   <tbody>
     <tr>
       <td style = "text-align: right;">0.5035</td>
-      <td style = "text-align: right;">0.5034</td>
-      <td style = "text-align: right;">0.4915</td>
-      <td style = "text-align: right;">0.5166</td>
-      <td style = "text-align: right;">0.497</td>
-      <td style = "text-align: right;">0.5099</td>
+      <td style = "text-align: right;">0.5035</td>
+      <td style = "text-align: right;">0.5027</td>
+      <td style = "text-align: right;">0.4913</td>
+      <td style = "text-align: right;">0.5143</td>
+      <td style = "text-align: right;">0.4967</td>
+      <td style = "text-align: right;">0.5104</td>
     </tr>
   </tbody>
 </table>
-<img src="/assets/img/models/WI_sep2.png" style="width: 100%; display: block;">
-~~~
-## Early September assessment
-
-The model shows Harris leading, with **81.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through early September. This is a summary of the model, not a prediction of the election outcome.
-
-
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.4957</td>
-      <td style = "text-align: right;">0.4957</td>
-      <td style = "text-align: right;">0.4964</td>
-      <td style = "text-align: right;">0.4804</td>
-      <td style = "text-align: right;">0.5126</td>
-      <td style = "text-align: right;">0.4869</td>
-      <td style = "text-align: right;">0.5046</td>   
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/WI_sep1.png" style="width: 100%; display: block;">
-~~~
-
-## August assessment after convention
-
-The model shows Harris leading, with **60.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through late August. This is a summary of the model, not a prediction of the election outcome.
-
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5036</td>
-      <td style = "text-align: right;">0.5036</td>
-      <td style = "text-align: right;">0.5032</td>
-      <td style = "text-align: right;">0.4868</td>
-      <td style = "text-align: right;">0.5193</td>
-      <td style = "text-align: right;">0.4953</td>
-      <td style = "text-align: right;">0.512</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/WI_aug2.png" style="width: 100%; display: block;">
-~~~
-## August assessment before convention
-
-The model shows Harris leading, with **68.0**% of simulated outcomes showing her gaining more than 50% of the two-candidate vote. This suggests a strong position for Harris, but it's important to note that this is a statistical projection based the data from August through early August. This is a summary of the model, not a prediction of the election outcome.
-
-The result is influenced by the beginning "Bayesian prior," an assumption that at the end of July, each candidate had an equal chance of leading. The relative strength of that beginning assumption and cumulative polling results will change as more results are added.
-~~~
-<table>
-  <thead>
-    <tr class = "header headerLastRow">
-      <th style = "text-align: right;">median</th>
-      <th style = "text-align: right;">mean</th>
-      <th style = "text-align: right;">mode</th>
-      <th style = "text-align: right;">min</th>
-      <th style = "text-align: right;">max</th>
-      <th style = "text-align: right;">q025</th>
-      <th style = "text-align: right;">q975</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style = "text-align: right;">0.5028</td>
-      <td style = "text-align: right;">0.5028</td>
-      <td style = "text-align: right;">0.5041</td>
-      <td style = "text-align: right;">0.4811</td>
-      <td style = "text-align: right;">0.524</td>
-      <td style = "text-align: right;">0.4912</td>
-      <td style = "text-align: right;">0.514</td>
-    </tr>
-  </tbody>
-</table>
-<img src="/assets/img/models/WI_aug1.png" style="width: 100%; display: block;">
+<img src="/assets/img/models/WI_oct2.png" style="width: 100%; display: block;">
 
 ~~~
 
@@ -206,7 +46,9 @@ The result is influenced by the beginning "Bayesian prior," an assumption that a
 The scenario tables below show the possible outcomes that involve Wisconsin.  Wisconsin is represented in 42 of the 128 possible outcomes.  *The combinations shown are those representing swing states taken by Harris.*
 
 ### Harris wins
+
 ~~~
+
 <table>
   <thead>
     <tr class = "header headerLastRow">
@@ -514,8 +356,11 @@ The scenario tables below show the possible outcomes that involve Wisconsin.  Wi
     </tr>
   </tbody>
 </table>
+
 ~~~
+
 ### Electoral tie
+
 ~~~
 <table>
   <thead>
@@ -544,8 +389,11 @@ The scenario tables below show the possible outcomes that involve Wisconsin.  Wi
     </tr>
   </tbody>
 </table>
+
 ~~~
+
 ### Trump wins
+
 ~~~
 <table>
   <thead>
@@ -700,6 +548,7 @@ The scenario tables below show the possible outcomes that involve Wisconsin.  Wi
     </tr>
   </tbody>
 </table>
+
 ~~~
 
 ### Harris wins without Wisconsin
@@ -707,6 +556,7 @@ The scenario tables below show the possible outcomes that involve Wisconsin.  Wi
 
 ~~~
 <img src="/assets/img/maps/no_wi.png" style="width: 100%; display: block;">
+
 <table>
   <thead>
     <tr class = "header headerLastRow">
@@ -922,7 +772,9 @@ The scenario tables below show the possible outcomes that involve Wisconsin.  Wi
       <td style = "text-align: right;">Harris</td>
     </tr>
   </tbody>
-</table>~~~
+</table>
+
+~~~
 
 ## Wisconsin facts
 
@@ -947,7 +799,6 @@ The scenario tables below show the possible outcomes that involve Wisconsin.  Wi
 * Early in-person voting:       Yes
 
 ## Wisconsin demographics
-
 
 ~~~
 <table>

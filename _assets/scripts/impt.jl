@@ -26,7 +26,7 @@ df = CSV.read(IOBuffer(data_str),
               delim         = '\t',
               header        = HEADER,
               missingstring = "—")
-select!(df, Not(:margin))
+# select!(df, Not(:margin))
 df.Day = ifelse.(df.Day .> 26, 2, 1)
 df.Date = df.Date .* string.(df.Day)
 select!(df, Not(:Day))
