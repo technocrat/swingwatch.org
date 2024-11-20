@@ -539,6 +539,8 @@ for Harris in the two-candidate vote, overstating her actual share, which was
 </table>
 ~~~
 
+## States where the model did not coincide with the results
+
 ### Pennsylvania
 
 In Pennsylvania 25 pollsters conducted a total of
